@@ -1,0 +1,85 @@
+{
+  "commune": {
+    "nom": "Dunières",
+    "code_postal": "43220",
+    "code_insee": "43087",
+    "intercommunalite": "Haut Pays du Velay Communauté"
+  },
+  "territoire_keywords": [
+    "Dunières",
+    "Dunieres",
+    "43220",
+    "Haut Pays du Velay",
+    "Montfaucon-en-Velay",
+    "Riotord",
+    "Saint-Romain-Lachalm",
+    "Raucoules",
+    "Montregard",
+    "Saint-Bonnet-le-Froid",
+    "Saint-Julien-Molhesabate"
+  ],
+  "sources": [
+    {
+      "id": "illiwap_dunieres",
+      "nom": "Illiwap Mairie de Dunières",
+      "type": "illiwap",
+      "station_code": "43087",
+      "station_url": "https://station.illiwap.com/fr/public/43087",
+      "enabled": true,
+      "recursive_crawl": true
+    },
+    {
+      "id": "illiwap_comcom",
+      "nom": "Illiwap Haut Pays du Velay Communauté",
+      "type": "illiwap",
+      "station_code": "haut-pays-du-velay-communaute",
+      "station_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
+      "enabled": true,
+      "recursive_crawl": true
+    },
+    {
+      "id": "lacommere43",
+      "nom": "La Commère 43",
+      "type": "commere43",
+      "feeds": [
+        "https://www.lacommere43.fr/actualites?format=feed&type=rss",
+        "https://www.lacommere43.fr/dans-le-43?format=feed&type=rss",
+        "https://www.lacommere43.fr/loisirs/sorties-loisirs?format=feed&type=rss"
+      ],
+      "search_url": "https://www.lacommere43.fr/index.php?option=com_search&searchword=Duni%C3%A8res&ordering=newest",
+      "enabled": true,
+      "recursive_crawl": true
+    },
+    {
+      "id": "leprogres_haute_loire",
+      "nom": "Le Progrès - Haute-Loire",
+      "type": "leprogres",
+      "feed_url": "https://www.leprogres.fr/haute-loire/rss",
+      "enabled": true,
+      "recursive_crawl": true
+    }
+  ],
+  "enrichment_rules": {
+    "supported_domains": [
+      "calameo.com",
+      "drive.google.com"
+    ],
+    "supported_file_extensions": [
+      ".pdf",
+      ".png",
+      ".jpg",
+      ".jpeg"
+    ],
+    "max_pdf_size_mb": 10,
+    "request_timeout_seconds": 15
+  },
+  "categories": [
+    "Vie Municipale & Délibérations",
+    "Travaux & Voirie",
+    "Manifestations & Vie Associative",
+    "Enfance & Jeunesse",
+    "Services & Déchets",
+    "Culture & Patrimoine",
+    "Alertes & Météo"
+  ]
+}
