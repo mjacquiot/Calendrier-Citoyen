@@ -115,18 +115,19 @@ function renderTodaySection() {
   const container = document.getElementById("today-events-container");
   const countBadge = document.getElementById("today-badge-count");
   const emptyMsg = document.getElementById("today-empty-msg");
+  if (!container) return;
 
   const todayEvents = getEventsForDate(todayDateStr).filter(matchesFilters);
 
-  countBadge.textContent = `${todayEvents.length} événement(s) actif(s)`;
+  if (countBadge) countBadge.textContent = `${todayEvents.length} événement(s) actif(s)`;
 
   if (todayEvents.length === 0) {
     container.innerHTML = "";
-    emptyMsg.classList.remove("hidden");
+    if (emptyMsg) emptyMsg.classList.remove("hidden");
     return;
   }
 
-  emptyMsg.classList.add("hidden");
+  if (emptyMsg) emptyMsg.classList.add("hidden");
   container.innerHTML = todayEvents.map(event => createHeroTodayCard(event)).join("");
 }
 
@@ -318,40 +319,43 @@ function renderSelectedDayEvents() {
   const subtitle = document.getElementById("selected-day-subtitle");
   const countBadge = document.getElementById("selected-day-count-badge");
   const emptyState = document.getElementById("selected-day-empty");
+  if (!container) return;
 
   const d = parseISODate(selectedDateStr);
   const dateFormatted = `${capitalize(d.toLocaleDateString("fr-FR", { weekday: "long" }))} ${d.getDate()} ${MOIS_LONGS[d.getMonth()]} ${d.getFullYear()}`;
 
-  title.textContent = `Programme du ${dateFormatted}`;
+  if (title) title.textContent = `Programme du ${dateFormatted}`;
 
   const events = getEventsForDate(selectedDateStr).filter(matchesFilters);
-  countBadge.textContent = `${events.length} événement(s)`;
+  if (countBadge) countBadge.textContent = `${events.length} événement(s)`;
 
-  if (selectedDateStr === todayDateStr) {
-    subtitle.textContent = "Événements et arrêtés en vigueur aujourd'hui à Dunières";
-  } else if (selectedDateStr < todayDateStr) {
-    subtitle.textContent = "Rétrospective des événements et décisions passés";
-  } else {
-    subtitle.textContent = "Manifestations, réunions et activités à venir";
+  if (subtitle) {
+    if (selectedDateStr === todayDateStr) {
+      subtitle.textContent = "Événements et arrêtés en vigueur aujourd'hui à Dunières";
+    } else if (selectedDateStr < todayDateStr) {
+      subtitle.textContent = "Rétrospective des événements et décisions passés";
+    } else {
+      subtitle.textContent = "Manifestations, réunions et activités à venir";
+    }
   }
 
   if (events.length === 0) {
     container.innerHTML = "";
-    emptyState.classList.remove("hidden");
-    emptyState.textContent = `Aucun événement n'est programmé le ${dateFormatted}.`;
+    if (emptyState) {
+      emptyState.classList.remove("hidden");
+      emptyState.textContent = `Aucun événement n'est programmé le ${dateFormatted}.`;
+    }
     return;
   }
 
-  emptyState.classList.add("hidden");
+  if (emptyState) emptyState.classList.add("hidden");
   container.innerHTML = events.map(e => createStandardEventCard(e)).join("");
 }
 
-/**
- * 3. GRILLE DE TOUS LES ÉVÉNEMENTS DU TERRITOIRE
- */
 function renderAllEventsGrid() {
   const container = document.getElementById("all-events-grid");
   const countLabel = document.getElementById("all-events-count");
+  if (!container) return;
 
   const filtered = allEventsList.filter(matchesFilters);
   if (countLabel) countLabel.textContent = `${filtered.length} publication(s)`;
