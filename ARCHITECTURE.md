@@ -1,26 +1,26 @@
 # 🏛️ Architecture Technique & Schéma des Flux
 
-Ce document détaille l'architecture logicielle, la chaîne de traitement de données et les mécanismes de sécurité de la solution **Portail Citoyen & Calendrier Automatisé** pour la commune de Dunières et le Haut Pays du Velay Communauté.
+Ce document détaille l'architecture logicielle, la chaîne de traitement de données et les mécanismes de sécurité de la solution **Le calendrier Dunièrois de Maxime JACQUIOT** pour la commune de Dunières et le Haut Pays du Velay Communauté.
 
 ---
 
 ## 1. Vue d'Ensemble de l'Architecture
 
 La solution repose sur une architecture **Jamstack 100 % Cloud**, serverless et à coût nul :
-- **Orchestrateur & Exécution** : GitHub Actions (tâches planifiées Cron quotidiennes).
+- **Orchestrateur & Exécution** : GitHub Actions (tâches planifiées Cron quotidiennes à 06h00 et déclenchement manuel).
 - **Moteur de traitement** : Scripts Python 3.11 modulaires (collecte, enrichissement récursif, IA).
-- **Modèle d'Intelligence Artificielle** : Google Gemini API (tri déontologique, extraction d'entités temporelles).
-- **Base de données / Stockage** : Fichier plat `web/data.json` mis à jour de façon déterministe.
+- **Modèle d'Intelligence Artificielle** : Google Gemini API (tri déontologique, extraction temporelle et catégorisation).
+- **Stockage de Données** : Fichier plat `web/data.json` mis à jour de façon déterministe.
 - **Hébergement Frontend** : GitHub Pages (haute disponibilité, CDN mondial, zéro maintenance serveur).
-- **Canal d'alerte Élu (Optionnel)** : Passerelle WhatsApp CallMeBot.
+- **Interface Utilisateur** : Dépliant triptyque 3D minimaliste avec calendriers 2x7 (-14j / +14j), vue Aujourd'hui chronologique et popups dynamiques par jour.
 
 ```mermaid
 flowchart TD
     subgraph Sources["1. Sources Locales"]
         S1["Illiwap Dunières (43087)"]
         S2["Illiwap Haut Pays du Velay"]
-        S3["La Commère 43 (Flux/Articles)"]
-        S4["Le Progrès (Zone 43220)"]
+        S3["La Commère 43 (Filtre Dunières)"]
+        S4["Le Progrès (Haute-Loire - Zone 43220)"]
     end
 
     subgraph Scrapers["2. Collecte & Enrichissement Récursif"]
@@ -32,157 +32,67 @@ flowchart TD
 
     subgraph AI["3. Filtrage & Structuration IA"]
         AI1["Filtre Déontologique Mandat Public"]
-        AI2["Extraction Dates, Lieux & Résumés"]
-        AI3["Catégorisation Thématique"]
+        AI2["Extraction Dates, Heures & Tarifs"]
+        AI3["Catégorisation Thématique & Nature"]
     end
 
     subgraph Build["4. Pipeline & Génération"]
-        P1["Normalisation & Fenêtre Glissante (-15j / +15j)"]
+        P1["Normalisation & Fenêtre Glissante (-14j / Aujourd'hui / +14j)"]
         P2["Génération web/data.json"]
         P3["Git Commit / GitHub Pages Deploy"]
     end
 
-    subgraph Delivery["5. Consultation & Diffusion"]
-        W1["Interface Citoyenne (Tailwind)"]
-        W2["Synthèse WhatsApp pour l'Élu"]
+    subgraph Delivery["5. Dépliant Triptyque & Diffusion"]
+        W1["Volet Passé : Calendrier 2x7 (-14 jours)"]
+        W2["Volet Central : Aujourd'hui (Chronologique, Heures, Prix)"]
+        W3["Volet Avenir : Calendrier 2x7 (+14 jours)"]
+        W4["Popup Dynamique Plein Écran par Jour"]
     end
 
     S1 --> C1
     S2 --> C1
     S3 --> C1
     S4 --> C1
-
     C1 --> C2
-    C2 -- Oui (Calaméo/PDF) --> C3 & C4 --> AI1
-    C2 -- Non (Texte brut) --> AI1
-
-    AI1 --> AI2 --> AI3
-    AI3 --> P1 --> P2 --> P3
+    C2 -- Oui --> C3
+    C2 -- Oui --> C4
+    C2 -- Non --> AI1
+    C3 --> AI1
+    C4 --> AI1
+    AI1 --> AI2
+    AI2 --> AI3
+    AI3 --> P1
+    P1 --> P2
+    P2 --> P3
     P3 --> W1
     P3 --> W2
+    P3 --> W3
+    W1 --> W4
+    W2 --> W4
+    W3 --> W4
 ```
 
 ---
 
-## 2. Collecte Multi-Sources & Résolution Récursive (2 Étapes)
+## 2. Conception de l'Interface : Dépliant Triptyque
 
-L'un des défis majeurs dans la communication municipale est que les annonces publiées sur les réseaux ou Illiwap contiennent fréquemment un lien externe renvoyant vers un document externe (brochure Calaméo des festivités estivales, arrêté municipal au format PDF, affiche d'association hébergée sur un drive).
+L'interface est conçue selon la métaphore tactile d'un **dépliant papier triptyque à trois volets** :
 
-### Étape 1 : Collecte Initiale
-- **Illiwap** : Récupération des messages récents via l'API publique d'Illiwap ou scrapping de la station de Dunières (`43087`) et de la communauté de communes.
-- **Presse Locale (La Commère 43 & Le Progrès)** : Surveillance des flux RSS et articles géolocalisés sur Dunières et les communes limitrophes du Haut Pays du Velay.
+1. **Volet Central (« Aujourd'hui »)** :
+   - Foyer principal d'ouverture de l'application.
+   - Événements actifs ordonnés **chronologiquement**.
+   - Visibilité immédiate des 3 piliers d'identification : **l'horaire précis**, **la nature de l'événement** et **le tarif / prix**.
 
-### Étape 2 : Résolution Récursive Approfondie
-Chaque message brut est analysé par regex pour identifier des liens externes vers :
-1. **Calaméo** :
-   - Détection des URLs `calameo.com/read/...` ou `calameo.com/books/...`.
-   - Extraction de l'identifiant du document (`book_id`) et interrogation de l'API de lecture publique ou extraction du flux SVG/texte des pages pour en extraire le contenu sans exécuter de navigateur lourd.
-2. **Fichiers PDF / Arrêtés municipaux** :
-   - Téléchargement éphémère du PDF.
-   - Extraction du texte via `pypdf` ou `pdfplumber`.
-3. **Affiches / Images contenant du texte** :
-   - Si une annonce comporte une image avec peu ou pas de texte d'accompagnement, l'image est soumise au modèle multimodal Gemini pour extraction OCR contextuelle.
+2. **Volets Latéraux Pliés (Effet 3D)** :
+   - Sur grand écran, des rabats inclinés en 3D avec ombrage de pli révèlent les deux autres pages sur les côtés de l'écran.
+   - Clic direct sur le volet de gauche ou la flèche gauche `◀` pour déplier le passé.
+   - Clic direct sur le volet de droite ou la flèche droite `▶` pour déplier l'avenir.
 
-```mermaid
-sequenceDiagram
-    participant GH as GitHub Actions (Pipeline)
-    participant SCR as Scrapers Python
-    participant EXT as Résolveurs (Calaméo / PDF)
-    participant GEM as Google Gemini API
-    participant WEB as GitHub Pages (web/data.json)
+3. **Calendriers 2 Lignes × 7 Colonnes (14 Jours)** :
+   - Dans le volet passé (-14 jours) et avenir (+14 jours), la grille organise exactement 14 jours.
+   - Chaque case affiche en direct **l'horaire et le titre complet** sans troncature brutale.
+   - Les jours calmes restent épurés pour faire ressortir instantanément les journées actives.
 
-    GH->>SCR: Déclenchement quotidien (06:00 CET)
-    SCR->>SCR: Collecte Illiwap, Commère 43, Le Progrès
-    loop Pour chaque publication
-        SCR->>EXT: Présence d'un lien Calaméo ou PDF ?
-        alt Lien externe détecté
-            EXT->>EXT: Extraction du texte & pages du document
-            EXT-->>SCR: Contenu enrichi fusionné
-        end
-        SCR->>GEM: Prompt : filtrage mandat public + extraction dates
-        GEM-->>SCR: JSON structuré (titre, date_debut, date_fin, categorie, volet)
-    end
-    SCR->>WEB: Génération du data.json final
-    GH->>WEB: Publication automatique sur GitHub Pages
-```
-
----
-
-## 3. Filtrage Déontologique & Tri par Intelligence Artificielle
-
-### Exigences Déontologiques et Légales
-En tant qu'élu local, la publication doit respecter scrupuleusement la neutralité républicaine, le cadre du mandat et le RGPD :
-- **Autorisé & Valorisé** :
-  - Vie municipale, arrêtés de voirie, travaux publics, délibérations.
-  - Événements associatifs, sportifs et culturels ouverts à tous.
-  - Démarches citoyennes, déchèteries, horaires de services publics.
-  - Alertes locales (intempéries, coupures d'eau, alertes sanitaires).
-- **Exclu formellement** :
-  - Faits divers individuels sans portée réglementaire ou collective.
-  - Contenus à visée commerciale privée (hors annonces d'intérêt général).
-  - Données à caractère personnel sensibles.
-  - Polémiques partisanes ou débats d'opinion privés.
-
-### Schéma de Données de Sortie (`data.json`)
-Chaque événement retenu est formaté selon le modèle JSON suivant :
-
-```json
-{
-  "id": "illiwap-43087-20261101-01",
-  "title": "Travaux de réfection rue du 19-Mars-1962",
-  "summary": "Circulation alternée par feux tricolores du 3 au 7 novembre inclus.",
-  "category": "Travaux & Voirie",
-  "badge": "Arrêté Municipal",
-  "source_name": "Illiwap Mairie de Dunières",
-  "source_url": "https://station.illiwap.com/fr/ville/dunieres",
-  "dates": {
-    "start": "2026-11-03T08:00:00+01:00",
-    "end": "2026-11-07T18:00:00+01:00",
-    "is_period": true,
-    "bucket": "upcoming" 
-  },
-  "location": "Rue du 19-Mars-1962, Dunières",
-  "importance": "high",
-  "has_attachment": true,
-  "attachment_url": "https://www.calameo.com/read/...",
-  "updated_at": "2026-11-01T06:00:00Z"
-}
-```
-
-Les 3 volets du calendrier correspondent à la valeur de `dates.bucket` :
-- `retrospective` : Dates situées entre $J-15$ et $J-1$.
-- `today` : Dates actives au jour $J$.
-- `upcoming` : Dates situées entre $J+1$ et $J+15$.
-
----
-
-## 4. Pipeline d'Automatisation GitHub Actions
-
-Le workflow s'exécute selon une planification Cron (tous les matins à 6h00 Paris time, soit 5h00 UTC en hiver / 4h00 UTC en été) ainsi que sur déclenchement manuel (`workflow_dispatch`).
-
-### Étapes du Pipeline :
-1. **Checkout & Configuration** :
-   - Récupération du code source.
-   - Initialisation de Python 3.11 avec mise en cache des paquets pip (`cache: 'pip'`).
-2. **Collecte & Résolution Récursive** :
-   - Exécution de `src/main.py`.
-   - Interrogation des APIs et flux d'actualités.
-   - Extraction des documents Calaméo et PDF distants.
-3. **Analyse IA & Normalisation** :
-   - Appel à l'API Gemini avec gestion d'erreurs (fallback dégradé si quota dépassé).
-   - Génération atomique du fichier `web/data.json`.
-4. **Déploiement GitHub Pages** :
-   - Validation de l'intégrité du fichier JSON.
-   - Déploiement direct de l'artefact web via les actions officielles GitHub Pages (`actions/deploy-pages`).
-5. **Notification Élu (Optionnelle)** :
-   - Envoi d'un message synthétique sur WhatsApp via CallMeBot précisant le nombre d'événements publiés et les alertes du jour.
-
----
-
-## 5. Gestion des Secrets & Sécurité
-
-Aucun secret, token ou clé API n'est présent dans le code source :
-- `GEMINI_API_KEY` : stocké dans les **GitHub Actions Secrets**.
-- `CALLMEBOT_API_KEY` et `CALLMEBOT_PHONE` : stockés dans les **GitHub Actions Secrets**.
-- Le pipeline GitHub Actions fonctionne avec les permissions minimales requises (`permissions: contents: read, pages: write, id-token: write`).
-- Les appels HTTP vers l'extérieur sont limités en lecture (GET) avec un timeout strict (15 secondes) pour éviter tout blocage du workflow.
+4. **Popup Dynamique Plein Écran** :
+   - Clic sur n'importe quel jour pour ouvrir une vue détaillée de toute la journée.
+   - Navigation jour par jour intégrée (`◀ Jour` / `Jour ▶`) sans quitter la fenêtre modale.

@@ -6,7 +6,7 @@
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
-  <title>Portail Citoyen & Dépliant Triptyque – Dunières & Haut Pays du Velay</title>
+  <title>Le calendrier Dunièrois de Maxime JACQUIOT</title>
   
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -27,7 +27,7 @@
     /* Style papier dépliant avec texture douce */
     .paper-panel {
       background: linear-gradient(180deg, #ffffff 0%, #fcfdfe 100%);
-      box-shadow: 0 12px 35px -12px rgba(15, 23, 42, 0.15), 0 2px 6px rgba(15, 23, 42, 0.04);
+      box-shadow: 0 10px 30px -10px rgba(15, 23, 42, 0.12), 0 2px 5px rgba(15, 23, 42, 0.04);
       border: 1px solid #e2e8f0;
     }
 
@@ -56,22 +56,14 @@
       border-color: #3b82f6;
     }
 
-    /* Plis verticaux (crease shadows) */
-    .crease-left {
-      background: linear-gradient(to right, rgba(0, 0, 0, 0.08), transparent);
-    }
-    .crease-right {
-      background: linear-gradient(to left, rgba(0, 0, 0, 0.08), transparent);
-    }
-
-    /* Cellule du calendrier 2x7 */
+    /* Cellule du calendrier 2x7 avec hauteur généreuse et lisibilité maximale */
     .day-cell {
-      min-height: 140px;
-      transition: all 0.22s cubic-bezier(0.2, 0.8, 0.2, 1);
+      min-height: 165px;
+      transition: all 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
     }
     .day-cell:hover {
-      transform: translateY(-3px) scale(1.02);
-      box-shadow: 0 12px 24px -6px rgba(30, 41, 59, 0.16);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px -5px rgba(30, 41, 59, 0.15);
       border-color: #2563eb;
     }
 
@@ -84,52 +76,44 @@
 </head>
 <body class="flex flex-col min-h-screen bg-slate-100 text-slate-800 antialiased">
 
-  <!-- ==================== HEADER INSTITUTIONNEL ==================== -->
-  <header class="bg-gradient-to-r from-blue-950 via-indigo-950 to-slate-900 text-white shadow-xl sticky top-0 z-40">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-3.5">
-      <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-3 sm:gap-4">
+  <!-- ==================== HEADER ÉPURÉ & MINIMALISTE ==================== -->
+  <header class="bg-slate-900 text-white shadow-md sticky top-0 z-40 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5 sm:py-3">
+      <div class="flex items-center justify-between gap-3">
         
-        <!-- Logo & Titre de la collectivité -->
-        <div class="flex items-center space-x-3.5">
-          <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center text-xl shadow-md border border-white/20">
-            🏛️
+        <!-- Logo & Titre Minimaliste -->
+        <div class="flex items-center space-x-3">
+          <div class="w-9 h-9 rounded-xl bg-blue-600 text-white flex items-center justify-center text-lg shadow-sm font-bold">
+            📅
           </div>
           <div>
-            <div class="flex items-center gap-2">
-              <span class="text-[10px] font-bold uppercase tracking-wider text-blue-300 bg-blue-900/80 px-2 py-0.5 rounded border border-blue-400/30">
-                Dépliant Triptyque Citoyen
-              </span>
-              <span id="header-update-time" class="hidden sm:inline-flex items-center text-xs text-slate-400">
-                • Synchro quotidienne
-              </span>
-            </div>
-            <h1 class="text-lg sm:text-xl font-black tracking-tight text-white leading-tight">
-              Dunières & Haut Pays du Velay
+            <h1 class="text-sm sm:text-base font-black tracking-tight text-white leading-tight">
+              Le calendrier Dunièrois de Maxime JACQUIOT
             </h1>
-            <p class="text-xs text-slate-300 hidden sm:block">
-              Ce qu'il s'est passé ◀ Aujourd'hui ▶ Ce qui va se passer
+            <p class="text-[11px] text-slate-400 leading-none mt-0.5">
+              Dunières & Haut Pays du Velay • Actualisé quotidiennement
             </p>
           </div>
         </div>
 
-        <!-- Recherche rapide & Bouton Retour Aujourd'hui -->
-        <div class="flex items-center gap-2.5 w-full md:w-auto">
-          <div class="relative flex-1 md:w-64">
+        <!-- Recherche discrète & Bouton Aujourd'hui -->
+        <div class="flex items-center gap-2">
+          <div class="relative w-44 sm:w-60">
             <input 
               type="text" 
               id="search-input" 
-              placeholder="Rechercher (loto, rando, travaux...)" 
-              class="w-full pl-9 pr-4 py-2 bg-white/10 border border-white/20 rounded-xl text-xs sm:text-sm text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-400 backdrop-blur transition"
+              placeholder="Rechercher..." 
+              class="w-full pl-8 pr-3 py-1.5 bg-slate-800 border border-slate-700 rounded-lg text-xs text-white placeholder-slate-400 focus:outline-none focus:ring-1 focus:ring-blue-400 transition"
             >
-            <span class="absolute left-3 top-2.5 text-slate-400 text-xs">🔍</span>
+            <span class="absolute left-2.5 top-1.5 text-slate-400 text-xs">🔍</span>
           </div>
           <button 
             onclick="switchPanel('today')" 
-            class="px-3.5 py-2 rounded-xl text-xs font-bold bg-blue-600 hover:bg-blue-500 text-white shadow-sm transition flex items-center gap-1.5 whitespace-nowrap"
-            title="Revenir au volet central d'Aujourd'hui"
+            class="px-3 py-1.5 rounded-lg text-xs font-bold bg-blue-600 hover:bg-blue-500 text-white shadow-sm transition flex items-center gap-1 shrink-0"
+            title="Revenir au jour d'aujourd'hui"
           >
             <span>📍</span>
-            <span>Aujourd'hui</span>
+            <span class="hidden sm:inline">Aujourd'hui</span>
           </button>
         </div>
 
@@ -138,18 +122,18 @@
   </header>
 
   <!-- ==================== BANDEAU DE NAVIGATION DU TRIPTYQUE ==================== -->
-  <nav class="bg-white border-b border-slate-200 shadow-sm sticky top-[69px] sm:top-[65px] z-30">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
-      <div class="flex flex-col sm:flex-row items-center justify-between gap-2.5">
+  <nav class="bg-white border-b border-slate-200 shadow-xs sticky top-[53px] sm:top-[57px] z-30">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-1.5">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-2">
         
         <!-- Sélecteur des 3 volets du dépliant -->
-        <div class="flex items-center justify-center p-1 rounded-2xl bg-slate-100 border border-slate-200/80 w-full sm:w-auto shadow-inner">
+        <div class="flex items-center justify-center p-1 rounded-xl bg-slate-100 border border-slate-200/80 w-full sm:w-auto shadow-inner">
           
           <!-- Volet 1 : Ce qu'il s'est passé -->
           <button 
             id="tab-btn-past" 
             onclick="switchPanel('past')"
-            class="triptych-tab flex-1 sm:flex-initial px-3 sm:px-4 py-2 rounded-xl text-xs font-bold transition flex items-center justify-center gap-2 text-slate-600 hover:text-slate-900"
+            class="triptych-tab flex-1 sm:flex-initial px-3 sm:px-4 py-1.5 rounded-lg text-xs font-bold transition flex items-center justify-center gap-2 text-slate-600 hover:text-slate-900"
           >
             <span>⏮️</span>
             <span>Ce qu'il s'est passé <span class="text-[10px] font-medium opacity-80">(-14j)</span></span>
@@ -159,17 +143,17 @@
           <button 
             id="tab-btn-today" 
             onclick="switchPanel('today')"
-            class="triptych-tab flex-1 sm:flex-initial px-4 sm:px-6 py-2 rounded-xl text-xs font-black transition flex items-center justify-center gap-2 bg-blue-600 text-white shadow-md"
+            class="triptych-tab flex-1 sm:flex-initial px-4 sm:px-6 py-1.5 rounded-lg text-xs font-black transition flex items-center justify-center gap-2 bg-blue-600 text-white shadow-sm"
           >
             <span>📍</span>
-            <span>AUJOURD'HUI <span class="text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-white/20">Direct</span></span>
+            <span>AUJOURD'HUI <span class="text-[10px] font-bold px-1.5 py-0.2 rounded-full bg-white/20">Direct</span></span>
           </button>
 
           <!-- Volet 3 : Ce qui va se passer -->
           <button 
             id="tab-btn-future" 
             onclick="switchPanel('future')"
-            class="triptych-tab flex-1 sm:flex-initial px-3 sm:px-4 py-2 rounded-xl text-xs font-bold transition flex items-center justify-center gap-2 text-slate-600 hover:text-slate-900"
+            class="triptych-tab flex-1 sm:flex-initial px-3 sm:px-4 py-1.5 rounded-lg text-xs font-bold transition flex items-center justify-center gap-2 text-slate-600 hover:text-slate-900"
           >
             <span>Ce qui va se passer <span class="text-[10px] font-medium opacity-80">(+14j)</span></span>
             <span>⏭️</span>
@@ -179,13 +163,12 @@
 
         <!-- Raccourcis Flèches & Clavier -->
         <div class="flex items-center gap-2 text-xs text-slate-500">
-          <span class="text-slate-400 font-medium hidden sm:inline">Tourner la page :</span>
-          <button onclick="navigateRelative(-1)" class="px-3 py-1.5 rounded-xl border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition font-bold flex items-center gap-1 shadow-2xs" title="Volet précédent (Touche ←)">
+          <button onclick="navigateRelative(-1)" class="px-2.5 py-1 rounded-lg border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition font-bold flex items-center gap-1 shadow-2xs" title="Volet précédent (Touche ←)">
             <span>◀</span>
             <span class="hidden sm:inline text-[11px]">Précédent</span>
           </button>
           <span class="font-mono text-[11px] bg-slate-100 px-1.5 py-0.5 rounded text-slate-500 hidden md:inline">← / →</span>
-          <button onclick="navigateRelative(1)" class="px-3 py-1.5 rounded-xl border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition font-bold flex items-center gap-1 shadow-2xs" title="Volet suivant (Touche →)">
+          <button onclick="navigateRelative(1)" class="px-2.5 py-1 rounded-lg border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition font-bold flex items-center gap-1 shadow-2xs" title="Volet suivant (Touche →)">
             <span class="hidden sm:inline text-[11px]">Suivant</span>
             <span>▶</span>
           </button>
@@ -201,7 +184,7 @@
       <div id="category-pills" class="flex overflow-x-auto custom-scroll gap-2 items-center text-xs pb-0.5">
         <span class="text-slate-400 font-semibold mr-1 shrink-0">Filtrer :</span>
         <button onclick="setCategoryFilter('all')" class="cat-pill shrink-0 px-3 py-1.5 rounded-lg font-bold bg-slate-900 text-white shadow-sm" data-category="all">
-          Tous les événements
+          Tous
         </button>
         <button onclick="setCategoryFilter('Vie Municipale & Délibérations')" class="cat-pill shrink-0 px-3 py-1.5 rounded-lg font-medium bg-white text-slate-700 border border-slate-200 hover:bg-slate-100" data-category="Vie Municipale & Délibérations">
           🏛️ Vie Municipale
@@ -213,13 +196,13 @@
           🎉 Fêtes & Assos
         </button>
         <button onclick="setCategoryFilter('Culture & Patrimoine')" class="cat-pill shrink-0 px-3 py-1.5 rounded-lg font-medium bg-white text-slate-700 border border-slate-200 hover:bg-slate-100" data-category="Culture & Patrimoine">
-          📚 Culture & Médiathèque
+          📚 Culture
         </button>
         <button onclick="setCategoryFilter('Alertes & Météo')" class="cat-pill shrink-0 px-3 py-1.5 rounded-lg font-medium bg-white text-slate-700 border border-slate-200 hover:bg-slate-100" data-category="Alertes & Météo">
           ⚠️ Alertes
         </button>
         <button onclick="setCategoryFilter('Services & Déchets')" class="cat-pill shrink-0 px-3 py-1.5 rounded-lg font-medium bg-white text-slate-700 border border-slate-200 hover:bg-slate-100" data-category="Services & Déchets">
-          ♻️ Services Publics
+          ♻️ Services
         </button>
       </div>
     </div>
@@ -243,7 +226,6 @@
           <span id="side-flap-left-icon">⏮️</span>
         </div>
         
-        <!-- Texte vertical du volet plié -->
         <div class="my-auto [writing-mode:vertical-rl] rotate-180 flex items-center gap-2 text-slate-700 font-black text-xs uppercase tracking-widest group-hover:text-blue-600 transition">
           <span id="side-flap-left-label">◀ Ce qu'il s'est passé</span>
           <span class="text-[10px] font-medium text-slate-500" id="side-flap-left-sub">(-14 jours)</span>
@@ -268,13 +250,13 @@
             <div>
               <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 text-slate-700 text-xs font-bold border border-slate-300/80 mb-2">
                 <span>⏮️</span>
-                <span>RÉTROSPECTIVE OFFICIELLE</span>
+                <span>RÉTROSPECTIVE</span>
               </div>
               <h2 class="text-xl sm:text-2xl lg:text-3xl font-black text-slate-900 tracking-tight">
                 Ce qu'il s'est passé : les 14 jours écoulés
               </h2>
               <p class="text-xs sm:text-sm text-slate-500 mt-1">
-                Vue d'ensemble horaire de chaque journée. Cliquez sur un jour pour ouvrir sa fiche détaillée.
+                Heure et titre de chaque événement en un coup d'œil. Cliquez sur un jour pour ouvrir sa fiche détaillée.
               </p>
             </div>
             
@@ -303,7 +285,6 @@
             </div>
           </div>
 
-          <!-- Indication tactile pour petits écrans -->
           <p class="text-[11px] text-slate-400 text-center mt-3 sm:hidden">
             👈 Faites glisser horizontalement pour voir les 7 colonnes du calendrier 👉
           </p>
@@ -315,32 +296,32 @@
           class="transition-all duration-500 ease-out w-full space-y-6"
         >
           <!-- Hero Banner Aujourd'hui -->
-          <div class="bg-gradient-to-br from-blue-900 via-indigo-900 to-slate-900 rounded-3xl p-5 sm:p-8 text-white shadow-2xl relative overflow-hidden border border-blue-800/40">
+          <div class="bg-gradient-to-br from-blue-900 via-indigo-900 to-slate-900 rounded-3xl p-5 sm:p-7 text-white shadow-xl relative overflow-hidden border border-blue-800/40">
             <div class="absolute -right-12 -bottom-12 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl pointer-events-none"></div>
 
             <div class="relative z-10">
-              <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 pb-6 border-b border-white/10">
+              <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 pb-5 border-b border-white/10">
                 <div>
-                  <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-bold border border-emerald-400/30 mb-2.5">
+                  <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-bold border border-emerald-400/30 mb-2">
                     <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
                     <span>EN DIRECT AUJOURD'HUI</span>
                   </div>
-                  <h2 id="today-full-title" class="text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight text-white leading-tight">
+                  <h2 id="today-full-title" class="text-xl sm:text-2xl lg:text-3xl font-black tracking-tight text-white leading-tight">
                     Aujourd'hui à Dunières
                   </h2>
                   <p class="text-xs sm:text-sm text-blue-200 mt-1">
-                    Arrêtés en vigueur, animations du jour, permanences et informations officielles
+                    Événements du jour classés par ordre chronologique avec horaires, tarifs et types
                   </p>
                 </div>
 
                 <div class="shrink-0 flex items-center gap-2.5">
-                  <span id="today-event-count-badge" class="px-4 py-2 rounded-2xl bg-white/15 border border-white/20 text-xs font-bold text-white shadow-inner">
+                  <span id="today-event-count-badge" class="px-3.5 py-1.5 rounded-xl bg-white/15 border border-white/20 text-xs font-bold text-white shadow-inner">
                     0 événement(s)
                   </span>
                 </div>
               </div>
 
-              <!-- Grille des événements d'Aujourd'hui -->
+              <!-- Grille des événements d'Aujourd'hui (Chronologique & Visuelle) -->
               <div id="today-cards-grid" class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                 <!-- Injecté par JavaScript -->
               </div>
@@ -348,9 +329,9 @@
               <!-- Message si aucun événement aujourd'hui -->
               <div id="today-empty-alert" class="hidden mt-6 p-8 rounded-2xl bg-white/10 border border-white/15 text-center space-y-2">
                 <span class="text-3xl block">☀️</span>
-                <h3 class="text-base sm:text-lg font-bold text-white">Aucun événement ou alerte municipale active aujourd'hui</h3>
+                <h3 class="text-base sm:text-lg font-bold text-white">Aucun événement actif aujourd'hui</h3>
                 <p class="text-xs sm:text-sm text-blue-200 max-w-md mx-auto">
-                  La journée est calme sur la commune. Vous pouvez feuilleter la page de droite pour découvrir le programme des 14 prochains jours !
+                  La journée est calme. Vous pouvez feuilleter la page de droite pour découvrir le programme des 14 prochains jours !
                 </p>
                 <button 
                   onclick="switchPanel('future')" 
@@ -364,32 +345,32 @@
           </div>
 
           <!-- Aiguilleurs tactiles pour mobile et petits écrans -->
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:hidden">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 lg:hidden">
             <div 
               onclick="switchPanel('past')" 
-              class="paper-panel rounded-2xl p-4 border-l-4 border-l-slate-400 hover:border-l-blue-600 cursor-pointer shadow-sm transition flex items-center justify-between"
+              class="paper-panel rounded-xl p-3.5 border-l-4 border-l-slate-400 hover:border-l-blue-600 cursor-pointer shadow-xs transition flex items-center justify-between"
             >
               <div>
                 <span class="text-[10px] font-extrabold uppercase tracking-wider text-slate-400 block">
                   Volet Gauche (Plié)
                 </span>
-                <h3 class="text-sm font-extrabold text-slate-800">
+                <h3 class="text-xs font-extrabold text-slate-800">
                   ⏮️ Ce qu'il s'est passé (-14j)
                 </h3>
               </div>
-              <span class="text-xl text-slate-400">◀</span>
+              <span class="text-lg text-slate-400">◀</span>
             </div>
 
             <div 
               onclick="switchPanel('future')" 
-              class="paper-panel rounded-2xl p-4 border-r-4 border-r-slate-400 hover:border-r-blue-600 cursor-pointer shadow-sm transition flex items-center justify-between text-right"
+              class="paper-panel rounded-xl p-3.5 border-r-4 border-r-slate-400 hover:border-r-blue-600 cursor-pointer shadow-xs transition flex items-center justify-between text-right"
             >
-              <span class="text-xl text-slate-400 order-2 sm:order-1">▶</span>
+              <span class="text-lg text-slate-400 order-2 sm:order-1">▶</span>
               <div class="order-1 sm:order-2">
                 <span class="text-[10px] font-extrabold uppercase tracking-wider text-slate-400 block">
                   Volet Droit (Plié)
                 </span>
-                <h3 class="text-sm font-extrabold text-slate-800">
+                <h3 class="text-xs font-extrabold text-slate-800">
                   ⏭️ Ce qui va se passer (+14j)
                 </h3>
               </div>
@@ -412,7 +393,7 @@
                 Ce qui va se passer : les 14 prochains jours
               </h2>
               <p class="text-xs sm:text-sm text-slate-500 mt-1">
-                Visibilité horaire et titres des événements à venir. Cliquez sur un jour pour ouvrir sa fiche détaillée.
+                Heure et titre de chaque événement en un coup d'œil. Cliquez sur un jour pour ouvrir sa fiche détaillée.
               </p>
             </div>
 
@@ -441,7 +422,6 @@
             </div>
           </div>
 
-          <!-- Indication tactile pour petits écrans -->
           <p class="text-[11px] text-slate-400 text-center mt-3 sm:hidden">
             👈 Faites glisser horizontalement pour voir les 7 colonnes du calendrier 👉
           </p>
@@ -462,7 +442,6 @@
           <span id="side-flap-right-icon">⏭️</span>
         </div>
         
-        <!-- Texte vertical du volet plié -->
         <div class="my-auto [writing-mode:vertical-rl] flex items-center gap-2 text-slate-700 font-black text-xs uppercase tracking-widest group-hover:text-blue-600 transition">
           <span id="side-flap-right-label">Ce qui va se passer ▶</span>
           <span class="text-[10px] font-medium text-slate-500" id="side-flap-right-sub">(+14 jours)</span>
@@ -474,28 +453,6 @@
       </aside>
 
     </div>
-
-    <!-- ==================== SECTION RÉPERTOIRE & RECHERCHE GLOBALE ==================== -->
-    <section class="mt-12 pt-8 border-t border-slate-200 space-y-4">
-      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-        <div>
-          <h3 class="text-base sm:text-lg font-extrabold text-slate-900 flex items-center gap-2">
-            <span>📋</span>
-            <span>Toutes les parutions & événements analysés</span>
-          </h3>
-          <p class="text-xs text-slate-500">
-            Index exhaustif des arrêtés, articles de presse et annonces municipales
-          </p>
-        </div>
-        <span id="all-publications-count" class="text-xs font-bold text-slate-500 bg-white px-3 py-1 rounded-xl border border-slate-200 shadow-sm w-fit">
-          0 parution(s)
-        </span>
-      </div>
-
-      <div id="global-events-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-        <!-- Injecté par JavaScript -->
-      </div>
-    </section>
 
   </main>
 
@@ -524,7 +481,7 @@
             Date du jour sélectionné
           </h3>
           <p id="day-popup-subtitle" class="text-xs text-blue-200 mt-0.5">
-            Détail complet des horaires, descriptifs et documents associés
+            Horaires, tarifs, descriptifs et documents associés
           </p>
         </div>
 
@@ -579,24 +536,13 @@
     </div>
   </div>
 
-  <!-- ==================== PIED DE PAGE CITOYEN ==================== -->
-  <footer class="bg-slate-900 text-slate-400 text-xs py-8 border-t border-slate-800 mt-auto">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
-      <div>
-        <p class="text-slate-200 font-bold">Commune de Dunières (Haute-Loire, 43220)</p>
-        <p class="text-slate-500 mt-0.5">Communauté de communes Haut Pays du Velay Communauté • Portail Dépliant Triptyque</p>
-      </div>
-      <div class="flex items-center gap-3 text-slate-400">
-        <span>Illiwap Mairie (43087)</span>
-        <span>•</span>
-        <span>La Commère 43</span>
-        <span>•</span>
-        <span>Le Progrès</span>
-      </div>
-    </div>
+  <!-- ==================== PIED DE PAGE MINIMALISTE ==================== -->
+  <footer class="py-6 text-center text-xs text-slate-400 border-t border-slate-200 mt-auto bg-slate-50">
+    <p class="font-bold text-slate-600">Le calendrier Dunièrois de Maxime JACQUIOT</p>
+    <p class="text-[11px] text-slate-400 mt-0.5">Dunières & Haut Pays du Velay • Données officielles synchronisées</p>
   </footer>
 
   <!-- SCRIPT LOGIQUE INTERACTIVE DU DÉPLIANT -->
-  <script src="app.js?v=3.1"></script>
+  <script src="app.js?v=4.0"></script>
 </body>
 </html>

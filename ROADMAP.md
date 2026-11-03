@@ -11,7 +11,7 @@ Plan de développement par jalons du projet de portail citoyen et calendrier aut
 | **Jalon 1** | **Environnement & Architecture** | Arborescence, spécifications techniques, documentation de référence | 🟢 **Validé** |
 | **Jalon 2** | **Collecte & Résolution Récursive** | Scrapers Illiwap, Commère 43, Progrès + Résolveurs Calaméo/PDF | 🟢 **Validé** |
 | **Jalon 3** | **Intelligence Artificielle & Données** | Filtrage public/privé, structuration JSON et fenêtrage 3 volets | 🟢 **Validé** |
-| **Jalon 4** | **Vitrine Web, Déploiement & Alertes** | Interface Tailwind responsive, GitHub Actions Cloud, WhatsApp | 🟢 **Opérationnel** |
+| **Jalon 4** | **Dépliant Triptyque, Déploiement & Alertes** | Interface triptyque minimaliste 2x7, popups, GitHub Actions Cloud | 🟢 **Opérationnel** |
 
 ---
 
@@ -34,7 +34,7 @@ Plan de développement par jalons du projet de portail citoyen et calendrier aut
   - Gestion approfondie des pages de détail, dates et pièces jointes.
 - [x] **Scrapers Presse Locale** :
   - Connecteur recherche & RSS La Commère 43 (filtre Dunières / canton).
-  - Connecteur Le Progrès (Haute-Loire).
+  - Connecteur Le Progrès (Haute-Loire / filtre Dunières).
 - [x] **Moteur d'Enrichissement Récursif en 2 Étapes** :
   - Détection automatique d'URLs dans le corps des publications (`link_detector.py`).
   - Résolveur Calaméo (`calameo_resolver.py`) : extraction du titre, auteur, descriptif détaillé (villages/dates) et couverture.
@@ -48,31 +48,23 @@ Plan de développement par jalons du projet de portail citoyen et calendrier aut
 - [x] **Intégration de l'évaluation déontologique** :
   - Filtrage strict : conservation exclusive des événements d'intérêt public lié au mandat communal/intercommunal (`src/ai/classifier.py`).
   - Exclusion formelle : faits divers individuels (accidents, cambriolages, délits), vie privée et publicités commerciales privées.
-  - Compatibilité double mode : API Google Gemini (`google-genai` / `gemini-2.5-flash`) et moteur heuristique républicain sécurisé.
-- [x] **Extraction Temporelle & Géographique** :
-  - Détection des dates de début et fin (`src/utils/date_helpers.py`).
-  - Normalisation des lieux et catégorisation thématique standardisée (`src/ai/schemas.py`).
-- [x] **Algorithme de Fenêtrage Glissant en 3 Volets** :
-  - ⏪ **Rétrospective** : $[J-15, J-1]$
-  - 📍 **Aujourd'hui** : $J$
-  - ⏩ **Agenda à venir** : $[J+1, J+15]$
-- [x] Génération atomique de `web/data.json` avec compteurs et métadonnées (`src/utils/data_generator.py`).
+- [x] **Extraction d'entités structurées** :
+  - Extraction et normalisation des dates, plages horaires et lieux.
+  - Attribution des catégories thématiques officielles.
+- [x] **Génération du fichier de production** :
+  - Calcul déterministe de la date de référence et des 3 volets temporels.
+  - Export propre dans `web/data.json`.
 
 ---
 
-### 🟢 Jalon 4 : Vitrine Web Citoyenne, Déploiement Cloud & Alertes (Opérationnel)
-- [x] **Vitrine Web Responsive Moderne (`web/`)** :
-  - Interface soignée HTML5 + Tailwind CSS (`web/index.html`).
-  - Moteur dynamique réactif (`web/app.js`) consommant `data.json`.
-  - Volets glissants interactifs avec compteurs d'événements.
-  - Filtres instantanés par catégories (Vie Municipale, Travaux, Associations, Culture, Alertes).
-  - Barre de recherche en temps réel.
-  - Boutons d'accès direct vers les documents Calaméo et arrêtés PDF.
-- [x] **Pipeline Cloud 100% Autonome (`.github/workflows/daily-pipeline.yml`)** :
-  - Déclenchement automatique chaque matin (05:00 UTC / 06:00 CET).
-  - Exécution du script maître `src/main.py` sans dépendance machine.
-  - Déploiement automatique vers **GitHub Pages**.
-- [x] **Notification Élu WhatsApp (`src/notifications/whatsapp_bot.py`)** :
-  - Synthèse matinale via CallMeBot avec compteurs et alertes du jour.
-- [x] **Automation Antigravity locale intégrée** :
-  - Sidecar de synchronisation planifiée prêt dans le tableau de bord Automations.
+### 🟢 Jalon 4 : Vitrine Dépliant Triptyque Minimaliste & Déploiement Cloud (Terminé)
+- [x] **Interface Dépliant Triptyque à 3 Volets** :
+  - **Volet Gauche (Passé)** : Calendrier 2 lignes × 7 colonnes pour les 14 jours écoulés avec horaires et titres nets.
+  - **Volet Central (Aujourd'hui)** : Point du jour en direct, tri chronologique des événements, mise en avant claire des heures, des tarifs et de la nature de l'activité.
+  - **Volet Droit (Avenir)** : Calendrier prévisionnel 2 lignes × 7 colonnes pour les 14 prochains jours.
+  - **Popup Dynamique Plein Écran** : Fiche complète au clic sur n'importe quel jour avec parcours jour par jour.
+  - **Épuration Minimaliste** : En-tête compact "Le calendrier Dunièrois de Maxime JACQUIOT", suppression des sections d'archive redondantes.
+- [x] **Automatisation GitHub Actions & GitHub Pages** :
+  - Exécution quotidienne planifiée (06:00 CET).
+  - Déclenchement manuel (`workflow_dispatch`).
+  - Déploiement automatique vers GitHub Pages.

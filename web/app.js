@@ -1,7 +1,8 @@
 /**
- * Moteur interactif du Dépliant Triptyque – Portail Citoyen de Dunières.
- * Gère la navigation triptyque (Passé -14j, Aujourd'hui, Avenir +14j),
- * les volets latéraux pliés 3D, les calendriers 2x7 et le popup plein écran.
+ * Moteur interactif du Dépliant Triptyque – Le calendrier Dunièrois de Maxime JACQUIOT
+ * Gère la navigation triptyque, les calendriers 2x7 avec lisibilité horaire et titres nets,
+ * l'ordre chronologique des événements du jour, l'identification visuelle (heures, prix, types)
+ * et le popup dynamique plein écran.
  */
 
 let appData = null;
@@ -17,11 +18,9 @@ const JOURS_SEMAINE_LONGS = ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", 
 const MOIS_LONGS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"];
 const MOIS_COURTS = ["Jan.", "Fév.", "Mar.", "Avr.", "Mai", "Juin", "Juil.", "Août", "Sep.", "Oct.", "Nov.", "Déc."];
 
-// Initialisation au chargement de la page
 document.addEventListener("DOMContentLoaded", () => {
   initApp();
 
-  // Écouteur de recherche en direct
   const searchInput = document.getElementById("search-input");
   if (searchInput) {
     searchInput.addEventListener("input", (e) => {
@@ -41,7 +40,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // Clic en dehors de la carte popup pour fermer
   const modalElem = document.getElementById("day-popup-modal");
   if (modalElem) {
     modalElem.addEventListener("click", (e) => {
@@ -60,7 +58,6 @@ async function initApp() {
     appData = await res.json();
     allEventsList = appData.all_events || [];
 
-    // Date de référence (défaut ou metadata)
     if (appData.metadata && appData.metadata.reference_date) {
       todayDateStr = appData.metadata.reference_date;
     } else {
@@ -69,8 +66,6 @@ async function initApp() {
 
     updateHeaderMetadata();
     renderAllSections();
-
-    // Démarrage sur le volet Aujourd'hui
     switchPanel("today");
 
   } catch (err) {
@@ -86,21 +81,7 @@ async function initApp() {
   }
 }
 
-/**
- * Mise à jour de l'en-tête (date d'actualisation)
- */
 function updateHeaderMetadata() {
-  if (!appData || !appData.metadata) return;
-
-  if (appData.metadata.generated_at) {
-    const d = new Date(appData.metadata.generated_at);
-    const dateFormatted = d.toLocaleDateString("fr-FR", { day: "numeric", month: "short" });
-    const timeFormatted = d.toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" });
-    const badge = document.getElementById("header-update-time");
-    if (badge) badge.textContent = `• Actualisé le ${dateFormatted} à ${timeFormatted}`;
-  }
-
-  // Titre Aujourd'hui
   const banner = document.getElementById("today-full-title");
   if (banner && todayDateStr) {
     const d = parseISODate(todayDateStr);
@@ -112,19 +93,15 @@ function updateHeaderMetadata() {
   }
 }
 
-/**
- * Rendu complet de toutes les sections
- */
 function renderAllSections() {
   renderTodayPanel();
   renderPastCalendarGrid();
   renderFutureCalendarGrid();
-  renderGlobalDirectory();
 }
 
 /**
  * ==============================================================
- * NAVIGATION DANS LE TRIPTYQUE (Passé ◀ Aujourd'hui ▶ Avenir)
+ * NAVIGATION TRIPTYQUE (Passé ◀ Aujourd'hui ▶ Avenir)
  * ==============================================================
  */
 function switchPanel(panelName) {
@@ -138,34 +115,27 @@ function switchPanel(panelName) {
   const tabToday = document.getElementById("tab-btn-today");
   const tabFuture = document.getElementById("tab-btn-future");
 
-  // Masquer / afficher les volets
   if (panelPast) panelPast.classList.toggle("hidden", panelName !== "past");
   if (panelToday) panelToday.classList.toggle("hidden", panelName !== "today");
   if (panelFuture) panelFuture.classList.toggle("hidden", panelName !== "future");
 
-  // Styles des onglets du triptyque
-  const activeTabStyle = "px-4 sm:px-6 py-2 rounded-xl text-xs font-black bg-blue-600 text-white shadow-md";
-  const inactiveTabStyle = "px-3 sm:px-4 py-2 rounded-xl text-xs font-bold text-slate-600 hover:text-slate-900";
+  const activeTabStyle = "px-4 sm:px-6 py-1.5 rounded-lg text-xs font-black bg-blue-600 text-white shadow-sm";
+  const inactiveTabStyle = "px-3 sm:px-4 py-1.5 rounded-lg text-xs font-bold text-slate-600 hover:text-slate-900";
 
   if (tabPast) tabPast.className = `triptych-tab flex-1 sm:flex-initial transition flex items-center justify-center gap-2 ${panelName === "past" ? activeTabStyle : inactiveTabStyle}`;
   if (tabToday) tabToday.className = `triptych-tab flex-1 sm:flex-initial transition flex items-center justify-center gap-2 ${panelName === "today" ? activeTabStyle : inactiveTabStyle}`;
   if (tabFuture) tabFuture.className = `triptych-tab flex-1 sm:flex-initial transition flex items-center justify-center gap-2 ${panelName === "future" ? activeTabStyle : inactiveTabStyle}`;
 
-  // Mise à jour des volets pliés latéraux 3D (flaps)
   updateSideFlaps();
-
-  // Remonter en douceur en haut du contenu
-  window.scrollTo({ top: 110, behavior: "smooth" });
+  window.scrollTo({ top: 100, behavior: "smooth" });
 }
 
 function updateSideFlaps() {
   const flapLeft = document.getElementById("side-flap-left");
   const flapRight = document.getElementById("side-flap-right");
-  
   const iconLeft = document.getElementById("side-flap-left-icon");
   const labelLeft = document.getElementById("side-flap-left-label");
   const subLeft = document.getElementById("side-flap-left-sub");
-
   const iconRight = document.getElementById("side-flap-right-icon");
   const labelRight = document.getElementById("side-flap-right-label");
   const subRight = document.getElementById("side-flap-right-sub");
@@ -173,7 +143,6 @@ function updateSideFlaps() {
   if (!flapLeft || !flapRight) return;
 
   if (activePanel === "today") {
-    // Volet central ouvert : les deux côtés montrent les pages pliées
     flapLeft.style.opacity = "1";
     flapLeft.style.pointerEvents = "auto";
     if (iconLeft) iconLeft.textContent = "⏮️";
@@ -187,7 +156,6 @@ function updateSideFlaps() {
     if (subRight) subRight.textContent = "(+14 jours)";
 
   } else if (activePanel === "past") {
-    // Volet Passé ouvert : la gauche est au bout, la droite permet de revenir à Aujourd'hui
     flapLeft.style.opacity = "0.2";
     flapLeft.style.pointerEvents = "none";
 
@@ -198,7 +166,6 @@ function updateSideFlaps() {
     if (subRight) subRight.textContent = "(En direct)";
 
   } else if (activePanel === "future") {
-    // Volet Avenir ouvert : la gauche permet de revenir à Aujourd'hui, la droite est au bout
     flapLeft.style.opacity = "1";
     flapLeft.style.pointerEvents = "auto";
     if (iconLeft) iconLeft.textContent = "📍";
@@ -211,19 +178,13 @@ function updateSideFlaps() {
 }
 
 function onLeftFlapClick() {
-  if (activePanel === "today") {
-    switchPanel("past");
-  } else if (activePanel === "future") {
-    switchPanel("today");
-  }
+  if (activePanel === "today") switchPanel("past");
+  else if (activePanel === "future") switchPanel("today");
 }
 
 function onRightFlapClick() {
-  if (activePanel === "today") {
-    switchPanel("future");
-  } else if (activePanel === "past") {
-    switchPanel("today");
-  }
+  if (activePanel === "today") switchPanel("future");
+  else if (activePanel === "past") switchPanel("today");
 }
 
 function navigateRelative(dir) {
@@ -237,7 +198,7 @@ function navigateRelative(dir) {
 
 /**
  * ==============================================================
- * 1. VOLET AUJOURD'HUI (Direct & Événements en cours)
+ * 1. VOLET AUJOURD'HUI (Chronologique, Heures, Prix & Types nets)
  * ==============================================================
  */
 function renderTodayPanel() {
@@ -246,9 +207,12 @@ function renderTodayPanel() {
   const emptyAlert = document.getElementById("today-empty-alert");
   if (!container) return;
 
-  const todayEvents = getEventsForDate(todayDateStr).filter(matchesFilters);
+  let todayEvents = getEventsForDate(todayDateStr).filter(matchesFilters);
 
-  if (countBadge) countBadge.textContent = `${todayEvents.length} événement(s) en cours`;
+  // Tri par ordre chronologique
+  todayEvents.sort((a, b) => extractHourOrder(a) - extractHourOrder(b));
+
+  if (countBadge) countBadge.textContent = `${todayEvents.length} événement(s) actif(s)`;
 
   if (todayEvents.length === 0) {
     container.innerHTML = "";
@@ -262,7 +226,9 @@ function renderTodayPanel() {
 
 function createHeroTodayCard(event) {
   const timeInfo = extractEventTime(event);
-  const catBadgeClass = getCategoryBadgeClass(event.category);
+  const isTimeExplicit = isExplicitTime(timeInfo);
+  const typeObj = extractEventType(event);
+  const priceInfo = extractPrice(event);
 
   let attachmentBadge = "";
   if (event.has_attachment && event.attachment_data) {
@@ -283,7 +249,7 @@ function createHeroTodayCard(event) {
 
   const imageHtml = event.image_url ? `
     <div class="h-44 w-full overflow-hidden bg-slate-800 relative">
-      <img src="${event.image_url}" alt="${event.title}" class="w-full h-full object-cover transition-transform duration-300 hover:scale-105" loading="lazy">
+      <img src="${event.image_url}" alt="${cleanTitle(event.title)}" class="w-full h-full object-cover transition-transform duration-300 hover:scale-105" loading="lazy">
       <div class="absolute top-2.5 right-2.5 px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-black/70 backdrop-blur text-white">
         ${event.badge || "En vigueur"}
       </div>
@@ -294,27 +260,41 @@ function createHeroTodayCard(event) {
     <article class="bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 overflow-hidden flex flex-col justify-between hover:bg-white/15 transition shadow-lg">
       <div>
         ${imageHtml}
-        <div class="p-5">
-          <div class="flex items-center justify-between gap-2 mb-2">
-            <span class="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-md ${catBadgeClass}">
-              ${event.category}
+        <div class="p-5 space-y-3">
+          
+          <!-- Bandeau Identifiable : Horaire + Type + Tarif -->
+          <div class="flex flex-wrap items-center gap-2">
+            <!-- Horaire bien visible -->
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-xl text-xs font-black shadow-xs ${isTimeExplicit ? 'bg-emerald-500 text-slate-950 font-black' : 'bg-blue-600/60 text-white'}">
+              🕒 ${timeInfo}
             </span>
-            <span class="text-xs font-bold text-emerald-300 flex items-center gap-1">
-              ${timeInfo}
+
+            <!-- Type / Ce que c'est -->
+            <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-xl text-xs font-black bg-white/20 text-white uppercase tracking-wider">
+              <span>${typeObj.icon}</span>
+              <span>${typeObj.label}</span>
+            </span>
+
+            <!-- Prix / Tarif -->
+            <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-xl text-xs font-extrabold ${priceInfo.isFree ? 'bg-amber-400 text-slate-950' : 'bg-white/10 text-slate-200'}">
+              🎟️ ${priceInfo.text}
             </span>
           </div>
 
-          <h3 class="text-base sm:text-lg font-bold text-white leading-snug mb-2 cursor-pointer hover:text-blue-300 transition" onclick="openDayPopup('${todayDateStr}')">
-            ${event.title}
+          <!-- Titre principal net -->
+          <h3 class="text-base sm:text-lg font-black text-white leading-snug cursor-pointer hover:text-blue-300 transition" onclick="openDayPopup('${todayDateStr}')">
+            ${cleanTitle(event.title)}
           </h3>
 
-          <p class="text-xs sm:text-sm text-blue-100/90 leading-relaxed line-clamp-3 mb-3">
+          <!-- Résumé -->
+          <p class="text-xs sm:text-sm text-blue-100/90 leading-relaxed line-clamp-3">
             ${event.summary}
           </p>
 
-          <div class="flex items-center gap-1 text-xs text-blue-200">
+          <!-- Lieu -->
+          <div class="flex items-center gap-1 text-xs text-blue-200 font-medium">
             <span>📍</span>
-            <span class="truncate font-medium">${event.location || "Dunières"}</span>
+            <span class="truncate">${event.location || "Dunières"}</span>
           </div>
         </div>
       </div>
@@ -322,7 +302,7 @@ function createHeroTodayCard(event) {
       <div class="p-4 bg-black/25 border-t border-white/10 flex items-center justify-between gap-2 mt-auto">
         <div>${attachmentBadge}</div>
         <button onclick="openDayPopup('${todayDateStr}')" class="px-3.5 py-1.5 rounded-xl text-xs font-bold bg-white text-blue-950 hover:bg-blue-50 transition shadow-sm flex items-center gap-1">
-          <span>Ouvrir la fiche du jour</span>
+          <span>Fiche complète</span>
           <span>➔</span>
         </button>
       </div>
@@ -332,7 +312,7 @@ function createHeroTodayCard(event) {
 
 /**
  * ==============================================================
- * 2. VOLET PASSÉ : CALENDRIER 2 LIGNES X 7 COLONNES (-14 jours)
+ * 2. VOLETS PASSÉ & AVENIR : CALENDRIERS 2x7 VISIBLES & NETS
  * ==============================================================
  */
 function renderPastCalendarGrid() {
@@ -342,7 +322,6 @@ function renderPastCalendarGrid() {
 
   const pastDates = getPast14Days(todayDateStr);
 
-  // En-têtes de colonnes dynamiques basés sur les 7 premiers jours
   if (headersContainer && pastDates.length >= 7) {
     const first7 = pastDates.slice(0, 7);
     headersContainer.innerHTML = first7.map(iso => {
@@ -354,11 +333,6 @@ function renderPastCalendarGrid() {
   container.innerHTML = pastDates.map((isoDate, index) => renderCalendarCell(isoDate, index, "past")).join("");
 }
 
-/**
- * ==============================================================
- * 3. VOLET AVENIR : CALENDRIER 2 LIGNES X 7 COLONNES (+14 jours)
- * ==============================================================
- */
 function renderFutureCalendarGrid() {
   const container = document.getElementById("future-grid-container");
   const headersContainer = document.getElementById("future-col-headers");
@@ -366,7 +340,6 @@ function renderFutureCalendarGrid() {
 
   const futureDates = getFuture14Days(todayDateStr);
 
-  // En-têtes de colonnes dynamiques basés sur les 7 premiers jours
   if (headersContainer && futureDates.length >= 7) {
     const first7 = futureDates.slice(0, 7);
     headersContainer.innerHTML = first7.map(iso => {
@@ -379,7 +352,7 @@ function renderFutureCalendarGrid() {
 }
 
 /**
- * Rendu d'une cellule journalière pour le calendrier 2x7
+ * Rendu d'une cellule journalière 2x7 : Heure et Événement parfaitement lisibles
  */
 function renderCalendarCell(isoDate, index, mode) {
   const d = parseISODate(isoDate);
@@ -389,45 +362,54 @@ function renderCalendarCell(isoDate, index, mode) {
 
   const events = getEventsForDate(isoDate).filter(matchesFilters);
   const count = events.length;
+  const hasEvents = count > 0;
 
-  let cellBg = "bg-white border-slate-200 hover:border-blue-400";
-  let badgeColor = "bg-slate-100 text-slate-500";
+  let cellBg = "bg-white border-slate-200 hover:border-slate-400";
+  let badgeColor = "bg-slate-100 text-slate-400";
 
-  if (count > 0) {
-    cellBg = "bg-blue-50/60 border-blue-200 hover:border-blue-500 shadow-sm";
-    badgeColor = "bg-blue-600 text-white font-bold";
+  if (hasEvents) {
+    cellBg = "bg-white border-blue-400 ring-2 ring-blue-500/10 shadow-sm hover:border-blue-600";
+    badgeColor = "bg-blue-600 text-white font-black shadow-2xs";
   }
 
-  // Contenu des événements visibles en 1 coup d'œil
+  // Contenu des événements : Heure + Titre lisibles en un coup d'œil
   let eventsListHtml = "";
-  if (count === 0) {
+  if (!hasEvents) {
     eventsListHtml = `
-      <div class="flex-1 flex items-center justify-center py-2 text-slate-300 text-[11px] italic">
-        Rien de répertorié
+      <div class="flex-1 flex items-center justify-center py-4 text-slate-300 font-mono text-sm select-none">
+        —
       </div>
     `;
   } else {
     eventsListHtml = `
-      <div class="space-y-1.5 flex-1 overflow-hidden mt-1">
+      <div class="space-y-1.5 flex-1 flex flex-col justify-start my-1.5">
         ${events.slice(0, 2).map(e => {
-          const time = extractEventTime(e, true);
+          const time = extractEventTime(e);
+          const isExplicit = isExplicitTime(time);
+          const typeObj = extractEventType(e);
+          const title = cleanTitle(e.title);
+
           return `
-            <div class="p-1 rounded-md bg-white border border-slate-200/90 shadow-2xs hover:bg-blue-50/80 transition">
-              <div class="flex items-center gap-1">
-                <span class="text-[9px] font-black px-1 py-0.2 rounded bg-blue-100 text-blue-800 shrink-0">
-                  ${time}
+            <div class="p-1.5 rounded-xl bg-slate-50 border border-slate-200/90 hover:bg-blue-50/70 hover:border-blue-300 transition">
+              <!-- Ligne 1 : Heure nette & Type -->
+              <div class="flex items-center justify-between gap-1 mb-1">
+                <span class="inline-flex items-center gap-1 text-[10px] font-black px-1.5 py-0.5 rounded-md shadow-2xs ${isExplicit ? 'bg-emerald-600 text-white' : 'bg-blue-600 text-white'}">
+                  🕒 ${time}
                 </span>
-                <span class="text-[10px] font-bold text-slate-800 truncate block leading-tight">
-                  ${e.title}
-                </span>
+                <span class="text-xs" title="${typeObj.label}">${typeObj.icon}</span>
+              </div>
+              
+              <!-- Ligne 2 : Titre enveloppé sans coupure brute -->
+              <div class="text-[11px] font-bold text-slate-900 leading-snug line-clamp-2">
+                ${title}
               </div>
             </div>
           `;
         }).join("")}
 
         ${count > 2 ? `
-          <div class="text-[9px] font-extrabold text-blue-600 text-center bg-blue-100/70 py-0.5 rounded">
-            + ${count - 2} autre(s)...
+          <div class="text-[10px] font-black text-blue-600 text-center bg-blue-50 py-0.5 rounded-md border border-blue-100">
+            + ${count - 2} autre(s)
           </div>
         ` : ""}
       </div>
@@ -437,39 +419,42 @@ function renderCalendarCell(isoDate, index, mode) {
   return `
     <div 
       onclick="openDayPopup('${isoDate}')" 
-      class="day-cell p-2.5 rounded-2xl border flex flex-col justify-between cursor-pointer select-none ${cellBg}"
-      title="Cliquer pour voir la fiche détaillée du ${jourSemCourt} ${numJour} ${moisCourt}"
+      class="day-cell p-2.5 rounded-2xl border flex flex-col justify-between cursor-pointer select-none transition ${cellBg}"
+      title="Cliquer pour afficher la fiche détaillée du ${jourSemCourt} ${numJour} ${moisCourt}"
     >
-      <!-- En-tête du jour -->
-      <div class="flex items-center justify-between pb-1.5 border-b border-slate-100">
-        <div>
-          <span class="text-[10px] font-black uppercase text-slate-400 block tracking-wider leading-none">
+      <!-- En-tête date net -->
+      <div class="flex items-center justify-between pb-1.5 border-b ${hasEvents ? 'border-blue-100' : 'border-slate-100'}">
+        <div class="flex items-baseline gap-1.5">
+          <span class="text-[11px] font-black uppercase tracking-wider ${hasEvents ? 'text-blue-700' : 'text-slate-400'}">
             ${jourSemCourt}
           </span>
-          <span class="text-base sm:text-lg font-black text-slate-900 block leading-tight mt-0.5">
-            ${numJour} <span class="text-[10px] font-medium text-slate-400">${moisCourt}</span>
+          <span class="text-base sm:text-lg font-black ${hasEvents ? 'text-slate-900' : 'text-slate-600'}">
+            ${numJour}
+          </span>
+          <span class="text-[10px] font-semibold text-slate-400">
+            ${moisCourt}
           </span>
         </div>
-        <span class="text-[10px] px-1.5 py-0.5 rounded-full ${badgeColor}">
-          ${count}
-        </span>
+        ${hasEvents ? `<span class="text-[10px] px-1.5 py-0.2 rounded-full ${badgeColor}">${count}</span>` : ''}
       </div>
 
-      <!-- Corps du jour : Titre et Heure en un coup d'œil -->
+      <!-- Corps : Heure & Titre -->
       ${eventsListHtml}
 
-      <!-- Pied de carte : Indication clic -->
-      <div class="pt-1.5 mt-auto border-t border-slate-100/80 flex items-center justify-between text-[10px] text-slate-400">
-        <span class="font-medium text-slate-400">Détail</span>
-        <span>🔍</span>
-      </div>
+      <!-- Pied : Indication discrète si événement -->
+      ${hasEvents ? `
+        <div class="pt-1 border-t border-blue-100/60 flex items-center justify-end text-[10px] font-bold text-blue-600 gap-1">
+          <span>Détail</span>
+          <span>➔</span>
+        </div>
+      ` : ''}
     </div>
   `;
 }
 
 /**
  * ==============================================================
- * 4. POPUP DYNAMIQUE DU JOUR (Prend la place sur l'écran)
+ * 3. POPUP DYNAMIQUE DU JOUR (Prend toute la place de l'écran)
  * ==============================================================
  */
 function openDayPopup(isoDate) {
@@ -493,7 +478,6 @@ function openDayPopup(isoDate) {
 
   if (title) title.textContent = dateFormatted;
 
-  // Statut temporel
   if (badge) {
     if (isoDate === todayDateStr) {
       badge.textContent = "📍 AUJOURD'HUI (Direct)";
@@ -507,21 +491,22 @@ function openDayPopup(isoDate) {
     }
   }
 
-  const events = getEventsForDate(isoDate).filter(matchesFilters);
-  if (countBadge) countBadge.textContent = `${events.length} événement(s) répertorié(s)`;
+  let events = getEventsForDate(isoDate).filter(matchesFilters);
+  events.sort((a, b) => extractHourOrder(a) - extractHourOrder(b));
+
+  if (countBadge) countBadge.textContent = `${events.length} événement(s)`;
 
   if (subtitle) {
     subtitle.textContent = events.length > 0 
-      ? `Retrouvez ci-dessous le descriptif complet, les horaires et les documents pour cette journée.` 
-      : `Aucun arrêté ni événement officiel n'a été publié pour cette date.`;
+      ? `Retrouvez ci-dessous le détail horaire, les tarifs et les documents de cette journée.` 
+      : `Aucun événement ni arrêté n'a été publié pour cette date.`;
   }
 
-  // Rendu des fiches détaillées de la journée
   if (events.length === 0) {
     body.innerHTML = `
       <div class="py-12 text-center space-y-3 bg-white rounded-2xl border border-slate-200 p-6">
         <span class="text-4xl block">☀️</span>
-        <h4 class="text-base font-bold text-slate-800">Aucun événement n'est programmé le ${dateFormatted}</h4>
+        <h4 class="text-base font-bold text-slate-800">Aucun événement répertorié le ${dateFormatted}</h4>
         <p class="text-xs text-slate-500 max-w-sm mx-auto">
           Aucune manifestation associative, alerte ou travaux n'ont été signalés pour ce jour à Dunières et ses environs.
         </p>
@@ -536,7 +521,6 @@ function openDayPopup(isoDate) {
     body.innerHTML = events.map(event => createDetailedDayEventCard(event)).join("");
   }
 
-  // Animation d'ouverture
   modal.classList.remove("hidden");
   setTimeout(() => {
     modal.classList.remove("opacity-0");
@@ -572,15 +556,14 @@ function navigatePopupDay(dir) {
   openDayPopup(nextIso);
 }
 
-/**
- * Fiche détaillée d'un événement affichée dans le popup dynamique
- */
 function createDetailedDayEventCard(event) {
-  const timeInfo = extractEventTime(event, false, true);
-  const catBadgeClass = getCategoryBadgeClass(event.category);
+  const timeInfo = extractEventTime(event);
+  const isTimeExplicit = isExplicitTime(timeInfo);
+  const typeObj = extractEventType(event);
+  const priceInfo = extractPrice(event);
   const dateStr = formatEventDate(event.dates, true);
+  const title = cleanTitle(event.title);
 
-  // Bloc Document Résolu (Calaméo ou Arrêté PDF)
   let attachmentHtml = "";
   if (event.has_attachment && event.attachment_data) {
     if (event.attachment_type === "calameo") {
@@ -616,7 +599,7 @@ function createDetailedDayEventCard(event) {
             </span>
           </div>
           <p class="text-xs text-rose-900 leading-relaxed">
-            Le texte intégral de l'arrêté ou de la délibération municipale a été extrait et analysé.
+            Le texte officiel de l'arrêté ou de la délibération municipale a été analysé.
           </p>
           <a 
             href="${event.attachment_data.original_url || event.source_url}" 
@@ -632,40 +615,40 @@ function createDetailedDayEventCard(event) {
     }
   }
 
-  // Image d'en-tête
   const imageHtml = event.image_url ? `
     <div class="h-48 sm:h-56 w-full rounded-2xl overflow-hidden bg-slate-900 mb-4 shadow">
-      <img src="${event.image_url}" alt="${event.title}" class="w-full h-full object-cover">
+      <img src="${event.image_url}" alt="${title}" class="w-full h-full object-cover">
     </div>
   ` : "";
 
   return `
-    <article class="bg-white rounded-3xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
+    <article class="bg-white rounded-3xl p-5 sm:p-6 border border-slate-200 shadow-xs space-y-4">
       
-      <!-- Badges et Source -->
-      <div class="flex flex-wrap items-center justify-between gap-2">
-        <div class="flex items-center gap-2">
-          <span class="px-2.5 py-1 rounded-lg text-xs font-black uppercase ${catBadgeClass}">
-            ${event.category}
+      <!-- Ligne d'identification : Heure, Type & Tarif -->
+      <div class="flex flex-wrap items-center justify-between gap-2 pb-2 border-b border-slate-100">
+        <div class="flex flex-wrap items-center gap-2">
+          <span class="px-3 py-1 rounded-xl text-xs font-black ${isTimeExplicit ? 'bg-emerald-600 text-white shadow-xs' : 'bg-blue-600 text-white'}">
+            🕒 ${timeInfo}
           </span>
-          <span class="px-2.5 py-1 rounded-lg text-xs font-bold bg-slate-100 text-slate-700">
-            ${event.badge || "Information"}
+          <span class="px-2.5 py-1 rounded-xl text-xs font-black bg-slate-100 text-slate-800 uppercase tracking-wide flex items-center gap-1">
+            <span>${typeObj.icon}</span>
+            <span>${typeObj.label}</span>
+          </span>
+          <span class="px-2.5 py-1 rounded-xl text-xs font-bold ${priceInfo.isFree ? 'bg-amber-100 text-amber-900 border border-amber-200' : 'bg-slate-100 text-slate-700'}">
+            🎟️ ${priceInfo.text}
           </span>
         </div>
-        <span class="text-xs font-semibold text-slate-500 flex items-center gap-1">
-          <span>Source :</span>
-          <span class="font-bold text-slate-700">${event.source_name}</span>
+        <span class="text-xs font-semibold text-slate-400">
+          Source : <span class="text-slate-700 font-bold">${event.source_name}</span>
         </span>
       </div>
 
       ${imageHtml}
 
-      <!-- Titre principal -->
       <h4 class="text-lg sm:text-xl font-black text-slate-900 leading-snug">
-        ${event.title}
+        ${title}
       </h4>
 
-      <!-- Métadonnées : Horaires, Dates, Lieu -->
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 p-3.5 rounded-2xl bg-slate-50 border border-slate-100 text-xs">
         <div class="flex items-center gap-2.5">
           <span class="text-lg">🕒</span>
@@ -690,7 +673,6 @@ function createDetailedDayEventCard(event) {
         </div>
       </div>
 
-      <!-- Descriptif complet -->
       <div class="space-y-1.5">
         <h5 class="text-xs font-black uppercase tracking-wider text-slate-400">Descriptif complet</h5>
         <p class="text-sm text-slate-700 leading-relaxed whitespace-pre-line">
@@ -698,10 +680,8 @@ function createDetailedDayEventCard(event) {
         </p>
       </div>
 
-      <!-- Bloc pièce jointe résolue si présente -->
       ${attachmentHtml}
 
-      <!-- Boutons d'action -->
       <div class="pt-3 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3">
         <a 
           href="${event.source_url}" 
@@ -714,7 +694,7 @@ function createDetailedDayEventCard(event) {
         </a>
 
         <button 
-          onclick="shareSpecificEvent('${event.title.replace(/'/g, "\\'")}', '${event.source_url}')" 
+          onclick="shareSpecificEvent('${title.replace(/'/g, "\\'")}', '${event.source_url}')" 
           class="px-3 py-1.5 rounded-xl text-xs font-semibold bg-slate-100 hover:bg-slate-200 text-slate-700 transition flex items-center gap-1"
         >
           <span>📤 Partager</span>
@@ -727,86 +707,8 @@ function createDetailedDayEventCard(event) {
 
 /**
  * ==============================================================
- * 5. SECTION RÉPERTOIRE & RECHERCHE GLOBALE (Index)
+ * 4. FONCTIONS UTILITAIRES DE GESTION DES DATES & TEMPS
  * ==============================================================
- */
-function renderGlobalDirectory() {
-  const container = document.getElementById("global-events-grid");
-  const countLabel = document.getElementById("all-publications-count");
-  if (!container) return;
-
-  const filtered = allEventsList.filter(matchesFilters);
-  if (countLabel) countLabel.textContent = `${filtered.length} parution(s)`;
-
-  if (filtered.length === 0) {
-    container.innerHTML = `
-      <div class="col-span-full py-10 text-center text-slate-500 bg-white rounded-2xl border border-slate-200 text-xs">
-        Aucun résultat ne correspond à votre filtre.
-      </div>
-    `;
-    return;
-  }
-
-  container.innerHTML = filtered.map(e => createDirectoryCard(e)).join("");
-}
-
-function createDirectoryCard(event) {
-  const timeInfo = extractEventTime(event);
-  const catClass = getCategoryBadgeClass(event.category);
-  const dateStr = formatEventDate(event.dates);
-
-  return `
-    <article class="bg-white rounded-2xl border border-slate-200 shadow-xs hover:shadow-md transition flex flex-col justify-between overflow-hidden">
-      <div class="p-4 sm:p-5">
-        <div class="flex items-center justify-between gap-2 mb-2">
-          <span class="text-[10px] font-bold px-2 py-0.5 rounded-md ${catClass}">
-            ${event.category}
-          </span>
-          <span class="text-xs font-semibold text-slate-500">
-            ${timeInfo}
-          </span>
-        </div>
-
-        <h4 
-          class="text-sm sm:text-base font-bold text-slate-900 leading-snug mb-2 cursor-pointer hover:text-blue-600 transition" 
-          onclick="openDayPopup('${event.dates.start.split('T')[0]}')"
-        >
-          ${event.title}
-        </h4>
-
-        <p class="text-xs text-slate-600 leading-relaxed line-clamp-3 mb-3">
-          ${event.summary}
-        </p>
-
-        <div class="flex items-center justify-between text-xs text-slate-400 pt-2 border-t border-slate-100">
-          <span class="truncate">📍 ${event.location || "Dunières"}</span>
-          <span class="shrink-0">📅 ${dateStr}</span>
-        </div>
-      </div>
-
-      <div class="px-4 py-2 bg-slate-50 border-t border-slate-100 flex items-center justify-between gap-2">
-        <span class="text-[11px] text-slate-500 truncate">
-          ${event.source_name}
-        </span>
-        <button 
-          onclick="openDayPopup('${event.dates.start.split('T')[0]}')" 
-          class="px-2.5 py-1 rounded-lg text-xs font-bold text-blue-700 bg-blue-50 hover:bg-blue-100 transition"
-        >
-          Voir le jour ➔
-        </button>
-      </div>
-    </article>
-  `;
-}
-
-/**
- * ==============================================================
- * 6. FONCTIONS UTILITAIRES DE GESTION DES DATES & TEMPS
- * ==============================================================
- */
-
-/**
- * Calcule les 14 jours passés strictement avant refDateStr (de J-14 à J-1)
  */
 function getPast14Days(refDateStr) {
   const ref = parseISODate(refDateStr);
@@ -819,9 +721,6 @@ function getPast14Days(refDateStr) {
   return days;
 }
 
-/**
- * Calcule les 14 jours futurs strictement après refDateStr (de J+1 à J+14)
- */
 function getFuture14Days(refDateStr) {
   const ref = parseISODate(refDateStr);
   const days = [];
@@ -833,9 +732,6 @@ function getFuture14Days(refDateStr) {
   return days;
 }
 
-/**
- * Renvoie tous les événements actifs à une date donnée
- */
 function getEventsForDate(isoDate) {
   if (!allEventsList || !isoDate) return [];
 
@@ -847,32 +743,127 @@ function getEventsForDate(isoDate) {
   });
 }
 
+function cleanTimeStr(s) {
+  return s.replace(/\s*heures?\s*/gi, 'h').replace(/\s+/g, '').trim();
+}
+
 /**
- * Extraction des horaires dans le texte
+ * Extraction des horaires avec robustesse maximale
  */
-function extractEventTime(event, compact = false, fullVerbose = false) {
-  const text = `${event.title} ${event.summary}`;
-  
-  const matchRange = text.match(/(?:de|dès|entre)\s*(\d{1,2}[h:]\d{0,2})\s*(?:à|a|et)\s*(\d{1,2}[h:]\d{0,2})/i);
-  if (matchRange) {
-    if (compact) return matchRange[1];
-    return `🕒 ${matchRange[1]} - ${matchRange[2]}`;
-  }
+function extractEventTime(event) {
+  const text = (event.title + ' ' + (event.summary || ''));
 
-  const matchSingle = text.match(/(?:à|a|vers|dès)\s*(\d{1,2}[h:]\d{0,2})/i);
-  if (matchSingle) {
-    if (compact) return matchSingle[1];
-    return `🕒 À ${matchSingle[1]}`;
-  }
+  // 1. Plage avec deux points : 18:30 - 19:30
+  const matchColonRange = text.match(/(\d{1,2}:\d{2})\s*[-–àa]\s*(\d{1,2}:\d{2})/i);
+  if (matchColonRange) return `${matchColonRange[1]} - ${matchColonRange[2]}`;
 
-  const matchDirect = text.match(/\b(\d{1,2}h\d{2}|\d{1,2}h)\b/i);
-  if (matchDirect) {
-    if (compact) return matchDirect[1];
-    return `🕒 ${matchDirect[1]}`;
-  }
+  // 2. Plage "de X à Y" (avec "heures" ou "h")
+  const matchRange = text.match(/(?:de|dès|entre)\s*(\d{1,2}(?:\s*(?:heures?|h)\s*\d{0,2}|[h:]\d{0,2}))\s*(?:à|a|et|-|–)\s*(\d{1,2}(?:\s*(?:heures?|h)\s*\d{0,2}|[h:]\d{0,2}))/i);
+  if (matchRange) return `${cleanTimeStr(matchRange[1])} - ${cleanTimeStr(matchRange[2])}`;
 
-  if (fullVerbose) return "Toute la journée ou selon affichage municipal";
-  return compact ? "Journée" : "📅 En journée";
+  // 3. Colonne simple : 18:30
+  const matchColon = text.match(/\b(\d{1,2}:\d{2})\b/);
+  if (matchColon) return matchColon[1];
+
+  // 4. À midi
+  if (/\b(?:à|a|vers)\s*midi\b/i.test(text)) return '12h00';
+
+  // 5. À partir de / dès / à Xh: à 7h30, à 14h, dès 20h
+  const matchSingle = text.match(/(?:à|a|vers|dès|partir de)\s*(\d{1,2}(?:\s*(?:heures?|h)\s*\d{0,2}|[h:]\d{0,2}))/i);
+  if (matchSingle) return cleanTimeStr(matchSingle[1]);
+
+  // 6. Direct Xh ou XhXX même collé à des lettres : 18h30Spectacle
+  const matchDirect = text.match(/(\d{1,2}h\d{2}|\d{1,2}h(?!\w))/i);
+  if (matchDirect) return cleanTimeStr(matchDirect[1]);
+
+  return 'En journée';
+}
+
+function isExplicitTime(timeStr) {
+  return timeStr && timeStr !== 'En journée' && /\d/.test(timeStr);
+}
+
+/**
+ * Calcule un ordre horaire décimal pour le tri chronologique
+ */
+function extractHourOrder(e) {
+  const time = extractEventTime(e);
+  if (!isExplicitTime(time)) return 99; // Placé en fin de journée
+
+  const matchFirst = time.match(/(\d{1,2})[h:](\d{0,2})/i);
+  if (matchFirst) {
+    const h = parseInt(matchFirst[1]);
+    const m = matchFirst[2] ? parseInt(matchFirst[2]) : 0;
+    return h + m / 60;
+  }
+  return 99;
+}
+
+/**
+ * Extraction du type et de la nature de l'événement ("Ce que ça va être")
+ */
+function extractEventType(e) {
+  const text = (e.title + ' ' + (e.summary || '') + ' ' + (e.category || '')).toLowerCase();
+
+  if (text.includes('spectacle') || text.includes('théâtre') || text.includes('conte') || text.includes('cinéma')) {
+    return { icon: '🎭', label: 'Spectacle & Culture' };
+  }
+  if (text.includes('randonnée') || text.includes('rando') || text.includes('pétanque') || text.includes('cross') || text.includes('sport') || text.includes('course')) {
+    return { icon: '🥾', label: 'Sport & Randonnée' };
+  }
+  if (text.includes('repas') || text.includes('cuisine') || text.includes('chef') || text.includes('dégustation') || text.includes('champignons')) {
+    return { icon: '🍽️', label: 'Gastronomie & Repas' };
+  }
+  if (text.includes('travaux') || text.includes('arrêté') || text.includes('voirie') || text.includes('opah') || text.includes('chantier') || text.includes('sècheresse')) {
+    return { icon: '🚧', label: 'Travaux & Arrêté' };
+  }
+  if (text.includes('permanence') || text.includes('mairie') || text.includes('déchets') || text.includes('mda') || text.includes('service public') || text.includes('conseil municipal')) {
+    return { icon: '🤝', label: 'Permanence & Service' };
+  }
+  if (text.includes('halloween') || text.includes('fête') || text.includes('animation') || text.includes('loto') || text.includes('marché')) {
+    return { icon: '🎉', label: 'Fête & Animation' };
+  }
+  if (text.includes('bibliothèque') || text.includes('médiathèque') || text.includes('livre') || text.includes('exposition')) {
+    return { icon: '📚', label: 'Médiathèque & Lecture' };
+  }
+  return { icon: '🏛️', label: 'Information locale' };
+}
+
+/**
+ * Extraction des informations de prix / tarifs
+ */
+function extractPrice(e) {
+  const text = (e.title + ' ' + (e.summary || '')).toLowerCase();
+
+  if (text.includes('gratuit') || text.includes('entrée libre') || text.includes('entree libre') || text.includes('accès libre') || text.includes('sans rendez-vous')) {
+    return { text: 'Gratuit / Entrée libre', isFree: true };
+  }
+  const matchPrice = text.match(/(?:tarif|prix|inscription|entrée)\s*[:de\s]*(\d+[\s]*(?:€|euros?))/i);
+  if (matchPrice) return { text: matchPrice[1], isFree: false };
+
+  const matchEuro = text.match(/\b(\d+[\s]*(?:€|euros?))\b/i);
+  if (matchEuro) return { text: matchEuro[1], isFree: false };
+
+  return { text: 'Entrée libre', isFree: false };
+}
+
+/**
+ * Nettoyage des titres pour une meilleure lisibilité
+ */
+function cleanTitle(title) {
+  if (!title) return "";
+  let clean = title
+    .replace(/deDunièresle/gi, "de Dunières le ")
+    .replace(/deDunières/gi, "de Dunières ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  // Nettoyage des formats type "6 nov. 2026 18:30 - 19:30" quand répétés dans le titre
+  if (/^\d{1,2}\s+[a-zéû.]+\s+\d{4}\s+\d{1,2}[:h]\d{2}/i.test(clean)) {
+    clean = clean.replace(/^\d{1,2}\s+[a-zéû.]+\s+\d{4}\s+\d{1,2}[:h]\d{2}(?:\s*-\s*\d{1,2}[:h]\d{2})?\s*/i, "");
+    if (!clean) clean = title;
+  }
+  return clean;
 }
 
 function matchesFilters(event) {
@@ -897,25 +888,6 @@ function setCategoryFilter(cat) {
   });
 
   renderAllSections();
-}
-
-function getCategoryBadgeClass(category) {
-  switch (category) {
-    case "Alertes & Météo":
-      return "bg-rose-100 text-rose-800 border border-rose-200";
-    case "Travaux & Voirie":
-      return "bg-amber-100 text-amber-800 border border-amber-200";
-    case "Vie Municipale & Délibérations":
-      return "bg-sky-100 text-sky-800 border border-sky-200";
-    case "Manifestations & Vie Associative":
-      return "bg-emerald-100 text-emerald-800 border border-emerald-200";
-    case "Culture & Patrimoine":
-      return "bg-purple-100 text-purple-800 border border-purple-200";
-    case "Services & Déchets":
-      return "bg-teal-100 text-teal-800 border border-teal-200";
-    default:
-      return "bg-slate-100 text-slate-700 border border-slate-200";
-  }
 }
 
 function formatEventDate(dates, full = false) {

@@ -1,4 +1,4 @@
-# 🏛️ Portail Citoyen & Calendrier Automatisé – Dunières & Haut Pays du Velay
+# 📅 Le calendrier Dunièrois de Maxime JACQUIOT
 
 Portail d'information citoyenne et calendrier interactif automatisé au service des administrés de la commune de **Dunières (Haute-Loire, 43220)** et de la communauté de communes **Haut Pays du Velay Communauté**.
 
@@ -12,10 +12,11 @@ En tant qu'élu local, l'enjeu est de simplifier l'accès à l'information publi
 1. **Centraliser l'information municipale et intercommunale** éparse (applications mobiles, presse locale, agendas numériques).
 2. **Résoudre les liens profonds en 2 étapes** : extraire automatiquement le contenu des annonces renvoyant vers des liseuses en ligne (ex. Calaméo), des arrêtés ou affiches PDF.
 3. **Assurer un tri intelligent par IA** : filtrer rigoureusement le contenu d'intérêt public lié au mandat local (travaux, manifestations, vie associative, arrêtés, séances de conseil) en excluant toute information privée.
-4. **Offrir un calendrier glissant dynamique en 3 volets** :
-   - ⏪ **Rétrospective (-15 jours)** : Ce qui s'est passé récemment (comptes-rendus, arrêtés passés).
-   - 📍 **Aujourd'hui** : Les événements, alertes et permanences du jour.
-   - ⏩ **Agenda à venir (+15 jours)** : Événements associatifs, conseils municipaux/communautaires, chantiers annoncés.
+4. **Offrir une expérience minimaliste en dépliant triptyque 3 volets** :
+   - ⏪ **Volet Passé (-14 jours)** : Calendrier rétrospectif de 2 lignes × 7 colonnes avec heure et titre lisibles en 1 coup d'œil.
+   - 📍 **Volet Aujourd'hui (Central)** : Événements actifs du jour triés par ordre chronologique avec mise en valeur immédiate des horaires, des tarifs et de la nature de l'événement.
+   - ⏩ **Volet Avenir (+14 jours)** : Calendrier prévisionnel de 2 lignes × 7 colonnes avec lisibilité directe des 14 prochains jours.
+   - 🔍 **Popup dynamique du jour** : Fiche détaillée prenant la place de l'écran lors du clic sur n'importe quel jour, avec navigation fluide jour par jour.
 5. **Déploiement statique ultra-rapide** : Publication automatique quotidienne via GitHub Actions vers GitHub Pages avec un fichier structuré `data.json`.
 
 ---
@@ -26,8 +27,8 @@ En tant qu'élu local, l'enjeu est de simplifier l'accès à l'information publi
 [ Sources Locales ]
   ├── Illiwap Dunières (43087)
   ├── Illiwap Haut Pays du Velay
-  ├── La Commère 43
-  └── Le Progrès
+  ├── La Commère 43 (Filtre strict Dunières & Comcom)
+  └── Le Progrès (Haute-Loire / Filtre strict Dunières)
          │
          ▼
 [ Scrapers & Résolution Récursive ]
@@ -35,19 +36,20 @@ En tant qu'élu local, l'enjeu est de simplifier l'accès à l'information publi
          │
          ▼
 [ Filtrage & Normalisation IA (Gemini) ]
-  ├── Tri d'intérêt public & exclusion vie privée
-  ├── Catégorisation thématique
-  └── Extraction normalisée des dates & lieux
+  ├── Tri d'intérêt public & exclusion faits divers / vie privée
+  ├── Catégorisation thématique & nature de l'activité
+  └── Extraction normalisée des dates, heures & tarifs
          │
          ▼
 [ Génération data.json & Déploiement ]
-  └── GitHub Actions (Cron 06h00 Europe/Paris)
+  └── GitHub Actions (Cron 06h00 Europe/Paris & manuel)
          │
          ▼
-[ Vitrine GitHub Pages (Tailwind CSS) ]
-  ├── Volet 1 : -15 jours (Rétrospective)
-  ├── Volet 2 : Aujourd'hui
-  └── Volet 3 : +15 jours (Agenda)
+[ Vitrine Dépliant Triptyque (Tailwind CSS) ]
+  ├── Volet Gauche : Passé (-14j en grille 2x7)
+  ├── Volet Central : Aujourd'hui (Chronologique, Heures, Prix, Types)
+  ├── Volet Droit : Avenir (+14j en grille 2x7)
+  └── Popup dynamique plein écran par jour
 ```
 
 Pour plus de détails techniques, voir [ARCHITECTURE.md](ARCHITECTURE.md).
@@ -68,83 +70,21 @@ Pour plus de détails techniques, voir [ARCHITECTURE.md](ARCHITECTURE.md).
 │   ├── enrichment/              # Résolution récursive (Calaméo, extraction PDF/images)
 │   ├── ai/                      # Analyse, filtrage de confidentialité et structuration IA
 │   ├── notifications/           # Alertes WhatsApp (CallMeBot) et résumés pour l'élu
-│   └── utils/                   # Gestion des dates, fusion et exports JSON
+│   ├── utils/                   # Gestion des dates, fusions et générateur data.json
+│   └── main.py                  # Point d'entrée du pipeline de scraping & export
 ├── web/
-│   ├── index.html               # Vitrine responsive moderne (HTML5 + Tailwind CSS)
-│   ├── app.js                   # Moteur d'affichage du calendrier en 3 volets
-│   └── data.json                # Fichier de données consommé par l'interface web
-├── .env.example                 # Modèle des variables d'environnement
-├── ARCHITECTURE.md              # Documentation de l'architecture logicielle
-├── ROADMAP.md                   # Feuille de route par jalons
-└── README.md                    # Présentation et prise en main du projet
+│   ├── index.html               # Vitrine dépliant triptyque responsive & minimaliste
+│   ├── app.js                   # Moteur interactif (calendriers 2x7, popups, tri horaire)
+│   └── data.json                # Données compilées prêtes pour le frontend
+├── requirements.txt             # Dépendances Python
+├── ARCHITECTURE.md              # Schémas et documentation technique approfondie
+└── ROADMAP.md                   # Suivi des jalons de développement
 ```
 
 ---
 
-## 🚀 Démarrage Rapide
+## 🚀 Fonctionnement du Déploiement
 
-### Prérequis Locaux (Optionnel pour le développement)
-- Python 3.11 ou supérieur
-- Clé API Google Gemini (gratuite avec quotas généreux)
-
-### Installation locale
-1. Clonez le dépôt :
-   ```bash
-   git clone https://github.com/<votre-organisation-ou-nom>/portail-dunieres.git
-   cd portail-dunieres
-   ```
-
-2. Créez un environnement virtuel Python :
-   ```bash
-   python -m venv .venv
-   # Windows (PowerShell) :
-   .venv\Scripts\Activate.ps1
-   # Linux/Mac :
-   source .venv/bin/activate
-   ```
-
-3. Installez les dépendances :
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Configurez vos variables :
-   ```bash
-   cp .env.example .env
-   ```
-   Renseignez votre `GEMINI_API_KEY` dans le fichier `.env`.
-
-5. Lancez le serveur local pour tester le portail web :
-   ```bash
-   cd web
-   python -m http.server 8000
-   ```
-   Accédez à [http://localhost:8000](http://localhost:8000).
-
----
-
-## ⚙️ Configuration GitHub Actions & Secrets
-
-Pour que la solution s'exécute automatiquement chaque matin dans le Cloud GitHub :
-
-1. Rendez-vous dans les paramètres du dépôt GitHub : **Settings > Secrets and variables > Actions**.
-2. Créez les secrets suivants :
-   - `GEMINI_API_KEY` : Votre clé Google AI Studio.
-   - `CALLMEBOT_PHONE` *(optionnel)* : Numéro international pour le compte-rendu WhatsApp (ex. `+336XXXXXXXX`).
-   - `CALLMEBOT_API_KEY` *(optionnel)* : Clé API CallMeBot.
-3. Activez **GitHub Pages** dans **Settings > Pages** en sélectionnant la branche `main` et le dossier `/web` (ou via GitHub Actions Deployment).
-
----
-
-## 🔒 Confidentialité & Déontologie Électorale
-
-Le module d'analyse IA intègre des règles strictes :
-- **Intérêt public exclusif** : Seuls les événements municipaux, associatifs, réglementaires, scolaires et culturels ouverts au public sont retenus.
-- **Protection de la vie privée (RGPD)** : Aucune donnée nominative privée, litige individuel ou échange personnel n'est collecté ni publié.
-- **Transparence locale** : Chaque information affiche systématiquement sa source d'origine et un lien vers la publication officielle.
-
----
-
-## 📌 Feuille de Route
-
-Consultez [ROADMAP.md](ROADMAP.md) pour suivre l'état d'avancement des 4 jalons d'implémentation.
+Le projet se déploie automatiquement sur **GitHub Pages** :
+* **Automatique** : Tous les matins à 06:00 (heure de Paris) via le workflow GitHub Actions.
+* **À la demande** : Depuis l'onglet **Actions** de GitHub, en cliquant sur **« Run workflow »** sur la branche `main`.
