@@ -3,34 +3,34 @@
     "commune": "Dunières",
     "code_postal": "43220",
     "intercommunalite": "Haut Pays du Velay Communauté",
-    "generated_at": "2026-11-02T13:59:48.641593+01:00",
-    "reference_date": "2026-11-02",
+    "generated_at": "2026-11-03T13:33:35.882879+01:00",
+    "reference_date": "2026-11-03",
     "sliding_window": {
       "retrospective_days": 15,
       "upcoming_days": 15
     },
     "counts": {
-      "total_analyzed": 13,
-      "total_accepted": 13,
+      "total_analyzed": 14,
+      "total_accepted": 14,
       "total_rejected": 0,
-      "retrospective": 4,
-      "today": 5,
-      "upcoming": 3
+      "retrospective": 5,
+      "today": 4,
+      "upcoming": 4
     }
   },
   "buckets": {
     "retrospective": [
       {
-        "id": "illiwap_comcom_halloween-a-la-piscine-de-dunieres-citrouilles-flottantes",
-        "title": "Halloween à la piscine de Dunières : citrouilles flottantes",
-        "summary": "Jeudi 29 octobre, la piscine intercommunale de Dunières change de décor. De 14h à 19h, des citrouilles flottantes s’invitent dans les bassins, des surprises attendent les baigneurs et un stand de maquillage est proposé aux enfants. La question du ...",
+        "id": "leprogres_haute_loire_10",
+        "title": "Haute-Loire. « Il faut un peu de concentration » : en cuisine avec le chef Marco",
+        "summary": "Mardi 27 octobre, 12 bénévoles amateurs ont préparé, sous les directives de Jacques Marcon, le dessert de la Foire aux champignons organisée les 7 et 8 novembre, dans la cuisine triplement étoilée de son restaurant à Saint-Bonnet-le-Froid.",
         "category": "Manifestations & Vie Associative",
         "badge": "Animation",
-        "source_name": "Illiwap Haut Pays du Velay Communauté",
-        "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/actu/halloween-a-la-piscine-de-dunieres-citrouilles-flottantes",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/iJEvn_owdtIr0f3UaVgSFKeoaii9lXAO3H1R1GEOTI0.jpg",
+        "source_name": "Le Progrès - Haute-Loire",
+        "source_url": "https://www.leprogres.fr/magazine-cuisine-et-vins/2026/11/03/il-faut-un-peu-de-concentration-en-cuisine-avec-le-chef-marcon-et-les-benevoles-de-la-foire-aux-champignons",
+        "image_url": null,
         "dates": {
-          "start": "2026-10-29",
+          "start": "2026-10-27",
           "end": null,
           "is_period": false,
           "bucket": "retrospective"
@@ -93,58 +93,49 @@
         }
       },
       {
-        "id": "illiwap_dunieres_animations-novembre-3",
-        "title": "ANIMATIONS NOVEMBRE 🍂",
-        "summary": "Novembre dans le Haut Pays du Velay !Le calendrier des fêtes de novembre est disponible, à consulter et à partager:https://www.calameo.com/read/001159770add8fb838647Spectacles, dégustations, marchés de Noël, concerts, expositions et ateliers dans ...",
-        "category": "Culture & Patrimoine",
-        "badge": "Culture",
+        "id": "illiwap_dunieres_arrete-secheresse-du-2-novembre-2026-1",
+        "title": "Arrêté sècheresse du 2 novembre 2026",
+        "summary": "Arrêté sècheresse du 2 novembre 2026 03/11/2026",
+        "category": "Travaux & Voirie",
+        "badge": "Arrêté / Travaux",
         "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/animations-novembre-3",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/W77ZUnv8HwHQjVe6wdhs14PQmJn24zx1RDrx6u_cN-c.jpg",
+        "source_url": "https://station.illiwap.com/fr/public/43087/actu/arrete-secheresse-du-2-novembre-2026-1",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6ae996781c5c6955682204.jpg",
         "dates": {
-          "start": "2026-11-01",
+          "start": "2026-11-02",
           "end": null,
           "is_period": false,
           "bucket": "retrospective"
         },
         "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": true,
-        "attachment_type": "calameo",
-        "attachment_data": {
-          "type": "calameo",
-          "bkcode": "001159770add8fb838647",
-          "title": "Agenda Novembre 2026",
-          "author": "Haut Pays du Velay tourisme",
-          "description": "Calendrier des fêtes, novembre 2026 : Haut Pays du Velay tourisme\n\n8 villages, des dégustations de vins, une foire aux champignons, un gardien de phare qui n’a jamais quitté son phare et des marchés de Noël. Le calendrier de novembre 2026 réunit les...\nPlus",
-          "cover_image_url": "https://i.calameoassets.com/261031110200-7cba47eb387a5f610e39e6dcd84b3bb4/large.jpg",
-          "enriched_text": "Document Calaméo 'Agenda Novembre 2026' (par Haut Pays du Velay tourisme) :\nCalendrier des fêtes, novembre 2026 : Haut Pays du Velay tourisme\n\n8 villages, des dégustations de vins, une foire aux champignons, un gardien de phare qui n’a jamais quitté son phare et des marchés de Noël. Le calendrier de novembre 2026 réunit les...\nPlus",
-          "original_url": "https://www.calameo.com/read/001159770add8fb838647"
-        }
-      }
-    ],
-    "today": [
-      {
-        "id": "illiwap_dunieres_reunion-pass-region-seniors-1",
-        "title": "REUNION PASS'REGION SENIORS",
-        "summary": "Source : Mairie de Dunières",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/reunion-pass-region-seniors-1",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6ac6012dc8146607649788.jpg",
-        "dates": {
-          "start": "2026-11-02",
-          "end": null,
-          "is_period": false,
-          "bucket": "today"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
+        "importance": "high",
         "has_attachment": false,
         "attachment_type": null,
         "attachment_data": null
       },
+      {
+        "id": "illiwap_comcom_opah-le-programme-d-aide-a-la-renovation-de-l-habitat-est",
+        "title": "OPAH : le programme d’aide à la rénovation de l’habitat est",
+        "summary": "Propriétaires occupants ou bailleurs, des aides financières et un accompagnement gratuit existent pour vos travaux : chauffage, isolation, menuiseries, adaptation du logement.📅 Permanences de novembre, sans rendez-vous, de 9h à 12hVendredi 6 et ve...",
+        "category": "Travaux & Voirie",
+        "badge": "Arrêté / Travaux",
+        "source_name": "Illiwap Haut Pays du Velay Communauté",
+        "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/actu/opah-le-programme-d-aide-a-la-renovation-de-l-habitat-est",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/HhmoPZ6Ndj1hI-UyucF6EEz-7nmapv8j1hfoWAava2I.jpg",
+        "dates": {
+          "start": "2026-11-02",
+          "end": null,
+          "is_period": false,
+          "bucket": "retrospective"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "high",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      }
+    ],
+    "today": [
       {
         "id": "illiwap_comcom_haut-pays-du-velay-communaute_5",
         "title": "6 nov. 2026 18:30 - 19:30",
@@ -155,7 +146,7 @@
         "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
         "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/tzwCxo5SmA9RAjNQsziAXyNpGKhrJ6th72HoF8WMSCY.png",
         "dates": {
-          "start": "2026-11-02",
+          "start": "2026-11-03",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -176,7 +167,7 @@
         "source_url": "https://www.lacommere43.fr/sport/item/85909-petanque-la-famille-mondon-saint-just-malmont-remporte-la-coupe-des-clubs-de-l-yssingelais.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-02",
+          "start": "2026-11-03",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -197,7 +188,7 @@
         "source_url": "https://www.lacommere43.fr/yssingeaux-les-sucs/item/85883-festival-du-rire-d-yssingeaux-tanguy-pastureau-un-visage-sur-une-voix.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-02",
+          "start": "2026-11-03",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -209,7 +200,7 @@
         "attachment_data": null
       },
       {
-        "id": "lacommere43_rss_4",
+        "id": "lacommere43_rss_5",
         "title": "Chef Carlo : trois derniers rendez-vous avant la fin de l'année au Puy-en-Velay,",
         "summary": "(Publi-reportage) À l'approche des fêtes de fin d'année, Chef Carlo…",
         "category": "Manifestations & Vie Associative",
@@ -218,7 +209,7 @@
         "source_url": "https://www.lacommere43.fr/actualites/item/85987-chef-carlo-trois-derniers-rendez-vous-avant-la-fin-de-l-annee-au-puy-en-velay-saint-bonnet-le-froid-et-bas-en-basset.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-02",
+          "start": "2026-11-03",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -274,6 +265,27 @@
         "attachment_data": null
       },
       {
+        "id": "illiwap_dunieres_randonnee-15-11-2026-2",
+        "title": "Randonnée - 15/11/2026",
+        "summary": "La Gym volontaire de Dunières organise une randonnée pédestre le dimanche 15/11.Départ à partir de 7h30 - salle de la mairie7kms14kms20kmsinscriptions sur placeRenseignements : 07 82 38 70 28Source : Mairie de Dunières La Gym volontaire de Dunière...",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
+        "source_name": "Illiwap Mairie de Dunières",
+        "source_url": "https://station.illiwap.com/fr/public/43087/actu/randonnee-15-11-2026-2",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6ae9bbe389943548816476.jpg",
+        "dates": {
+          "start": "2026-11-15",
+          "end": null,
+          "is_period": false,
+          "bucket": "upcoming"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      },
+      {
         "id": "lacommere43_search_2",
         "title": "Dunières: une randonnée pédestre au profit du programme Gym Après Cancer.",
         "summary": "La Gymnastique Volontaire deDunièresorganise une randonnée pédestre au profit du programme Gym Après Cancer. Dimanche 15 novembre, trois circuits : 7, 14 et 20 km, inscri",
@@ -298,16 +310,37 @@
   },
   "all_events": [
     {
-      "id": "illiwap_dunieres_concours-coinche-samedi-21-novembre-14h-ephata-43-2",
-      "title": "concours coinche samedi 21 novembre 14h EPHATA 43",
-      "summary": "L'association Ephata 43 renouvelle son concours de coinche, le samedi 21 novembre 2026, à la Salle des Associations de Dunières (derrière le gymnase).Le concours est ouvert à tous : participants seuls et duo.Toutes les doublettes seront primées. P...",
+      "id": "illiwap_dunieres_randonnee-15-11-2026-2",
+      "title": "Randonnée - 15/11/2026",
+      "summary": "La Gym volontaire de Dunières organise une randonnée pédestre le dimanche 15/11.Départ à partir de 7h30 - salle de la mairie7kms14kms20kmsinscriptions sur placeRenseignements : 07 82 38 70 28Source : Mairie de Dunières La Gym volontaire de Dunière...",
       "category": "Manifestations & Vie Associative",
       "badge": "Animation",
       "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/concours-coinche-samedi-21-novembre-14h-ephata-43-2",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6ae863983fda4777554369.jpg",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/randonnee-15-11-2026-2",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6ae9bbe389943548816476.jpg",
       "dates": {
-        "start": "2026-11-21",
+        "start": "2026-11-15",
+        "end": null,
+        "is_period": false,
+        "bucket": "upcoming"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "illiwap_dunieres_rappel-repas-des-aines-de-dunieres",
+      "title": "Rappel – Repas des Aînés de Dunières",
+      "summary": "Le traditionnel repas des aînés aura lieu lemercredi 25 novembre 2026à midi au gymnase de Dunières.Si vous faites partie des personnes concernées (courrier envoyé courant octobre 2026), merci de rapporter votre coupon-réponse en mairie de Dunières...",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "source_name": "Illiwap Mairie de Dunières",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/rappel-repas-des-aines-de-dunieres",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/charte_public_website/placeholder_actu_pp.png",
+      "dates": {
+        "start": "2026-11-25",
         "end": null,
         "is_period": false,
         "bucket": "extended"
@@ -319,55 +352,46 @@
       "attachment_data": null
     },
     {
-      "id": "illiwap_dunieres_reunion-pass-region-seniors-1",
-      "title": "REUNION PASS'REGION SENIORS",
-      "summary": "Source : Mairie de Dunières",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
+      "id": "illiwap_dunieres_arrete-secheresse-du-2-novembre-2026-1",
+      "title": "Arrêté sècheresse du 2 novembre 2026",
+      "summary": "Arrêté sècheresse du 2 novembre 2026 03/11/2026",
+      "category": "Travaux & Voirie",
+      "badge": "Arrêté / Travaux",
       "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/reunion-pass-region-seniors-1",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6ac6012dc8146607649788.jpg",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/arrete-secheresse-du-2-novembre-2026-1",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6ae996781c5c6955682204.jpg",
       "dates": {
         "start": "2026-11-02",
-        "end": null,
-        "is_period": false,
-        "bucket": "today"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "illiwap_dunieres_animations-novembre-3",
-      "title": "ANIMATIONS NOVEMBRE 🍂",
-      "summary": "Novembre dans le Haut Pays du Velay !Le calendrier des fêtes de novembre est disponible, à consulter et à partager:https://www.calameo.com/read/001159770add8fb838647Spectacles, dégustations, marchés de Noël, concerts, expositions et ateliers dans ...",
-      "category": "Culture & Patrimoine",
-      "badge": "Culture",
-      "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/animations-novembre-3",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/W77ZUnv8HwHQjVe6wdhs14PQmJn24zx1RDrx6u_cN-c.jpg",
-      "dates": {
-        "start": "2026-11-01",
         "end": null,
         "is_period": false,
         "bucket": "retrospective"
       },
       "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": true,
-      "attachment_type": "calameo",
-      "attachment_data": {
-        "type": "calameo",
-        "bkcode": "001159770add8fb838647",
-        "title": "Agenda Novembre 2026",
-        "author": "Haut Pays du Velay tourisme",
-        "description": "Calendrier des fêtes, novembre 2026 : Haut Pays du Velay tourisme\n\n8 villages, des dégustations de vins, une foire aux champignons, un gardien de phare qui n’a jamais quitté son phare et des marchés de Noël. Le calendrier de novembre 2026 réunit les...\nPlus",
-        "cover_image_url": "https://i.calameoassets.com/261031110200-7cba47eb387a5f610e39e6dcd84b3bb4/large.jpg",
-        "enriched_text": "Document Calaméo 'Agenda Novembre 2026' (par Haut Pays du Velay tourisme) :\nCalendrier des fêtes, novembre 2026 : Haut Pays du Velay tourisme\n\n8 villages, des dégustations de vins, une foire aux champignons, un gardien de phare qui n’a jamais quitté son phare et des marchés de Noël. Le calendrier de novembre 2026 réunit les...\nPlus",
-        "original_url": "https://www.calameo.com/read/001159770add8fb838647"
-      }
+      "importance": "high",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "illiwap_comcom_opah-le-programme-d-aide-a-la-renovation-de-l-habitat-est",
+      "title": "OPAH : le programme d’aide à la rénovation de l’habitat est",
+      "summary": "Propriétaires occupants ou bailleurs, des aides financières et un accompagnement gratuit existent pour vos travaux : chauffage, isolation, menuiseries, adaptation du logement.📅 Permanences de novembre, sans rendez-vous, de 9h à 12hVendredi 6 et ve...",
+      "category": "Travaux & Voirie",
+      "badge": "Arrêté / Travaux",
+      "source_name": "Illiwap Haut Pays du Velay Communauté",
+      "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/actu/opah-le-programme-d-aide-a-la-renovation-de-l-habitat-est",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/HhmoPZ6Ndj1hI-UyucF6EEz-7nmapv8j1hfoWAava2I.jpg",
+      "dates": {
+        "start": "2026-11-02",
+        "end": null,
+        "is_period": false,
+        "bucket": "retrospective"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "high",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
     },
     {
       "id": "illiwap_comcom_calendrier-des-fetes-de-novembre",
@@ -421,27 +445,6 @@
       "attachment_data": null
     },
     {
-      "id": "illiwap_comcom_halloween-a-la-piscine-de-dunieres-citrouilles-flottantes",
-      "title": "Halloween à la piscine de Dunières : citrouilles flottantes",
-      "summary": "Jeudi 29 octobre, la piscine intercommunale de Dunières change de décor. De 14h à 19h, des citrouilles flottantes s’invitent dans les bassins, des surprises attendent les baigneurs et un stand de maquillage est proposé aux enfants. La question du ...",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "Illiwap Haut Pays du Velay Communauté",
-      "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/actu/halloween-a-la-piscine-de-dunieres-citrouilles-flottantes",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/iJEvn_owdtIr0f3UaVgSFKeoaii9lXAO3H1R1GEOTI0.jpg",
-      "dates": {
-        "start": "2026-10-29",
-        "end": null,
-        "is_period": false,
-        "bucket": "retrospective"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
       "id": "illiwap_comcom_haut-pays-du-velay-communaute_3",
       "title": "Jusqu'au 08/11/2026",
       "summary": "Jusqu'au 08/11/2026 Programme d'activités, animations sur les vacances",
@@ -472,7 +475,7 @@
       "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
       "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/tzwCxo5SmA9RAjNQsziAXyNpGKhrJ6th72HoF8WMSCY.png",
       "dates": {
-        "start": "2026-11-02",
+        "start": "2026-11-03",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -535,7 +538,7 @@
       "source_url": "https://www.lacommere43.fr/sport/item/85909-petanque-la-famille-mondon-saint-just-malmont-remporte-la-coupe-des-clubs-de-l-yssingelais.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-02",
+        "start": "2026-11-03",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -556,7 +559,7 @@
       "source_url": "https://www.lacommere43.fr/yssingeaux-les-sucs/item/85883-festival-du-rire-d-yssingeaux-tanguy-pastureau-un-visage-sur-une-voix.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-02",
+        "start": "2026-11-03",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -568,7 +571,7 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_rss_4",
+      "id": "lacommere43_rss_5",
       "title": "Chef Carlo : trois derniers rendez-vous avant la fin de l'année au Puy-en-Velay,",
       "summary": "(Publi-reportage) À l'approche des fêtes de fin d'année, Chef Carlo…",
       "category": "Manifestations & Vie Associative",
@@ -577,10 +580,31 @@
       "source_url": "https://www.lacommere43.fr/actualites/item/85987-chef-carlo-trois-derniers-rendez-vous-avant-la-fin-de-l-annee-au-puy-en-velay-saint-bonnet-le-froid-et-bas-en-basset.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-02",
+        "start": "2026-11-03",
         "end": null,
         "is_period": false,
         "bucket": "today"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "leprogres_haute_loire_10",
+      "title": "Haute-Loire. « Il faut un peu de concentration » : en cuisine avec le chef Marco",
+      "summary": "Mardi 27 octobre, 12 bénévoles amateurs ont préparé, sous les directives de Jacques Marcon, le dessert de la Foire aux champignons organisée les 7 et 8 novembre, dans la cuisine triplement étoilée de son restaurant à Saint-Bonnet-le-Froid.",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "source_name": "Le Progrès - Haute-Loire",
+      "source_url": "https://www.leprogres.fr/magazine-cuisine-et-vins/2026/11/03/il-faut-un-peu-de-concentration-en-cuisine-avec-le-chef-marcon-et-les-benevoles-de-la-foire-aux-champignons",
+      "image_url": null,
+      "dates": {
+        "start": "2026-10-27",
+        "end": null,
+        "is_period": false,
+        "bucket": "retrospective"
       },
       "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
