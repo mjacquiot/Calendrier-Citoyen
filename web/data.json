@@ -3,25 +3,25 @@
     "commune": "Dunières",
     "code_postal": "43220",
     "intercommunalite": "Haut Pays du Velay Communauté",
-    "generated_at": "2026-11-03T13:33:35.882879+01:00",
+    "generated_at": "2026-11-03T21:12:52.627518+01:00",
     "reference_date": "2026-11-03",
     "sliding_window": {
       "retrospective_days": 15,
       "upcoming_days": 15
     },
     "counts": {
-      "total_analyzed": 14,
-      "total_accepted": 14,
+      "total_analyzed": 15,
+      "total_accepted": 15,
       "total_rejected": 0,
-      "retrospective": 5,
-      "today": 4,
-      "upcoming": 4
+      "retrospective": 4,
+      "today": 5,
+      "upcoming": 5
     }
   },
   "buckets": {
     "retrospective": [
       {
-        "id": "leprogres_haute_loire_10",
+        "id": "leprogres_haute_loire_12",
         "title": "Haute-Loire. « Il faut un peu de concentration » : en cuisine avec le chef Marco",
         "summary": "Mardi 27 octobre, 12 bénévoles amateurs ont préparé, sous les directives de Jacques Marcon, le dessert de la Foire aux champignons organisée les 7 et 8 novembre, dans la cuisine triplement étoilée de son restaurant à Saint-Bonnet-le-Froid.",
         "category": "Manifestations & Vie Associative",
@@ -42,7 +42,7 @@
         "attachment_data": null
       },
       {
-        "id": "lacommere43_search_6",
+        "id": "lacommere43_search_7",
         "title": "Vacances de la Toussaint : Halloween à la piscine deDunièresle 29 octobre",
         "summary": "Pendant les vacances de la Toussaint, la piscine intercommunale deDunièresorganise jeudi 29 octobre, de 14 heures à 19 heures, une après-midi Halloween pour les familles, avec citrouilles",
         "category": "Manifestations & Vie Associative",
@@ -93,27 +93,6 @@
         }
       },
       {
-        "id": "illiwap_dunieres_arrete-secheresse-du-2-novembre-2026-1",
-        "title": "Arrêté sècheresse du 2 novembre 2026",
-        "summary": "Arrêté sècheresse du 2 novembre 2026 03/11/2026",
-        "category": "Travaux & Voirie",
-        "badge": "Arrêté / Travaux",
-        "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/arrete-secheresse-du-2-novembre-2026-1",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6ae996781c5c6955682204.jpg",
-        "dates": {
-          "start": "2026-11-02",
-          "end": null,
-          "is_period": false,
-          "bucket": "retrospective"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "high",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
-      {
         "id": "illiwap_comcom_opah-le-programme-d-aide-a-la-renovation-de-l-habitat-est",
         "title": "OPAH : le programme d’aide à la rénovation de l’habitat est",
         "summary": "Propriétaires occupants ou bailleurs, des aides financières et un accompagnement gratuit existent pour vos travaux : chauffage, isolation, menuiseries, adaptation du logement.📅 Permanences de novembre, sans rendez-vous, de 9h à 12hVendredi 6 et ve...",
@@ -137,6 +116,27 @@
     ],
     "today": [
       {
+        "id": "illiwap_dunieres_permanences-associatives-a-la-mda-pour-le-mois-de-novembre-3",
+        "title": "Permanences associatives à la MDA pour le mois de Novembre !",
+        "summary": "La Maison Départementale de l’Autonomie met en place despermanences associatives / partenarialesafin de renforcer l’information et l’accompagnement des personnes en situation de handicap, des personnes âgées et de leurs proches.Ces permanences per...",
+        "category": "Services & Déchets",
+        "badge": "Service Public",
+        "source_name": "Illiwap Mairie de Dunières",
+        "source_url": "https://station.illiwap.com/fr/public/43087/actu/permanences-associatives-a-la-mda-pour-le-mois-de-novembre-3",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6ae89acbadd5d171849476.jpg",
+        "dates": {
+          "start": "2026-11-03",
+          "end": null,
+          "is_period": false,
+          "bucket": "today"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      },
+      {
         "id": "illiwap_comcom_haut-pays-du-velay-communaute_5",
         "title": "6 nov. 2026 18:30 - 19:30",
         "summary": "6 nov. 2026 18:30 - 19:30 Spectacle conté « Blanche Coton »",
@@ -158,7 +158,7 @@
         "attachment_data": null
       },
       {
-        "id": "lacommere43_search_7",
+        "id": "lacommere43_search_8",
         "title": "Pétanque : la famille Mondon (Saint-Just-Malmont) remporte la Coupe des clubs de",
         "summary": "Samedi, le boulodrome deDunièresaccueillait la finale 2026 de la Coupe des clubs de l'Yssingelais. Après quatre concours qualificatifs, seize triplettes étaient engagées ...",
         "category": "Manifestations & Vie Associative",
@@ -179,7 +179,7 @@
         "attachment_data": null
       },
       {
-        "id": "lacommere43_search_8",
+        "id": "lacommere43_search_9",
         "title": "Festival du rire d'Yssingeaux : Tanguy Pastureau, un visage sur une voi",
         "summary": "Vendredi soir, 400 spectateurs ont assisté au spectacle de Tanguy Pastureau au Festival du rire d'Yssingeaux. Tanguy Pastureau était venu en 2024 àDunières. A l'époque,",
         "category": "Culture & Patrimoine",
@@ -200,7 +200,7 @@
         "attachment_data": null
       },
       {
-        "id": "lacommere43_rss_5",
+        "id": "lacommere43_rss_6",
         "title": "Chef Carlo : trois derniers rendez-vous avant la fin de l'année au Puy-en-Velay,",
         "summary": "(Publi-reportage) À l'approche des fêtes de fin d'année, Chef Carlo…",
         "category": "Manifestations & Vie Associative",
@@ -239,6 +239,27 @@
         },
         "location": "Dunières / Haut Pays du Velay",
         "importance": "high",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      },
+      {
+        "id": "lacommere43_search_0",
+        "title": "La bibliothèque deDunièresouvre ses coulisses à l'occasion des Automnales numéri",
+        "summary": "Dans le cadre des Automnales numériques, organisées par le Département de la Haute-Loire, la médiathèque deDunièresouvrira exceptionnellement ses portes au public le vendredi 6 novembre,",
+        "category": "Culture & Patrimoine",
+        "badge": "Culture",
+        "source_name": "La Commère 43",
+        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86084-la-bibliotheque-de-dunieres-ouvre-ses-coulisses-a-l-occasion-des-automnales-numeriques.html",
+        "image_url": null,
+        "dates": {
+          "start": "2026-11-06",
+          "end": null,
+          "is_period": false,
+          "bucket": "upcoming"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
         "has_attachment": false,
         "attachment_type": null,
         "attachment_data": null
@@ -286,7 +307,7 @@
         "attachment_data": null
       },
       {
-        "id": "lacommere43_search_2",
+        "id": "lacommere43_search_3",
         "title": "Dunières: une randonnée pédestre au profit du programme Gym Après Cancer.",
         "summary": "La Gymnastique Volontaire deDunièresorganise une randonnée pédestre au profit du programme Gym Après Cancer. Dimanche 15 novembre, trois circuits : 7, 14 et 20 km, inscri",
         "category": "Manifestations & Vie Associative",
@@ -309,6 +330,27 @@
     ]
   },
   "all_events": [
+    {
+      "id": "illiwap_dunieres_permanences-associatives-a-la-mda-pour-le-mois-de-novembre-3",
+      "title": "Permanences associatives à la MDA pour le mois de Novembre !",
+      "summary": "La Maison Départementale de l’Autonomie met en place despermanences associatives / partenarialesafin de renforcer l’information et l’accompagnement des personnes en situation de handicap, des personnes âgées et de leurs proches.Ces permanences per...",
+      "category": "Services & Déchets",
+      "badge": "Service Public",
+      "source_name": "Illiwap Mairie de Dunières",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/permanences-associatives-a-la-mda-pour-le-mois-de-novembre-3",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6ae89acbadd5d171849476.jpg",
+      "dates": {
+        "start": "2026-11-03",
+        "end": null,
+        "is_period": false,
+        "bucket": "today"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
     {
       "id": "illiwap_dunieres_randonnee-15-11-2026-2",
       "title": "Randonnée - 15/11/2026",
@@ -347,27 +389,6 @@
       },
       "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "illiwap_dunieres_arrete-secheresse-du-2-novembre-2026-1",
-      "title": "Arrêté sècheresse du 2 novembre 2026",
-      "summary": "Arrêté sècheresse du 2 novembre 2026 03/11/2026",
-      "category": "Travaux & Voirie",
-      "badge": "Arrêté / Travaux",
-      "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/arrete-secheresse-du-2-novembre-2026-1",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6ae996781c5c6955682204.jpg",
-      "dates": {
-        "start": "2026-11-02",
-        "end": null,
-        "is_period": false,
-        "bucket": "retrospective"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "high",
       "has_attachment": false,
       "attachment_type": null,
       "attachment_data": null
@@ -487,7 +508,28 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_search_2",
+      "id": "lacommere43_search_0",
+      "title": "La bibliothèque deDunièresouvre ses coulisses à l'occasion des Automnales numéri",
+      "summary": "Dans le cadre des Automnales numériques, organisées par le Département de la Haute-Loire, la médiathèque deDunièresouvrira exceptionnellement ses portes au public le vendredi 6 novembre,",
+      "category": "Culture & Patrimoine",
+      "badge": "Culture",
+      "source_name": "La Commère 43",
+      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86084-la-bibliotheque-de-dunieres-ouvre-ses-coulisses-a-l-occasion-des-automnales-numeriques.html",
+      "image_url": null,
+      "dates": {
+        "start": "2026-11-06",
+        "end": null,
+        "is_period": false,
+        "bucket": "upcoming"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "lacommere43_search_3",
       "title": "Dunières: une randonnée pédestre au profit du programme Gym Après Cancer.",
       "summary": "La Gymnastique Volontaire deDunièresorganise une randonnée pédestre au profit du programme Gym Après Cancer. Dimanche 15 novembre, trois circuits : 7, 14 et 20 km, inscri",
       "category": "Manifestations & Vie Associative",
@@ -508,7 +550,7 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_search_6",
+      "id": "lacommere43_search_7",
       "title": "Vacances de la Toussaint : Halloween à la piscine deDunièresle 29 octobre",
       "summary": "Pendant les vacances de la Toussaint, la piscine intercommunale deDunièresorganise jeudi 29 octobre, de 14 heures à 19 heures, une après-midi Halloween pour les familles, avec citrouilles",
       "category": "Manifestations & Vie Associative",
@@ -529,7 +571,7 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_search_7",
+      "id": "lacommere43_search_8",
       "title": "Pétanque : la famille Mondon (Saint-Just-Malmont) remporte la Coupe des clubs de",
       "summary": "Samedi, le boulodrome deDunièresaccueillait la finale 2026 de la Coupe des clubs de l'Yssingelais. Après quatre concours qualificatifs, seize triplettes étaient engagées ...",
       "category": "Manifestations & Vie Associative",
@@ -550,7 +592,7 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_search_8",
+      "id": "lacommere43_search_9",
       "title": "Festival du rire d'Yssingeaux : Tanguy Pastureau, un visage sur une voi",
       "summary": "Vendredi soir, 400 spectateurs ont assisté au spectacle de Tanguy Pastureau au Festival du rire d'Yssingeaux. Tanguy Pastureau était venu en 2024 àDunières. A l'époque,",
       "category": "Culture & Patrimoine",
@@ -571,7 +613,7 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_rss_5",
+      "id": "lacommere43_rss_6",
       "title": "Chef Carlo : trois derniers rendez-vous avant la fin de l'année au Puy-en-Velay,",
       "summary": "(Publi-reportage) À l'approche des fêtes de fin d'année, Chef Carlo…",
       "category": "Manifestations & Vie Associative",
@@ -592,7 +634,7 @@
       "attachment_data": null
     },
     {
-      "id": "leprogres_haute_loire_10",
+      "id": "leprogres_haute_loire_12",
       "title": "Haute-Loire. « Il faut un peu de concentration » : en cuisine avec le chef Marco",
       "summary": "Mardi 27 octobre, 12 bénévoles amateurs ont préparé, sous les directives de Jacques Marcon, le dessert de la Foire aux champignons organisée les 7 et 8 novembre, dans la cuisine triplement étoilée de son restaurant à Saint-Bonnet-le-Froid.",
       "category": "Manifestations & Vie Associative",
