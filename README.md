@@ -12,11 +12,11 @@ En tant qu'élu local, l'enjeu est de simplifier l'accès à l'information publi
 1. **Centraliser l'information municipale et intercommunale** éparse (applications mobiles, presse locale, agendas numériques).
 2. **Résoudre les liens profonds en 2 étapes** : extraire automatiquement le contenu des annonces renvoyant vers des liseuses en ligne (ex. Calaméo), des arrêtés ou affiches PDF.
 3. **Assurer un tri intelligent par IA** : filtrer rigoureusement le contenu d'intérêt public lié au mandat local (travaux, manifestations, vie associative, arrêtés, séances de conseil) en excluant toute information privée.
-4. **Offrir une expérience minimaliste en dépliant triptyque 3 volets** :
-   - ⏪ **Volet Passé (-14 jours)** : Calendrier rétrospectif de 2 lignes × 7 colonnes avec heure et titre lisibles en 1 coup d'œil.
-   - 📍 **Volet Aujourd'hui (Central)** : Événements actifs du jour triés par ordre chronologique avec mise en valeur immédiate des horaires, des tarifs et de la nature de l'événement.
-   - ⏩ **Volet Avenir (+14 jours)** : Calendrier prévisionnel de 2 lignes × 7 colonnes avec lisibilité directe des 14 prochains jours.
-   - 🔍 **Popup dynamique du jour** : Fiche détaillée prenant la place de l'écran lors du clic sur n'importe quel jour, avec navigation fluide jour par jour.
+4. **Offrir une expérience minimaliste en Agenda Professionnel (3 volets)** :
+   - ⏪ **Volet Passé (-14 jours)** : Mini-ruban synthétique des 14 jours (2 rangées de 7 pastilles) + flux chronologique en cases larges (une par créneau, avec horaires et durées).
+   - 📍 **Volet Aujourd'hui (Central)** : Planning chronologique pleine largeur du matin au soir avec rail temporel (horaires précis + durée calculée ex: `⏱️ 3h`, badges nature & tarif, titres entiers sans coupure).
+   - ⏩ **Volet Avenir (+14 jours)** : Mini-ruban des 14 prochains jours + flux chronologique prévisionnel en cases larges pleine largeur.
+   - 🔍 **Popup dynamique du jour** : Fiche détaillée prenant la place de l'écran lors du clic sur n'importe quel événement ou jour, avec navigation jour par jour.
 5. **Déploiement statique ultra-rapide** : Publication automatique quotidienne via GitHub Actions vers GitHub Pages avec un fichier structuré `data.json`.
 
 ---
@@ -45,10 +45,10 @@ En tant qu'élu local, l'enjeu est de simplifier l'accès à l'information publi
   └── GitHub Actions (Cron 06h00 Europe/Paris & manuel)
          │
          ▼
-[ Vitrine Dépliant Triptyque (Tailwind CSS) ]
-  ├── Volet Gauche : Passé (-14j en grille 2x7)
-  ├── Volet Central : Aujourd'hui (Chronologique, Heures, Prix, Types)
-  ├── Volet Droit : Avenir (+14j en grille 2x7)
+[ Vitrine Dépliant Triptyque - Agenda Pro (Tailwind CSS) ]
+  ├── Volet Gauche : Passé (-14j : Mini-ruban 14j + Lignes larges)
+  ├── Volet Central : Aujourd'hui (Planning chronologique, Durées, Heures, Prix)
+  ├── Volet Droit : Avenir (+14j : Mini-ruban 14j + Lignes larges)
   └── Popup dynamique plein écran par jour
 ```
 
@@ -73,8 +73,8 @@ Pour plus de détails techniques, voir [ARCHITECTURE.md](ARCHITECTURE.md).
 │   ├── utils/                   # Gestion des dates, fusions et générateur data.json
 │   └── main.py                  # Point d'entrée du pipeline de scraping & export
 ├── web/
-│   ├── index.html               # Vitrine dépliant triptyque responsive & minimaliste
-│   ├── app.js                   # Moteur interactif (calendriers 2x7, popups, tri horaire)
+│   ├── index.html               # Vitrine Agenda Professionnel responsive & minimaliste
+│   ├── app.js                   # Moteur interactif (lignes larges, durées, popups)
 │   └── data.json                # Données compilées prêtes pour le frontend
 ├── requirements.txt             # Dépendances Python
 ├── ARCHITECTURE.md              # Schémas et documentation technique approfondie

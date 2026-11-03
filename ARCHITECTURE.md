@@ -12,7 +12,7 @@ La solution repose sur une architecture **Jamstack 100 % Cloud**, serverless et 
 - **Modèle d'Intelligence Artificielle** : Google Gemini API (tri déontologique, extraction temporelle et catégorisation).
 - **Stockage de Données** : Fichier plat `web/data.json` mis à jour de façon déterministe.
 - **Hébergement Frontend** : GitHub Pages (haute disponibilité, CDN mondial, zéro maintenance serveur).
-- **Interface Utilisateur** : Dépliant triptyque 3D minimaliste avec calendriers 2x7 (-14j / +14j), vue Aujourd'hui chronologique et popups dynamiques par jour.
+- **Interface Utilisateur** : Format Agenda Professionnel pleine largeur (cases larges par créneau, calcul automatique de la durée, tri chronologique, mini-rubans 14 jours et popups dynamiques).
 
 ```mermaid
 flowchart TD
@@ -42,10 +42,10 @@ flowchart TD
         P3["Git Commit / GitHub Pages Deploy"]
     end
 
-    subgraph Delivery["5. Dépliant Triptyque & Diffusion"]
-        W1["Volet Passé : Calendrier 2x7 (-14 jours)"]
-        W2["Volet Central : Aujourd'hui (Chronologique, Heures, Prix)"]
-        W3["Volet Avenir : Calendrier 2x7 (+14 jours)"]
+    subgraph Delivery["5. Format Agenda Pro & Diffusion"]
+        W1["Volet Passé : Mini-ruban 14j + Lignes Larges (-14j)"]
+        W2["Volet Central : Aujourd'hui (Planning Chronologique, Durées, Heures, Prix)"]
+        W3["Volet Avenir : Mini-ruban 14j + Lignes Larges (+14j)"]
         W4["Popup Dynamique Plein Écran par Jour"]
     end
 
@@ -74,25 +74,22 @@ flowchart TD
 
 ---
 
-## 2. Conception de l'Interface : Dépliant Triptyque
+## 2. Conception de l'Interface : Agenda Professionnel
 
-L'interface est conçue selon la métaphore tactile d'un **dépliant papier triptyque à trois volets** :
+L'interface adopte la structure des outils de planification professionnelle (Google Agenda, Outlook) pour une lisibilité absolue :
 
 1. **Volet Central (« Aujourd'hui »)** :
    - Foyer principal d'ouverture de l'application.
-   - Événements actifs ordonnés **chronologiquement**.
-   - Visibilité immédiate des 3 piliers d'identification : **l'horaire précis**, **la nature de l'événement** et **le tarif / prix**.
+   - Événements actifs ordonnés **chronologiquement du matin au soir**.
+   - **Une case large par créneau horaire** avec rail temporel gauche :
+     - Heure de début et heure de fin (ex: `09:00 ➔ 12:00` ou `14:00 ➔ 19:00`).
+     - Durée calculée automatiquement (ex: `⏱️ 3h`, `⏱️ 5h`, `⏱️ 1h`).
+   - Corps pleine largeur : type d'activité (`🎭 Spectacle`, `🥾 Sport`, `🚧 Travaux`...), tarif (`🎟️ Gratuit / Entrée libre`), titre complet non tronqué et résumé.
 
-2. **Volets Latéraux Pliés (Effet 3D)** :
-   - Sur grand écran, des rabats inclinés en 3D avec ombrage de pli révèlent les deux autres pages sur les côtés de l'écran.
-   - Clic direct sur le volet de gauche ou la flèche gauche `◀` pour déplier le passé.
-   - Clic direct sur le volet de droite ou la flèche droite `▶` pour déplier l'avenir.
+2. **Volets « Passé (-14j) » et « Avenir (+14j) »** :
+   - **Mini-Ruban 14 Jours** : 2 rangées de 7 pastilles compactes en haut de page donnant la vue d'ensemble immédiate des 14 jours (pastille bleue avec compteur si événement, neutre si calme). Clic direct pour défiler vers le jour.
+   - **Flux Chronologique des Jours Actifs** : Affichage uniquement des jours contenant des événements en lignes larges pleine largeur. Zéro gaspillage d'espace, zéro coupure de titre.
 
-3. **Calendriers 2 Lignes × 7 Colonnes (14 Jours)** :
-   - Dans le volet passé (-14 jours) et avenir (+14 jours), la grille organise exactement 14 jours.
-   - Chaque case affiche en direct **l'horaire et le titre complet** sans troncature brutale.
-   - Les jours calmes restent épurés pour faire ressortir instantanément les journées actives.
-
-4. **Popup Dynamique Plein Écran** :
-   - Clic sur n'importe quel jour pour ouvrir une vue détaillée de toute la journée.
-   - Navigation jour par jour intégrée (`◀ Jour` / `Jour ▶`) sans quitter la fenêtre modale.
+3. **Popup Dynamique Plein Écran** :
+   - Fiche complète de l'événement avec affiche grand format, arrêté PDF ou agenda Calaméo consultable directement.
+   - Navigation jour par jour intégrée sans quitter la fenêtre.

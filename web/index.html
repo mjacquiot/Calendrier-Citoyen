@@ -19,55 +19,22 @@
   <style>
     body { font-family: 'Plus Jakarta Sans', sans-serif; }
 
-    /* Perspective pour le dépliant 3D */
-    .triptych-stage {
-      perspective: 1600px;
-    }
-
-    /* Style papier dépliant avec texture douce */
+    /* Style papier dépliant doux */
     .paper-panel {
-      background: linear-gradient(180deg, #ffffff 0%, #fcfdfe 100%);
-      box-shadow: 0 10px 30px -10px rgba(15, 23, 42, 0.12), 0 2px 5px rgba(15, 23, 42, 0.04);
+      background: #ffffff;
+      box-shadow: 0 4px 20px -5px rgba(15, 23, 42, 0.08);
       border: 1px solid #e2e8f0;
     }
 
-    /* Volets pliés latéraux 3D (pages repliées visibles sur les côtés) */
-    .fold-flap-left {
-      transform: perspective(1000px) rotateY(20deg);
-      transform-origin: left center;
-      box-shadow: inset -10px 0 18px -6px rgba(15, 23, 42, 0.22), 4px 0 15px rgba(15, 23, 42, 0.08);
-      transition: all 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+    /* Pastilles 14 jours */
+    .mini-day-chip {
+      transition: all 0.15s ease-in-out;
     }
-    .fold-flap-left:hover {
-      transform: perspective(1000px) rotateY(10deg) translateX(6px);
-      box-shadow: inset -6px 0 14px -4px rgba(37, 99, 235, 0.3), 8px 0 25px rgba(37, 99, 235, 0.22);
-      border-color: #3b82f6;
-    }
-
-    .fold-flap-right {
-      transform: perspective(1000px) rotateY(-20deg);
-      transform-origin: right center;
-      box-shadow: inset 10px 0 18px -6px rgba(15, 23, 42, 0.22), -4px 0 15px rgba(15, 23, 42, 0.08);
-      transition: all 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
-    }
-    .fold-flap-right:hover {
-      transform: perspective(1000px) rotateY(-10deg) translateX(-6px);
-      box-shadow: inset 6px 0 14px -4px rgba(37, 99, 235, 0.3), -8px 0 25px rgba(37, 99, 235, 0.22);
-      border-color: #3b82f6;
-    }
-
-    /* Cellule du calendrier 2x7 avec hauteur généreuse et lisibilité maximale */
-    .day-cell {
-      min-height: 165px;
-      transition: all 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
-    }
-    .day-cell:hover {
+    .mini-day-chip:hover {
       transform: translateY(-2px);
-      box-shadow: 0 10px 20px -5px rgba(30, 41, 59, 0.15);
-      border-color: #2563eb;
     }
 
-    /* Barre de défilement discrète */
+    /* Scrollbar discrète */
     .custom-scroll::-webkit-scrollbar { height: 6px; }
     .custom-scroll::-webkit-scrollbar-track { background: #f1f5f9; border-radius: 4px; }
     .custom-scroll::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
@@ -78,27 +45,27 @@
 
   <!-- ==================== HEADER ÉPURÉ & MINIMALISTE ==================== -->
   <header class="bg-slate-900 text-white shadow-md sticky top-0 z-40 border-b border-slate-800">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5 sm:py-3">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-2.5 sm:py-3">
       <div class="flex items-center justify-between gap-3">
         
         <!-- Logo & Titre Minimaliste -->
-        <div class="flex items-center space-x-3">
-          <div class="w-9 h-9 rounded-xl bg-blue-600 text-white flex items-center justify-center text-lg shadow-sm font-bold">
+        <div class="flex items-center space-x-3 min-w-0">
+          <div class="w-9 h-9 rounded-xl bg-blue-600 text-white flex items-center justify-center text-lg shadow-sm font-bold shrink-0">
             📅
           </div>
-          <div>
-            <h1 class="text-sm sm:text-base font-black tracking-tight text-white leading-tight">
+          <div class="min-w-0">
+            <h1 class="text-sm sm:text-base font-black tracking-tight text-white leading-tight truncate">
               Le calendrier Dunièrois de Maxime JACQUIOT
             </h1>
-            <p class="text-[11px] text-slate-400 leading-none mt-0.5">
+            <p class="text-[11px] text-slate-400 leading-none mt-0.5 truncate">
               Dunières & Haut Pays du Velay • Actualisé quotidiennement
             </p>
           </div>
         </div>
 
         <!-- Recherche discrète & Bouton Aujourd'hui -->
-        <div class="flex items-center gap-2">
-          <div class="relative w-44 sm:w-60">
+        <div class="flex items-center gap-2 shrink-0">
+          <div class="relative w-36 sm:w-56">
             <input 
               type="text" 
               id="search-input" 
@@ -123,27 +90,27 @@
 
   <!-- ==================== BANDEAU DE NAVIGATION DU TRIPTYQUE ==================== -->
   <nav class="bg-white border-b border-slate-200 shadow-xs sticky top-[53px] sm:top-[57px] z-30">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-1.5">
-      <div class="flex flex-col sm:flex-row items-center justify-between gap-2">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-2">
+      <div class="flex items-center justify-between gap-2">
         
         <!-- Sélecteur des 3 volets du dépliant -->
-        <div class="flex items-center justify-center p-1 rounded-xl bg-slate-100 border border-slate-200/80 w-full sm:w-auto shadow-inner">
+        <div class="flex items-center p-1 rounded-xl bg-slate-100 border border-slate-200/80 w-full sm:w-auto shadow-inner">
           
           <!-- Volet 1 : Ce qu'il s'est passé -->
           <button 
             id="tab-btn-past" 
             onclick="switchPanel('past')"
-            class="triptych-tab flex-1 sm:flex-initial px-3 sm:px-4 py-1.5 rounded-lg text-xs font-bold transition flex items-center justify-center gap-2 text-slate-600 hover:text-slate-900"
+            class="triptych-tab flex-1 sm:flex-initial px-3 sm:px-5 py-2 rounded-lg text-xs font-bold transition flex items-center justify-center gap-1.5 text-slate-600 hover:text-slate-900"
           >
             <span>⏮️</span>
-            <span>Ce qu'il s'est passé <span class="text-[10px] font-medium opacity-80">(-14j)</span></span>
+            <span>Ce qu'il s'est passé <span class="text-[10px] opacity-75">(-14j)</span></span>
           </button>
 
           <!-- Volet 2 : Aujourd'hui (Central) -->
           <button 
             id="tab-btn-today" 
             onclick="switchPanel('today')"
-            class="triptych-tab flex-1 sm:flex-initial px-4 sm:px-6 py-1.5 rounded-lg text-xs font-black transition flex items-center justify-center gap-2 bg-blue-600 text-white shadow-sm"
+            class="triptych-tab flex-1 sm:flex-initial px-4 sm:px-6 py-2 rounded-lg text-xs font-black transition flex items-center justify-center gap-1.5 bg-blue-600 text-white shadow-sm"
           >
             <span>📍</span>
             <span>AUJOURD'HUI <span class="text-[10px] font-bold px-1.5 py-0.2 rounded-full bg-white/20">Direct</span></span>
@@ -153,24 +120,22 @@
           <button 
             id="tab-btn-future" 
             onclick="switchPanel('future')"
-            class="triptych-tab flex-1 sm:flex-initial px-3 sm:px-4 py-1.5 rounded-lg text-xs font-bold transition flex items-center justify-center gap-2 text-slate-600 hover:text-slate-900"
+            class="triptych-tab flex-1 sm:flex-initial px-3 sm:px-5 py-2 rounded-lg text-xs font-bold transition flex items-center justify-center gap-1.5 text-slate-600 hover:text-slate-900"
           >
-            <span>Ce qui va se passer <span class="text-[10px] font-medium opacity-80">(+14j)</span></span>
+            <span>Ce qui va se passer <span class="text-[10px] opacity-75">(+14j)</span></span>
             <span>⏭️</span>
           </button>
 
         </div>
 
         <!-- Raccourcis Flèches & Clavier -->
-        <div class="flex items-center gap-2 text-xs text-slate-500">
-          <button onclick="navigateRelative(-1)" class="px-2.5 py-1 rounded-lg border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition font-bold flex items-center gap-1 shadow-2xs" title="Volet précédent (Touche ←)">
-            <span>◀</span>
-            <span class="hidden sm:inline text-[11px]">Précédent</span>
+        <div class="hidden sm:flex items-center gap-2 text-xs text-slate-500">
+          <button onclick="navigateRelative(-1)" class="px-2.5 py-1 rounded-lg border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition font-bold shadow-2xs" title="Volet précédent (Touche ←)">
+            ◀
           </button>
-          <span class="font-mono text-[11px] bg-slate-100 px-1.5 py-0.5 rounded text-slate-500 hidden md:inline">← / →</span>
-          <button onclick="navigateRelative(1)" class="px-2.5 py-1 rounded-lg border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition font-bold flex items-center gap-1 shadow-2xs" title="Volet suivant (Touche →)">
-            <span class="hidden sm:inline text-[11px]">Suivant</span>
-            <span>▶</span>
+          <span class="font-mono text-[11px] bg-slate-100 px-1.5 py-0.5 rounded text-slate-500">← / →</span>
+          <button onclick="navigateRelative(1)" class="px-2.5 py-1 rounded-lg border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 transition font-bold shadow-2xs" title="Volet suivant (Touche →)">
+            ▶
           </button>
         </div>
 
@@ -180,7 +145,7 @@
 
   <!-- ==================== FILTRES THÉMATIQUES ==================== -->
   <div class="bg-slate-50 border-b border-slate-200">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-2">
       <div id="category-pills" class="flex overflow-x-auto custom-scroll gap-2 items-center text-xs pb-0.5">
         <span class="text-slate-400 font-semibold mr-1 shrink-0">Filtrer :</span>
         <button onclick="setCategoryFilter('all')" class="cat-pill shrink-0 px-3 py-1.5 rounded-lg font-bold bg-slate-900 text-white shadow-sm" data-category="all">
@@ -208,255 +173,156 @@
     </div>
   </div>
 
-  <!-- ==================== SCÈNE PRINCIPALE DU TRIPTYQUE ==================== -->
-  <main class="flex-1 max-w-7xl mx-auto px-2 sm:px-4 lg:px-6 py-6 w-full">
-    
-    <div class="triptych-stage relative flex items-stretch gap-3 lg:gap-5 min-h-[640px]">
+  <!-- ==================== CONTENU PRINCIPAL (AGENDA PRO PLEINE LARGEUR) ==================== -->
+  <main class="flex-1 max-w-5xl mx-auto px-3 sm:px-6 py-6 w-full space-y-6">
 
-      <!-- ============================================================== -->
-      <!-- VOLET PLIÉ GAUCHE (Page visible entrebâillée sur la gauche)     -->
-      <!-- ============================================================== -->
-      <aside 
-        id="side-flap-left" 
-        onclick="onLeftFlapClick()" 
-        class="hidden lg:flex shrink-0 w-20 xl:w-24 rounded-3xl bg-gradient-to-b from-slate-200 via-slate-100 to-slate-200 border border-slate-300 p-3 flex-col justify-between items-center cursor-pointer fold-flap-left select-none relative group"
-        title="Cliquer pour déplier ce volet"
-      >
-        <div class="w-8 h-8 rounded-full bg-white shadow-sm flex items-center justify-center text-base group-hover:scale-110 transition">
-          <span id="side-flap-left-icon">⏮️</span>
-        </div>
-        
-        <div class="my-auto [writing-mode:vertical-rl] rotate-180 flex items-center gap-2 text-slate-700 font-black text-xs uppercase tracking-widest group-hover:text-blue-600 transition">
-          <span id="side-flap-left-label">◀ Ce qu'il s'est passé</span>
-          <span class="text-[10px] font-medium text-slate-500" id="side-flap-left-sub">(-14 jours)</span>
-        </div>
-
-        <div class="w-7 h-7 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold shadow-sm group-hover:bg-blue-700 transition">
-          ◀
-        </div>
-      </aside>
-
-      <!-- ============================================================== -->
-      <!-- ZONE CENTRALE (Le volet actuellement ouvert à plat)            -->
-      <!-- ============================================================== -->
-      <div class="flex-1 min-w-0">
-
-        <!-- ==================== VOLET 1 : PASSÉ (Grille 2x7) ==================== -->
-        <section 
-          id="panel-past" 
-          class="paper-panel rounded-3xl p-4 sm:p-7 transition-all duration-500 ease-out hidden w-full"
-        >
-          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 pb-5 border-b border-slate-200">
-            <div>
-              <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 text-slate-700 text-xs font-bold border border-slate-300/80 mb-2">
-                <span>⏮️</span>
-                <span>RÉTROSPECTIVE</span>
-              </div>
-              <h2 class="text-xl sm:text-2xl lg:text-3xl font-black text-slate-900 tracking-tight">
-                Ce qu'il s'est passé : les 14 jours écoulés
-              </h2>
-              <p class="text-xs sm:text-sm text-slate-500 mt-1">
-                Heure et titre de chaque événement en un coup d'œil. Cliquez sur un jour pour ouvrir sa fiche détaillée.
-              </p>
-            </div>
-            
-            <div class="flex items-center gap-2">
-              <button 
-                onclick="switchPanel('today')" 
-                class="px-4 py-2 rounded-xl text-xs font-bold bg-blue-600 hover:bg-blue-500 text-white transition shadow flex items-center gap-1.5"
-              >
-                <span>Revenir à Aujourd'hui ➔</span>
-              </button>
-            </div>
+    <!-- ============================================================== -->
+    <!-- VOLET 1 : PASSÉ (-14j) - MINI-RUBAN 14j + TIMELINE AGENDA      -->
+    <!-- ============================================================== -->
+    <section id="panel-past" class="space-y-6 hidden w-full">
+      
+      <!-- En-tête Volet Passé -->
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 pb-4 border-b border-slate-200">
+        <div>
+          <div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-slate-200/80 text-slate-700 text-xs font-bold mb-1.5">
+            <span>⏮️</span>
+            <span>RÉTROSPECTIVE (-14 JOURS)</span>
           </div>
-
-          <!-- Grille calendrier 2x7 -->
-          <div class="mt-6 overflow-x-auto custom-scroll pb-2">
-            <div class="min-w-[760px]">
-              <!-- En-têtes de colonnes dynamiques (7 colonnes) -->
-              <div id="past-col-headers" class="grid grid-cols-7 gap-2.5 mb-2.5 text-center text-xs font-black uppercase text-slate-400 tracking-wider">
-                <!-- Injecté par JS selon les vrais jours -->
-              </div>
-
-              <!-- Les 14 cellules (2 lignes de 7) -->
-              <div id="past-grid-container" class="grid grid-cols-7 gap-2.5">
-                <!-- Injecté par JavaScript (14 cellules) -->
-              </div>
-            </div>
-          </div>
-
-          <p class="text-[11px] text-slate-400 text-center mt-3 sm:hidden">
-            👈 Faites glisser horizontalement pour voir les 7 colonnes du calendrier 👉
+          <h2 class="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
+            Ce qu'il s'est passé : les 14 jours écoulés
+          </h2>
+          <p class="text-xs sm:text-sm text-slate-500 mt-0.5">
+            Agenda chronologique des événements et arrêtés passés
           </p>
-        </section>
-
-        <!-- ==================== VOLET 2 : AUJOURD'HUI (Central) ==================== -->
-        <section 
-          id="panel-today" 
-          class="transition-all duration-500 ease-out w-full space-y-6"
+        </div>
+        <button 
+          onclick="switchPanel('today')" 
+          class="self-start sm:self-auto px-3.5 py-1.5 rounded-xl text-xs font-bold bg-blue-600 text-white hover:bg-blue-500 transition shadow-xs flex items-center gap-1"
         >
-          <!-- Hero Banner Aujourd'hui -->
-          <div class="bg-gradient-to-br from-blue-900 via-indigo-900 to-slate-900 rounded-3xl p-5 sm:p-7 text-white shadow-xl relative overflow-hidden border border-blue-800/40">
-            <div class="absolute -right-12 -bottom-12 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl pointer-events-none"></div>
-
-            <div class="relative z-10">
-              <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 pb-5 border-b border-white/10">
-                <div>
-                  <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-bold border border-emerald-400/30 mb-2">
-                    <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
-                    <span>EN DIRECT AUJOURD'HUI</span>
-                  </div>
-                  <h2 id="today-full-title" class="text-xl sm:text-2xl lg:text-3xl font-black tracking-tight text-white leading-tight">
-                    Aujourd'hui à Dunières
-                  </h2>
-                  <p class="text-xs sm:text-sm text-blue-200 mt-1">
-                    Événements du jour classés par ordre chronologique avec horaires, tarifs et types
-                  </p>
-                </div>
-
-                <div class="shrink-0 flex items-center gap-2.5">
-                  <span id="today-event-count-badge" class="px-3.5 py-1.5 rounded-xl bg-white/15 border border-white/20 text-xs font-bold text-white shadow-inner">
-                    0 événement(s)
-                  </span>
-                </div>
-              </div>
-
-              <!-- Grille des événements d'Aujourd'hui (Chronologique & Visuelle) -->
-              <div id="today-cards-grid" class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-                <!-- Injecté par JavaScript -->
-              </div>
-
-              <!-- Message si aucun événement aujourd'hui -->
-              <div id="today-empty-alert" class="hidden mt-6 p-8 rounded-2xl bg-white/10 border border-white/15 text-center space-y-2">
-                <span class="text-3xl block">☀️</span>
-                <h3 class="text-base sm:text-lg font-bold text-white">Aucun événement actif aujourd'hui</h3>
-                <p class="text-xs sm:text-sm text-blue-200 max-w-md mx-auto">
-                  La journée est calme. Vous pouvez feuilleter la page de droite pour découvrir le programme des 14 prochains jours !
-                </p>
-                <button 
-                  onclick="switchPanel('future')" 
-                  class="mt-3 inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold bg-white text-blue-900 hover:bg-blue-50 transition shadow"
-                >
-                  <span>Découvrir les 14 prochains jours ➔</span>
-                </button>
-              </div>
-
-            </div>
-          </div>
-
-          <!-- Aiguilleurs tactiles pour mobile et petits écrans -->
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 lg:hidden">
-            <div 
-              onclick="switchPanel('past')" 
-              class="paper-panel rounded-xl p-3.5 border-l-4 border-l-slate-400 hover:border-l-blue-600 cursor-pointer shadow-xs transition flex items-center justify-between"
-            >
-              <div>
-                <span class="text-[10px] font-extrabold uppercase tracking-wider text-slate-400 block">
-                  Volet Gauche (Plié)
-                </span>
-                <h3 class="text-xs font-extrabold text-slate-800">
-                  ⏮️ Ce qu'il s'est passé (-14j)
-                </h3>
-              </div>
-              <span class="text-lg text-slate-400">◀</span>
-            </div>
-
-            <div 
-              onclick="switchPanel('future')" 
-              class="paper-panel rounded-xl p-3.5 border-r-4 border-r-slate-400 hover:border-r-blue-600 cursor-pointer shadow-xs transition flex items-center justify-between text-right"
-            >
-              <span class="text-lg text-slate-400 order-2 sm:order-1">▶</span>
-              <div class="order-1 sm:order-2">
-                <span class="text-[10px] font-extrabold uppercase tracking-wider text-slate-400 block">
-                  Volet Droit (Plié)
-                </span>
-                <h3 class="text-xs font-extrabold text-slate-800">
-                  ⏭️ Ce qui va se passer (+14j)
-                </h3>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- ==================== VOLET 3 : AVENIR (Grille 2x7) ==================== -->
-        <section 
-          id="panel-future" 
-          class="paper-panel rounded-3xl p-4 sm:p-7 transition-all duration-500 ease-out hidden w-full"
-        >
-          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 pb-5 border-b border-slate-200">
-            <div>
-              <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-bold border border-blue-200 mb-2">
-                <span>⏭️</span>
-                <span>CALENDRIER PRÉVISIONNEL</span>
-              </div>
-              <h2 class="text-xl sm:text-2xl lg:text-3xl font-black text-slate-900 tracking-tight">
-                Ce qui va se passer : les 14 prochains jours
-              </h2>
-              <p class="text-xs sm:text-sm text-slate-500 mt-1">
-                Heure et titre de chaque événement en un coup d'œil. Cliquez sur un jour pour ouvrir sa fiche détaillée.
-              </p>
-            </div>
-
-            <div class="flex items-center gap-2">
-              <button 
-                onclick="switchPanel('today')" 
-                class="px-4 py-2 rounded-xl text-xs font-bold bg-blue-600 hover:bg-blue-500 text-white transition shadow flex items-center gap-1.5"
-              >
-                <span>◀ Revenir à Aujourd'hui</span>
-              </button>
-            </div>
-          </div>
-
-          <!-- Grille calendrier 2x7 -->
-          <div class="mt-6 overflow-x-auto custom-scroll pb-2">
-            <div class="min-w-[760px]">
-              <!-- En-têtes de colonnes dynamiques (7 colonnes) -->
-              <div id="future-col-headers" class="grid grid-cols-7 gap-2.5 mb-2.5 text-center text-xs font-black uppercase text-slate-400 tracking-wider">
-                <!-- Injecté par JS selon les vrais jours -->
-              </div>
-
-              <!-- Les 14 cellules (2 lignes de 7) -->
-              <div id="future-grid-container" class="grid grid-cols-7 gap-2.5">
-                <!-- Injecté par JavaScript (14 cellules) -->
-              </div>
-            </div>
-          </div>
-
-          <p class="text-[11px] text-slate-400 text-center mt-3 sm:hidden">
-            👈 Faites glisser horizontalement pour voir les 7 colonnes du calendrier 👉
-          </p>
-        </section>
-
+          <span>Aller à Aujourd'hui ➔</span>
+        </button>
       </div>
 
-      <!-- ============================================================== -->
-      <!-- VOLET PLIÉ DROIT (Page visible entrebâillée sur la droite)     -->
-      <!-- ============================================================== -->
-      <aside 
-        id="side-flap-right" 
-        onclick="onRightFlapClick()" 
-        class="hidden lg:flex shrink-0 w-20 xl:w-24 rounded-3xl bg-gradient-to-b from-slate-200 via-slate-100 to-slate-200 border border-slate-300 p-3 flex-col justify-between items-center cursor-pointer fold-flap-right select-none relative group"
-        title="Cliquer pour déplier ce volet"
-      >
-        <div class="w-8 h-8 rounded-full bg-white shadow-sm flex items-center justify-center text-base group-hover:scale-110 transition">
-          <span id="side-flap-right-icon">⏭️</span>
+      <!-- Mini-Ruban Visuel des 14 jours (Vue d'ensemble 2 rangées de 7 pastilles) -->
+      <div class="paper-panel rounded-2xl p-4 sm:p-5">
+        <div class="flex items-center justify-between mb-2.5">
+          <span class="text-xs font-black uppercase tracking-wider text-slate-500">
+            Vue d'ensemble des 14 jours écoulés
+          </span>
+          <span class="text-[11px] text-slate-400 font-medium">
+            Cliquez sur un jour pour y accéder
+          </span>
         </div>
-        
-        <div class="my-auto [writing-mode:vertical-rl] flex items-center gap-2 text-slate-700 font-black text-xs uppercase tracking-widest group-hover:text-blue-600 transition">
-          <span id="side-flap-right-label">Ce qui va se passer ▶</span>
-          <span class="text-[10px] font-medium text-slate-500" id="side-flap-right-sub">(+14 jours)</span>
+        <div id="past-strip-container" class="grid grid-cols-7 gap-1.5 sm:gap-2">
+          <!-- Injecté par JS (14 pastilles compactes) -->
         </div>
+      </div>
 
-        <div class="w-7 h-7 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold shadow-sm group-hover:bg-blue-700 transition">
-          ▶
-        </div>
-      </aside>
+      <!-- Flux Chronologique des Événements Passés (Lignes Larges Agenda Pro) -->
+      <div id="past-timeline-container" class="space-y-4">
+        <!-- Injecté par JS -->
+      </div>
+    </section>
 
-    </div>
+    <!-- ============================================================== -->
+    <!-- VOLET 2 : AUJOURD'HUI (Direct & Timeline Agenda Professionnel) -->
+    <!-- ============================================================== -->
+    <section id="panel-today" class="space-y-6 w-full">
+      
+      <!-- En-tête Aujourd'hui -->
+      <div class="paper-panel rounded-3xl p-5 sm:p-6 bg-gradient-to-r from-blue-900 via-indigo-900 to-slate-900 text-white shadow-lg border border-blue-800/40">
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+          <div>
+            <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-bold border border-emerald-400/30 mb-2">
+              <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+              <span>POINT EN DIRECT DU JOUR</span>
+            </div>
+            <h2 id="today-full-title" class="text-xl sm:text-2xl lg:text-3xl font-black tracking-tight text-white leading-tight">
+              Aujourd'hui à Dunières
+            </h2>
+            <p class="text-xs sm:text-sm text-blue-200 mt-1">
+              Planning professionnel chronologique : horaires précis, durées, tarifs et types
+            </p>
+          </div>
+          <span id="today-event-count-badge" class="self-start sm:self-auto px-3.5 py-1.5 rounded-xl bg-white/15 border border-white/20 text-xs font-bold text-white shadow-inner">
+            0 événement(s)
+          </span>
+        </div>
+      </div>
+
+      <!-- Planning Chronologique d'Aujourd'hui (Une case large par créneau) -->
+      <div id="today-timeline-container" class="space-y-3.5">
+        <!-- Injecté par JS -->
+      </div>
+
+      <!-- État vide si aucun événement aujourd'hui -->
+      <div id="today-empty-alert" class="hidden paper-panel rounded-2xl p-8 text-center space-y-3">
+        <span class="text-4xl block">☀️</span>
+        <h3 class="text-base sm:text-lg font-bold text-slate-800">Aucun événement actif aujourd'hui</h3>
+        <p class="text-xs sm:text-sm text-slate-500 max-w-md mx-auto">
+          La journée est calme sur la commune. Consultez le calendrier prévisionnel des 14 prochains jours pour planifier vos sorties !
+        </p>
+        <button 
+          onclick="switchPanel('future')" 
+          class="mt-2 inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold bg-blue-600 text-white hover:bg-blue-500 transition shadow-sm"
+        >
+          <span>Consulter les 14 prochains jours ➔</span>
+        </button>
+      </div>
+
+    </section>
+
+    <!-- ============================================================== -->
+    <!-- VOLET 3 : AVENIR (+14j) - MINI-RUBAN 14j + TIMELINE AGENDA     -->
+    <!-- ============================================================== -->
+    <section id="panel-future" class="space-y-6 hidden w-full">
+      
+      <!-- En-tête Volet Avenir -->
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 pb-4 border-b border-slate-200">
+        <div>
+          <div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800 text-xs font-bold mb-1.5">
+            <span>⏭️</span>
+            <span>CALENDRIER PRÉVISIONNEL (+14 JOURS)</span>
+          </div>
+          <h2 class="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
+            Ce qui va se passer : les 14 prochains jours
+          </h2>
+          <p class="text-xs sm:text-sm text-slate-500 mt-0.5">
+            Planning chronologique prévisionnel avec horaires, durées et tarifs
+          </p>
+        </div>
+        <button 
+          onclick="switchPanel('today')" 
+          class="self-start sm:self-auto px-3.5 py-1.5 rounded-xl text-xs font-bold bg-blue-600 text-white hover:bg-blue-500 transition shadow-xs flex items-center gap-1"
+        >
+          <span>◀ Revenir à Aujourd'hui</span>
+        </button>
+      </div>
+
+      <!-- Mini-Ruban Visuel des 14 jours (Vue d'ensemble 2 rangées de 7 pastilles) -->
+      <div class="paper-panel rounded-2xl p-4 sm:p-5">
+        <div class="flex items-center justify-between mb-2.5">
+          <span class="text-xs font-black uppercase tracking-wider text-slate-500">
+            Vue d'ensemble des 14 prochains jours
+          </span>
+          <span class="text-[11px] text-slate-400 font-medium">
+            Cliquez sur un jour pour y accéder
+          </span>
+        </div>
+        <div id="future-strip-container" class="grid grid-cols-7 gap-1.5 sm:gap-2">
+          <!-- Injecté par JS (14 pastilles compactes) -->
+        </div>
+      </div>
+
+      <!-- Flux Chronologique des Événements Futurs (Lignes Larges Agenda Pro) -->
+      <div id="future-timeline-container" class="space-y-4">
+        <!-- Injecté par JS -->
+      </div>
+    </section>
 
   </main>
 
-  <!-- ==================== POPUP DYNAMIQUE DU JOUR (Prend la place de l'écran) ==================== -->
+  <!-- ==================== POPUP DYNAMIQUE DU JOUR (Plein Écran) ==================== -->
   <div 
     id="day-popup-modal" 
     class="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-5 bg-slate-950/75 backdrop-blur-md hidden opacity-0 transition-opacity duration-200"
@@ -466,7 +332,7 @@
       class="bg-white rounded-3xl max-w-3xl w-full max-h-[92vh] flex flex-col shadow-2xl overflow-hidden border border-slate-200 transform scale-95 transition-transform duration-200"
     >
       
-      <!-- En-tête du popup dynamique -->
+      <!-- En-tête du popup -->
       <div class="p-5 sm:p-6 bg-gradient-to-r from-blue-900 via-indigo-900 to-slate-900 text-white flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-white/10 shrink-0">
         <div>
           <div class="flex items-center gap-2 mb-1.5">
@@ -478,14 +344,13 @@
             </span>
           </div>
           <h3 id="day-popup-date-title" class="text-xl sm:text-2xl font-black text-white leading-tight">
-            Date du jour sélectionné
+            Date sélectionnée
           </h3>
           <p id="day-popup-subtitle" class="text-xs text-blue-200 mt-0.5">
-            Horaires, tarifs, descriptifs et documents associés
+            Détails complets, affiches et documents officiels
           </p>
         </div>
 
-        <!-- Navigation de jour en jour et fermeture -->
         <div class="flex items-center gap-2 shrink-0">
           <div class="flex items-center bg-white/10 rounded-xl p-1 border border-white/20">
             <button 
@@ -515,9 +380,9 @@
         </div>
       </div>
 
-      <!-- Corps du popup avec les fiches détaillées -->
-      <div id="day-popup-body" class="p-5 sm:p-6 overflow-y-auto space-y-6 flex-1 bg-slate-50">
-        <!-- Injecté par JavaScript -->
+      <!-- Corps du popup -->
+      <div id="day-popup-body" class="p-5 sm:p-6 overflow-y-auto space-y-5 flex-1 bg-slate-50">
+        <!-- Injecté par JS -->
       </div>
 
       <!-- Pied du popup -->
@@ -543,6 +408,6 @@
   </footer>
 
   <!-- SCRIPT LOGIQUE INTERACTIVE DU DÉPLIANT -->
-  <script src="app.js?v=4.0"></script>
+  <script src="app.js?v=5.0"></script>
 </body>
 </html>

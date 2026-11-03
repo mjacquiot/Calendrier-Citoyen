@@ -11,7 +11,7 @@ Plan de développement par jalons du projet de portail citoyen et calendrier aut
 | **Jalon 1** | **Environnement & Architecture** | Arborescence, spécifications techniques, documentation de référence | 🟢 **Validé** |
 | **Jalon 2** | **Collecte & Résolution Récursive** | Scrapers Illiwap, Commère 43, Progrès + Résolveurs Calaméo/PDF | 🟢 **Validé** |
 | **Jalon 3** | **Intelligence Artificielle & Données** | Filtrage public/privé, structuration JSON et fenêtrage 3 volets | 🟢 **Validé** |
-| **Jalon 4** | **Dépliant Triptyque, Déploiement & Alertes** | Interface triptyque minimaliste 2x7, popups, GitHub Actions Cloud | 🟢 **Opérationnel** |
+| **Jalon 4** | **Agenda Professionnel, Déploiement & Alertes** | Interface Agenda Pro pleine largeur, durées, GitHub Actions Cloud | 🟢 **Opérationnel** |
 
 ---
 
@@ -57,13 +57,13 @@ Plan de développement par jalons du projet de portail citoyen et calendrier aut
 
 ---
 
-### 🟢 Jalon 4 : Vitrine Dépliant Triptyque Minimaliste & Déploiement Cloud (Terminé)
-- [x] **Interface Dépliant Triptyque à 3 Volets** :
-  - **Volet Gauche (Passé)** : Calendrier 2 lignes × 7 colonnes pour les 14 jours écoulés avec horaires et titres nets.
-  - **Volet Central (Aujourd'hui)** : Point du jour en direct, tri chronologique des événements, mise en avant claire des heures, des tarifs et de la nature de l'activité.
-  - **Volet Droit (Avenir)** : Calendrier prévisionnel 2 lignes × 7 colonnes pour les 14 prochains jours.
-  - **Popup Dynamique Plein Écran** : Fiche complète au clic sur n'importe quel jour avec parcours jour par jour.
-  - **Épuration Minimaliste** : En-tête compact "Le calendrier Dunièrois de Maxime JACQUIOT", suppression des sections d'archive redondantes.
+### 🟢 Jalon 4 : Vitrine Agenda Professionnel Pleine Largeur & Déploiement Cloud (Terminé)
+- [x] **Interface Format Agenda Pro à 3 Volets** :
+  - **Volet Gauche (Passé)** : Mini-ruban 14 jours (2x7 pastilles compactes) + flux d'événements passés en lignes larges pleine largeur avec horaires et durées.
+  - **Volet Central (Aujourd'hui)** : Planning chronologique pleine largeur (du matin au soir), rail temporel avec heures précises et durées calculées (ex: `⏱️ 3h`, `⏱️ 5h`), badges type & tarif, titres entiers sans troncature.
+  - **Volet Droit (Avenir)** : Mini-ruban 14 jours + flux prévisionnel en lignes larges pleine largeur.
+  - **Popup Dynamique Plein Écran** : Fiche complète au clic sur n'importe quel événement avec affiches, arrêtés PDF et liseuse Calaméo.
+  - **Épuration Minimaliste** : En-tête compact "Le calendrier Dunièrois de Maxime JACQUIOT", suppression des sections redondantes et des volets latéraux rigides.
 - [x] **Automatisation GitHub Actions & GitHub Pages** :
   - Exécution quotidienne planifiée (06:00 CET).
   - Déclenchement manuel (`workflow_dispatch`).
