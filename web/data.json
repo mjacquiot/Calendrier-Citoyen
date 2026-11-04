@@ -3,16 +3,16 @@
     "commune": "Dunières",
     "code_postal": "43220",
     "intercommunalite": "Haut Pays du Velay Communauté",
-    "generated_at": "2026-11-03T22:02:45.656700+01:00",
-    "reference_date": "2026-11-03",
+    "generated_at": "2026-11-04T13:44:01.550151+01:00",
+    "reference_date": "2026-11-04",
     "sliding_window": {
       "retrospective_days": 15,
       "upcoming_days": 15
     },
     "counts": {
-      "total_analyzed": 15,
+      "total_analyzed": 16,
       "total_accepted": 15,
-      "total_rejected": 0,
+      "total_rejected": 1,
       "retrospective": 4,
       "today": 5,
       "upcoming": 5
@@ -21,7 +21,7 @@
   "buckets": {
     "retrospective": [
       {
-        "id": "leprogres_haute_loire_12",
+        "id": "leprogres_haute_loire_15",
         "title": "Haute-Loire. « Il faut un peu de concentration » : en cuisine avec le chef Marco",
         "summary": "Mardi 27 octobre, 12 bénévoles amateurs ont préparé, sous les directives de Jacques Marcon, le dessert de la Foire aux champignons organisée les 7 et 8 novembre, dans la cuisine triplement étoilée de son restaurant à Saint-Bonnet-le-Froid.",
         "category": "Manifestations & Vie Associative",
@@ -42,7 +42,7 @@
         "attachment_data": null
       },
       {
-        "id": "lacommere43_search_7",
+        "id": "lacommere43_search_9",
         "title": "Vacances de la Toussaint : Halloween à la piscine deDunièresle 29 octobre",
         "summary": "Pendant les vacances de la Toussaint, la piscine intercommunale deDunièresorganise jeudi 29 octobre, de 14 heures à 19 heures, une après-midi Halloween pour les familles, avec citrouilles",
         "category": "Manifestations & Vie Associative",
@@ -116,16 +116,16 @@
     ],
     "today": [
       {
-        "id": "illiwap_dunieres_permanences-associatives-a-la-mda-pour-le-mois-de-novembre-3",
-        "title": "Permanences associatives à la MDA pour le mois de Novembre !",
-        "summary": "La Maison Départementale de l’Autonomie met en place despermanences associatives / partenarialesafin de renforcer l’information et l’accompagnement des personnes en situation de handicap, des personnes âgées et de leurs proches.Ces permanences per...",
-        "category": "Services & Déchets",
-        "badge": "Service Public",
+        "id": "illiwap_dunieres_commemoration-61-1-3-2-1-2",
+        "title": "COMMEMORATION",
+        "summary": "La commémoration de l'Armistice de 1918 se déroulera le mercredi 11 novembre 2026 à 11h30 devant le Monument aux Morts.Source : Mairie de Dunières La commémoration de l'Armistice de 1918 se déroulera le mercredi 11 novembre 2026 à 11h30 devant le ...",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
         "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/permanences-associatives-a-la-mda-pour-le-mois-de-novembre-3",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6ae89acbadd5d171849476.jpg",
+        "source_url": "https://station.illiwap.com/fr/public/43087/actu/commemoration-61-1-3-2-1-2",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/charte_public_website/placeholder_actu_pp.png",
         "dates": {
-          "start": "2026-11-03",
+          "start": "2026-11-04",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -146,7 +146,7 @@
         "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
         "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/tzwCxo5SmA9RAjNQsziAXyNpGKhrJ6th72HoF8WMSCY.png",
         "dates": {
-          "start": "2026-11-03",
+          "start": "2026-11-04",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -158,37 +158,16 @@
         "attachment_data": null
       },
       {
-        "id": "lacommere43_search_8",
-        "title": "Pétanque : la famille Mondon (Saint-Just-Malmont) remporte la Coupe des clubs de",
-        "summary": "Samedi, le boulodrome deDunièresaccueillait la finale 2026 de la Coupe des clubs de l'Yssingelais. Après quatre concours qualificatifs, seize triplettes étaient engagées ...",
+        "id": "lacommere43_search_1",
+        "title": "Saint-Bonnet-le-Froid : même sans cèpes, la foire aux champignons reste une fête",
+        "summary": "La Foire aux champignons de Saint-Bonnet-le-Froid aura lieu les 7 et 8 novembre. Même si la saison a été pauvre en champignons, la fête du village gourmand restera entière.",
         "category": "Manifestations & Vie Associative",
         "badge": "Animation",
         "source_name": "La Commère 43",
-        "source_url": "https://www.lacommere43.fr/sport/item/85909-petanque-la-famille-mondon-saint-just-malmont-remporte-la-coupe-des-clubs-de-l-yssingelais.html",
+        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86093-saint-bonnet-le-froid-meme-sans-cepes-la-foire-aux-champignons-reste-une-fete-incontournable.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-03",
-          "end": null,
-          "is_period": false,
-          "bucket": "today"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
-      {
-        "id": "lacommere43_search_9",
-        "title": "Festival du rire d'Yssingeaux : Tanguy Pastureau, un visage sur une voi",
-        "summary": "Vendredi soir, 400 spectateurs ont assisté au spectacle de Tanguy Pastureau au Festival du rire d'Yssingeaux. Tanguy Pastureau était venu en 2024 àDunières. A l'époque,",
-        "category": "Culture & Patrimoine",
-        "badge": "Culture",
-        "source_name": "La Commère 43",
-        "source_url": "https://www.lacommere43.fr/yssingeaux-les-sucs/item/85883-festival-du-rire-d-yssingeaux-tanguy-pastureau-un-visage-sur-une-voix.html",
-        "image_url": null,
-        "dates": {
-          "start": "2026-11-03",
+          "start": "2026-11-04",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -209,7 +188,28 @@
         "source_url": "https://www.lacommere43.fr/actualites/item/85987-chef-carlo-trois-derniers-rendez-vous-avant-la-fin-de-l-annee-au-puy-en-velay-saint-bonnet-le-froid-et-bas-en-basset.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-03",
+          "start": "2026-11-04",
+          "end": null,
+          "is_period": false,
+          "bucket": "today"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      },
+      {
+        "id": "leprogres_haute_loire_11",
+        "title": "En vidéo. $content.TitleNoTags",
+        "summary": "On en salive d’avance...Avant la tenue de la célèbre foire aux champignons de Saint-Bonnet-le-Froid, on a pu se glisser dans les cuisines des Maisons Marcon.Au milieu des bénévoles qui s’activaient pour préparer les 1 300 repas qui seront servis l...",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
+        "source_name": "Le Progrès - Haute-Loire",
+        "source_url": "https://www.leprogres.fr/videos/on-a-suivi-la-preparation-des-repas-de-la-foire-aux-champignons-3z3suq5",
+        "image_url": null,
+        "dates": {
+          "start": "2026-11-04",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -244,7 +244,7 @@
         "attachment_data": null
       },
       {
-        "id": "lacommere43_search_0",
+        "id": "lacommere43_search_2",
         "title": "La bibliothèque deDunièresouvre ses coulisses à l'occasion des Automnales numéri",
         "summary": "Dans le cadre des Automnales numériques, organisées par le Département de la Haute-Loire, la médiathèque deDunièresouvrira exceptionnellement ses portes au public le vendredi 6 novembre,",
         "category": "Culture & Patrimoine",
@@ -286,16 +286,16 @@
         "attachment_data": null
       },
       {
-        "id": "illiwap_dunieres_randonnee-15-11-2026-2",
-        "title": "Randonnée - 15/11/2026",
-        "summary": "La Gym volontaire de Dunières organise une randonnée pédestre le dimanche 15/11.Départ à partir de 7h30 - salle de la mairie7kms14kms20kmsinscriptions sur placeRenseignements : 07 82 38 70 28Source : Mairie de Dunières La Gym volontaire de Dunière...",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
+        "id": "illiwap_dunieres_la-bataille-de-baccarat-ceux-de-14",
+        "title": "La bataille de Baccarat \"ceux de 14\"",
+        "summary": "Jeudi 12 novembre 20hau cinéma \"le Maubourg \"entrée gratuite-chapeau.",
+        "category": "Culture & Patrimoine",
+        "badge": "Culture",
         "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/randonnee-15-11-2026-2",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6ae9bbe389943548816476.jpg",
+        "source_url": "https://station.illiwap.com/fr/public/43087/actu/la-bataille-de-baccarat-ceux-de-14",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6aeb0668572ed108938980.jpg",
         "dates": {
-          "start": "2026-11-15",
+          "start": "2026-11-12",
           "end": null,
           "is_period": false,
           "bucket": "upcoming"
@@ -307,7 +307,7 @@
         "attachment_data": null
       },
       {
-        "id": "lacommere43_search_3",
+        "id": "lacommere43_search_5",
         "title": "Dunières: une randonnée pédestre au profit du programme Gym Après Cancer.",
         "summary": "La Gymnastique Volontaire deDunièresorganise une randonnée pédestre au profit du programme Gym Après Cancer. Dimanche 15 novembre, trois circuits : 7, 14 et 20 km, inscri",
         "category": "Manifestations & Vie Associative",
@@ -331,16 +331,16 @@
   },
   "all_events": [
     {
-      "id": "illiwap_dunieres_permanences-associatives-a-la-mda-pour-le-mois-de-novembre-3",
-      "title": "Permanences associatives à la MDA pour le mois de Novembre !",
-      "summary": "La Maison Départementale de l’Autonomie met en place despermanences associatives / partenarialesafin de renforcer l’information et l’accompagnement des personnes en situation de handicap, des personnes âgées et de leurs proches.Ces permanences per...",
-      "category": "Services & Déchets",
-      "badge": "Service Public",
+      "id": "illiwap_dunieres_commemoration-61-1-3-2-1-2",
+      "title": "COMMEMORATION",
+      "summary": "La commémoration de l'Armistice de 1918 se déroulera le mercredi 11 novembre 2026 à 11h30 devant le Monument aux Morts.Source : Mairie de Dunières La commémoration de l'Armistice de 1918 se déroulera le mercredi 11 novembre 2026 à 11h30 devant le ...",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
       "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/permanences-associatives-a-la-mda-pour-le-mois-de-novembre-3",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6ae89acbadd5d171849476.jpg",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/commemoration-61-1-3-2-1-2",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/charte_public_website/placeholder_actu_pp.png",
       "dates": {
-        "start": "2026-11-03",
+        "start": "2026-11-04",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -352,16 +352,16 @@
       "attachment_data": null
     },
     {
-      "id": "illiwap_dunieres_randonnee-15-11-2026-2",
-      "title": "Randonnée - 15/11/2026",
-      "summary": "La Gym volontaire de Dunières organise une randonnée pédestre le dimanche 15/11.Départ à partir de 7h30 - salle de la mairie7kms14kms20kmsinscriptions sur placeRenseignements : 07 82 38 70 28Source : Mairie de Dunières La Gym volontaire de Dunière...",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
+      "id": "illiwap_dunieres_la-bataille-de-baccarat-ceux-de-14",
+      "title": "La bataille de Baccarat \"ceux de 14\"",
+      "summary": "Jeudi 12 novembre 20hau cinéma \"le Maubourg \"entrée gratuite-chapeau.",
+      "category": "Culture & Patrimoine",
+      "badge": "Culture",
       "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/randonnee-15-11-2026-2",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6ae9bbe389943548816476.jpg",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/la-bataille-de-baccarat-ceux-de-14",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6aeb0668572ed108938980.jpg",
       "dates": {
-        "start": "2026-11-15",
+        "start": "2026-11-12",
         "end": null,
         "is_period": false,
         "bucket": "upcoming"
@@ -373,16 +373,16 @@
       "attachment_data": null
     },
     {
-      "id": "illiwap_dunieres_rappel-repas-des-aines-de-dunieres",
-      "title": "Rappel – Repas des Aînés de Dunières",
-      "summary": "Le traditionnel repas des aînés aura lieu lemercredi 25 novembre 2026à midi au gymnase de Dunières.Si vous faites partie des personnes concernées (courrier envoyé courant octobre 2026), merci de rapporter votre coupon-réponse en mairie de Dunières...",
+      "id": "illiwap_dunieres_journee-mondiale-du-benevolat-2",
+      "title": "Journée mondiale du bénévolat",
+      "summary": "📣 Vous êtes bénévole, responsable associatif, élu, partenaire ou simplement intéressé par la vie associative ?À l’occasion de la Journée mondiale du bénévolat, le réseau @Guid’Asso Haute-Loire vous invite à un après-midi de rencontres, d’échanges ...",
       "category": "Manifestations & Vie Associative",
       "badge": "Animation",
       "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/rappel-repas-des-aines-de-dunieres",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/charte_public_website/placeholder_actu_pp.png",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/journee-mondiale-du-benevolat-2",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6ac88d4648757685384919.jpg",
       "dates": {
-        "start": "2026-11-25",
+        "start": "2026-12-04",
         "end": null,
         "is_period": false,
         "bucket": "extended"
@@ -496,7 +496,7 @@
       "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
       "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/tzwCxo5SmA9RAjNQsziAXyNpGKhrJ6th72HoF8WMSCY.png",
       "dates": {
-        "start": "2026-11-03",
+        "start": "2026-11-04",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -508,7 +508,28 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_search_0",
+      "id": "lacommere43_search_1",
+      "title": "Saint-Bonnet-le-Froid : même sans cèpes, la foire aux champignons reste une fête",
+      "summary": "La Foire aux champignons de Saint-Bonnet-le-Froid aura lieu les 7 et 8 novembre. Même si la saison a été pauvre en champignons, la fête du village gourmand restera entière.",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "source_name": "La Commère 43",
+      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86093-saint-bonnet-le-froid-meme-sans-cepes-la-foire-aux-champignons-reste-une-fete-incontournable.html",
+      "image_url": null,
+      "dates": {
+        "start": "2026-11-04",
+        "end": null,
+        "is_period": false,
+        "bucket": "today"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "lacommere43_search_2",
       "title": "La bibliothèque deDunièresouvre ses coulisses à l'occasion des Automnales numéri",
       "summary": "Dans le cadre des Automnales numériques, organisées par le Département de la Haute-Loire, la médiathèque deDunièresouvrira exceptionnellement ses portes au public le vendredi 6 novembre,",
       "category": "Culture & Patrimoine",
@@ -529,7 +550,7 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_search_3",
+      "id": "lacommere43_search_5",
       "title": "Dunières: une randonnée pédestre au profit du programme Gym Après Cancer.",
       "summary": "La Gymnastique Volontaire deDunièresorganise une randonnée pédestre au profit du programme Gym Après Cancer. Dimanche 15 novembre, trois circuits : 7, 14 et 20 km, inscri",
       "category": "Manifestations & Vie Associative",
@@ -550,7 +571,7 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_search_7",
+      "id": "lacommere43_search_9",
       "title": "Vacances de la Toussaint : Halloween à la piscine deDunièresle 29 octobre",
       "summary": "Pendant les vacances de la Toussaint, la piscine intercommunale deDunièresorganise jeudi 29 octobre, de 14 heures à 19 heures, une après-midi Halloween pour les familles, avec citrouilles",
       "category": "Manifestations & Vie Associative",
@@ -571,48 +592,6 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_search_8",
-      "title": "Pétanque : la famille Mondon (Saint-Just-Malmont) remporte la Coupe des clubs de",
-      "summary": "Samedi, le boulodrome deDunièresaccueillait la finale 2026 de la Coupe des clubs de l'Yssingelais. Après quatre concours qualificatifs, seize triplettes étaient engagées ...",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "La Commère 43",
-      "source_url": "https://www.lacommere43.fr/sport/item/85909-petanque-la-famille-mondon-saint-just-malmont-remporte-la-coupe-des-clubs-de-l-yssingelais.html",
-      "image_url": null,
-      "dates": {
-        "start": "2026-11-03",
-        "end": null,
-        "is_period": false,
-        "bucket": "today"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "lacommere43_search_9",
-      "title": "Festival du rire d'Yssingeaux : Tanguy Pastureau, un visage sur une voi",
-      "summary": "Vendredi soir, 400 spectateurs ont assisté au spectacle de Tanguy Pastureau au Festival du rire d'Yssingeaux. Tanguy Pastureau était venu en 2024 àDunières. A l'époque,",
-      "category": "Culture & Patrimoine",
-      "badge": "Culture",
-      "source_name": "La Commère 43",
-      "source_url": "https://www.lacommere43.fr/yssingeaux-les-sucs/item/85883-festival-du-rire-d-yssingeaux-tanguy-pastureau-un-visage-sur-une-voix.html",
-      "image_url": null,
-      "dates": {
-        "start": "2026-11-03",
-        "end": null,
-        "is_period": false,
-        "bucket": "today"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
       "id": "lacommere43_rss_6",
       "title": "Chef Carlo : trois derniers rendez-vous avant la fin de l'année au Puy-en-Velay,",
       "summary": "(Publi-reportage) À l'approche des fêtes de fin d'année, Chef Carlo…",
@@ -622,7 +601,7 @@
       "source_url": "https://www.lacommere43.fr/actualites/item/85987-chef-carlo-trois-derniers-rendez-vous-avant-la-fin-de-l-annee-au-puy-en-velay-saint-bonnet-le-froid-et-bas-en-basset.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-03",
+        "start": "2026-11-04",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -634,7 +613,28 @@
       "attachment_data": null
     },
     {
-      "id": "leprogres_haute_loire_12",
+      "id": "leprogres_haute_loire_11",
+      "title": "En vidéo. $content.TitleNoTags",
+      "summary": "On en salive d’avance...Avant la tenue de la célèbre foire aux champignons de Saint-Bonnet-le-Froid, on a pu se glisser dans les cuisines des Maisons Marcon.Au milieu des bénévoles qui s’activaient pour préparer les 1 300 repas qui seront servis l...",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "source_name": "Le Progrès - Haute-Loire",
+      "source_url": "https://www.leprogres.fr/videos/on-a-suivi-la-preparation-des-repas-de-la-foire-aux-champignons-3z3suq5",
+      "image_url": null,
+      "dates": {
+        "start": "2026-11-04",
+        "end": null,
+        "is_period": false,
+        "bucket": "today"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "leprogres_haute_loire_15",
       "title": "Haute-Loire. « Il faut un peu de concentration » : en cuisine avec le chef Marco",
       "summary": "Mardi 27 octobre, 12 bénévoles amateurs ont préparé, sous les directives de Jacques Marcon, le dessert de la Foire aux champignons organisée les 7 et 8 novembre, dans la cuisine triplement étoilée de son restaurant à Saint-Bonnet-le-Froid.",
       "category": "Manifestations & Vie Associative",
