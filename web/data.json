@@ -3,40 +3,40 @@
     "commune": "Dunières",
     "code_postal": "43220",
     "intercommunalite": "Haut Pays du Velay Communauté",
-    "generated_at": "2026-11-04T13:44:01.550151+01:00",
-    "reference_date": "2026-11-04",
+    "generated_at": "2026-11-05T13:53:04.854579+01:00",
+    "reference_date": "2026-11-05",
     "sliding_window": {
       "retrospective_days": 15,
       "upcoming_days": 15
     },
     "counts": {
-      "total_analyzed": 16,
-      "total_accepted": 15,
+      "total_analyzed": 13,
+      "total_accepted": 12,
       "total_rejected": 1,
-      "retrospective": 4,
-      "today": 5,
+      "retrospective": 3,
+      "today": 4,
       "upcoming": 5
     }
   },
   "buckets": {
     "retrospective": [
       {
-        "id": "leprogres_haute_loire_15",
-        "title": "Haute-Loire. « Il faut un peu de concentration » : en cuisine avec le chef Marco",
-        "summary": "Mardi 27 octobre, 12 bénévoles amateurs ont préparé, sous les directives de Jacques Marcon, le dessert de la Foire aux champignons organisée les 7 et 8 novembre, dans la cuisine triplement étoilée de son restaurant à Saint-Bonnet-le-Froid.",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "Le Progrès - Haute-Loire",
-        "source_url": "https://www.leprogres.fr/magazine-cuisine-et-vins/2026/11/03/il-faut-un-peu-de-concentration-en-cuisine-avec-le-chef-marcon-et-les-benevoles-de-la-foire-aux-champignons",
-        "image_url": null,
+        "id": "illiwap_dunieres_la-mediatheque-departementale-vous-informe-4",
+        "title": "la Médiathèque départementale vous informe",
+        "summary": "LesAutomnales du Numérique en Haute-Loirese dérouleront du24 octobre au 7 novembre.Pour cette 1ère édition, ce sont plus de 100 rendez-vous gratuits, dans 35 communes, proposés afin de transmettre ou de partager des savoir-faire numériques indispe...",
+        "category": "Vie Municipale & Délibérations",
+        "badge": "Conseil Municipal",
+        "source_name": "Illiwap Mairie de Dunières",
+        "source_url": "https://station.illiwap.com/fr/public/43087/actu/la-mediatheque-departementale-vous-informe-4",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/Cvqh1SFe3MIppkrVyEkWK8qa7bvRjkaM.jpg",
         "dates": {
-          "start": "2026-10-27",
+          "start": "2026-10-24",
           "end": null,
           "is_period": false,
           "bucket": "retrospective"
         },
         "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
+        "importance": "high",
         "has_attachment": false,
         "attachment_type": null,
         "attachment_data": null
@@ -63,36 +63,6 @@
         "attachment_data": null
       },
       {
-        "id": "illiwap_comcom_calendrier-des-fetes-de-novembre",
-        "title": "Calendrier des fêtes de novembre",
-        "summary": "Le calendrier des fêtes de novembre 2026 est disponible. Retrouvez les animations, spectacles, expositions et ateliers proposés dans les communes du Haut Pays du Velay :https://www.calameo.com/read/001159770add8fb838647Pour plus d’informations : H...",
-        "category": "Culture & Patrimoine",
-        "badge": "Culture",
-        "source_name": "Illiwap Haut Pays du Velay Communauté",
-        "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/actu/calendrier-des-fetes-de-novembre",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/ZuBXAYlt50T80MoIPhbIv1ysnELreFstLEPBHllESec.jpg",
-        "dates": {
-          "start": "2026-10-31",
-          "end": null,
-          "is_period": false,
-          "bucket": "retrospective"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": true,
-        "attachment_type": "calameo",
-        "attachment_data": {
-          "type": "calameo",
-          "bkcode": "001159770add8fb838647",
-          "title": "Agenda Novembre 2026",
-          "author": "Haut Pays du Velay tourisme",
-          "description": "Calendrier des fêtes, novembre 2026 : Haut Pays du Velay tourisme\n\n8 villages, des dégustations de vins, une foire aux champignons, un gardien de phare qui n’a jamais quitté son phare et des marchés de Noël. Le calendrier de novembre 2026 réunit les...\nPlus",
-          "cover_image_url": "https://i.calameoassets.com/261031110200-7cba47eb387a5f610e39e6dcd84b3bb4/large.jpg",
-          "enriched_text": "Document Calaméo 'Agenda Novembre 2026' (par Haut Pays du Velay tourisme) :\nCalendrier des fêtes, novembre 2026 : Haut Pays du Velay tourisme\n\n8 villages, des dégustations de vins, une foire aux champignons, un gardien de phare qui n’a jamais quitté son phare et des marchés de Noël. Le calendrier de novembre 2026 réunit les...\nPlus",
-          "original_url": "https://www.calameo.com/read/001159770add8fb838647"
-        }
-      },
-      {
         "id": "illiwap_comcom_opah-le-programme-d-aide-a-la-renovation-de-l-habitat-est",
         "title": "OPAH : le programme d’aide à la rénovation de l’habitat est",
         "summary": "Propriétaires occupants ou bailleurs, des aides financières et un accompagnement gratuit existent pour vos travaux : chauffage, isolation, menuiseries, adaptation du logement.📅 Permanences de novembre, sans rendez-vous, de 9h à 12hVendredi 6 et ve...",
@@ -116,25 +86,34 @@
     ],
     "today": [
       {
-        "id": "illiwap_dunieres_commemoration-61-1-3-2-1-2",
-        "title": "COMMEMORATION",
-        "summary": "La commémoration de l'Armistice de 1918 se déroulera le mercredi 11 novembre 2026 à 11h30 devant le Monument aux Morts.Source : Mairie de Dunières La commémoration de l'Armistice de 1918 se déroulera le mercredi 11 novembre 2026 à 11h30 devant le ...",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/commemoration-61-1-3-2-1-2",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/charte_public_website/placeholder_actu_pp.png",
+        "id": "illiwap_comcom_calendrier-des-fetes-de-novembre-1",
+        "title": "Calendrier des fêtes de novembre",
+        "summary": "Le calendrier des fêtes de novembre 2026 est disponible. Retrouvez les animations, spectacles, expositions et ateliers proposés dans les communes du Haut Pays du Velay :https://www.calameo.com/read/001159770add8fb838647Pour plus d’informations : H...",
+        "category": "Culture & Patrimoine",
+        "badge": "Culture",
+        "source_name": "Illiwap Haut Pays du Velay Communauté",
+        "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/actu/calendrier-des-fetes-de-novembre-1",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/dScVLgE-yHgZi38AvgJX2efCGalgURAI.jpg",
         "dates": {
-          "start": "2026-11-04",
+          "start": "2026-11-05",
           "end": null,
           "is_period": false,
           "bucket": "today"
         },
         "location": "Dunières / Haut Pays du Velay",
         "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
+        "has_attachment": true,
+        "attachment_type": "calameo",
+        "attachment_data": {
+          "type": "calameo",
+          "bkcode": "001159770add8fb838647",
+          "title": "Agenda Novembre 2026",
+          "author": "Haut Pays du Velay tourisme",
+          "description": "Calendrier des fêtes, novembre 2026 : Haut Pays du Velay tourisme\n\n8 villages, des dégustations de vins, une foire aux champignons, un gardien de phare qui n’a jamais quitté son phare et des marchés de Noël. Le calendrier de novembre 2026 réunit les...\nPlus",
+          "cover_image_url": "https://i.calameoassets.com/261031110200-7cba47eb387a5f610e39e6dcd84b3bb4/large.jpg",
+          "enriched_text": "Document Calaméo 'Agenda Novembre 2026' (par Haut Pays du Velay tourisme) :\nCalendrier des fêtes, novembre 2026 : Haut Pays du Velay tourisme\n\n8 villages, des dégustations de vins, une foire aux champignons, un gardien de phare qui n’a jamais quitté son phare et des marchés de Noël. Le calendrier de novembre 2026 réunit les...\nPlus",
+          "original_url": "https://www.calameo.com/read/001159770add8fb838647"
+        }
       },
       {
         "id": "illiwap_comcom_haut-pays-du-velay-communaute_5",
@@ -146,7 +125,7 @@
         "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
         "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/tzwCxo5SmA9RAjNQsziAXyNpGKhrJ6th72HoF8WMSCY.png",
         "dates": {
-          "start": "2026-11-04",
+          "start": "2026-11-05",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -167,7 +146,7 @@
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86093-saint-bonnet-le-froid-meme-sans-cepes-la-foire-aux-champignons-reste-une-fete-incontournable.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-04",
+          "start": "2026-11-05",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -188,28 +167,7 @@
         "source_url": "https://www.lacommere43.fr/actualites/item/85987-chef-carlo-trois-derniers-rendez-vous-avant-la-fin-de-l-annee-au-puy-en-velay-saint-bonnet-le-froid-et-bas-en-basset.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-04",
-          "end": null,
-          "is_period": false,
-          "bucket": "today"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
-      {
-        "id": "leprogres_haute_loire_11",
-        "title": "En vidéo. $content.TitleNoTags",
-        "summary": "On en salive d’avance...Avant la tenue de la célèbre foire aux champignons de Saint-Bonnet-le-Froid, on a pu se glisser dans les cuisines des Maisons Marcon.Au milieu des bénévoles qui s’activaient pour préparer les 1 300 repas qui seront servis l...",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "Le Progrès - Haute-Loire",
-        "source_url": "https://www.leprogres.fr/videos/on-a-suivi-la-preparation-des-repas-de-la-foire-aux-champignons-3z3suq5",
-        "image_url": null,
-        "dates": {
-          "start": "2026-11-04",
+          "start": "2026-11-05",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -223,14 +181,14 @@
     ],
     "upcoming": [
       {
-        "id": "illiwap_comcom_spectacle-conte-blanche-coton",
-        "title": "Spectacle conté « Blanche Coton »",
-        "summary": "Vendredi 6 novembre, 18h30Spectacle conté « Blanche Coton » par Suzel BarbarouxEt si Blanche Neige avait une sœur de lait à la peau noire comme le café ? Dans cette adaptation originale, l’histoire se déroule dans les plantations d’une époque colo...",
-        "category": "Alertes & Météo",
-        "badge": "Alerte Publique",
-        "source_name": "Illiwap Haut Pays du Velay Communauté",
-        "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/actu/spectacle-conte-blanche-coton",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/ShAmrqTI6YZ89QSi7SW0lJhPpia4qfF6Rifi9fidZtg.png",
+        "id": "illiwap_dunieres_matinale-des-professionnels-des-metiers-du-bien-etre-1",
+        "title": "Matinale des professionnels des métiers du bien-être",
+        "summary": "L'espace Bien-être de la Bobine créative organise une matinale dédiée aux professionnels des métiers du Bien-être ce vendredi 6 novembre de 9h00 à 12h00. Entrée en libre accès, possibilité de passer rapidement ou rester toute la matinée!Un temps c...",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
+        "source_name": "Illiwap Mairie de Dunières",
+        "source_url": "https://station.illiwap.com/fr/public/43087-la-bobine-creative/actu/matinale-des-professionnels-des-metiers-du-bien-etre-1",
+        "image_url": "https://station.illiwap.com/charte_public_website/icone-transfere.svg",
         "dates": {
           "start": "2026-11-06",
           "end": null,
@@ -238,7 +196,7 @@
           "bucket": "upcoming"
         },
         "location": "Dunières / Haut Pays du Velay",
-        "importance": "high",
+        "importance": "normal",
         "has_attachment": false,
         "attachment_type": null,
         "attachment_data": null
@@ -286,22 +244,22 @@
         "attachment_data": null
       },
       {
-        "id": "illiwap_dunieres_la-bataille-de-baccarat-ceux-de-14",
-        "title": "La bataille de Baccarat \"ceux de 14\"",
-        "summary": "Jeudi 12 novembre 20hau cinéma \"le Maubourg \"entrée gratuite-chapeau.",
-        "category": "Culture & Patrimoine",
-        "badge": "Culture",
+        "id": "illiwap_dunieres_conseil-municipal-1251-1-1-1-1-1-1-1-1-1-1-2",
+        "title": "Conseil Municipal",
+        "summary": "La prochaine réunion du Conseil Municipal se tiendra le mardi 10 novembre 2026 à 20h - Salle du Conseil Municipal.Source : Mairie de Dunières La prochaine réunion du Conseil Municipal se tiendra le mardi 10 novembre 2026 à 20h - Salle du Conseil M...",
+        "category": "Vie Municipale & Délibérations",
+        "badge": "Conseil Municipal",
         "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/la-bataille-de-baccarat-ceux-de-14",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6aeb0668572ed108938980.jpg",
+        "source_url": "https://station.illiwap.com/fr/public/43087/actu/conseil-municipal-1251-1-1-1-1-1-1-1-1-1-1-2",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/charte_public_website/placeholder_actu_pp.png",
         "dates": {
-          "start": "2026-11-12",
+          "start": "2026-11-10",
           "end": null,
           "is_period": false,
           "bucket": "upcoming"
         },
         "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
+        "importance": "high",
         "has_attachment": false,
         "attachment_type": null,
         "attachment_data": null
@@ -331,79 +289,37 @@
   },
   "all_events": [
     {
-      "id": "illiwap_dunieres_commemoration-61-1-3-2-1-2",
-      "title": "COMMEMORATION",
-      "summary": "La commémoration de l'Armistice de 1918 se déroulera le mercredi 11 novembre 2026 à 11h30 devant le Monument aux Morts.Source : Mairie de Dunières La commémoration de l'Armistice de 1918 se déroulera le mercredi 11 novembre 2026 à 11h30 devant le ...",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
+      "id": "illiwap_dunieres_conseil-municipal-1251-1-1-1-1-1-1-1-1-1-1-2",
+      "title": "Conseil Municipal",
+      "summary": "La prochaine réunion du Conseil Municipal se tiendra le mardi 10 novembre 2026 à 20h - Salle du Conseil Municipal.Source : Mairie de Dunières La prochaine réunion du Conseil Municipal se tiendra le mardi 10 novembre 2026 à 20h - Salle du Conseil M...",
+      "category": "Vie Municipale & Délibérations",
+      "badge": "Conseil Municipal",
       "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/commemoration-61-1-3-2-1-2",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/conseil-municipal-1251-1-1-1-1-1-1-1-1-1-1-2",
       "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/charte_public_website/placeholder_actu_pp.png",
       "dates": {
-        "start": "2026-11-04",
-        "end": null,
-        "is_period": false,
-        "bucket": "today"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "illiwap_dunieres_la-bataille-de-baccarat-ceux-de-14",
-      "title": "La bataille de Baccarat \"ceux de 14\"",
-      "summary": "Jeudi 12 novembre 20hau cinéma \"le Maubourg \"entrée gratuite-chapeau.",
-      "category": "Culture & Patrimoine",
-      "badge": "Culture",
-      "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/la-bataille-de-baccarat-ceux-de-14",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6aeb0668572ed108938980.jpg",
-      "dates": {
-        "start": "2026-11-12",
+        "start": "2026-11-10",
         "end": null,
         "is_period": false,
         "bucket": "upcoming"
       },
       "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
+      "importance": "high",
       "has_attachment": false,
       "attachment_type": null,
       "attachment_data": null
     },
     {
-      "id": "illiwap_dunieres_journee-mondiale-du-benevolat-2",
-      "title": "Journée mondiale du bénévolat",
-      "summary": "📣 Vous êtes bénévole, responsable associatif, élu, partenaire ou simplement intéressé par la vie associative ?À l’occasion de la Journée mondiale du bénévolat, le réseau @Guid’Asso Haute-Loire vous invite à un après-midi de rencontres, d’échanges ...",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
+      "id": "illiwap_dunieres_la-mediatheque-departementale-vous-informe-4",
+      "title": "la Médiathèque départementale vous informe",
+      "summary": "LesAutomnales du Numérique en Haute-Loirese dérouleront du24 octobre au 7 novembre.Pour cette 1ère édition, ce sont plus de 100 rendez-vous gratuits, dans 35 communes, proposés afin de transmettre ou de partager des savoir-faire numériques indispe...",
+      "category": "Vie Municipale & Délibérations",
+      "badge": "Conseil Municipal",
       "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/journee-mondiale-du-benevolat-2",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6ac88d4648757685384919.jpg",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/la-mediatheque-departementale-vous-informe-4",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/Cvqh1SFe3MIppkrVyEkWK8qa7bvRjkaM.jpg",
       "dates": {
-        "start": "2026-12-04",
-        "end": null,
-        "is_period": false,
-        "bucket": "extended"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "illiwap_comcom_opah-le-programme-d-aide-a-la-renovation-de-l-habitat-est",
-      "title": "OPAH : le programme d’aide à la rénovation de l’habitat est",
-      "summary": "Propriétaires occupants ou bailleurs, des aides financières et un accompagnement gratuit existent pour vos travaux : chauffage, isolation, menuiseries, adaptation du logement.📅 Permanences de novembre, sans rendez-vous, de 9h à 12hVendredi 6 et ve...",
-      "category": "Travaux & Voirie",
-      "badge": "Arrêté / Travaux",
-      "source_name": "Illiwap Haut Pays du Velay Communauté",
-      "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/actu/opah-le-programme-d-aide-a-la-renovation-de-l-habitat-est",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/HhmoPZ6Ndj1hI-UyucF6EEz-7nmapv8j1hfoWAava2I.jpg",
-      "dates": {
-        "start": "2026-11-02",
+        "start": "2026-10-24",
         "end": null,
         "is_period": false,
         "bucket": "retrospective"
@@ -415,19 +331,40 @@
       "attachment_data": null
     },
     {
-      "id": "illiwap_comcom_calendrier-des-fetes-de-novembre",
+      "id": "illiwap_dunieres_matinale-des-professionnels-des-metiers-du-bien-etre-1",
+      "title": "Matinale des professionnels des métiers du bien-être",
+      "summary": "L'espace Bien-être de la Bobine créative organise une matinale dédiée aux professionnels des métiers du Bien-être ce vendredi 6 novembre de 9h00 à 12h00. Entrée en libre accès, possibilité de passer rapidement ou rester toute la matinée!Un temps c...",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "source_name": "Illiwap Mairie de Dunières",
+      "source_url": "https://station.illiwap.com/fr/public/43087-la-bobine-creative/actu/matinale-des-professionnels-des-metiers-du-bien-etre-1",
+      "image_url": "https://station.illiwap.com/charte_public_website/icone-transfere.svg",
+      "dates": {
+        "start": "2026-11-06",
+        "end": null,
+        "is_period": false,
+        "bucket": "upcoming"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "illiwap_comcom_calendrier-des-fetes-de-novembre-1",
       "title": "Calendrier des fêtes de novembre",
       "summary": "Le calendrier des fêtes de novembre 2026 est disponible. Retrouvez les animations, spectacles, expositions et ateliers proposés dans les communes du Haut Pays du Velay :https://www.calameo.com/read/001159770add8fb838647Pour plus d’informations : H...",
       "category": "Culture & Patrimoine",
       "badge": "Culture",
       "source_name": "Illiwap Haut Pays du Velay Communauté",
-      "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/actu/calendrier-des-fetes-de-novembre",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/ZuBXAYlt50T80MoIPhbIv1ysnELreFstLEPBHllESec.jpg",
+      "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/actu/calendrier-des-fetes-de-novembre-1",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/dScVLgE-yHgZi38AvgJX2efCGalgURAI.jpg",
       "dates": {
-        "start": "2026-10-31",
+        "start": "2026-11-05",
         "end": null,
         "is_period": false,
-        "bucket": "retrospective"
+        "bucket": "today"
       },
       "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
@@ -445,19 +382,19 @@
       }
     },
     {
-      "id": "illiwap_comcom_spectacle-conte-blanche-coton",
-      "title": "Spectacle conté « Blanche Coton »",
-      "summary": "Vendredi 6 novembre, 18h30Spectacle conté « Blanche Coton » par Suzel BarbarouxEt si Blanche Neige avait une sœur de lait à la peau noire comme le café ? Dans cette adaptation originale, l’histoire se déroule dans les plantations d’une époque colo...",
-      "category": "Alertes & Météo",
-      "badge": "Alerte Publique",
+      "id": "illiwap_comcom_opah-le-programme-d-aide-a-la-renovation-de-l-habitat-est",
+      "title": "OPAH : le programme d’aide à la rénovation de l’habitat est",
+      "summary": "Propriétaires occupants ou bailleurs, des aides financières et un accompagnement gratuit existent pour vos travaux : chauffage, isolation, menuiseries, adaptation du logement.📅 Permanences de novembre, sans rendez-vous, de 9h à 12hVendredi 6 et ve...",
+      "category": "Travaux & Voirie",
+      "badge": "Arrêté / Travaux",
       "source_name": "Illiwap Haut Pays du Velay Communauté",
-      "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/actu/spectacle-conte-blanche-coton",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/ShAmrqTI6YZ89QSi7SW0lJhPpia4qfF6Rifi9fidZtg.png",
+      "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/actu/opah-le-programme-d-aide-a-la-renovation-de-l-habitat-est",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/HhmoPZ6Ndj1hI-UyucF6EEz-7nmapv8j1hfoWAava2I.jpg",
       "dates": {
-        "start": "2026-11-06",
+        "start": "2026-11-02",
         "end": null,
         "is_period": false,
-        "bucket": "upcoming"
+        "bucket": "retrospective"
       },
       "location": "Dunières / Haut Pays du Velay",
       "importance": "high",
@@ -496,7 +433,7 @@
       "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
       "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/tzwCxo5SmA9RAjNQsziAXyNpGKhrJ6th72HoF8WMSCY.png",
       "dates": {
-        "start": "2026-11-04",
+        "start": "2026-11-05",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -517,7 +454,7 @@
       "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86093-saint-bonnet-le-froid-meme-sans-cepes-la-foire-aux-champignons-reste-une-fete-incontournable.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-04",
+        "start": "2026-11-05",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -601,52 +538,10 @@
       "source_url": "https://www.lacommere43.fr/actualites/item/85987-chef-carlo-trois-derniers-rendez-vous-avant-la-fin-de-l-annee-au-puy-en-velay-saint-bonnet-le-froid-et-bas-en-basset.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-04",
+        "start": "2026-11-05",
         "end": null,
         "is_period": false,
         "bucket": "today"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "leprogres_haute_loire_11",
-      "title": "En vidéo. $content.TitleNoTags",
-      "summary": "On en salive d’avance...Avant la tenue de la célèbre foire aux champignons de Saint-Bonnet-le-Froid, on a pu se glisser dans les cuisines des Maisons Marcon.Au milieu des bénévoles qui s’activaient pour préparer les 1 300 repas qui seront servis l...",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "Le Progrès - Haute-Loire",
-      "source_url": "https://www.leprogres.fr/videos/on-a-suivi-la-preparation-des-repas-de-la-foire-aux-champignons-3z3suq5",
-      "image_url": null,
-      "dates": {
-        "start": "2026-11-04",
-        "end": null,
-        "is_period": false,
-        "bucket": "today"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "leprogres_haute_loire_15",
-      "title": "Haute-Loire. « Il faut un peu de concentration » : en cuisine avec le chef Marco",
-      "summary": "Mardi 27 octobre, 12 bénévoles amateurs ont préparé, sous les directives de Jacques Marcon, le dessert de la Foire aux champignons organisée les 7 et 8 novembre, dans la cuisine triplement étoilée de son restaurant à Saint-Bonnet-le-Froid.",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "Le Progrès - Haute-Loire",
-      "source_url": "https://www.leprogres.fr/magazine-cuisine-et-vins/2026/11/03/il-faut-un-peu-de-concentration-en-cuisine-avec-le-chef-marcon-et-les-benevoles-de-la-foire-aux-champignons",
-      "image_url": null,
-      "dates": {
-        "start": "2026-10-27",
-        "end": null,
-        "is_period": false,
-        "bucket": "retrospective"
       },
       "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
