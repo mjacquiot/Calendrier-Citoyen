@@ -3,8 +3,8 @@
     "commune": "Dunières",
     "code_postal": "43220",
     "intercommunalite": "Haut Pays du Velay Communauté",
-    "generated_at": "2026-11-05T13:53:04.854579+01:00",
-    "reference_date": "2026-11-05",
+    "generated_at": "2026-11-06T13:39:05.358131+01:00",
+    "reference_date": "2026-11-06",
     "sliding_window": {
       "retrospective_days": 15,
       "upcoming_days": 15
@@ -14,33 +14,12 @@
       "total_accepted": 12,
       "total_rejected": 1,
       "retrospective": 3,
-      "today": 4,
-      "upcoming": 5
+      "today": 5,
+      "upcoming": 4
     }
   },
   "buckets": {
     "retrospective": [
-      {
-        "id": "illiwap_dunieres_la-mediatheque-departementale-vous-informe-4",
-        "title": "la Médiathèque départementale vous informe",
-        "summary": "LesAutomnales du Numérique en Haute-Loirese dérouleront du24 octobre au 7 novembre.Pour cette 1ère édition, ce sont plus de 100 rendez-vous gratuits, dans 35 communes, proposés afin de transmettre ou de partager des savoir-faire numériques indispe...",
-        "category": "Vie Municipale & Délibérations",
-        "badge": "Conseil Municipal",
-        "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/la-mediatheque-departementale-vous-informe-4",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/Cvqh1SFe3MIppkrVyEkWK8qa7bvRjkaM.jpg",
-        "dates": {
-          "start": "2026-10-24",
-          "end": null,
-          "is_period": false,
-          "bucket": "retrospective"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "high",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
       {
         "id": "lacommere43_search_9",
         "title": "Vacances de la Toussaint : Halloween à la piscine deDunièresle 29 octobre",
@@ -82,9 +61,7 @@
         "has_attachment": false,
         "attachment_type": null,
         "attachment_data": null
-      }
-    ],
-    "today": [
+      },
       {
         "id": "illiwap_comcom_calendrier-des-fetes-de-novembre-1",
         "title": "Calendrier des fêtes de novembre",
@@ -98,7 +75,7 @@
           "start": "2026-11-05",
           "end": null,
           "is_period": false,
-          "bucket": "today"
+          "bucket": "retrospective"
         },
         "location": "Dunières / Haut Pays du Velay",
         "importance": "normal",
@@ -114,6 +91,29 @@
           "enriched_text": "Document Calaméo 'Agenda Novembre 2026' (par Haut Pays du Velay tourisme) :\nCalendrier des fêtes, novembre 2026 : Haut Pays du Velay tourisme\n\n8 villages, des dégustations de vins, une foire aux champignons, un gardien de phare qui n’a jamais quitté son phare et des marchés de Noël. Le calendrier de novembre 2026 réunit les...\nPlus",
           "original_url": "https://www.calameo.com/read/001159770add8fb838647"
         }
+      }
+    ],
+    "today": [
+      {
+        "id": "illiwap_dunieres_soiree-burger-karaoke-2",
+        "title": "Soirée burger karaoké 🍔 🎤",
+        "summary": "Soirée burger karaoké 🍔 🎤 06/11/2026",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
+        "source_name": "Illiwap Mairie de Dunières",
+        "source_url": "https://station.illiwap.com/fr/public/43087/actu/soiree-burger-karaoke-2",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/orNZV_X6M2TZrMpy-x9hSoYXlO4y9sHHaNG-UyCbtos.jpg",
+        "dates": {
+          "start": "2026-11-06",
+          "end": null,
+          "is_period": false,
+          "bucket": "today"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
       },
       {
         "id": "illiwap_comcom_haut-pays-du-velay-communaute_5",
@@ -125,7 +125,7 @@
         "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
         "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/tzwCxo5SmA9RAjNQsziAXyNpGKhrJ6th72HoF8WMSCY.png",
         "dates": {
-          "start": "2026-11-05",
+          "start": "2026-11-06",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -146,54 +146,10 @@
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86093-saint-bonnet-le-froid-meme-sans-cepes-la-foire-aux-champignons-reste-une-fete-incontournable.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-05",
-          "end": null,
-          "is_period": false,
-          "bucket": "today"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
-      {
-        "id": "lacommere43_rss_6",
-        "title": "Chef Carlo : trois derniers rendez-vous avant la fin de l'année au Puy-en-Velay,",
-        "summary": "(Publi-reportage) À l'approche des fêtes de fin d'année, Chef Carlo…",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "La Commère 43",
-        "source_url": "https://www.lacommere43.fr/actualites/item/85987-chef-carlo-trois-derniers-rendez-vous-avant-la-fin-de-l-annee-au-puy-en-velay-saint-bonnet-le-froid-et-bas-en-basset.html",
-        "image_url": null,
-        "dates": {
-          "start": "2026-11-05",
-          "end": null,
-          "is_period": false,
-          "bucket": "today"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      }
-    ],
-    "upcoming": [
-      {
-        "id": "illiwap_dunieres_matinale-des-professionnels-des-metiers-du-bien-etre-1",
-        "title": "Matinale des professionnels des métiers du bien-être",
-        "summary": "L'espace Bien-être de la Bobine créative organise une matinale dédiée aux professionnels des métiers du Bien-être ce vendredi 6 novembre de 9h00 à 12h00. Entrée en libre accès, possibilité de passer rapidement ou rester toute la matinée!Un temps c...",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087-la-bobine-creative/actu/matinale-des-professionnels-des-metiers-du-bien-etre-1",
-        "image_url": "https://station.illiwap.com/charte_public_website/icone-transfere.svg",
-        "dates": {
           "start": "2026-11-06",
           "end": null,
           "is_period": false,
-          "bucket": "upcoming"
+          "bucket": "today"
         },
         "location": "Dunières / Haut Pays du Velay",
         "importance": "normal",
@@ -214,7 +170,7 @@
           "start": "2026-11-06",
           "end": null,
           "is_period": false,
-          "bucket": "upcoming"
+          "bucket": "today"
         },
         "location": "Dunières / Haut Pays du Velay",
         "importance": "normal",
@@ -222,6 +178,29 @@
         "attachment_type": null,
         "attachment_data": null
       },
+      {
+        "id": "lacommere43_rss_9",
+        "title": "Chef Carlo : trois derniers rendez-vous avant la fin de l'année au Puy-en-Velay,",
+        "summary": "(Publi-reportage) À l'approche des fêtes de fin d'année, Chef Carlo…",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
+        "source_name": "La Commère 43",
+        "source_url": "https://www.lacommere43.fr/actualites/item/85987-chef-carlo-trois-derniers-rendez-vous-avant-la-fin-de-l-annee-au-puy-en-velay-saint-bonnet-le-froid-et-bas-en-basset.html",
+        "image_url": null,
+        "dates": {
+          "start": "2026-11-06",
+          "end": null,
+          "is_period": false,
+          "bucket": "today"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      }
+    ],
+    "upcoming": [
       {
         "id": "illiwap_comcom_haut-pays-du-velay-communaute_3",
         "title": "Jusqu'au 08/11/2026",
@@ -244,22 +223,22 @@
         "attachment_data": null
       },
       {
-        "id": "illiwap_dunieres_conseil-municipal-1251-1-1-1-1-1-1-1-1-1-1-2",
-        "title": "Conseil Municipal",
-        "summary": "La prochaine réunion du Conseil Municipal se tiendra le mardi 10 novembre 2026 à 20h - Salle du Conseil Municipal.Source : Mairie de Dunières La prochaine réunion du Conseil Municipal se tiendra le mardi 10 novembre 2026 à 20h - Salle du Conseil M...",
-        "category": "Vie Municipale & Délibérations",
-        "badge": "Conseil Municipal",
+        "id": "illiwap_dunieres_randonnee-15-11-2026-3",
+        "title": "Randonnée - 15/11/2026",
+        "summary": "La Gym volontaire de Dunières organise une randonnée pédestre le dimanche 15/11.Départ à partir de 7h30 - salle de la mairie7kms14kms20kmsinscriptions sur placeRenseignements : 07 82 38 70 28Source : Mairie de Dunières La Gym volontaire de Dunière...",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
         "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/conseil-municipal-1251-1-1-1-1-1-1-1-1-1-1-2",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/charte_public_website/placeholder_actu_pp.png",
+        "source_url": "https://station.illiwap.com/fr/public/43087/actu/randonnee-15-11-2026-3",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/397cMgTEzvuQK-JhKRbnEK0o3ggnkZrp.jpg",
         "dates": {
-          "start": "2026-11-10",
+          "start": "2026-11-15",
           "end": null,
           "is_period": false,
           "bucket": "upcoming"
         },
         "location": "Dunières / Haut Pays du Velay",
-        "importance": "high",
+        "importance": "normal",
         "has_attachment": false,
         "attachment_type": null,
         "attachment_data": null
@@ -284,66 +263,87 @@
         "has_attachment": false,
         "attachment_type": null,
         "attachment_data": null
+      },
+      {
+        "id": "illiwap_dunieres_concours-coinche-samedi-21-novembre-14h-ephata-43-3",
+        "title": "concours coinche samedi 21 novembre 14h EPHATA 43",
+        "summary": "L'association Ephata 43 renouvelle son concours de coinche, le samedi 21 novembre 2026, à la Salle des Associations de Dunières (derrière le gymnase).Le concours est ouvert à tous : participants seuls et duo.Toutes les doublettes seront primées. P...",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
+        "source_name": "Illiwap Mairie de Dunières",
+        "source_url": "https://station.illiwap.com/fr/public/43087/actu/concours-coinche-samedi-21-novembre-14h-ephata-43-3",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/iPsvcrsB5HHXVrf9Yp4CnJDL2L25SxU7.jpg",
+        "dates": {
+          "start": "2026-11-21",
+          "end": null,
+          "is_period": false,
+          "bucket": "upcoming"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
       }
     ]
   },
   "all_events": [
     {
-      "id": "illiwap_dunieres_conseil-municipal-1251-1-1-1-1-1-1-1-1-1-1-2",
-      "title": "Conseil Municipal",
-      "summary": "La prochaine réunion du Conseil Municipal se tiendra le mardi 10 novembre 2026 à 20h - Salle du Conseil Municipal.Source : Mairie de Dunières La prochaine réunion du Conseil Municipal se tiendra le mardi 10 novembre 2026 à 20h - Salle du Conseil M...",
-      "category": "Vie Municipale & Délibérations",
-      "badge": "Conseil Municipal",
+      "id": "illiwap_dunieres_randonnee-15-11-2026-3",
+      "title": "Randonnée - 15/11/2026",
+      "summary": "La Gym volontaire de Dunières organise une randonnée pédestre le dimanche 15/11.Départ à partir de 7h30 - salle de la mairie7kms14kms20kmsinscriptions sur placeRenseignements : 07 82 38 70 28Source : Mairie de Dunières La Gym volontaire de Dunière...",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
       "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/conseil-municipal-1251-1-1-1-1-1-1-1-1-1-1-2",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/charte_public_website/placeholder_actu_pp.png",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/randonnee-15-11-2026-3",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/397cMgTEzvuQK-JhKRbnEK0o3ggnkZrp.jpg",
       "dates": {
-        "start": "2026-11-10",
+        "start": "2026-11-15",
         "end": null,
         "is_period": false,
         "bucket": "upcoming"
       },
       "location": "Dunières / Haut Pays du Velay",
-      "importance": "high",
+      "importance": "normal",
       "has_attachment": false,
       "attachment_type": null,
       "attachment_data": null
     },
     {
-      "id": "illiwap_dunieres_la-mediatheque-departementale-vous-informe-4",
-      "title": "la Médiathèque départementale vous informe",
-      "summary": "LesAutomnales du Numérique en Haute-Loirese dérouleront du24 octobre au 7 novembre.Pour cette 1ère édition, ce sont plus de 100 rendez-vous gratuits, dans 35 communes, proposés afin de transmettre ou de partager des savoir-faire numériques indispe...",
-      "category": "Vie Municipale & Délibérations",
-      "badge": "Conseil Municipal",
-      "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/la-mediatheque-departementale-vous-informe-4",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/Cvqh1SFe3MIppkrVyEkWK8qa7bvRjkaM.jpg",
-      "dates": {
-        "start": "2026-10-24",
-        "end": null,
-        "is_period": false,
-        "bucket": "retrospective"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "high",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "illiwap_dunieres_matinale-des-professionnels-des-metiers-du-bien-etre-1",
-      "title": "Matinale des professionnels des métiers du bien-être",
-      "summary": "L'espace Bien-être de la Bobine créative organise une matinale dédiée aux professionnels des métiers du Bien-être ce vendredi 6 novembre de 9h00 à 12h00. Entrée en libre accès, possibilité de passer rapidement ou rester toute la matinée!Un temps c...",
+      "id": "illiwap_dunieres_concours-coinche-samedi-21-novembre-14h-ephata-43-3",
+      "title": "concours coinche samedi 21 novembre 14h EPHATA 43",
+      "summary": "L'association Ephata 43 renouvelle son concours de coinche, le samedi 21 novembre 2026, à la Salle des Associations de Dunières (derrière le gymnase).Le concours est ouvert à tous : participants seuls et duo.Toutes les doublettes seront primées. P...",
       "category": "Manifestations & Vie Associative",
       "badge": "Animation",
       "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087-la-bobine-creative/actu/matinale-des-professionnels-des-metiers-du-bien-etre-1",
-      "image_url": "https://station.illiwap.com/charte_public_website/icone-transfere.svg",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/concours-coinche-samedi-21-novembre-14h-ephata-43-3",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/iPsvcrsB5HHXVrf9Yp4CnJDL2L25SxU7.jpg",
+      "dates": {
+        "start": "2026-11-21",
+        "end": null,
+        "is_period": false,
+        "bucket": "upcoming"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "illiwap_dunieres_soiree-burger-karaoke-2",
+      "title": "Soirée burger karaoké 🍔 🎤",
+      "summary": "Soirée burger karaoké 🍔 🎤 06/11/2026",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "source_name": "Illiwap Mairie de Dunières",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/soiree-burger-karaoke-2",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/orNZV_X6M2TZrMpy-x9hSoYXlO4y9sHHaNG-UyCbtos.jpg",
       "dates": {
         "start": "2026-11-06",
         "end": null,
         "is_period": false,
-        "bucket": "upcoming"
+        "bucket": "today"
       },
       "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
@@ -364,7 +364,7 @@
         "start": "2026-11-05",
         "end": null,
         "is_period": false,
-        "bucket": "today"
+        "bucket": "retrospective"
       },
       "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
@@ -433,7 +433,7 @@
       "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
       "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/tzwCxo5SmA9RAjNQsziAXyNpGKhrJ6th72HoF8WMSCY.png",
       "dates": {
-        "start": "2026-11-05",
+        "start": "2026-11-06",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -454,7 +454,7 @@
       "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86093-saint-bonnet-le-froid-meme-sans-cepes-la-foire-aux-champignons-reste-une-fete-incontournable.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-05",
+        "start": "2026-11-06",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -478,7 +478,7 @@
         "start": "2026-11-06",
         "end": null,
         "is_period": false,
-        "bucket": "upcoming"
+        "bucket": "today"
       },
       "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
@@ -529,7 +529,7 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_rss_6",
+      "id": "lacommere43_rss_9",
       "title": "Chef Carlo : trois derniers rendez-vous avant la fin de l'année au Puy-en-Velay,",
       "summary": "(Publi-reportage) À l'approche des fêtes de fin d'année, Chef Carlo…",
       "category": "Manifestations & Vie Associative",
@@ -538,7 +538,7 @@
       "source_url": "https://www.lacommere43.fr/actualites/item/85987-chef-carlo-trois-derniers-rendez-vous-avant-la-fin-de-l-annee-au-puy-en-velay-saint-bonnet-le-froid-et-bas-en-basset.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-05",
+        "start": "2026-11-06",
         "end": null,
         "is_period": false,
         "bucket": "today"
