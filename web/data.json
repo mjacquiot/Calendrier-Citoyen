@@ -3,8 +3,8 @@
     "commune": "Dunières",
     "code_postal": "43220",
     "intercommunalite": "Haut Pays du Velay Communauté",
-    "generated_at": "2026-11-06T13:39:05.358131+01:00",
-    "reference_date": "2026-11-06",
+    "generated_at": "2026-11-07T12:26:52.511638+01:00",
+    "reference_date": "2026-11-07",
     "sliding_window": {
       "retrospective_days": 15,
       "upcoming_days": 15
@@ -13,34 +13,13 @@
       "total_analyzed": 13,
       "total_accepted": 12,
       "total_rejected": 1,
-      "retrospective": 3,
-      "today": 5,
+      "retrospective": 4,
+      "today": 4,
       "upcoming": 4
     }
   },
   "buckets": {
     "retrospective": [
-      {
-        "id": "lacommere43_search_9",
-        "title": "Vacances de la Toussaint : Halloween à la piscine deDunièresle 29 octobre",
-        "summary": "Pendant les vacances de la Toussaint, la piscine intercommunale deDunièresorganise jeudi 29 octobre, de 14 heures à 19 heures, une après-midi Halloween pour les familles, avec citrouilles",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "La Commère 43",
-        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/85931-vacances-de-la-toussaint-halloween-a-la-piscine-de-dunieres-le-29-octobre.html",
-        "image_url": null,
-        "dates": {
-          "start": "2026-10-29",
-          "end": null,
-          "is_period": false,
-          "bucket": "retrospective"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
       {
         "id": "illiwap_comcom_opah-le-programme-d-aide-a-la-renovation-de-l-habitat-est",
         "title": "OPAH : le programme d’aide à la rénovation de l’habitat est",
@@ -91,9 +70,7 @@
           "enriched_text": "Document Calaméo 'Agenda Novembre 2026' (par Haut Pays du Velay tourisme) :\nCalendrier des fêtes, novembre 2026 : Haut Pays du Velay tourisme\n\n8 villages, des dégustations de vins, une foire aux champignons, un gardien de phare qui n’a jamais quitté son phare et des marchés de Noël. Le calendrier de novembre 2026 réunit les...\nPlus",
           "original_url": "https://www.calameo.com/read/001159770add8fb838647"
         }
-      }
-    ],
-    "today": [
+      },
       {
         "id": "illiwap_dunieres_soiree-burger-karaoke-2",
         "title": "Soirée burger karaoké 🍔 🎤",
@@ -107,7 +84,7 @@
           "start": "2026-11-06",
           "end": null,
           "is_period": false,
-          "bucket": "today"
+          "bucket": "retrospective"
         },
         "location": "Dunières / Haut Pays du Velay",
         "importance": "normal",
@@ -116,16 +93,39 @@
         "attachment_data": null
       },
       {
+        "id": "lacommere43_search_3",
+        "title": "La bibliothèque deDunièresouvre ses coulisses à l'occasion des Automnales numéri",
+        "summary": "Dans le cadre des Automnales numériques, organisées par le Département de la Haute-Loire, la médiathèque deDunièresouvrira exceptionnellement ses portes au public le vendredi 6 novembre,",
+        "category": "Culture & Patrimoine",
+        "badge": "Culture",
+        "source_name": "La Commère 43",
+        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86084-la-bibliotheque-de-dunieres-ouvre-ses-coulisses-a-l-occasion-des-automnales-numeriques.html",
+        "image_url": null,
+        "dates": {
+          "start": "2026-11-06",
+          "end": null,
+          "is_period": false,
+          "bucket": "retrospective"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      }
+    ],
+    "today": [
+      {
         "id": "illiwap_comcom_haut-pays-du-velay-communaute_5",
-        "title": "6 nov. 2026 18:30 - 19:30",
-        "summary": "6 nov. 2026 18:30 - 19:30 Spectacle conté « Blanche Coton »",
+        "title": "22 nov. 2026 16:00 - 17:00",
+        "summary": "22 nov. 2026 16:00 - 17:00 Théâtre d’objets « Le Mystère Léon Plouhinec »",
         "category": "Culture & Patrimoine",
         "badge": "Culture",
         "source_name": "Illiwap Haut Pays du Velay Communauté",
         "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/tzwCxo5SmA9RAjNQsziAXyNpGKhrJ6th72HoF8WMSCY.png",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/AngRM8vlcQ9xVb0W6PgW3rEZD_FFHbdOlOljdKCMEKM.jpg",
         "dates": {
-          "start": "2026-11-06",
+          "start": "2026-11-07",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -137,16 +137,16 @@
         "attachment_data": null
       },
       {
-        "id": "lacommere43_search_1",
-        "title": "Saint-Bonnet-le-Froid : même sans cèpes, la foire aux champignons reste une fête",
-        "summary": "La Foire aux champignons de Saint-Bonnet-le-Froid aura lieu les 7 et 8 novembre. Même si la saison a été pauvre en champignons, la fête du village gourmand restera entière.",
+        "id": "lacommere43_search_0",
+        "title": "Un Japanese Head Spa ouvre àDunières",
+        "summary": "Ancienne aide-soignante et sapeur-pompier volontaire, Vanessa Lecat voulait continuer à prendre soin des autres, mais différemment. Elle ouvre un head spa àDunières. Insta",
         "category": "Manifestations & Vie Associative",
         "badge": "Animation",
         "source_name": "La Commère 43",
-        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86093-saint-bonnet-le-froid-meme-sans-cepes-la-foire-aux-champignons-reste-une-fete-incontournable.html",
+        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86162-un-japanese-head-spa-ouvre-a-dunieres.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-06",
+          "start": "2026-11-07",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -159,15 +159,15 @@
       },
       {
         "id": "lacommere43_search_2",
-        "title": "La bibliothèque deDunièresouvre ses coulisses à l'occasion des Automnales numéri",
-        "summary": "Dans le cadre des Automnales numériques, organisées par le Département de la Haute-Loire, la médiathèque deDunièresouvrira exceptionnellement ses portes au public le vendredi 6 novembre,",
-        "category": "Culture & Patrimoine",
-        "badge": "Culture",
+        "title": "Saint-Bonnet-le-Froid : même sans cèpes, la foire aux champignons reste une fête",
+        "summary": "La Foire aux champignons de Saint-Bonnet-le-Froid aura lieu les 7 et 8 novembre. Même si la saison a été pauvre en champignons, la fête du village gourmand restera entière.",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
         "source_name": "La Commère 43",
-        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86084-la-bibliotheque-de-dunieres-ouvre-ses-coulisses-a-l-occasion-des-automnales-numeriques.html",
+        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86093-saint-bonnet-le-froid-meme-sans-cepes-la-foire-aux-champignons-reste-une-fete-incontournable.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-06",
+          "start": "2026-11-07",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -179,16 +179,16 @@
         "attachment_data": null
       },
       {
-        "id": "lacommere43_rss_9",
-        "title": "Chef Carlo : trois derniers rendez-vous avant la fin de l'année au Puy-en-Velay,",
-        "summary": "(Publi-reportage) À l'approche des fêtes de fin d'année, Chef Carlo…",
+        "id": "leprogres_haute_loire_3",
+        "title": "En images. « Il y a moins de champignons mais c’est quand même la fête » : reviv",
+        "summary": "De différentes formes et de différentes couleurs, ils sont bien là, les champignons. Secs, frais, gros, petits, colorés ou moins, ils s’étalent sur les stands de la Foire de Saint-Bonnet-le-Froid. « Il n’y a juste pas les non comestibles », plaisa...",
         "category": "Manifestations & Vie Associative",
         "badge": "Animation",
-        "source_name": "La Commère 43",
-        "source_url": "https://www.lacommere43.fr/actualites/item/85987-chef-carlo-trois-derniers-rendez-vous-avant-la-fin-de-l-annee-au-puy-en-velay-saint-bonnet-le-froid-et-bas-en-basset.html",
+        "source_name": "Le Progrès - Haute-Loire",
+        "source_url": "https://www.leprogres.fr/culture-loisirs/2026/11/07/il-y-a-moins-de-champignons-mais-c-est-quand-meme-la-fete-revivez-le-lancement-de-la-foire-de-saint-bonnet-le-froid",
         "image_url": null,
         "dates": {
-          "start": "2026-11-06",
+          "start": "2026-11-07",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -244,7 +244,7 @@
         "attachment_data": null
       },
       {
-        "id": "lacommere43_search_5",
+        "id": "lacommere43_search_6",
         "title": "Dunières: une randonnée pédestre au profit du programme Gym Après Cancer.",
         "summary": "La Gymnastique Volontaire deDunièresorganise une randonnée pédestre au profit du programme Gym Après Cancer. Dimanche 15 novembre, trois circuits : 7, 14 et 20 km, inscri",
         "category": "Manifestations & Vie Associative",
@@ -343,7 +343,7 @@
         "start": "2026-11-06",
         "end": null,
         "is_period": false,
-        "bucket": "today"
+        "bucket": "retrospective"
       },
       "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
@@ -425,15 +425,15 @@
     },
     {
       "id": "illiwap_comcom_haut-pays-du-velay-communaute_5",
-      "title": "6 nov. 2026 18:30 - 19:30",
-      "summary": "6 nov. 2026 18:30 - 19:30 Spectacle conté « Blanche Coton »",
+      "title": "22 nov. 2026 16:00 - 17:00",
+      "summary": "22 nov. 2026 16:00 - 17:00 Théâtre d’objets « Le Mystère Léon Plouhinec »",
       "category": "Culture & Patrimoine",
       "badge": "Culture",
       "source_name": "Illiwap Haut Pays du Velay Communauté",
       "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/tzwCxo5SmA9RAjNQsziAXyNpGKhrJ6th72HoF8WMSCY.png",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/AngRM8vlcQ9xVb0W6PgW3rEZD_FFHbdOlOljdKCMEKM.jpg",
       "dates": {
-        "start": "2026-11-06",
+        "start": "2026-11-07",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -445,16 +445,16 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_search_1",
-      "title": "Saint-Bonnet-le-Froid : même sans cèpes, la foire aux champignons reste une fête",
-      "summary": "La Foire aux champignons de Saint-Bonnet-le-Froid aura lieu les 7 et 8 novembre. Même si la saison a été pauvre en champignons, la fête du village gourmand restera entière.",
+      "id": "lacommere43_search_0",
+      "title": "Un Japanese Head Spa ouvre àDunières",
+      "summary": "Ancienne aide-soignante et sapeur-pompier volontaire, Vanessa Lecat voulait continuer à prendre soin des autres, mais différemment. Elle ouvre un head spa àDunières. Insta",
       "category": "Manifestations & Vie Associative",
       "badge": "Animation",
       "source_name": "La Commère 43",
-      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86093-saint-bonnet-le-froid-meme-sans-cepes-la-foire-aux-champignons-reste-une-fete-incontournable.html",
+      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86162-un-japanese-head-spa-ouvre-a-dunieres.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-06",
+        "start": "2026-11-07",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -467,15 +467,15 @@
     },
     {
       "id": "lacommere43_search_2",
-      "title": "La bibliothèque deDunièresouvre ses coulisses à l'occasion des Automnales numéri",
-      "summary": "Dans le cadre des Automnales numériques, organisées par le Département de la Haute-Loire, la médiathèque deDunièresouvrira exceptionnellement ses portes au public le vendredi 6 novembre,",
-      "category": "Culture & Patrimoine",
-      "badge": "Culture",
+      "title": "Saint-Bonnet-le-Froid : même sans cèpes, la foire aux champignons reste une fête",
+      "summary": "La Foire aux champignons de Saint-Bonnet-le-Froid aura lieu les 7 et 8 novembre. Même si la saison a été pauvre en champignons, la fête du village gourmand restera entière.",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
       "source_name": "La Commère 43",
-      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86084-la-bibliotheque-de-dunieres-ouvre-ses-coulisses-a-l-occasion-des-automnales-numeriques.html",
+      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86093-saint-bonnet-le-froid-meme-sans-cepes-la-foire-aux-champignons-reste-une-fete-incontournable.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-06",
+        "start": "2026-11-07",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -487,7 +487,28 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_search_5",
+      "id": "lacommere43_search_3",
+      "title": "La bibliothèque deDunièresouvre ses coulisses à l'occasion des Automnales numéri",
+      "summary": "Dans le cadre des Automnales numériques, organisées par le Département de la Haute-Loire, la médiathèque deDunièresouvrira exceptionnellement ses portes au public le vendredi 6 novembre,",
+      "category": "Culture & Patrimoine",
+      "badge": "Culture",
+      "source_name": "La Commère 43",
+      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86084-la-bibliotheque-de-dunieres-ouvre-ses-coulisses-a-l-occasion-des-automnales-numeriques.html",
+      "image_url": null,
+      "dates": {
+        "start": "2026-11-06",
+        "end": null,
+        "is_period": false,
+        "bucket": "retrospective"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "lacommere43_search_6",
       "title": "Dunières: une randonnée pédestre au profit du programme Gym Après Cancer.",
       "summary": "La Gymnastique Volontaire deDunièresorganise une randonnée pédestre au profit du programme Gym Après Cancer. Dimanche 15 novembre, trois circuits : 7, 14 et 20 km, inscri",
       "category": "Manifestations & Vie Associative",
@@ -508,37 +529,16 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_search_9",
-      "title": "Vacances de la Toussaint : Halloween à la piscine deDunièresle 29 octobre",
-      "summary": "Pendant les vacances de la Toussaint, la piscine intercommunale deDunièresorganise jeudi 29 octobre, de 14 heures à 19 heures, une après-midi Halloween pour les familles, avec citrouilles",
+      "id": "leprogres_haute_loire_3",
+      "title": "En images. « Il y a moins de champignons mais c’est quand même la fête » : reviv",
+      "summary": "De différentes formes et de différentes couleurs, ils sont bien là, les champignons. Secs, frais, gros, petits, colorés ou moins, ils s’étalent sur les stands de la Foire de Saint-Bonnet-le-Froid. « Il n’y a juste pas les non comestibles », plaisa...",
       "category": "Manifestations & Vie Associative",
       "badge": "Animation",
-      "source_name": "La Commère 43",
-      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/85931-vacances-de-la-toussaint-halloween-a-la-piscine-de-dunieres-le-29-octobre.html",
+      "source_name": "Le Progrès - Haute-Loire",
+      "source_url": "https://www.leprogres.fr/culture-loisirs/2026/11/07/il-y-a-moins-de-champignons-mais-c-est-quand-meme-la-fete-revivez-le-lancement-de-la-foire-de-saint-bonnet-le-froid",
       "image_url": null,
       "dates": {
-        "start": "2026-10-29",
-        "end": null,
-        "is_period": false,
-        "bucket": "retrospective"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "lacommere43_rss_9",
-      "title": "Chef Carlo : trois derniers rendez-vous avant la fin de l'année au Puy-en-Velay,",
-      "summary": "(Publi-reportage) À l'approche des fêtes de fin d'année, Chef Carlo…",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "La Commère 43",
-      "source_url": "https://www.lacommere43.fr/actualites/item/85987-chef-carlo-trois-derniers-rendez-vous-avant-la-fin-de-l-annee-au-puy-en-velay-saint-bonnet-le-froid-et-bas-en-basset.html",
-      "image_url": null,
-      "dates": {
-        "start": "2026-11-06",
+        "start": "2026-11-07",
         "end": null,
         "is_period": false,
         "bucket": "today"
