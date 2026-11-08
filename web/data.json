@@ -3,18 +3,18 @@
     "commune": "Dunières",
     "code_postal": "43220",
     "intercommunalite": "Haut Pays du Velay Communauté",
-    "generated_at": "2026-11-07T12:26:52.511638+01:00",
-    "reference_date": "2026-11-07",
+    "generated_at": "2026-11-08T12:39:19.023503+01:00",
+    "reference_date": "2026-11-08",
     "sliding_window": {
       "retrospective_days": 15,
       "upcoming_days": 15
     },
     "counts": {
-      "total_analyzed": 13,
-      "total_accepted": 12,
+      "total_analyzed": 15,
+      "total_accepted": 14,
       "total_rejected": 1,
-      "retrospective": 4,
-      "today": 4,
+      "retrospective": 7,
+      "today": 3,
       "upcoming": 4
     }
   },
@@ -37,6 +37,27 @@
         },
         "location": "Dunières / Haut Pays du Velay",
         "importance": "high",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      },
+      {
+        "id": "leprogres_haute_loire_2",
+        "title": "Haute-Loire. « C’est une première » : après la mort d’une femme ayant consommé d",
+        "summary": "Le 2 novembre, une Montpelliéraine de 27 ans est morte après avoir consommé des morilles séchées. Le lien n’est pas établi, mais l’affaire préoccupe certains clients de la Foire de Saint-Bonnet-le-Froid. Les professionnels tentent de rassurer.",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
+        "source_name": "Le Progrès - Haute-Loire",
+        "source_url": "https://www.leprogres.fr/magazine-cuisine-et-vins/2026/11/07/c-est-une-premiere-apres-la-mort-d-une-femme-ayant-consomme-des-morilles-le-monde-du-champignon-s-interroge",
+        "image_url": null,
+        "dates": {
+          "start": "2026-11-02",
+          "end": null,
+          "is_period": false,
+          "bucket": "retrospective"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
         "has_attachment": false,
         "attachment_type": null,
         "attachment_data": null
@@ -93,7 +114,7 @@
         "attachment_data": null
       },
       {
-        "id": "lacommere43_search_3",
+        "id": "lacommere43_search_4",
         "title": "La bibliothèque deDunièresouvre ses coulisses à l'occasion des Automnales numéri",
         "summary": "Dans le cadre des Automnales numériques, organisées par le Département de la Haute-Loire, la médiathèque deDunièresouvrira exceptionnellement ses portes au public le vendredi 6 novembre,",
         "category": "Culture & Patrimoine",
@@ -112,44 +133,21 @@
         "has_attachment": false,
         "attachment_type": null,
         "attachment_data": null
-      }
-    ],
-    "today": [
-      {
-        "id": "illiwap_comcom_haut-pays-du-velay-communaute_5",
-        "title": "22 nov. 2026 16:00 - 17:00",
-        "summary": "22 nov. 2026 16:00 - 17:00 Théâtre d’objets « Le Mystère Léon Plouhinec »",
-        "category": "Culture & Patrimoine",
-        "badge": "Culture",
-        "source_name": "Illiwap Haut Pays du Velay Communauté",
-        "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/AngRM8vlcQ9xVb0W6PgW3rEZD_FFHbdOlOljdKCMEKM.jpg",
-        "dates": {
-          "start": "2026-11-07",
-          "end": null,
-          "is_period": false,
-          "bucket": "today"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
       },
       {
-        "id": "lacommere43_search_0",
-        "title": "Un Japanese Head Spa ouvre àDunières",
-        "summary": "Ancienne aide-soignante et sapeur-pompier volontaire, Vanessa Lecat voulait continuer à prendre soin des autres, mais différemment. Elle ouvre un head spa àDunières. Insta",
+        "id": "leprogres_haute_loire_4",
+        "title": "Haute-Loire. « Il y en a pour tout le monde » : malgré la disette, la Foire aux ",
+        "summary": "Dans le brouillard puis le soleil, des milliers de visiteurs ont arpenté, samedi 7 novembre, les rues du village de Haute-Loire pour chiner et déguster des champignons sous différentes formes. Malgré une saison pauvre en champignons, les paniers s...",
         "category": "Manifestations & Vie Associative",
         "badge": "Animation",
-        "source_name": "La Commère 43",
-        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86162-un-japanese-head-spa-ouvre-a-dunieres.html",
+        "source_name": "Le Progrès - Haute-Loire",
+        "source_url": "https://www.leprogres.fr/magazine-cuisine-et-vins/2026/11/07/il-y-en-a-pour-tout-le-monde-malgre-la-disette-la-foire-aux-champignons-fait-le-plein",
         "image_url": null,
         "dates": {
           "start": "2026-11-07",
           "end": null,
           "is_period": false,
-          "bucket": "today"
+          "bucket": "retrospective"
         },
         "location": "Dunières / Haut Pays du Velay",
         "importance": "normal",
@@ -158,28 +156,7 @@
         "attachment_data": null
       },
       {
-        "id": "lacommere43_search_2",
-        "title": "Saint-Bonnet-le-Froid : même sans cèpes, la foire aux champignons reste une fête",
-        "summary": "La Foire aux champignons de Saint-Bonnet-le-Froid aura lieu les 7 et 8 novembre. Même si la saison a été pauvre en champignons, la fête du village gourmand restera entière.",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "La Commère 43",
-        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86093-saint-bonnet-le-froid-meme-sans-cepes-la-foire-aux-champignons-reste-une-fete-incontournable.html",
-        "image_url": null,
-        "dates": {
-          "start": "2026-11-07",
-          "end": null,
-          "is_period": false,
-          "bucket": "today"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
-      {
-        "id": "leprogres_haute_loire_3",
+        "id": "leprogres_haute_loire_9",
         "title": "En images. « Il y a moins de champignons mais c’est quand même la fête » : reviv",
         "summary": "De différentes formes et de différentes couleurs, ils sont bien là, les champignons. Secs, frais, gros, petits, colorés ou moins, ils s’étalent sur les stands de la Foire de Saint-Bonnet-le-Froid. « Il n’y a juste pas les non comestibles », plaisa...",
         "category": "Manifestations & Vie Associative",
@@ -189,6 +166,71 @@
         "image_url": null,
         "dates": {
           "start": "2026-11-07",
+          "end": null,
+          "is_period": false,
+          "bucket": "retrospective"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      }
+    ],
+    "today": [
+      {
+        "id": "illiwap_comcom_haut-pays-du-velay-communaute_4",
+        "title": "22 nov. 2026 16:00 - 17:00",
+        "summary": "22 nov. 2026 16:00 - 17:00 Théâtre d’objets « Le Mystère Léon Plouhinec »",
+        "category": "Culture & Patrimoine",
+        "badge": "Culture",
+        "source_name": "Illiwap Haut Pays du Velay Communauté",
+        "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/AngRM8vlcQ9xVb0W6PgW3rEZD_FFHbdOlOljdKCMEKM.jpg",
+        "dates": {
+          "start": "2026-11-08",
+          "end": null,
+          "is_period": false,
+          "bucket": "today"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      },
+      {
+        "id": "lacommere43_search_1",
+        "title": "Un Japanese Head Spa ouvre àDunières",
+        "summary": "Ancienne aide-soignante et sapeur-pompier volontaire, Vanessa Lecat voulait continuer à prendre soin des autres, mais différemment. Elle ouvre un head spa àDunières. Insta",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
+        "source_name": "La Commère 43",
+        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86162-un-japanese-head-spa-ouvre-a-dunieres.html",
+        "image_url": null,
+        "dates": {
+          "start": "2026-11-08",
+          "end": null,
+          "is_period": false,
+          "bucket": "today"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      },
+      {
+        "id": "lacommere43_search_3",
+        "title": "Saint-Bonnet-le-Froid : même sans cèpes, la foire aux champignons reste une fête",
+        "summary": "La Foire aux champignons de Saint-Bonnet-le-Froid aura lieu les 7 et 8 novembre. Même si la saison a été pauvre en champignons, la fête du village gourmand restera entière.",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
+        "source_name": "La Commère 43",
+        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86093-saint-bonnet-le-froid-meme-sans-cepes-la-foire-aux-champignons-reste-une-fete-incontournable.html",
+        "image_url": null,
+        "dates": {
+          "start": "2026-11-08",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -201,27 +243,6 @@
       }
     ],
     "upcoming": [
-      {
-        "id": "illiwap_comcom_haut-pays-du-velay-communaute_3",
-        "title": "Jusqu'au 08/11/2026",
-        "summary": "Jusqu'au 08/11/2026 Programme d'activités, animations sur les vacances",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "Illiwap Haut Pays du Velay Communauté",
-        "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/6ad0dbc3996ff285804177.jpg",
-        "dates": {
-          "start": "2026-11-08",
-          "end": "2026-11-08",
-          "is_period": false,
-          "bucket": "upcoming"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
       {
         "id": "illiwap_dunieres_randonnee-15-11-2026-3",
         "title": "Randonnée - 15/11/2026",
@@ -244,7 +265,28 @@
         "attachment_data": null
       },
       {
-        "id": "lacommere43_search_6",
+        "id": "illiwap_comcom_haut-pays-du-velay-communaute_3",
+        "title": "Jusqu'au 15/11/2026",
+        "summary": "Jusqu'au 15/11/2026 Programme d'activités, animations sur les vacances",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
+        "source_name": "Illiwap Haut Pays du Velay Communauté",
+        "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/6ad0dbc39be78744965858.jpg",
+        "dates": {
+          "start": "2026-11-15",
+          "end": "2026-11-15",
+          "is_period": false,
+          "bucket": "upcoming"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      },
+      {
+        "id": "lacommere43_search_7",
         "title": "Dunières: une randonnée pédestre au profit du programme Gym Après Cancer.",
         "summary": "La Gymnastique Volontaire deDunièresorganise une randonnée pédestre au profit du programme Gym Après Cancer. Dimanche 15 novembre, trois circuits : 7, 14 et 20 km, inscri",
         "category": "Manifestations & Vie Associative",
@@ -404,16 +446,16 @@
     },
     {
       "id": "illiwap_comcom_haut-pays-du-velay-communaute_3",
-      "title": "Jusqu'au 08/11/2026",
-      "summary": "Jusqu'au 08/11/2026 Programme d'activités, animations sur les vacances",
+      "title": "Jusqu'au 15/11/2026",
+      "summary": "Jusqu'au 15/11/2026 Programme d'activités, animations sur les vacances",
       "category": "Manifestations & Vie Associative",
       "badge": "Animation",
       "source_name": "Illiwap Haut Pays du Velay Communauté",
       "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/6ad0dbc3996ff285804177.jpg",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/6ad0dbc39be78744965858.jpg",
       "dates": {
-        "start": "2026-11-08",
-        "end": "2026-11-08",
+        "start": "2026-11-15",
+        "end": "2026-11-15",
         "is_period": false,
         "bucket": "upcoming"
       },
@@ -424,7 +466,7 @@
       "attachment_data": null
     },
     {
-      "id": "illiwap_comcom_haut-pays-du-velay-communaute_5",
+      "id": "illiwap_comcom_haut-pays-du-velay-communaute_4",
       "title": "22 nov. 2026 16:00 - 17:00",
       "summary": "22 nov. 2026 16:00 - 17:00 Théâtre d’objets « Le Mystère Léon Plouhinec »",
       "category": "Culture & Patrimoine",
@@ -433,7 +475,7 @@
       "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
       "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/AngRM8vlcQ9xVb0W6PgW3rEZD_FFHbdOlOljdKCMEKM.jpg",
       "dates": {
-        "start": "2026-11-07",
+        "start": "2026-11-08",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -445,7 +487,7 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_search_0",
+      "id": "lacommere43_search_1",
       "title": "Un Japanese Head Spa ouvre àDunières",
       "summary": "Ancienne aide-soignante et sapeur-pompier volontaire, Vanessa Lecat voulait continuer à prendre soin des autres, mais différemment. Elle ouvre un head spa àDunières. Insta",
       "category": "Manifestations & Vie Associative",
@@ -454,28 +496,7 @@
       "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86162-un-japanese-head-spa-ouvre-a-dunieres.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-07",
-        "end": null,
-        "is_period": false,
-        "bucket": "today"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "lacommere43_search_2",
-      "title": "Saint-Bonnet-le-Froid : même sans cèpes, la foire aux champignons reste une fête",
-      "summary": "La Foire aux champignons de Saint-Bonnet-le-Froid aura lieu les 7 et 8 novembre. Même si la saison a été pauvre en champignons, la fête du village gourmand restera entière.",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "La Commère 43",
-      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86093-saint-bonnet-le-froid-meme-sans-cepes-la-foire-aux-champignons-reste-une-fete-incontournable.html",
-      "image_url": null,
-      "dates": {
-        "start": "2026-11-07",
+        "start": "2026-11-08",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -488,6 +509,27 @@
     },
     {
       "id": "lacommere43_search_3",
+      "title": "Saint-Bonnet-le-Froid : même sans cèpes, la foire aux champignons reste une fête",
+      "summary": "La Foire aux champignons de Saint-Bonnet-le-Froid aura lieu les 7 et 8 novembre. Même si la saison a été pauvre en champignons, la fête du village gourmand restera entière.",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "source_name": "La Commère 43",
+      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86093-saint-bonnet-le-froid-meme-sans-cepes-la-foire-aux-champignons-reste-une-fete-incontournable.html",
+      "image_url": null,
+      "dates": {
+        "start": "2026-11-08",
+        "end": null,
+        "is_period": false,
+        "bucket": "today"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "lacommere43_search_4",
       "title": "La bibliothèque deDunièresouvre ses coulisses à l'occasion des Automnales numéri",
       "summary": "Dans le cadre des Automnales numériques, organisées par le Département de la Haute-Loire, la médiathèque deDunièresouvrira exceptionnellement ses portes au public le vendredi 6 novembre,",
       "category": "Culture & Patrimoine",
@@ -508,7 +550,7 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_search_6",
+      "id": "lacommere43_search_7",
       "title": "Dunières: une randonnée pédestre au profit du programme Gym Après Cancer.",
       "summary": "La Gymnastique Volontaire deDunièresorganise une randonnée pédestre au profit du programme Gym Après Cancer. Dimanche 15 novembre, trois circuits : 7, 14 et 20 km, inscri",
       "category": "Manifestations & Vie Associative",
@@ -529,7 +571,49 @@
       "attachment_data": null
     },
     {
-      "id": "leprogres_haute_loire_3",
+      "id": "leprogres_haute_loire_2",
+      "title": "Haute-Loire. « C’est une première » : après la mort d’une femme ayant consommé d",
+      "summary": "Le 2 novembre, une Montpelliéraine de 27 ans est morte après avoir consommé des morilles séchées. Le lien n’est pas établi, mais l’affaire préoccupe certains clients de la Foire de Saint-Bonnet-le-Froid. Les professionnels tentent de rassurer.",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "source_name": "Le Progrès - Haute-Loire",
+      "source_url": "https://www.leprogres.fr/magazine-cuisine-et-vins/2026/11/07/c-est-une-premiere-apres-la-mort-d-une-femme-ayant-consomme-des-morilles-le-monde-du-champignon-s-interroge",
+      "image_url": null,
+      "dates": {
+        "start": "2026-11-02",
+        "end": null,
+        "is_period": false,
+        "bucket": "retrospective"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "leprogres_haute_loire_4",
+      "title": "Haute-Loire. « Il y en a pour tout le monde » : malgré la disette, la Foire aux ",
+      "summary": "Dans le brouillard puis le soleil, des milliers de visiteurs ont arpenté, samedi 7 novembre, les rues du village de Haute-Loire pour chiner et déguster des champignons sous différentes formes. Malgré une saison pauvre en champignons, les paniers s...",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "source_name": "Le Progrès - Haute-Loire",
+      "source_url": "https://www.leprogres.fr/magazine-cuisine-et-vins/2026/11/07/il-y-en-a-pour-tout-le-monde-malgre-la-disette-la-foire-aux-champignons-fait-le-plein",
+      "image_url": null,
+      "dates": {
+        "start": "2026-11-07",
+        "end": null,
+        "is_period": false,
+        "bucket": "retrospective"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "leprogres_haute_loire_9",
       "title": "En images. « Il y a moins de champignons mais c’est quand même la fête » : reviv",
       "summary": "De différentes formes et de différentes couleurs, ils sont bien là, les champignons. Secs, frais, gros, petits, colorés ou moins, ils s’étalent sur les stands de la Foire de Saint-Bonnet-le-Froid. « Il n’y a juste pas les non comestibles », plaisa...",
       "category": "Manifestations & Vie Associative",
@@ -541,7 +625,7 @@
         "start": "2026-11-07",
         "end": null,
         "is_period": false,
-        "bucket": "today"
+        "bucket": "retrospective"
       },
       "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
