@@ -3,19 +3,19 @@
     "commune": "Dunières",
     "code_postal": "43220",
     "intercommunalite": "Haut Pays du Velay Communauté",
-    "generated_at": "2026-11-09T14:31:40.908861+01:00",
-    "reference_date": "2026-11-09",
+    "generated_at": "2026-11-10T14:10:50.683308+01:00",
+    "reference_date": "2026-11-10",
     "sliding_window": {
       "retrospective_days": 15,
       "upcoming_days": 15
     },
     "counts": {
-      "total_analyzed": 15,
-      "total_accepted": 14,
+      "total_analyzed": 16,
+      "total_accepted": 15,
       "total_rejected": 1,
       "retrospective": 4,
-      "today": 6,
-      "upcoming": 4
+      "today": 7,
+      "upcoming": 3
     }
   },
   "buckets": {
@@ -37,27 +37,6 @@
         },
         "location": "Dunières / Haut Pays du Velay",
         "importance": "high",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
-      {
-        "id": "leprogres_haute_loire_19",
-        "title": "Haute-Loire. « C’est une première » : après la mort d’une femme ayant consommé d",
-        "summary": "Le 2 novembre, une Montpelliéraine de 27 ans est morte après avoir consommé des morilles séchées. Le lien n’est pas établi, mais l’affaire préoccupe certains clients de la Foire de Saint-Bonnet-le-Froid. Les professionnels tentent de rassurer.",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "Le Progrès - Haute-Loire",
-        "source_url": "https://www.leprogres.fr/magazine-cuisine-et-vins/2026/11/07/c-est-une-premiere-apres-la-mort-d-une-femme-ayant-consomme-des-morilles-le-monde-du-champignon-s-interroge",
-        "image_url": null,
-        "dates": {
-          "start": "2026-11-02",
-          "end": null,
-          "is_period": false,
-          "bucket": "retrospective"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
         "has_attachment": false,
         "attachment_type": null,
         "attachment_data": null
@@ -93,7 +72,7 @@
         }
       },
       {
-        "id": "lacommere43_search_6",
+        "id": "lacommere43_search_9",
         "title": "La bibliothèque deDunièresouvre ses coulisses à l'occasion des Automnales numéri",
         "summary": "Dans le cadre des Automnales numériques, organisées par le Département de la Haute-Loire, la médiathèque deDunièresouvrira exceptionnellement ses portes au public le vendredi 6 novembre,",
         "category": "Culture & Patrimoine",
@@ -112,26 +91,47 @@
         "has_attachment": false,
         "attachment_type": null,
         "attachment_data": null
+      },
+      {
+        "id": "lacommere43_search_0",
+        "title": "Les élèves de CM de l’école Jacques-Prévert deDunièresrendent hommage aux combat",
+        "summary": "Ce lundi 9 novembre, les élèves de CM de l’école Jacques-Prévert ont rendu hommage aux combattants de la Grande Guerre. À l’occasion d’une cérémonie organisée dans l’encein",
+        "category": "Enfance & Jeunesse",
+        "badge": "Enfance",
+        "source_name": "La Commère 43",
+        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86236-les-eleves-de-cm-de-l-ecole-jacques-prevert-de-dunieres-rendent-hommage-aux-combattants-de-la-grande-guerre.html",
+        "image_url": null,
+        "dates": {
+          "start": "2026-11-09",
+          "end": null,
+          "is_period": false,
+          "bucket": "retrospective"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
       }
     ],
     "today": [
       {
-        "id": "illiwap_dunieres_travaux-rue-saint-martin-4",
-        "title": "Travaux rue Saint-Martin  ⚠",
-        "summary": "Travaux rue Saint-Martin  ⚠ 09/11/2026",
-        "category": "Travaux & Voirie",
-        "badge": "Arrêté / Travaux",
+        "id": "illiwap_dunieres_commemoration-61-1-3-2-1-2-1",
+        "title": "COMMEMORATION",
+        "summary": "La commémoration de l'Armistice de 1918 se déroulera le mercredi 11 novembre 2026 à 11h30 devant le Monument aux Morts.Source : Mairie de Dunières La commémoration de l'Armistice de 1918 se déroulera le mercredi 11 novembre 2026 à 11h30 devant le ...",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
         "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/travaux-rue-saint-martin-4",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6aedd549bff49834393018.jpg",
+        "source_url": "https://station.illiwap.com/fr/public/43087/actu/commemoration-61-1-3-2-1-2-1",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/charte_public_website/placeholder_actu_pp.png",
         "dates": {
-          "start": "2026-11-09",
+          "start": "2026-11-10",
           "end": null,
           "is_period": false,
           "bucket": "today"
         },
         "location": "Dunières / Haut Pays du Velay",
-        "importance": "high",
+        "importance": "normal",
         "has_attachment": false,
         "attachment_type": null,
         "attachment_data": null
@@ -146,7 +146,7 @@
         "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
         "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/AngRM8vlcQ9xVb0W6PgW3rEZD_FFHbdOlOljdKCMEKM.jpg",
         "dates": {
-          "start": "2026-11-09",
+          "start": "2026-11-10",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -158,16 +158,16 @@
         "attachment_data": null
       },
       {
-        "id": "lacommere43_search_0",
-        "title": "Compost et terreau, il y a les deux au collège deDunières",
-        "summary": "Au collège du Sacré-Cœur àDunières, les élèves du groupe E3D (Etablissement en Démarche de Développement Durable) agissent concrètement pour valoriser les déchets organiques sur place : au",
-        "category": "Services & Déchets",
-        "badge": "Service Public",
+        "id": "lacommere43_search_1",
+        "title": "Remise de diplômes du PSC1 pour les 3e au collège deDunières",
+        "summary": "Vingt élèves volontaires de 3e du collège Le Sacré Cœur-Don Bosco deDunièresont participé à une formation PSC1, Prévention et Secours Civiques de niveau 1, organisée dans les locaux de l'",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
         "source_name": "La Commère 43",
-        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86220-compost-et-terreau-il-y-a-les-deux-au-college-de-dunieres.html",
+        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86235-remise-de-diplomes-du-psc1-pour-les-3e-au-college-de-dunieres.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-09",
+          "start": "2026-11-10",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -180,6 +180,27 @@
       },
       {
         "id": "lacommere43_search_3",
+        "title": "Compost et terreau, il y a les deux au collège deDunières",
+        "summary": "Au collège du Sacré-Cœur àDunières, les élèves du groupe E3D (Etablissement en Démarche de Développement Durable) agissent concrètement pour valoriser les déchets organiques sur place : au",
+        "category": "Services & Déchets",
+        "badge": "Service Public",
+        "source_name": "La Commère 43",
+        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86220-compost-et-terreau-il-y-a-les-deux-au-college-de-dunieres.html",
+        "image_url": null,
+        "dates": {
+          "start": "2026-11-10",
+          "end": null,
+          "is_period": false,
+          "bucket": "today"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      },
+      {
+        "id": "lacommere43_search_6",
         "title": "Un Japanese Head Spa ouvre àDunières",
         "summary": "Ancienne aide-soignante et sapeur-pompier volontaire, Vanessa Lecat voulait continuer à prendre soin des autres, mais différemment. Elle ouvre un head spa àDunières. Insta",
         "category": "Manifestations & Vie Associative",
@@ -188,7 +209,7 @@
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86162-un-japanese-head-spa-ouvre-a-dunieres.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-09",
+          "start": "2026-11-10",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -200,7 +221,7 @@
         "attachment_data": null
       },
       {
-        "id": "lacommere43_search_5",
+        "id": "lacommere43_search_8",
         "title": "Saint-Bonnet-le-Froid : même sans cèpes, la foire aux champignons reste une fête",
         "summary": "La Foire aux champignons de Saint-Bonnet-le-Froid aura lieu les 7 et 8 novembre. Même si la saison a été pauvre en champignons, la fête du village gourmand restera entière.",
         "category": "Manifestations & Vie Associative",
@@ -209,7 +230,7 @@
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86093-saint-bonnet-le-froid-meme-sans-cepes-la-foire-aux-champignons-reste-une-fete-incontournable.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-09",
+          "start": "2026-11-10",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -221,7 +242,7 @@
         "attachment_data": null
       },
       {
-        "id": "leprogres_haute_loire_7",
+        "id": "leprogres_haute_loire_18",
         "title": "Haute-Loire. À Saint-Bonnet-le-Froid, le champignon est resté le roi de la foire",
         "summary": "« Même quand la nature se fait plus discrète, le champignon reste le roi de la foire », prônait la communication de l’événement pour rassurer les visiteurs, ces 7 et 8 novembre. La promesse a été tenue.",
         "category": "Manifestations & Vie Associative",
@@ -230,7 +251,7 @@
         "source_url": "https://www.leprogres.fr/culture-loisirs/2026/11/08/a-saint-bonnet-le-froid-le-champignon-est-reste-le-roi-de-la-foire",
         "image_url": null,
         "dates": {
-          "start": "2026-11-09",
+          "start": "2026-11-10",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -244,19 +265,19 @@
     ],
     "upcoming": [
       {
-        "id": "illiwap_dunieres_dunieres-tournee-des-calendriers-des-sapeurs-pompiers-5",
-        "title": "Dunières : tournée des calendriers des Sapeurs-Pompiers",
-        "summary": "L'Amicale des Sapeurs-pompiers de Dunières lance sa traditionnelle tournée des calendriers.A partir du lundi 5 Octobre, les sapeurs-pompiers de Dunières viendront à la rencontre des habitants pour la distribution de leur calendrier (qui a lieu tou...",
+        "id": "illiwap_dunieres_randonnee-15-11-2026-4",
+        "title": "Randonnée - 15/11/2026",
+        "summary": "La Gym volontaire de Dunières organise une randonnée pédestre le dimanche 15/11.Départ à partir de 7h30 - salle de la mairie7kms14kms20kmsinscriptions sur placeRenseignements : 07 82 38 70 28Source : Mairie de Dunières La Gym volontaire de Dunière...",
         "category": "Manifestations & Vie Associative",
         "badge": "Animation",
         "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/dunieres-tournee-des-calendriers-des-sapeurs-pompiers-5",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/charte_public_website/placeholder_actu_pp.png",
+        "source_url": "https://station.illiwap.com/fr/public/43087/actu/randonnee-15-11-2026-4",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/gG4EsHmbYfauEk2bPfzePWYxzSVPsEyG.jpg",
         "dates": {
-          "start": "2026-10-05",
+          "start": "2026-11-15",
           "end": null,
           "is_period": false,
-          "bucket": "archive"
+          "bucket": "upcoming"
         },
         "location": "Dunières / Haut Pays du Velay",
         "importance": "normal",
@@ -286,37 +307,16 @@
         "attachment_data": null
       },
       {
-        "id": "lacommere43_search_9",
-        "title": "Dunières: une randonnée pédestre au profit du programme Gym Après Cancer.",
-        "summary": "La Gymnastique Volontaire deDunièresorganise une randonnée pédestre au profit du programme Gym Après Cancer. Dimanche 15 novembre, trois circuits : 7, 14 et 20 km, inscri",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "La Commère 43",
-        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86014-dunieres-une-randonnee-pedestre-au-profit-du-programme-gym-apres-cancer.html",
-        "image_url": null,
-        "dates": {
-          "start": "2026-11-15",
-          "end": null,
-          "is_period": false,
-          "bucket": "upcoming"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
-      {
-        "id": "illiwap_dunieres_concours-coinche-samedi-21-novembre-14h-ephata-43-4",
-        "title": "concours coinche samedi 21 novembre 14h EPHATA 43",
-        "summary": "L'association Ephata 43 renouvelle son concours de coinche, le samedi 21 novembre 2026, à la Salle des Associations de Dunières (derrière le gymnase).Le concours est ouvert à tous : participants seuls et duo.Toutes les doublettes seront primées. P...",
+        "id": "illiwap_dunieres_rappel-repas-des-aines-de-dunieres-1",
+        "title": "Rappel – Repas des Aînés de Dunières",
+        "summary": "Le traditionnel repas des aînés aura lieu lemercredi 25 novembre 2026à midi au gymnase de Dunières.Si vous faites partie des personnes concernées (courrier envoyé courant octobre 2026), merci de rapporter votre coupon-réponse en mairie de Dunières...",
         "category": "Manifestations & Vie Associative",
         "badge": "Animation",
         "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/concours-coinche-samedi-21-novembre-14h-ephata-43-4",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6iZb3bo4EexcppGnyXaKKFFpuZDOW56K.jpg",
+        "source_url": "https://station.illiwap.com/fr/public/43087/actu/rappel-repas-des-aines-de-dunieres-1",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/charte_public_website/placeholder_actu_pp.png",
         "dates": {
-          "start": "2026-11-21",
+          "start": "2026-11-25",
           "end": null,
           "is_period": false,
           "bucket": "upcoming"
@@ -331,37 +331,16 @@
   },
   "all_events": [
     {
-      "id": "illiwap_dunieres_dunieres-tournee-des-calendriers-des-sapeurs-pompiers-5",
-      "title": "Dunières : tournée des calendriers des Sapeurs-Pompiers",
-      "summary": "L'Amicale des Sapeurs-pompiers de Dunières lance sa traditionnelle tournée des calendriers.A partir du lundi 5 Octobre, les sapeurs-pompiers de Dunières viendront à la rencontre des habitants pour la distribution de leur calendrier (qui a lieu tou...",
+      "id": "illiwap_dunieres_randonnee-15-11-2026-4",
+      "title": "Randonnée - 15/11/2026",
+      "summary": "La Gym volontaire de Dunières organise une randonnée pédestre le dimanche 15/11.Départ à partir de 7h30 - salle de la mairie7kms14kms20kmsinscriptions sur placeRenseignements : 07 82 38 70 28Source : Mairie de Dunières La Gym volontaire de Dunière...",
       "category": "Manifestations & Vie Associative",
       "badge": "Animation",
       "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/dunieres-tournee-des-calendriers-des-sapeurs-pompiers-5",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/charte_public_website/placeholder_actu_pp.png",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/randonnee-15-11-2026-4",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/gG4EsHmbYfauEk2bPfzePWYxzSVPsEyG.jpg",
       "dates": {
-        "start": "2026-10-05",
-        "end": null,
-        "is_period": false,
-        "bucket": "archive"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "illiwap_dunieres_concours-coinche-samedi-21-novembre-14h-ephata-43-4",
-      "title": "concours coinche samedi 21 novembre 14h EPHATA 43",
-      "summary": "L'association Ephata 43 renouvelle son concours de coinche, le samedi 21 novembre 2026, à la Salle des Associations de Dunières (derrière le gymnase).Le concours est ouvert à tous : participants seuls et duo.Toutes les doublettes seront primées. P...",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/concours-coinche-samedi-21-novembre-14h-ephata-43-4",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6iZb3bo4EexcppGnyXaKKFFpuZDOW56K.jpg",
-      "dates": {
-        "start": "2026-11-21",
+        "start": "2026-11-15",
         "end": null,
         "is_period": false,
         "bucket": "upcoming"
@@ -373,22 +352,43 @@
       "attachment_data": null
     },
     {
-      "id": "illiwap_dunieres_travaux-rue-saint-martin-4",
-      "title": "Travaux rue Saint-Martin  ⚠",
-      "summary": "Travaux rue Saint-Martin  ⚠ 09/11/2026",
-      "category": "Travaux & Voirie",
-      "badge": "Arrêté / Travaux",
+      "id": "illiwap_dunieres_rappel-repas-des-aines-de-dunieres-1",
+      "title": "Rappel – Repas des Aînés de Dunières",
+      "summary": "Le traditionnel repas des aînés aura lieu lemercredi 25 novembre 2026à midi au gymnase de Dunières.Si vous faites partie des personnes concernées (courrier envoyé courant octobre 2026), merci de rapporter votre coupon-réponse en mairie de Dunières...",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
       "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/travaux-rue-saint-martin-4",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6aedd549bff49834393018.jpg",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/rappel-repas-des-aines-de-dunieres-1",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/charte_public_website/placeholder_actu_pp.png",
       "dates": {
-        "start": "2026-11-09",
+        "start": "2026-11-25",
+        "end": null,
+        "is_period": false,
+        "bucket": "upcoming"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "illiwap_dunieres_commemoration-61-1-3-2-1-2-1",
+      "title": "COMMEMORATION",
+      "summary": "La commémoration de l'Armistice de 1918 se déroulera le mercredi 11 novembre 2026 à 11h30 devant le Monument aux Morts.Source : Mairie de Dunières La commémoration de l'Armistice de 1918 se déroulera le mercredi 11 novembre 2026 à 11h30 devant le ...",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "source_name": "Illiwap Mairie de Dunières",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/commemoration-61-1-3-2-1-2-1",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/charte_public_website/placeholder_actu_pp.png",
+      "dates": {
+        "start": "2026-11-10",
         "end": null,
         "is_period": false,
         "bucket": "today"
       },
       "location": "Dunières / Haut Pays du Velay",
-      "importance": "high",
+      "importance": "normal",
       "has_attachment": false,
       "attachment_type": null,
       "attachment_data": null
@@ -475,7 +475,7 @@
       "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
       "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/AngRM8vlcQ9xVb0W6PgW3rEZD_FFHbdOlOljdKCMEKM.jpg",
       "dates": {
-        "start": "2026-11-09",
+        "start": "2026-11-10",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -488,18 +488,60 @@
     },
     {
       "id": "lacommere43_search_0",
-      "title": "Compost et terreau, il y a les deux au collège deDunières",
-      "summary": "Au collège du Sacré-Cœur àDunières, les élèves du groupe E3D (Etablissement en Démarche de Développement Durable) agissent concrètement pour valoriser les déchets organiques sur place : au",
-      "category": "Services & Déchets",
-      "badge": "Service Public",
+      "title": "Les élèves de CM de l’école Jacques-Prévert deDunièresrendent hommage aux combat",
+      "summary": "Ce lundi 9 novembre, les élèves de CM de l’école Jacques-Prévert ont rendu hommage aux combattants de la Grande Guerre. À l’occasion d’une cérémonie organisée dans l’encein",
+      "category": "Enfance & Jeunesse",
+      "badge": "Enfance",
       "source_name": "La Commère 43",
-      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86220-compost-et-terreau-il-y-a-les-deux-au-college-de-dunieres.html",
+      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86236-les-eleves-de-cm-de-l-ecole-jacques-prevert-de-dunieres-rendent-hommage-aux-combattants-de-la-grande-guerre.html",
       "image_url": null,
       "dates": {
         "start": "2026-11-09",
         "end": null,
         "is_period": false,
+        "bucket": "retrospective"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "lacommere43_search_1",
+      "title": "Remise de diplômes du PSC1 pour les 3e au collège deDunières",
+      "summary": "Vingt élèves volontaires de 3e du collège Le Sacré Cœur-Don Bosco deDunièresont participé à une formation PSC1, Prévention et Secours Civiques de niveau 1, organisée dans les locaux de l'",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "source_name": "La Commère 43",
+      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86235-remise-de-diplomes-du-psc1-pour-les-3e-au-college-de-dunieres.html",
+      "image_url": null,
+      "dates": {
+        "start": "2026-11-10",
+        "end": null,
+        "is_period": false,
         "bucket": "today"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "lacommere43_search_2",
+      "title": "Dunières: un « marathon » ciné le 5 décembre avec la trilogie complète du « Seig",
+      "summary": "A l'occasion des 25 ans de la « Communauté de l'Anneau », le premier volet de la trilogie du « Seigneur des Anneaux », le cinéma le Maubourg àDunièrespropose aux fans ...",
+      "category": "Culture & Patrimoine",
+      "badge": "Culture",
+      "source_name": "La Commère 43",
+      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86232-dunieres-un-marathon-cine-le-5-decembre-avec-la-trilogie-complete-du-seigneur-des-anneaux.html",
+      "image_url": null,
+      "dates": {
+        "start": "2026-12-05",
+        "end": null,
+        "is_period": false,
+        "bucket": "extended"
       },
       "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
@@ -509,36 +551,15 @@
     },
     {
       "id": "lacommere43_search_3",
-      "title": "Un Japanese Head Spa ouvre àDunières",
-      "summary": "Ancienne aide-soignante et sapeur-pompier volontaire, Vanessa Lecat voulait continuer à prendre soin des autres, mais différemment. Elle ouvre un head spa àDunières. Insta",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
+      "title": "Compost et terreau, il y a les deux au collège deDunières",
+      "summary": "Au collège du Sacré-Cœur àDunières, les élèves du groupe E3D (Etablissement en Démarche de Développement Durable) agissent concrètement pour valoriser les déchets organiques sur place : au",
+      "category": "Services & Déchets",
+      "badge": "Service Public",
       "source_name": "La Commère 43",
-      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86162-un-japanese-head-spa-ouvre-a-dunieres.html",
+      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86220-compost-et-terreau-il-y-a-les-deux-au-college-de-dunieres.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-09",
-        "end": null,
-        "is_period": false,
-        "bucket": "today"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "lacommere43_search_5",
-      "title": "Saint-Bonnet-le-Froid : même sans cèpes, la foire aux champignons reste une fête",
-      "summary": "La Foire aux champignons de Saint-Bonnet-le-Froid aura lieu les 7 et 8 novembre. Même si la saison a été pauvre en champignons, la fête du village gourmand restera entière.",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "La Commère 43",
-      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86093-saint-bonnet-le-froid-meme-sans-cepes-la-foire-aux-champignons-reste-une-fete-incontournable.html",
-      "image_url": null,
-      "dates": {
-        "start": "2026-11-09",
+        "start": "2026-11-10",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -551,6 +572,48 @@
     },
     {
       "id": "lacommere43_search_6",
+      "title": "Un Japanese Head Spa ouvre àDunières",
+      "summary": "Ancienne aide-soignante et sapeur-pompier volontaire, Vanessa Lecat voulait continuer à prendre soin des autres, mais différemment. Elle ouvre un head spa àDunières. Insta",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "source_name": "La Commère 43",
+      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86162-un-japanese-head-spa-ouvre-a-dunieres.html",
+      "image_url": null,
+      "dates": {
+        "start": "2026-11-10",
+        "end": null,
+        "is_period": false,
+        "bucket": "today"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "lacommere43_search_8",
+      "title": "Saint-Bonnet-le-Froid : même sans cèpes, la foire aux champignons reste une fête",
+      "summary": "La Foire aux champignons de Saint-Bonnet-le-Froid aura lieu les 7 et 8 novembre. Même si la saison a été pauvre en champignons, la fête du village gourmand restera entière.",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "source_name": "La Commère 43",
+      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86093-saint-bonnet-le-froid-meme-sans-cepes-la-foire-aux-champignons-reste-une-fete-incontournable.html",
+      "image_url": null,
+      "dates": {
+        "start": "2026-11-10",
+        "end": null,
+        "is_period": false,
+        "bucket": "today"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "lacommere43_search_9",
       "title": "La bibliothèque deDunièresouvre ses coulisses à l'occasion des Automnales numéri",
       "summary": "Dans le cadre des Automnales numériques, organisées par le Département de la Haute-Loire, la médiathèque deDunièresouvrira exceptionnellement ses portes au public le vendredi 6 novembre,",
       "category": "Culture & Patrimoine",
@@ -571,28 +634,7 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_search_9",
-      "title": "Dunières: une randonnée pédestre au profit du programme Gym Après Cancer.",
-      "summary": "La Gymnastique Volontaire deDunièresorganise une randonnée pédestre au profit du programme Gym Après Cancer. Dimanche 15 novembre, trois circuits : 7, 14 et 20 km, inscri",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "La Commère 43",
-      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86014-dunieres-une-randonnee-pedestre-au-profit-du-programme-gym-apres-cancer.html",
-      "image_url": null,
-      "dates": {
-        "start": "2026-11-15",
-        "end": null,
-        "is_period": false,
-        "bucket": "upcoming"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "leprogres_haute_loire_7",
+      "id": "leprogres_haute_loire_18",
       "title": "Haute-Loire. À Saint-Bonnet-le-Froid, le champignon est resté le roi de la foire",
       "summary": "« Même quand la nature se fait plus discrète, le champignon reste le roi de la foire », prônait la communication de l’événement pour rassurer les visiteurs, ces 7 et 8 novembre. La promesse a été tenue.",
       "category": "Manifestations & Vie Associative",
@@ -601,31 +643,10 @@
       "source_url": "https://www.leprogres.fr/culture-loisirs/2026/11/08/a-saint-bonnet-le-froid-le-champignon-est-reste-le-roi-de-la-foire",
       "image_url": null,
       "dates": {
-        "start": "2026-11-09",
+        "start": "2026-11-10",
         "end": null,
         "is_period": false,
         "bucket": "today"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "leprogres_haute_loire_19",
-      "title": "Haute-Loire. « C’est une première » : après la mort d’une femme ayant consommé d",
-      "summary": "Le 2 novembre, une Montpelliéraine de 27 ans est morte après avoir consommé des morilles séchées. Le lien n’est pas établi, mais l’affaire préoccupe certains clients de la Foire de Saint-Bonnet-le-Froid. Les professionnels tentent de rassurer.",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "Le Progrès - Haute-Loire",
-      "source_url": "https://www.leprogres.fr/magazine-cuisine-et-vins/2026/11/07/c-est-une-premiere-apres-la-mort-d-une-femme-ayant-consomme-des-morilles-le-monde-du-champignon-s-interroge",
-      "image_url": null,
-      "dates": {
-        "start": "2026-11-02",
-        "end": null,
-        "is_period": false,
-        "bucket": "retrospective"
       },
       "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
