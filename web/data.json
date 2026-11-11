@@ -3,19 +3,19 @@
     "commune": "Dunières",
     "code_postal": "43220",
     "intercommunalite": "Haut Pays du Velay Communauté",
-    "generated_at": "2026-11-10T14:10:50.683308+01:00",
-    "reference_date": "2026-11-10",
+    "generated_at": "2026-11-11T13:20:22.556678+01:00",
+    "reference_date": "2026-11-11",
     "sliding_window": {
       "retrospective_days": 15,
       "upcoming_days": 15
     },
     "counts": {
-      "total_analyzed": 16,
-      "total_accepted": 15,
+      "total_analyzed": 15,
+      "total_accepted": 14,
       "total_rejected": 1,
-      "retrospective": 4,
-      "today": 7,
-      "upcoming": 3
+      "retrospective": 5,
+      "today": 5,
+      "upcoming": 2
     }
   },
   "buckets": {
@@ -112,30 +112,30 @@
         "has_attachment": false,
         "attachment_type": null,
         "attachment_data": null
-      }
-    ],
-    "today": [
+      },
       {
-        "id": "illiwap_dunieres_commemoration-61-1-3-2-1-2-1",
-        "title": "COMMEMORATION",
-        "summary": "La commémoration de l'Armistice de 1918 se déroulera le mercredi 11 novembre 2026 à 11h30 devant le Monument aux Morts.Source : Mairie de Dunières La commémoration de l'Armistice de 1918 se déroulera le mercredi 11 novembre 2026 à 11h30 devant le ...",
+        "id": "illiwap_dunieres_apres-midi-departementales-dediees-aux-aidants-3",
+        "title": "Après-midi départementales dédiées aux aidants",
+        "summary": "Après-midi départementales dédiées aux aidants 10/11/2026",
         "category": "Manifestations & Vie Associative",
         "badge": "Animation",
         "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/commemoration-61-1-3-2-1-2-1",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/charte_public_website/placeholder_actu_pp.png",
+        "source_url": "https://station.illiwap.com/fr/public/43087/actu/apres-midi-departementales-dediees-aux-aidants-3",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6aec81688d8c8576193693.jpg",
         "dates": {
           "start": "2026-11-10",
           "end": null,
           "is_period": false,
-          "bucket": "today"
+          "bucket": "retrospective"
         },
         "location": "Dunières / Haut Pays du Velay",
         "importance": "normal",
         "has_attachment": false,
         "attachment_type": null,
         "attachment_data": null
-      },
+      }
+    ],
+    "today": [
       {
         "id": "illiwap_comcom_haut-pays-du-velay-communaute_4",
         "title": "22 nov. 2026 16:00 - 17:00",
@@ -146,7 +146,7 @@
         "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
         "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/AngRM8vlcQ9xVb0W6PgW3rEZD_FFHbdOlOljdKCMEKM.jpg",
         "dates": {
-          "start": "2026-11-10",
+          "start": "2026-11-11",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -167,7 +167,7 @@
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86235-remise-de-diplomes-du-psc1-pour-les-3e-au-college-de-dunieres.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-10",
+          "start": "2026-11-11",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -188,7 +188,7 @@
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86220-compost-et-terreau-il-y-a-les-deux-au-college-de-dunieres.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-10",
+          "start": "2026-11-11",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -209,7 +209,7 @@
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86162-un-japanese-head-spa-ouvre-a-dunieres.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-10",
+          "start": "2026-11-11",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -230,28 +230,7 @@
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86093-saint-bonnet-le-froid-meme-sans-cepes-la-foire-aux-champignons-reste-une-fete-incontournable.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-10",
-          "end": null,
-          "is_period": false,
-          "bucket": "today"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
-      {
-        "id": "leprogres_haute_loire_18",
-        "title": "Haute-Loire. À Saint-Bonnet-le-Froid, le champignon est resté le roi de la foire",
-        "summary": "« Même quand la nature se fait plus discrète, le champignon reste le roi de la foire », prônait la communication de l’événement pour rassurer les visiteurs, ces 7 et 8 novembre. La promesse a été tenue.",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "Le Progrès - Haute-Loire",
-        "source_url": "https://www.leprogres.fr/culture-loisirs/2026/11/08/a-saint-bonnet-le-froid-le-champignon-est-reste-le-roi-de-la-foire",
-        "image_url": null,
-        "dates": {
-          "start": "2026-11-10",
+          "start": "2026-11-11",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -305,31 +284,52 @@
         "has_attachment": false,
         "attachment_type": null,
         "attachment_data": null
-      },
-      {
-        "id": "illiwap_dunieres_rappel-repas-des-aines-de-dunieres-1",
-        "title": "Rappel – Repas des Aînés de Dunières",
-        "summary": "Le traditionnel repas des aînés aura lieu lemercredi 25 novembre 2026à midi au gymnase de Dunières.Si vous faites partie des personnes concernées (courrier envoyé courant octobre 2026), merci de rapporter votre coupon-réponse en mairie de Dunières...",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/rappel-repas-des-aines-de-dunieres-1",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/charte_public_website/placeholder_actu_pp.png",
-        "dates": {
-          "start": "2026-11-25",
-          "end": null,
-          "is_period": false,
-          "bucket": "upcoming"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
       }
     ]
   },
   "all_events": [
+    {
+      "id": "illiwap_dunieres_dimanche-29-novembre-loto-de-l-apel-a-dunieres-1",
+      "title": "DIMANCHE 29 NOVEMBRE LOTO DE L'APEL A DUNIERES",
+      "summary": "L'APEL de l'École St Joseph et du collège Don Bosco à Dunières organise son loto le dimanche 29 Novembre 2026 au Gymnase de Dunières (ouverture des portes dès 13h15).Plus de 3 500 € de lots et de nombreux gagnants avec notamment 2 Repas avec boiss...",
+      "category": "Enfance & Jeunesse",
+      "badge": "Enfance",
+      "source_name": "Illiwap Mairie de Dunières",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/dimanche-29-novembre-loto-de-l-apel-a-dunieres-1",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/SJ8iugWY8Kvnz2l39s84qoO9r7ZvIxSs.jpg",
+      "dates": {
+        "start": "2026-11-29",
+        "end": null,
+        "is_period": false,
+        "bucket": "extended"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "illiwap_dunieres_apres-midi-departementales-dediees-aux-aidants-3",
+      "title": "Après-midi départementales dédiées aux aidants",
+      "summary": "Après-midi départementales dédiées aux aidants 10/11/2026",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "source_name": "Illiwap Mairie de Dunières",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/apres-midi-departementales-dediees-aux-aidants-3",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6aec81688d8c8576193693.jpg",
+      "dates": {
+        "start": "2026-11-10",
+        "end": null,
+        "is_period": false,
+        "bucket": "retrospective"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
     {
       "id": "illiwap_dunieres_randonnee-15-11-2026-4",
       "title": "Randonnée - 15/11/2026",
@@ -344,48 +344,6 @@
         "end": null,
         "is_period": false,
         "bucket": "upcoming"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "illiwap_dunieres_rappel-repas-des-aines-de-dunieres-1",
-      "title": "Rappel – Repas des Aînés de Dunières",
-      "summary": "Le traditionnel repas des aînés aura lieu lemercredi 25 novembre 2026à midi au gymnase de Dunières.Si vous faites partie des personnes concernées (courrier envoyé courant octobre 2026), merci de rapporter votre coupon-réponse en mairie de Dunières...",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/rappel-repas-des-aines-de-dunieres-1",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/charte_public_website/placeholder_actu_pp.png",
-      "dates": {
-        "start": "2026-11-25",
-        "end": null,
-        "is_period": false,
-        "bucket": "upcoming"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "illiwap_dunieres_commemoration-61-1-3-2-1-2-1",
-      "title": "COMMEMORATION",
-      "summary": "La commémoration de l'Armistice de 1918 se déroulera le mercredi 11 novembre 2026 à 11h30 devant le Monument aux Morts.Source : Mairie de Dunières La commémoration de l'Armistice de 1918 se déroulera le mercredi 11 novembre 2026 à 11h30 devant le ...",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/commemoration-61-1-3-2-1-2-1",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/charte_public_website/placeholder_actu_pp.png",
-      "dates": {
-        "start": "2026-11-10",
-        "end": null,
-        "is_period": false,
-        "bucket": "today"
       },
       "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
@@ -475,7 +433,7 @@
       "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
       "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/AngRM8vlcQ9xVb0W6PgW3rEZD_FFHbdOlOljdKCMEKM.jpg",
       "dates": {
-        "start": "2026-11-10",
+        "start": "2026-11-11",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -517,7 +475,7 @@
       "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86235-remise-de-diplomes-du-psc1-pour-les-3e-au-college-de-dunieres.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-10",
+        "start": "2026-11-11",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -559,7 +517,7 @@
       "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86220-compost-et-terreau-il-y-a-les-deux-au-college-de-dunieres.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-10",
+        "start": "2026-11-11",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -580,7 +538,7 @@
       "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86162-un-japanese-head-spa-ouvre-a-dunieres.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-10",
+        "start": "2026-11-11",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -601,7 +559,7 @@
       "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86093-saint-bonnet-le-froid-meme-sans-cepes-la-foire-aux-champignons-reste-une-fete-incontournable.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-10",
+        "start": "2026-11-11",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -626,27 +584,6 @@
         "end": null,
         "is_period": false,
         "bucket": "retrospective"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "leprogres_haute_loire_18",
-      "title": "Haute-Loire. À Saint-Bonnet-le-Froid, le champignon est resté le roi de la foire",
-      "summary": "« Même quand la nature se fait plus discrète, le champignon reste le roi de la foire », prônait la communication de l’événement pour rassurer les visiteurs, ces 7 et 8 novembre. La promesse a été tenue.",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "Le Progrès - Haute-Loire",
-      "source_url": "https://www.leprogres.fr/culture-loisirs/2026/11/08/a-saint-bonnet-le-froid-le-champignon-est-reste-le-roi-de-la-foire",
-      "image_url": null,
-      "dates": {
-        "start": "2026-11-10",
-        "end": null,
-        "is_period": false,
-        "bucket": "today"
       },
       "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
