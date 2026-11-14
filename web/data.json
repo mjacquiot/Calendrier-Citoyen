@@ -3,8 +3,8 @@
     "commune": "Dunières",
     "code_postal": "43220",
     "intercommunalite": "Haut Pays du Velay Communauté",
-    "generated_at": "2026-11-13T13:45:56.375335+01:00",
-    "reference_date": "2026-11-13",
+    "generated_at": "2026-11-14T12:53:55.045682+01:00",
+    "reference_date": "2026-11-14",
     "sliding_window": {
       "retrospective_days": 15,
       "upcoming_days": 15
@@ -14,7 +14,7 @@
       "total_accepted": 15,
       "total_rejected": 0,
       "retrospective": 2,
-      "today": 7,
+      "today": 6,
       "upcoming": 5
     }
   },
@@ -74,27 +74,6 @@
     ],
     "today": [
       {
-        "id": "illiwap_dunieres_soiree-burger-karaoke-2-1",
-        "title": "Soirée burger karaoké 🍔 🎤",
-        "summary": "Source : Mairie de Dunières",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/soiree-burger-karaoke-2-1",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/OXxTfVzWlN8B8PmQS-sgQR3SSAAElmed.jpg",
-        "dates": {
-          "start": "2026-11-13",
-          "end": null,
-          "is_period": false,
-          "bucket": "today"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
-      {
         "id": "illiwap_comcom_haut-pays-du-velay-communaute_4",
         "title": "22 nov. 2026 16:00 - 17:00",
         "summary": "22 nov. 2026 16:00 - 17:00 Théâtre d’objets « Le Mystère Léon Plouhinec »",
@@ -104,7 +83,7 @@
         "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
         "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/AngRM8vlcQ9xVb0W6PgW3rEZD_FFHbdOlOljdKCMEKM.jpg",
         "dates": {
-          "start": "2026-11-13",
+          "start": "2026-11-14",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -125,7 +104,7 @@
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86295-dunieres-pourquoi-le-tabac-presse-avait-candidate-sur-l-achat-de-l-ancien-bureau-de-poste.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-13",
+          "start": "2026-11-14",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -146,7 +125,7 @@
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86271-dunieres-le-sort-de-l-ancien-bureau-de-poste-est-scelle.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-13",
+          "start": "2026-11-14",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -167,7 +146,7 @@
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86269-dunieres-le-club-de-basket-a-cree-une-section-basket-bien-etre.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-13",
+          "start": "2026-11-14",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -188,7 +167,7 @@
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86235-remise-de-diplomes-du-psc1-pour-les-3e-au-college-de-dunieres.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-13",
+          "start": "2026-11-14",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -209,7 +188,7 @@
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86220-compost-et-terreau-il-y-a-les-deux-au-college-de-dunieres.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-13",
+          "start": "2026-11-14",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -222,27 +201,6 @@
       }
     ],
     "upcoming": [
-      {
-        "id": "illiwap_dunieres_randonnee-15-11-2026-5",
-        "title": "Randonnée - 15/11/2026",
-        "summary": "La Gym volontaire de Dunières organise une randonnée pédestre le dimanche 15/11.Départ à partir de 7h30 - salle de la mairie7kms14kms20kmsinscriptions sur placeRenseignements : 07 82 38 70 28Source : Mairie de Dunières La Gym volontaire de Dunière...",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/randonnee-15-11-2026-5",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/yuq5bDwoGkusY9JQhbMCBoGj9DwL9DCc.jpg",
-        "dates": {
-          "start": "2026-11-15",
-          "end": null,
-          "is_period": false,
-          "bucket": "upcoming"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
       {
         "id": "illiwap_comcom_haut-pays-du-velay-communaute_3",
         "title": "Jusqu'au 15/11/2026",
@@ -286,27 +244,6 @@
         "attachment_data": null
       },
       {
-        "id": "illiwap_dunieres_concours-coinche-samedi-21-novembre-14h-ephata-43-5",
-        "title": "concours coinche samedi 21 novembre 14h EPHATA 43",
-        "summary": "L'association Ephata 43 renouvelle son concours de coinche, le samedi 21 novembre 2026, à la Salle des Associations de Dunières (derrière le gymnase).Le concours est ouvert à tous : participants seuls et duo.Toutes les doublettes seront primées. P...",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/concours-coinche-samedi-21-novembre-14h-ephata-43-5",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/A4SEHAgpyJCWiyaUF6QfBnpbiXuwZg20.jpg",
-        "dates": {
-          "start": "2026-11-21",
-          "end": null,
-          "is_period": false,
-          "bucket": "upcoming"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
-      {
         "id": "illiwap_comcom_theatre-d-objets-le-mystere-leon-plouhinec",
         "title": "Théâtre d’objets « Le Mystère Léon Plouhinec »",
         "summary": "Dimanche 22 novembre, 16hThéâtre d’objets « Le Mystère Léon Plouhinec » par la Compagnie des ÉtourneauxIl n’a jamais quitté son phare. Et pourtant, tout le monde le cherche ! Léon Plouhinec est gardien de phare, mais dans ses lettres défilent un c...",
@@ -326,22 +263,85 @@
         "has_attachment": false,
         "attachment_type": null,
         "attachment_data": null
+      },
+      {
+        "id": "illiwap_dunieres_tripes-saucisses-sapeurs-pompiers-28-11-2026-dunieres",
+        "title": "Tripes saucisses - Sapeurs Pompiers - 28/11/2026 - DUNIERES",
+        "summary": "L'Amicale des Sapeurs Pompiers organise \"Tripes Saucisses\" le samedi 28/11/2026 à la caserne de Dunières de 9h à 13h30.Tous les bénéfices sont reversés à l'oeuvre des Pupilles.",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
+        "source_name": "Illiwap Mairie de Dunières",
+        "source_url": "https://station.illiwap.com/fr/public/43087/actu/tripes-saucisses-sapeurs-pompiers-28-11-2026-dunieres",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/oWMgNQbVIPh3UT0M45svvL3WaXsO4wZRsn-DCt2UbE8.jpg",
+        "dates": {
+          "start": "2026-11-28",
+          "end": "2026-11-28",
+          "is_period": false,
+          "bucket": "upcoming"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      },
+      {
+        "id": "illiwap_dunieres_tripes-saucisses-sapeurs-pompiers-de-dunieres-28-11-2026",
+        "title": "Tripes saucisses - Sapeurs Pompiers de Dunières - 28/11/2026",
+        "summary": "L'Amicale des Sapeurs Pompiers organise \"Tripes Saucisses\" le samedi 28/11/2026 à la caserne de Dunières de 9h à 13h30.Tous les bénéfices sont reversés à l'oeuvre des Pupilles.",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
+        "source_name": "Illiwap Mairie de Dunières",
+        "source_url": "https://station.illiwap.com/fr/public/43087/actu/tripes-saucisses-sapeurs-pompiers-de-dunieres-28-11-2026",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/k2or7A-h_CuD4NbWtuDG3Zto_-txWxPWsp2VS9hSi5k.jpg",
+        "dates": {
+          "start": "2026-11-28",
+          "end": "2026-11-28",
+          "is_period": false,
+          "bucket": "upcoming"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
       }
     ]
   },
   "all_events": [
     {
-      "id": "illiwap_dunieres_randonnee-15-11-2026-5",
-      "title": "Randonnée - 15/11/2026",
-      "summary": "La Gym volontaire de Dunières organise une randonnée pédestre le dimanche 15/11.Départ à partir de 7h30 - salle de la mairie7kms14kms20kmsinscriptions sur placeRenseignements : 07 82 38 70 28Source : Mairie de Dunières La Gym volontaire de Dunière...",
+      "id": "illiwap_dunieres_mon-sapin-mon-village-mon-noel-1",
+      "title": "🎄 MON SAPIN, MON VILLAGE, MON NOËL ! 🎄",
+      "summary": "Les enfants de Dunières, petits créateurs et artistes en herbe, nous avons besoin de vous !❤️Et si cette année, notre sapin de Noël de la place Saint-Martin était décoré grâce à vous ?Nous vous invitons à préparer une jolie décoration de Noël : un...",
+      "category": "Enfance & Jeunesse",
+      "badge": "Enfance",
+      "source_name": "Illiwap Mairie de Dunières",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/mon-sapin-mon-village-mon-noel-1",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/9HV7dxwjM4AMZJFfhfFePUmzJ3AYhFz0uPk2mKyxViU.jpg",
+      "dates": {
+        "start": "2026-11-30",
+        "end": null,
+        "is_period": false,
+        "bucket": "extended"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "illiwap_dunieres_tripes-saucisses-sapeurs-pompiers-28-11-2026-dunieres",
+      "title": "Tripes saucisses - Sapeurs Pompiers - 28/11/2026 - DUNIERES",
+      "summary": "L'Amicale des Sapeurs Pompiers organise \"Tripes Saucisses\" le samedi 28/11/2026 à la caserne de Dunières de 9h à 13h30.Tous les bénéfices sont reversés à l'oeuvre des Pupilles.",
       "category": "Manifestations & Vie Associative",
       "badge": "Animation",
       "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/randonnee-15-11-2026-5",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/yuq5bDwoGkusY9JQhbMCBoGj9DwL9DCc.jpg",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/tripes-saucisses-sapeurs-pompiers-28-11-2026-dunieres",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/oWMgNQbVIPh3UT0M45svvL3WaXsO4wZRsn-DCt2UbE8.jpg",
       "dates": {
-        "start": "2026-11-15",
-        "end": null,
+        "start": "2026-11-28",
+        "end": "2026-11-28",
         "is_period": false,
         "bucket": "upcoming"
       },
@@ -352,40 +352,19 @@
       "attachment_data": null
     },
     {
-      "id": "illiwap_dunieres_concours-coinche-samedi-21-novembre-14h-ephata-43-5",
-      "title": "concours coinche samedi 21 novembre 14h EPHATA 43",
-      "summary": "L'association Ephata 43 renouvelle son concours de coinche, le samedi 21 novembre 2026, à la Salle des Associations de Dunières (derrière le gymnase).Le concours est ouvert à tous : participants seuls et duo.Toutes les doublettes seront primées. P...",
+      "id": "illiwap_dunieres_tripes-saucisses-sapeurs-pompiers-de-dunieres-28-11-2026",
+      "title": "Tripes saucisses - Sapeurs Pompiers de Dunières - 28/11/2026",
+      "summary": "L'Amicale des Sapeurs Pompiers organise \"Tripes Saucisses\" le samedi 28/11/2026 à la caserne de Dunières de 9h à 13h30.Tous les bénéfices sont reversés à l'oeuvre des Pupilles.",
       "category": "Manifestations & Vie Associative",
       "badge": "Animation",
       "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/concours-coinche-samedi-21-novembre-14h-ephata-43-5",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/A4SEHAgpyJCWiyaUF6QfBnpbiXuwZg20.jpg",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/tripes-saucisses-sapeurs-pompiers-de-dunieres-28-11-2026",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/k2or7A-h_CuD4NbWtuDG3Zto_-txWxPWsp2VS9hSi5k.jpg",
       "dates": {
-        "start": "2026-11-21",
-        "end": null,
+        "start": "2026-11-28",
+        "end": "2026-11-28",
         "is_period": false,
         "bucket": "upcoming"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "illiwap_dunieres_soiree-burger-karaoke-2-1",
-      "title": "Soirée burger karaoké 🍔 🎤",
-      "summary": "Source : Mairie de Dunières",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/soiree-burger-karaoke-2-1",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/OXxTfVzWlN8B8PmQS-sgQR3SSAAElmed.jpg",
-      "dates": {
-        "start": "2026-11-13",
-        "end": null,
-        "is_period": false,
-        "bucket": "today"
       },
       "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
@@ -475,7 +454,7 @@
       "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
       "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/AngRM8vlcQ9xVb0W6PgW3rEZD_FFHbdOlOljdKCMEKM.jpg",
       "dates": {
-        "start": "2026-11-13",
+        "start": "2026-11-14",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -496,7 +475,7 @@
       "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86295-dunieres-pourquoi-le-tabac-presse-avait-candidate-sur-l-achat-de-l-ancien-bureau-de-poste.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-13",
+        "start": "2026-11-14",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -538,7 +517,7 @@
       "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86271-dunieres-le-sort-de-l-ancien-bureau-de-poste-est-scelle.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-13",
+        "start": "2026-11-14",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -559,7 +538,7 @@
       "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86269-dunieres-le-club-de-basket-a-cree-une-section-basket-bien-etre.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-13",
+        "start": "2026-11-14",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -601,7 +580,7 @@
       "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86235-remise-de-diplomes-du-psc1-pour-les-3e-au-college-de-dunieres.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-13",
+        "start": "2026-11-14",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -643,7 +622,7 @@
       "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86220-compost-et-terreau-il-y-a-les-deux-au-college-de-dunieres.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-13",
+        "start": "2026-11-14",
         "end": null,
         "is_period": false,
         "bucket": "today"
