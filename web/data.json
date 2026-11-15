@@ -3,8 +3,8 @@
     "commune": "Dunières",
     "code_postal": "43220",
     "intercommunalite": "Haut Pays du Velay Communauté",
-    "generated_at": "2026-11-14T12:53:55.045682+01:00",
-    "reference_date": "2026-11-14",
+    "generated_at": "2026-11-15T13:25:50.406181+01:00",
+    "reference_date": "2026-11-15",
     "sliding_window": {
       "retrospective_days": 15,
       "upcoming_days": 15
@@ -14,14 +14,14 @@
       "total_accepted": 15,
       "total_rejected": 0,
       "retrospective": 2,
-      "today": 6,
+      "today": 7,
       "upcoming": 5
     }
   },
   "buckets": {
     "retrospective": [
       {
-        "id": "lacommere43_search_4",
+        "id": "lacommere43_search_5",
         "title": "Les élèves de CM de l’école Jacques-Prévert deDunièresrendent hommage aux combat",
         "summary": "Ce lundi 9 novembre, les élèves de CM de l’école Jacques-Prévert ont rendu hommage aux combattants de la Grande Guerre. À l’occasion d’une cérémonie organisée dans l’encein",
         "category": "Enfance & Jeunesse",
@@ -74,7 +74,7 @@
     ],
     "today": [
       {
-        "id": "illiwap_comcom_haut-pays-du-velay-communaute_4",
+        "id": "illiwap_comcom_haut-pays-du-velay-communaute_3",
         "title": "22 nov. 2026 16:00 - 17:00",
         "summary": "22 nov. 2026 16:00 - 17:00 Théâtre d’objets « Le Mystère Léon Plouhinec »",
         "category": "Culture & Patrimoine",
@@ -83,7 +83,7 @@
         "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
         "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/AngRM8vlcQ9xVb0W6PgW3rEZD_FFHbdOlOljdKCMEKM.jpg",
         "dates": {
-          "start": "2026-11-14",
+          "start": "2026-11-15",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -96,6 +96,27 @@
       },
       {
         "id": "lacommere43_search_0",
+        "title": "Basket, RF2 :Dunièresn'y arrive pas cette saiso",
+        "summary": "Les basketteuses deDunièressont en souffrance cette saison en Régionale 2. Elles ont perdu samedi à domicile contre Unieux-Fraisses (41-60). Dunières a entamé la phase re",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
+        "source_name": "La Commère 43",
+        "source_url": "https://www.lacommere43.fr/sport/item/86334-basket-rf2-dunieres-n-y-arrive-pas-cette-saison.html",
+        "image_url": null,
+        "dates": {
+          "start": "2026-11-15",
+          "end": null,
+          "is_period": false,
+          "bucket": "today"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      },
+      {
+        "id": "lacommere43_search_1",
         "title": "Dunières: pourquoi le tabac-presse avait candidaté sur l'achat de l'ancien burea",
         "summary": "Le dernier conseil municipal deDunièresa évoqué l'avenir de l'ancien bureau de poste. Les élus ont écarté la proposition d'achat du bureau de tabac-presse. Ces commerçants font face à",
         "category": "Vie Municipale & Délibérations",
@@ -104,7 +125,7 @@
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86295-dunieres-pourquoi-le-tabac-presse-avait-candidate-sur-l-achat-de-l-ancien-bureau-de-poste.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-14",
+          "start": "2026-11-15",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -116,7 +137,7 @@
         "attachment_data": null
       },
       {
-        "id": "lacommere43_search_2",
+        "id": "lacommere43_search_3",
         "title": "Dunières: le sort de l'ancien bureau de poste est scell",
         "summary": "La commune deDunières, après avoir opté pour un projet de salle de sport en 2024, a finalement choisi de déconstruire l'ancien bureau de poste dans la traversée du bourg pour apporter des ...",
         "category": "Manifestations & Vie Associative",
@@ -125,7 +146,7 @@
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86271-dunieres-le-sort-de-l-ancien-bureau-de-poste-est-scelle.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-14",
+          "start": "2026-11-15",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -137,7 +158,7 @@
         "attachment_data": null
       },
       {
-        "id": "lacommere43_search_3",
+        "id": "lacommere43_search_4",
         "title": "Dunières: le club de basket a créé une section basket bien-être",
         "summary": "Le Basket Club deDunièrespropose l'activité « basket bien-être » le mercredi de 18 h 15 à 19 h 15 au gymnase de Dunières. L'objectif de cette activité est de proposer à tous de pratiquer ...",
         "category": "Manifestations & Vie Associative",
@@ -146,7 +167,7 @@
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86269-dunieres-le-club-de-basket-a-cree-une-section-basket-bien-etre.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-14",
+          "start": "2026-11-15",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -158,7 +179,7 @@
         "attachment_data": null
       },
       {
-        "id": "lacommere43_search_5",
+        "id": "lacommere43_search_6",
         "title": "Remise de diplômes du PSC1 pour les 3e au collège deDunières",
         "summary": "Vingt élèves volontaires de 3e du collège Le Sacré Cœur-Don Bosco deDunièresont participé à une formation PSC1, Prévention et Secours Civiques de niveau 1, organisée dans les locaux de l'",
         "category": "Manifestations & Vie Associative",
@@ -167,7 +188,7 @@
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86235-remise-de-diplomes-du-psc1-pour-les-3e-au-college-de-dunieres.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-14",
+          "start": "2026-11-15",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -179,7 +200,7 @@
         "attachment_data": null
       },
       {
-        "id": "lacommere43_search_7",
+        "id": "lacommere43_search_8",
         "title": "Compost et terreau, il y a les deux au collège deDunières",
         "summary": "Au collège du Sacré-Cœur àDunières, les élèves du groupe E3D (Etablissement en Démarche de Développement Durable) agissent concrètement pour valoriser les déchets organiques sur place : au",
         "category": "Services & Déchets",
@@ -188,7 +209,7 @@
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86220-compost-et-terreau-il-y-a-les-deux-au-college-de-dunieres.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-14",
+          "start": "2026-11-15",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -202,28 +223,7 @@
     ],
     "upcoming": [
       {
-        "id": "illiwap_comcom_haut-pays-du-velay-communaute_3",
-        "title": "Jusqu'au 15/11/2026",
-        "summary": "Jusqu'au 15/11/2026 Programme d'activités, animations sur les vacances",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "Illiwap Haut Pays du Velay Communauté",
-        "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/6ad0dbc39be78744965858.jpg",
-        "dates": {
-          "start": "2026-11-15",
-          "end": "2026-11-15",
-          "is_period": false,
-          "bucket": "upcoming"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
-      {
-        "id": "lacommere43_search_1",
+        "id": "lacommere43_search_2",
         "title": "Burgers et karaoké : le FJEP deDunièresvous invite à sa soirée du 20 novembre",
         "summary": "L'association FJEP deDunièresorganise une soirée burger karaoké le vendredi 20 novembre à partir de 18 h 30, à la salle de la Mutualité de Dunières. Envie de pousser la",
         "category": "Manifestations & Vie Associative",
@@ -305,6 +305,27 @@
         "has_attachment": false,
         "attachment_type": null,
         "attachment_data": null
+      },
+      {
+        "id": "illiwap_dunieres_mon-sapin-mon-village-mon-noel-1",
+        "title": "🎄 MON SAPIN, MON VILLAGE, MON NOËL ! 🎄",
+        "summary": "Les enfants de Dunières, petits créateurs et artistes en herbe, nous avons besoin de vous !❤️Et si cette année, notre sapin de Noël de la place Saint-Martin était décoré grâce à vous ?Nous vous invitons à préparer une jolie décoration de Noël : un...",
+        "category": "Enfance & Jeunesse",
+        "badge": "Enfance",
+        "source_name": "Illiwap Mairie de Dunières",
+        "source_url": "https://station.illiwap.com/fr/public/43087/actu/mon-sapin-mon-village-mon-noel-1",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/9HV7dxwjM4AMZJFfhfFePUmzJ3AYhFz0uPk2mKyxViU.jpg",
+        "dates": {
+          "start": "2026-11-30",
+          "end": null,
+          "is_period": false,
+          "bucket": "upcoming"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
       }
     ]
   },
@@ -322,7 +343,7 @@
         "start": "2026-11-30",
         "end": null,
         "is_period": false,
-        "bucket": "extended"
+        "bucket": "upcoming"
       },
       "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
@@ -425,27 +446,6 @@
     },
     {
       "id": "illiwap_comcom_haut-pays-du-velay-communaute_3",
-      "title": "Jusqu'au 15/11/2026",
-      "summary": "Jusqu'au 15/11/2026 Programme d'activités, animations sur les vacances",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "Illiwap Haut Pays du Velay Communauté",
-      "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/6ad0dbc39be78744965858.jpg",
-      "dates": {
-        "start": "2026-11-15",
-        "end": "2026-11-15",
-        "is_period": false,
-        "bucket": "upcoming"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "illiwap_comcom_haut-pays-du-velay-communaute_4",
       "title": "22 nov. 2026 16:00 - 17:00",
       "summary": "22 nov. 2026 16:00 - 17:00 Théâtre d’objets « Le Mystère Léon Plouhinec »",
       "category": "Culture & Patrimoine",
@@ -454,7 +454,7 @@
       "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
       "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/AngRM8vlcQ9xVb0W6PgW3rEZD_FFHbdOlOljdKCMEKM.jpg",
       "dates": {
-        "start": "2026-11-14",
+        "start": "2026-11-15",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -467,6 +467,27 @@
     },
     {
       "id": "lacommere43_search_0",
+      "title": "Basket, RF2 :Dunièresn'y arrive pas cette saiso",
+      "summary": "Les basketteuses deDunièressont en souffrance cette saison en Régionale 2. Elles ont perdu samedi à domicile contre Unieux-Fraisses (41-60). Dunières a entamé la phase re",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "source_name": "La Commère 43",
+      "source_url": "https://www.lacommere43.fr/sport/item/86334-basket-rf2-dunieres-n-y-arrive-pas-cette-saison.html",
+      "image_url": null,
+      "dates": {
+        "start": "2026-11-15",
+        "end": null,
+        "is_period": false,
+        "bucket": "today"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "lacommere43_search_1",
       "title": "Dunières: pourquoi le tabac-presse avait candidaté sur l'achat de l'ancien burea",
       "summary": "Le dernier conseil municipal deDunièresa évoqué l'avenir de l'ancien bureau de poste. Les élus ont écarté la proposition d'achat du bureau de tabac-presse. Ces commerçants font face à",
       "category": "Vie Municipale & Délibérations",
@@ -475,7 +496,7 @@
       "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86295-dunieres-pourquoi-le-tabac-presse-avait-candidate-sur-l-achat-de-l-ancien-bureau-de-poste.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-14",
+        "start": "2026-11-15",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -487,7 +508,7 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_search_1",
+      "id": "lacommere43_search_2",
       "title": "Burgers et karaoké : le FJEP deDunièresvous invite à sa soirée du 20 novembre",
       "summary": "L'association FJEP deDunièresorganise une soirée burger karaoké le vendredi 20 novembre à partir de 18 h 30, à la salle de la Mutualité de Dunières. Envie de pousser la",
       "category": "Manifestations & Vie Associative",
@@ -508,7 +529,7 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_search_2",
+      "id": "lacommere43_search_3",
       "title": "Dunières: le sort de l'ancien bureau de poste est scell",
       "summary": "La commune deDunières, après avoir opté pour un projet de salle de sport en 2024, a finalement choisi de déconstruire l'ancien bureau de poste dans la traversée du bourg pour apporter des ...",
       "category": "Manifestations & Vie Associative",
@@ -517,28 +538,7 @@
       "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86271-dunieres-le-sort-de-l-ancien-bureau-de-poste-est-scelle.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-14",
-        "end": null,
-        "is_period": false,
-        "bucket": "today"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "lacommere43_search_3",
-      "title": "Dunières: le club de basket a créé une section basket bien-être",
-      "summary": "Le Basket Club deDunièrespropose l'activité « basket bien-être » le mercredi de 18 h 15 à 19 h 15 au gymnase de Dunières. L'objectif de cette activité est de proposer à tous de pratiquer ...",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "La Commère 43",
-      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86269-dunieres-le-club-de-basket-a-cree-une-section-basket-bien-etre.html",
-      "image_url": null,
-      "dates": {
-        "start": "2026-11-14",
+        "start": "2026-11-15",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -551,6 +551,27 @@
     },
     {
       "id": "lacommere43_search_4",
+      "title": "Dunières: le club de basket a créé une section basket bien-être",
+      "summary": "Le Basket Club deDunièrespropose l'activité « basket bien-être » le mercredi de 18 h 15 à 19 h 15 au gymnase de Dunières. L'objectif de cette activité est de proposer à tous de pratiquer ...",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "source_name": "La Commère 43",
+      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86269-dunieres-le-club-de-basket-a-cree-une-section-basket-bien-etre.html",
+      "image_url": null,
+      "dates": {
+        "start": "2026-11-15",
+        "end": null,
+        "is_period": false,
+        "bucket": "today"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "lacommere43_search_5",
       "title": "Les élèves de CM de l’école Jacques-Prévert deDunièresrendent hommage aux combat",
       "summary": "Ce lundi 9 novembre, les élèves de CM de l’école Jacques-Prévert ont rendu hommage aux combattants de la Grande Guerre. À l’occasion d’une cérémonie organisée dans l’encein",
       "category": "Enfance & Jeunesse",
@@ -571,7 +592,7 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_search_5",
+      "id": "lacommere43_search_6",
       "title": "Remise de diplômes du PSC1 pour les 3e au collège deDunières",
       "summary": "Vingt élèves volontaires de 3e du collège Le Sacré Cœur-Don Bosco deDunièresont participé à une formation PSC1, Prévention et Secours Civiques de niveau 1, organisée dans les locaux de l'",
       "category": "Manifestations & Vie Associative",
@@ -580,7 +601,7 @@
       "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86235-remise-de-diplomes-du-psc1-pour-les-3e-au-college-de-dunieres.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-14",
+        "start": "2026-11-15",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -592,7 +613,7 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_search_6",
+      "id": "lacommere43_search_7",
       "title": "Dunières: un « marathon » ciné le 5 décembre avec la trilogie complète du « Seig",
       "summary": "A l'occasion des 25 ans de la « Communauté de l'Anneau », le premier volet de la trilogie du « Seigneur des Anneaux », le cinéma le Maubourg àDunièrespropose aux fans ...",
       "category": "Culture & Patrimoine",
@@ -613,7 +634,7 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_search_7",
+      "id": "lacommere43_search_8",
       "title": "Compost et terreau, il y a les deux au collège deDunières",
       "summary": "Au collège du Sacré-Cœur àDunières, les élèves du groupe E3D (Etablissement en Démarche de Développement Durable) agissent concrètement pour valoriser les déchets organiques sur place : au",
       "category": "Services & Déchets",
@@ -622,7 +643,7 @@
       "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86220-compost-et-terreau-il-y-a-les-deux-au-college-de-dunieres.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-14",
+        "start": "2026-11-15",
         "end": null,
         "is_period": false,
         "bucket": "today"
