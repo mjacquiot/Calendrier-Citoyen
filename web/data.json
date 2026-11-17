@@ -3,18 +3,18 @@
     "commune": "Dunières",
     "code_postal": "43220",
     "intercommunalite": "Haut Pays du Velay Communauté",
-    "generated_at": "2026-11-16T14:17:29.856981+01:00",
-    "reference_date": "2026-11-16",
+    "generated_at": "2026-11-17T15:02:26.547933+01:00",
+    "reference_date": "2026-11-17",
     "sliding_window": {
       "retrospective_days": 15,
       "upcoming_days": 15
     },
     "counts": {
       "total_analyzed": 16,
-      "total_accepted": 16,
-      "total_rejected": 0,
+      "total_accepted": 15,
+      "total_rejected": 1,
       "retrospective": 3,
-      "today": 7,
+      "today": 6,
       "upcoming": 5
     }
   },
@@ -95,27 +95,6 @@
     ],
     "today": [
       {
-        "id": "illiwap_dunieres_mairie-fermee-78",
-        "title": "Mairie fermée",
-        "summary": "Mairie fermée 16/11/2026",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/mairie-fermee-78",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6aec49f84562c242272023.jpg",
-        "dates": {
-          "start": "2026-11-16",
-          "end": null,
-          "is_period": false,
-          "bucket": "today"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
-      {
         "id": "illiwap_comcom_haut-pays-du-velay-communaute_3",
         "title": "22 nov. 2026 16:00 - 17:00",
         "summary": "22 nov. 2026 16:00 - 17:00 Théâtre d’objets « Le Mystère Léon Plouhinec »",
@@ -125,7 +104,7 @@
         "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
         "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/AngRM8vlcQ9xVb0W6PgW3rEZD_FFHbdOlOljdKCMEKM.jpg",
         "dates": {
-          "start": "2026-11-16",
+          "start": "2026-11-17",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -146,7 +125,7 @@
         "source_url": "https://www.lacommere43.fr/sport/item/86334-basket-rf2-dunieres-n-y-arrive-pas-cette-saison.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-16",
+          "start": "2026-11-17",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -167,7 +146,7 @@
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86295-dunieres-pourquoi-le-tabac-presse-avait-candidate-sur-l-achat-de-l-ancien-bureau-de-poste.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-16",
+          "start": "2026-11-17",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -188,7 +167,7 @@
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86271-dunieres-le-sort-de-l-ancien-bureau-de-poste-est-scelle.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-16",
+          "start": "2026-11-17",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -209,7 +188,7 @@
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86269-dunieres-le-club-de-basket-a-cree-une-section-basket-bien-etre.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-16",
+          "start": "2026-11-17",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -230,7 +209,7 @@
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86235-remise-de-diplomes-du-psc1-pour-les-3e-au-college-de-dunieres.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-16",
+          "start": "2026-11-17",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -265,6 +244,27 @@
         "attachment_data": null
       },
       {
+        "id": "illiwap_dunieres_travaux-du-sell-a-picholet",
+        "title": "TRAVAUX du SELL à Picholet",
+        "summary": "⚠ Coupure d'eau et circulation perturbée chemin de Picholet du 18 au 19 novembre.📞 Syndicat des Eaux entre Loire et Lignon 04 71 61 04 04",
+        "category": "Travaux & Voirie",
+        "badge": "Arrêté / Travaux",
+        "source_name": "Illiwap Mairie de Dunières",
+        "source_url": "https://station.illiwap.com/fr/public/43087/actu/travaux-du-sell-a-picholet",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/charte_public_website/placeholder_actu_pp.png",
+        "dates": {
+          "start": "2026-11-18",
+          "end": "2026-11-19",
+          "is_period": true,
+          "bucket": "upcoming"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "high",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      },
+      {
         "id": "lacommere43_search_4",
         "title": "Burgers et karaoké : le FJEP deDunièresvous invite à sa soirée du 20 novembre",
         "summary": "L'association FJEP deDunièresorganise une soirée burger karaoké le vendredi 20 novembre à partir de 18 h 30, à la salle de la Mutualité de Dunières. Envie de pousser la",
@@ -275,27 +275,6 @@
         "image_url": null,
         "dates": {
           "start": "2026-11-20",
-          "end": null,
-          "is_period": false,
-          "bucket": "upcoming"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
-      {
-        "id": "illiwap_dunieres_concours-coinche-samedi-21-novembre-14h-ephata-43-6",
-        "title": "concours coinche samedi 21 novembre 14h EPHATA 43",
-        "summary": "L'association Ephata 43 renouvelle son concours de coinche, le samedi 21 novembre 2026, à la Salle des Associations de Dunières (derrière le gymnase).Le concours est ouvert à tous : participants seuls et duo.Toutes les doublettes seront primées. P...",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/concours-coinche-samedi-21-novembre-14h-ephata-43-6",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/JeYJBvH8W9X5Je6bqjDg1U41ktpM08oc.jpg",
-        "dates": {
-          "start": "2026-11-21",
           "end": null,
           "is_period": false,
           "bucket": "upcoming"
@@ -352,6 +331,27 @@
   },
   "all_events": [
     {
+      "id": "illiwap_dunieres_travaux-du-sell-a-picholet",
+      "title": "TRAVAUX du SELL à Picholet",
+      "summary": "⚠ Coupure d'eau et circulation perturbée chemin de Picholet du 18 au 19 novembre.📞 Syndicat des Eaux entre Loire et Lignon 04 71 61 04 04",
+      "category": "Travaux & Voirie",
+      "badge": "Arrêté / Travaux",
+      "source_name": "Illiwap Mairie de Dunières",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/travaux-du-sell-a-picholet",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/charte_public_website/placeholder_actu_pp.png",
+      "dates": {
+        "start": "2026-11-18",
+        "end": "2026-11-19",
+        "is_period": true,
+        "bucket": "upcoming"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "high",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
       "id": "illiwap_dunieres_dunieres-tournee-des-calendriers-des-sapeurs-pompiers-6",
       "title": "Dunières : tournée des calendriers des Sapeurs-Pompiers",
       "summary": "L'Amicale des Sapeurs-pompiers de Dunières lance sa traditionnelle tournée des calendriers.A partir du lundi 5 Octobre, les sapeurs-pompiers de Dunières viendront à la rencontre des habitants pour la distribution de leur calendrier (qui a lieu tou...",
@@ -365,48 +365,6 @@
         "end": null,
         "is_period": false,
         "bucket": "archive"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "illiwap_dunieres_concours-coinche-samedi-21-novembre-14h-ephata-43-6",
-      "title": "concours coinche samedi 21 novembre 14h EPHATA 43",
-      "summary": "L'association Ephata 43 renouvelle son concours de coinche, le samedi 21 novembre 2026, à la Salle des Associations de Dunières (derrière le gymnase).Le concours est ouvert à tous : participants seuls et duo.Toutes les doublettes seront primées. P...",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/concours-coinche-samedi-21-novembre-14h-ephata-43-6",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/JeYJBvH8W9X5Je6bqjDg1U41ktpM08oc.jpg",
-      "dates": {
-        "start": "2026-11-21",
-        "end": null,
-        "is_period": false,
-        "bucket": "upcoming"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "illiwap_dunieres_mairie-fermee-78",
-      "title": "Mairie fermée",
-      "summary": "Mairie fermée 16/11/2026",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/mairie-fermee-78",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6aec49f84562c242272023.jpg",
-      "dates": {
-        "start": "2026-11-16",
-        "end": null,
-        "is_period": false,
-        "bucket": "today"
       },
       "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
@@ -475,7 +433,7 @@
       "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
       "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/AngRM8vlcQ9xVb0W6PgW3rEZD_FFHbdOlOljdKCMEKM.jpg",
       "dates": {
-        "start": "2026-11-16",
+        "start": "2026-11-17",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -538,7 +496,7 @@
       "source_url": "https://www.lacommere43.fr/sport/item/86334-basket-rf2-dunieres-n-y-arrive-pas-cette-saison.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-16",
+        "start": "2026-11-17",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -559,7 +517,7 @@
       "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86295-dunieres-pourquoi-le-tabac-presse-avait-candidate-sur-l-achat-de-l-ancien-bureau-de-poste.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-16",
+        "start": "2026-11-17",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -601,7 +559,7 @@
       "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86271-dunieres-le-sort-de-l-ancien-bureau-de-poste-est-scelle.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-16",
+        "start": "2026-11-17",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -622,7 +580,7 @@
       "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86269-dunieres-le-club-de-basket-a-cree-une-section-basket-bien-etre.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-16",
+        "start": "2026-11-17",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -664,7 +622,7 @@
       "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86235-remise-de-diplomes-du-psc1-pour-les-3e-au-college-de-dunieres.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-16",
+        "start": "2026-11-17",
         "end": null,
         "is_period": false,
         "bucket": "today"
