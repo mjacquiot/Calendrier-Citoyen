@@ -3,34 +3,34 @@
     "commune": "Dunières",
     "code_postal": "43220",
     "intercommunalite": "Haut Pays du Velay Communauté",
-    "generated_at": "2026-11-18T14:37:29.438628+01:00",
-    "reference_date": "2026-11-18",
+    "generated_at": "2026-11-19T15:02:55.964553+01:00",
+    "reference_date": "2026-11-19",
     "sliding_window": {
       "retrospective_days": 15,
       "upcoming_days": 15
     },
     "counts": {
-      "total_analyzed": 16,
-      "total_accepted": 16,
+      "total_analyzed": 17,
+      "total_accepted": 17,
       "total_rejected": 0,
-      "retrospective": 3,
-      "today": 8,
-      "upcoming": 5
+      "retrospective": 4,
+      "today": 9,
+      "upcoming": 4
     }
   },
   "buckets": {
     "retrospective": [
       {
-        "id": "lacommere43_search_9",
-        "title": "Les élèves de CM de l’école Jacques-Prévert deDunièresrendent hommage aux combat",
-        "summary": "Ce lundi 9 novembre, les élèves de CM de l’école Jacques-Prévert ont rendu hommage aux combattants de la Grande Guerre. À l’occasion d’une cérémonie organisée dans l’encein",
-        "category": "Enfance & Jeunesse",
-        "badge": "Enfance",
+        "id": "lacommere43_search_0",
+        "title": "Les karatékas du Seijitsu dojo deDunièresbrillent à Yssingeaux",
+        "summary": "Les karatékas du Seijitsu dojo deDunièresse sont illustrés samedi 14 novembre à Yssingeaux, à l'occasion de la coupe et du championnat départemental de karaté. Une belle journée pour les ...",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
         "source_name": "La Commère 43",
-        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86236-les-eleves-de-cm-de-l-ecole-jacques-prevert-de-dunieres-rendent-hommage-aux-combattants-de-la-grande-guerre.html",
+        "source_url": "https://www.lacommere43.fr/sport/item/86427-les-karatekas-du-seijitsu-dojo-de-dunieres-brillent-a-yssingeaux.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-09",
+          "start": "2026-11-14",
           "end": null,
           "is_period": false,
           "bucket": "retrospective"
@@ -42,37 +42,7 @@
         "attachment_data": null
       },
       {
-        "id": "illiwap_comcom_calendrier-des-fetes-de-novembre-2",
-        "title": "Calendrier des fêtes de novembre",
-        "summary": "Le calendrier des fêtes de novembre 2026 est disponible. Retrouvez les animations, spectacles, expositions et ateliers proposés dans les communes du Haut Pays du Velay :https://www.calameo.com/read/001159770add8fb838647Pour plus d’informations : H...",
-        "category": "Culture & Patrimoine",
-        "badge": "Culture",
-        "source_name": "Illiwap Haut Pays du Velay Communauté",
-        "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/actu/calendrier-des-fetes-de-novembre-2",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/w48-1IGz22iaIeHVuQsw-kBrTteSQ5BT.jpg",
-        "dates": {
-          "start": "2026-11-12",
-          "end": null,
-          "is_period": false,
-          "bucket": "retrospective"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": true,
-        "attachment_type": "calameo",
-        "attachment_data": {
-          "type": "calameo",
-          "bkcode": "001159770add8fb838647",
-          "title": "Agenda Novembre 2026",
-          "author": "Haut Pays du Velay tourisme",
-          "description": "Calendrier des fêtes, novembre 2026 : Haut Pays du Velay tourisme\n\n8 villages, des dégustations de vins, une foire aux champignons, un gardien de phare qui n’a jamais quitté son phare et des marchés de Noël. Le calendrier de novembre 2026 réunit les...\nPlus",
-          "cover_image_url": "https://i.calameoassets.com/261031110200-7cba47eb387a5f610e39e6dcd84b3bb4/large.jpg",
-          "enriched_text": "Document Calaméo 'Agenda Novembre 2026' (par Haut Pays du Velay tourisme) :\nCalendrier des fêtes, novembre 2026 : Haut Pays du Velay tourisme\n\n8 villages, des dégustations de vins, une foire aux champignons, un gardien de phare qui n’a jamais quitté son phare et des marchés de Noël. Le calendrier de novembre 2026 réunit les...\nPlus",
-          "original_url": "https://www.calameo.com/read/001159770add8fb838647"
-        }
-      },
-      {
-        "id": "lacommere43_search_3",
+        "id": "lacommere43_search_4",
         "title": "Raucoules : de bonnes affaires et une bonne action à la bourse aux jouets",
         "summary": "La bourse aux jouets, vêtements et articles de puériculture organisée le dimanche 15 novembre à la salle polyvalente de Raucoules a rencontré un beau succès. Organisée conj",
         "category": "Manifestations & Vie Associative",
@@ -91,29 +61,101 @@
         "has_attachment": false,
         "attachment_type": null,
         "attachment_data": null
-      }
-    ],
-    "today": [
+      },
       {
-        "id": "illiwap_dunieres_bientot-16-ans-pensez-au-recensement-49-1",
-        "title": "BIENTÔT 16 ANS ! Pensez au recensement",
-        "summary": "Source : Mairie de Dunières",
+        "id": "illiwap_dunieres_croix-rouge-20-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-2-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-2-1-1-1-1-1-1-1-1",
+        "title": "BOUTIQUE CROIX-ROUGE",
+        "summary": "🎅BoutiqueCROIX ROUGE Dunières🎄A partir  du vendredi 20 novembreVêtements de fêtes, décorations de noël...Venez nombreux !L'équipe des bénévolesTél: 06 99 36 76 35Source : Mairie de Dunières 🎅BoutiqueCROIX ROUGE Dunières🎄A partir  du vendredi 20 no...",
         "category": "Manifestations & Vie Associative",
         "badge": "Animation",
         "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/bientot-16-ans-pensez-au-recensement-49-1",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6a1068074dad4120312426.jpg",
+        "source_url": "https://station.illiwap.com/fr/public/43087/actu/croix-rouge-20-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-2-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-2-1-1-1-1-1-1-1-1",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/charte_public_website/placeholder_actu_pp.png",
         "dates": {
           "start": "2026-11-18",
           "end": null,
           "is_period": false,
-          "bucket": "today"
+          "bucket": "retrospective"
         },
         "location": "Dunières / Haut Pays du Velay",
         "importance": "normal",
         "has_attachment": false,
         "attachment_type": null,
         "attachment_data": null
+      },
+      {
+        "id": "leprogres_haute_loire_10",
+        "title": "Saint-Romain-Lachalm. Perte de contrôle, la vitesse peut-être en cause",
+        "summary": "Ce mercredi 18 novembre, les sapeurs-pompiers des centres d’incendie et de secours de Saint-Romain-Lachalm et Sainte-Sigolène/Saint-Pal-de-Mons sont intervenus sur la Route départementale 23, vers 6 h 50.",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
+        "source_name": "Le Progrès - Haute-Loire",
+        "source_url": "https://www.leprogres.fr/faits-divers-justice/2026/11/18/perte-de-controle-la-vitesse-peut-etre-en-cause",
+        "image_url": null,
+        "dates": {
+          "start": "2026-11-18",
+          "end": null,
+          "is_period": false,
+          "bucket": "retrospective"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      }
+    ],
+    "today": [
+      {
+        "id": "illiwap_dunieres_coupure-d-eau-a-picholet-jeudi-19-novembre",
+        "title": "COUPURE D'EAU A PICHOLET JEUDI 19 NOVEMBRE",
+        "summary": "En raison de travaux sur le réseau d'eau potable, la Société des Eaux entre Loire et Lignon coupera l'eau ceJEUDI 19 NOVEMBRE DE 8H00 A 17H00 SUR LE SECTEUR DE PICHOLETAttention la route sera fermée.Syndicat des Eaux",
+        "category": "Travaux & Voirie",
+        "badge": "Arrêté / Travaux",
+        "source_name": "Illiwap Mairie de Dunières",
+        "source_url": "https://station.illiwap.com/fr/public/43087/actu/coupure-d-eau-a-picholet-jeudi-19-novembre",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/OWFSgh1YtubcRMhPi5fBsUyv-NdcXHwxrHo7JRhg-BM.JPG",
+        "dates": {
+          "start": "2026-11-19",
+          "end": null,
+          "is_period": false,
+          "bucket": "today"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "high",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      },
+      {
+        "id": "illiwap_comcom_calendrier-des-fetes-de-novembre-3",
+        "title": "Calendrier des fêtes de novembre",
+        "summary": "Le calendrier des fêtes de novembre 2026 est disponible. Retrouvez les animations, spectacles, expositions et ateliers proposés dans les communes du Haut Pays du Velay :https://www.calameo.com/read/001159770add8fb838647Pour plus d’informations : H...",
+        "category": "Culture & Patrimoine",
+        "badge": "Culture",
+        "source_name": "Illiwap Haut Pays du Velay Communauté",
+        "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/actu/calendrier-des-fetes-de-novembre-3",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/U-o2YmQYN6FL-o4QzAet3NUTjqFV1OaE.jpg",
+        "dates": {
+          "start": "2026-11-19",
+          "end": null,
+          "is_period": false,
+          "bucket": "today"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
+        "has_attachment": true,
+        "attachment_type": "calameo",
+        "attachment_data": {
+          "type": "calameo",
+          "bkcode": "001159770add8fb838647",
+          "title": "Agenda Novembre 2026",
+          "author": "Haut Pays du Velay tourisme",
+          "description": "Calendrier des fêtes, novembre 2026 : Haut Pays du Velay tourisme\n\n8 villages, des dégustations de vins, une foire aux champignons, un gardien de phare qui n’a jamais quitté son phare et des marchés de Noël. Le calendrier de novembre 2026 réunit les...\nPlus",
+          "cover_image_url": "https://i.calameoassets.com/261031110200-7cba47eb387a5f610e39e6dcd84b3bb4/large.jpg",
+          "enriched_text": "Document Calaméo 'Agenda Novembre 2026' (par Haut Pays du Velay tourisme) :\nCalendrier des fêtes, novembre 2026 : Haut Pays du Velay tourisme\n\n8 villages, des dégustations de vins, une foire aux champignons, un gardien de phare qui n’a jamais quitté son phare et des marchés de Noël. Le calendrier de novembre 2026 réunit les...\nPlus",
+          "original_url": "https://www.calameo.com/read/001159770add8fb838647"
+        }
       },
       {
         "id": "illiwap_comcom_haut-pays-du-velay-communaute_3",
@@ -125,28 +167,7 @@
         "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
         "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/AngRM8vlcQ9xVb0W6PgW3rEZD_FFHbdOlOljdKCMEKM.jpg",
         "dates": {
-          "start": "2026-11-18",
-          "end": null,
-          "is_period": false,
-          "bucket": "today"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
-      {
-        "id": "lacommere43_search_0",
-        "title": "Dunières: Fanny Souchon crée des bijoux fantaisie à l'enseigne ALMA des Suc",
-        "summary": "Fanny Souchon lance ALMA des Sucs àDunières, une micro-entreprise artisanale proposant des bijoux faits à la main en pâte polymère, avec des attaches en acier inoxydable.",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "La Commère 43",
-        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86404-dunieres-fanny-souchon-cree-des-bijoux-fantaisie-a-l-enseigne-alma-des-sucs.html",
-        "image_url": null,
-        "dates": {
-          "start": "2026-11-18",
+          "start": "2026-11-19",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -159,15 +180,15 @@
       },
       {
         "id": "lacommere43_search_1",
-        "title": "André Marcon raconte l'intimité familiale dans son livre \"Les Marcon de Saint-Bo",
-        "summary": "André Marcon vient de publier un livre où il raconte l'histoire familiale, \"Les Marcon de Saint-Bonnet-le-Froid\" (éditions La Clé du chemin). Une famille intimement liée à Saint-Bonnet-le",
+        "title": "Dunières: Fanny Souchon crée des bijoux fantaisie à l'enseigne ALMA des Suc",
+        "summary": "Fanny Souchon lance ALMA des Sucs àDunières, une micro-entreprise artisanale proposant des bijoux faits à la main en pâte polymère, avec des attaches en acier inoxydable.",
         "category": "Manifestations & Vie Associative",
         "badge": "Animation",
         "source_name": "La Commère 43",
-        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86403-saint-bonnet-le-froid-andre-marcon-fait-entrer-dans-l-intimite-familiale-dans-son-livre.html",
+        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86404-dunieres-fanny-souchon-cree-des-bijoux-fantaisie-a-l-enseigne-alma-des-sucs.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-18",
+          "start": "2026-11-19",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -179,16 +200,16 @@
         "attachment_data": null
       },
       {
-        "id": "lacommere43_search_4",
-        "title": "Basket, RF2 :Dunièresn'y arrive pas cette saiso",
-        "summary": "Les basketteuses deDunièressont en souffrance cette saison en Régionale 2. Elles ont perdu samedi à domicile contre Unieux-Fraisses (41-60). Dunières a entamé la phase re",
+        "id": "lacommere43_search_2",
+        "title": "André Marcon raconte l'intimité familiale dans son livre \"Les Marcon de Saint-Bo",
+        "summary": "André Marcon vient de publier un livre où il raconte l'histoire familiale, \"Les Marcon de Saint-Bonnet-le-Froid\" (éditions La Clé du chemin). Une famille intimement liée à Saint-Bonnet-le",
         "category": "Manifestations & Vie Associative",
         "badge": "Animation",
         "source_name": "La Commère 43",
-        "source_url": "https://www.lacommere43.fr/sport/item/86334-basket-rf2-dunieres-n-y-arrive-pas-cette-saison.html",
+        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86403-saint-bonnet-le-froid-andre-marcon-fait-entrer-dans-l-intimite-familiale-dans-son-livre.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-18",
+          "start": "2026-11-19",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -201,36 +222,15 @@
       },
       {
         "id": "lacommere43_search_5",
-        "title": "Dunières: pourquoi le tabac-presse avait candidaté sur l'achat de l'ancien burea",
-        "summary": "Le dernier conseil municipal deDunièresa évoqué l'avenir de l'ancien bureau de poste. Les élus ont écarté la proposition d'achat du bureau de tabac-presse. Ces commerçants font face à",
-        "category": "Vie Municipale & Délibérations",
-        "badge": "Conseil Municipal",
-        "source_name": "La Commère 43",
-        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86295-dunieres-pourquoi-le-tabac-presse-avait-candidate-sur-l-achat-de-l-ancien-bureau-de-poste.html",
-        "image_url": null,
-        "dates": {
-          "start": "2026-11-18",
-          "end": null,
-          "is_period": false,
-          "bucket": "today"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "high",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
-      {
-        "id": "lacommere43_search_7",
-        "title": "Dunières: le sort de l'ancien bureau de poste est scell",
-        "summary": "La commune deDunières, après avoir opté pour un projet de salle de sport en 2024, a finalement choisi de déconstruire l'ancien bureau de poste dans la traversée du bourg pour apporter des ...",
+        "title": "Basket, RF2 :Dunièresn'y arrive pas cette saiso",
+        "summary": "Les basketteuses deDunièressont en souffrance cette saison en Régionale 2. Elles ont perdu samedi à domicile contre Unieux-Fraisses (41-60). Dunières a entamé la phase re",
         "category": "Manifestations & Vie Associative",
         "badge": "Animation",
         "source_name": "La Commère 43",
-        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86271-dunieres-le-sort-de-l-ancien-bureau-de-poste-est-scelle.html",
+        "source_url": "https://www.lacommere43.fr/sport/item/86334-basket-rf2-dunieres-n-y-arrive-pas-cette-saison.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-18",
+          "start": "2026-11-19",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -242,7 +242,49 @@
         "attachment_data": null
       },
       {
+        "id": "lacommere43_search_6",
+        "title": "Dunières: pourquoi le tabac-presse avait candidaté sur l'achat de l'ancien burea",
+        "summary": "Le dernier conseil municipal deDunièresa évoqué l'avenir de l'ancien bureau de poste. Les élus ont écarté la proposition d'achat du bureau de tabac-presse. Ces commerçants font face à",
+        "category": "Vie Municipale & Délibérations",
+        "badge": "Conseil Municipal",
+        "source_name": "La Commère 43",
+        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86295-dunieres-pourquoi-le-tabac-presse-avait-candidate-sur-l-achat-de-l-ancien-bureau-de-poste.html",
+        "image_url": null,
+        "dates": {
+          "start": "2026-11-19",
+          "end": null,
+          "is_period": false,
+          "bucket": "today"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "high",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      },
+      {
         "id": "lacommere43_search_8",
+        "title": "Dunières: le sort de l'ancien bureau de poste est scell",
+        "summary": "La commune deDunières, après avoir opté pour un projet de salle de sport en 2024, a finalement choisi de déconstruire l'ancien bureau de poste dans la traversée du bourg pour apporter des ...",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
+        "source_name": "La Commère 43",
+        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86271-dunieres-le-sort-de-l-ancien-bureau-de-poste-est-scelle.html",
+        "image_url": null,
+        "dates": {
+          "start": "2026-11-19",
+          "end": null,
+          "is_period": false,
+          "bucket": "today"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      },
+      {
+        "id": "lacommere43_search_9",
         "title": "Dunières: le club de basket a créé une section basket bien-être",
         "summary": "Le Basket Club deDunièrespropose l'activité « basket bien-être » le mercredi de 18 h 15 à 19 h 15 au gymnase de Dunières. L'objectif de cette activité est de proposer à tous de pratiquer ...",
         "category": "Manifestations & Vie Associative",
@@ -251,7 +293,7 @@
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86269-dunieres-le-club-de-basket-a-cree-une-section-basket-bien-etre.html",
         "image_url": null,
         "dates": {
-          "start": "2026-11-18",
+          "start": "2026-11-19",
           "end": null,
           "is_period": false,
           "bucket": "today"
@@ -265,7 +307,7 @@
     ],
     "upcoming": [
       {
-        "id": "lacommere43_search_6",
+        "id": "lacommere43_search_7",
         "title": "Burgers et karaoké : le FJEP deDunièresvous invite à sa soirée du 20 novembre",
         "summary": "L'association FJEP deDunièresorganise une soirée burger karaoké le vendredi 20 novembre à partir de 18 h 30, à la salle de la Mutualité de Dunières. Envie de pousser la",
         "category": "Manifestations & Vie Associative",
@@ -275,6 +317,27 @@
         "image_url": null,
         "dates": {
           "start": "2026-11-20",
+          "end": null,
+          "is_period": false,
+          "bucket": "upcoming"
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      },
+      {
+        "id": "illiwap_dunieres_bal-trad-a-montregard-samedi-21-novembre-2026",
+        "title": "Bal Trad’ à Montregard, samedi 21 novembre 2026",
+        "summary": "Le CDMDT43 et l’association Familles Rurales de Montregard vous invitent à un stage de danses et à un bal trad’ le samedi 21 novembre 2026.💃 14h30 : stage de danses du QuercyLieu : école, 32 rue du Four Banal, 43290 MontregardTarif : 15 € / 12 € t...",
+        "category": "Enfance & Jeunesse",
+        "badge": "Enfance",
+        "source_name": "Illiwap Mairie de Dunières",
+        "source_url": "https://station.illiwap.com/fr/public/43087/actu/bal-trad-a-montregard-samedi-21-novembre-2026",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/ct1VMP5kXpbjAXnQfgNYfO7tbc0a74WGpCKckYL1mSY.jpg",
+        "dates": {
+          "start": "2026-11-21",
           "end": null,
           "is_period": false,
           "bucket": "upcoming"
@@ -307,28 +370,7 @@
         "attachment_data": null
       },
       {
-        "id": "illiwap_dunieres_tripes-saucisses-sapeurs-pompiers-28-11-2026-dunieres-1",
-        "title": "Tripes saucisses - Sapeurs Pompiers - 28/11/2026 - DUNIERES",
-        "summary": "L'Amicale des Sapeurs Pompiers organise \"Tripes Saucisses\" le samedi 28/11/2026 à la caserne de Dunières de 9h à 13h30.Tous les bénéfices sont reversés à l'oeuvre des Pupilles.Source : Mairie de Dunières L'Amicale des Sapeurs Pompiers organise \"Tr...",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/tripes-saucisses-sapeurs-pompiers-28-11-2026-dunieres-1",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/zRdOsFlk9WTx3igGdxvOK8zMM0Wew-Rx.jpg",
-        "dates": {
-          "start": "2026-11-28",
-          "end": "2026-11-28",
-          "is_period": false,
-          "bucket": "upcoming"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
-      {
-        "id": "lacommere43_search_2",
+        "id": "lacommere43_search_3",
         "title": "Dunières: le loto qui séduit petits et grands le 29 novembre",
         "summary": "L'équipe de l'APEL deDunièress'est retrouvée afin de finaliser la préparation de son loto du 29 novembre. L'association de parents ne change pas un concept qui plaît, ...",
         "category": "Manifestations & Vie Associative",
@@ -347,93 +389,102 @@
         "has_attachment": false,
         "attachment_type": null,
         "attachment_data": null
-      },
-      {
-        "id": "illiwap_dunieres_mon-sapin-mon-village-mon-noel-1-1",
-        "title": "🎄 MON SAPIN, MON VILLAGE, MON NOËL ! 🎄",
-        "summary": "Les enfants de Dunières, petits créateurs et artistes en herbe, nous avons besoin de vous !❤️Et si cette année, notre sapin de Noël de la place Saint-Martin était décoré grâce à vous ?Nous vous invitons à préparer une jolie décoration de Noël : un...",
-        "category": "Enfance & Jeunesse",
-        "badge": "Enfance",
-        "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/mon-sapin-mon-village-mon-noel-1-1",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/emGAfLPa5sbzS8rvAbtDMQeCTbIy921N.jpg",
-        "dates": {
-          "start": "2026-11-30",
-          "end": null,
-          "is_period": false,
-          "bucket": "upcoming"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
       }
     ]
   },
   "all_events": [
     {
-      "id": "illiwap_dunieres_bientot-16-ans-pensez-au-recensement-49-1",
-      "title": "BIENTÔT 16 ANS ! Pensez au recensement",
-      "summary": "Source : Mairie de Dunières",
+      "id": "illiwap_dunieres_bal-trad-a-montregard-samedi-21-novembre-2026",
+      "title": "Bal Trad’ à Montregard, samedi 21 novembre 2026",
+      "summary": "Le CDMDT43 et l’association Familles Rurales de Montregard vous invitent à un stage de danses et à un bal trad’ le samedi 21 novembre 2026.💃 14h30 : stage de danses du QuercyLieu : école, 32 rue du Four Banal, 43290 MontregardTarif : 15 € / 12 € t...",
+      "category": "Enfance & Jeunesse",
+      "badge": "Enfance",
+      "source_name": "Illiwap Mairie de Dunières",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/bal-trad-a-montregard-samedi-21-novembre-2026",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/ct1VMP5kXpbjAXnQfgNYfO7tbc0a74WGpCKckYL1mSY.jpg",
+      "dates": {
+        "start": "2026-11-21",
+        "end": null,
+        "is_period": false,
+        "bucket": "upcoming"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "illiwap_dunieres_coupure-d-eau-a-picholet-jeudi-19-novembre",
+      "title": "COUPURE D'EAU A PICHOLET JEUDI 19 NOVEMBRE",
+      "summary": "En raison de travaux sur le réseau d'eau potable, la Société des Eaux entre Loire et Lignon coupera l'eau ceJEUDI 19 NOVEMBRE DE 8H00 A 17H00 SUR LE SECTEUR DE PICHOLETAttention la route sera fermée.Syndicat des Eaux",
+      "category": "Travaux & Voirie",
+      "badge": "Arrêté / Travaux",
+      "source_name": "Illiwap Mairie de Dunières",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/coupure-d-eau-a-picholet-jeudi-19-novembre",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/OWFSgh1YtubcRMhPi5fBsUyv-NdcXHwxrHo7JRhg-BM.JPG",
+      "dates": {
+        "start": "2026-11-19",
+        "end": null,
+        "is_period": false,
+        "bucket": "today"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "high",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "illiwap_dunieres_croix-rouge-20-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-2-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-2-1-1-1-1-1-1-1-1",
+      "title": "BOUTIQUE CROIX-ROUGE",
+      "summary": "🎅BoutiqueCROIX ROUGE Dunières🎄A partir  du vendredi 20 novembreVêtements de fêtes, décorations de noël...Venez nombreux !L'équipe des bénévolesTél: 06 99 36 76 35Source : Mairie de Dunières 🎅BoutiqueCROIX ROUGE Dunières🎄A partir  du vendredi 20 no...",
       "category": "Manifestations & Vie Associative",
       "badge": "Animation",
       "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/bientot-16-ans-pensez-au-recensement-49-1",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6a1068074dad4120312426.jpg",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/croix-rouge-20-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-2-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-2-1-1-1-1-1-1-1-1",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/charte_public_website/placeholder_actu_pp.png",
       "dates": {
         "start": "2026-11-18",
+        "end": null,
+        "is_period": false,
+        "bucket": "retrospective"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "illiwap_comcom_calendrier-des-fetes-de-novembre-3",
+      "title": "Calendrier des fêtes de novembre",
+      "summary": "Le calendrier des fêtes de novembre 2026 est disponible. Retrouvez les animations, spectacles, expositions et ateliers proposés dans les communes du Haut Pays du Velay :https://www.calameo.com/read/001159770add8fb838647Pour plus d’informations : H...",
+      "category": "Culture & Patrimoine",
+      "badge": "Culture",
+      "source_name": "Illiwap Haut Pays du Velay Communauté",
+      "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/actu/calendrier-des-fetes-de-novembre-3",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/U-o2YmQYN6FL-o4QzAet3NUTjqFV1OaE.jpg",
+      "dates": {
+        "start": "2026-11-19",
         "end": null,
         "is_period": false,
         "bucket": "today"
       },
       "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "illiwap_dunieres_mon-sapin-mon-village-mon-noel-1-1",
-      "title": "🎄 MON SAPIN, MON VILLAGE, MON NOËL ! 🎄",
-      "summary": "Les enfants de Dunières, petits créateurs et artistes en herbe, nous avons besoin de vous !❤️Et si cette année, notre sapin de Noël de la place Saint-Martin était décoré grâce à vous ?Nous vous invitons à préparer une jolie décoration de Noël : un...",
-      "category": "Enfance & Jeunesse",
-      "badge": "Enfance",
-      "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/mon-sapin-mon-village-mon-noel-1-1",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/emGAfLPa5sbzS8rvAbtDMQeCTbIy921N.jpg",
-      "dates": {
-        "start": "2026-11-30",
-        "end": null,
-        "is_period": false,
-        "bucket": "upcoming"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "illiwap_dunieres_tripes-saucisses-sapeurs-pompiers-28-11-2026-dunieres-1",
-      "title": "Tripes saucisses - Sapeurs Pompiers - 28/11/2026 - DUNIERES",
-      "summary": "L'Amicale des Sapeurs Pompiers organise \"Tripes Saucisses\" le samedi 28/11/2026 à la caserne de Dunières de 9h à 13h30.Tous les bénéfices sont reversés à l'oeuvre des Pupilles.Source : Mairie de Dunières L'Amicale des Sapeurs Pompiers organise \"Tr...",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/tripes-saucisses-sapeurs-pompiers-28-11-2026-dunieres-1",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/zRdOsFlk9WTx3igGdxvOK8zMM0Wew-Rx.jpg",
-      "dates": {
-        "start": "2026-11-28",
-        "end": "2026-11-28",
-        "is_period": false,
-        "bucket": "upcoming"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
+      "has_attachment": true,
+      "attachment_type": "calameo",
+      "attachment_data": {
+        "type": "calameo",
+        "bkcode": "001159770add8fb838647",
+        "title": "Agenda Novembre 2026",
+        "author": "Haut Pays du Velay tourisme",
+        "description": "Calendrier des fêtes, novembre 2026 : Haut Pays du Velay tourisme\n\n8 villages, des dégustations de vins, une foire aux champignons, un gardien de phare qui n’a jamais quitté son phare et des marchés de Noël. Le calendrier de novembre 2026 réunit les...\nPlus",
+        "cover_image_url": "https://i.calameoassets.com/261031110200-7cba47eb387a5f610e39e6dcd84b3bb4/large.jpg",
+        "enriched_text": "Document Calaméo 'Agenda Novembre 2026' (par Haut Pays du Velay tourisme) :\nCalendrier des fêtes, novembre 2026 : Haut Pays du Velay tourisme\n\n8 villages, des dégustations de vins, une foire aux champignons, un gardien de phare qui n’a jamais quitté son phare et des marchés de Noël. Le calendrier de novembre 2026 réunit les...\nPlus",
+        "original_url": "https://www.calameo.com/read/001159770add8fb838647"
+      }
     },
     {
       "id": "illiwap_comcom_theatre-d-objets-le-mystere-leon-plouhinec",
@@ -457,36 +508,6 @@
       "attachment_data": null
     },
     {
-      "id": "illiwap_comcom_calendrier-des-fetes-de-novembre-2",
-      "title": "Calendrier des fêtes de novembre",
-      "summary": "Le calendrier des fêtes de novembre 2026 est disponible. Retrouvez les animations, spectacles, expositions et ateliers proposés dans les communes du Haut Pays du Velay :https://www.calameo.com/read/001159770add8fb838647Pour plus d’informations : H...",
-      "category": "Culture & Patrimoine",
-      "badge": "Culture",
-      "source_name": "Illiwap Haut Pays du Velay Communauté",
-      "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/actu/calendrier-des-fetes-de-novembre-2",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/w48-1IGz22iaIeHVuQsw-kBrTteSQ5BT.jpg",
-      "dates": {
-        "start": "2026-11-12",
-        "end": null,
-        "is_period": false,
-        "bucket": "retrospective"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": true,
-      "attachment_type": "calameo",
-      "attachment_data": {
-        "type": "calameo",
-        "bkcode": "001159770add8fb838647",
-        "title": "Agenda Novembre 2026",
-        "author": "Haut Pays du Velay tourisme",
-        "description": "Calendrier des fêtes, novembre 2026 : Haut Pays du Velay tourisme\n\n8 villages, des dégustations de vins, une foire aux champignons, un gardien de phare qui n’a jamais quitté son phare et des marchés de Noël. Le calendrier de novembre 2026 réunit les...\nPlus",
-        "cover_image_url": "https://i.calameoassets.com/261031110200-7cba47eb387a5f610e39e6dcd84b3bb4/large.jpg",
-        "enriched_text": "Document Calaméo 'Agenda Novembre 2026' (par Haut Pays du Velay tourisme) :\nCalendrier des fêtes, novembre 2026 : Haut Pays du Velay tourisme\n\n8 villages, des dégustations de vins, une foire aux champignons, un gardien de phare qui n’a jamais quitté son phare et des marchés de Noël. Le calendrier de novembre 2026 réunit les...\nPlus",
-        "original_url": "https://www.calameo.com/read/001159770add8fb838647"
-      }
-    },
-    {
       "id": "illiwap_comcom_haut-pays-du-velay-communaute_3",
       "title": "22 nov. 2026 16:00 - 17:00",
       "summary": "22 nov. 2026 16:00 - 17:00 Théâtre d’objets « Le Mystère Léon Plouhinec »",
@@ -496,7 +517,7 @@
       "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
       "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/AngRM8vlcQ9xVb0W6PgW3rEZD_FFHbdOlOljdKCMEKM.jpg",
       "dates": {
-        "start": "2026-11-18",
+        "start": "2026-11-19",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -509,18 +530,18 @@
     },
     {
       "id": "lacommere43_search_0",
-      "title": "Dunières: Fanny Souchon crée des bijoux fantaisie à l'enseigne ALMA des Suc",
-      "summary": "Fanny Souchon lance ALMA des Sucs àDunières, une micro-entreprise artisanale proposant des bijoux faits à la main en pâte polymère, avec des attaches en acier inoxydable.",
+      "title": "Les karatékas du Seijitsu dojo deDunièresbrillent à Yssingeaux",
+      "summary": "Les karatékas du Seijitsu dojo deDunièresse sont illustrés samedi 14 novembre à Yssingeaux, à l'occasion de la coupe et du championnat départemental de karaté. Une belle journée pour les ...",
       "category": "Manifestations & Vie Associative",
       "badge": "Animation",
       "source_name": "La Commère 43",
-      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86404-dunieres-fanny-souchon-cree-des-bijoux-fantaisie-a-l-enseigne-alma-des-sucs.html",
+      "source_url": "https://www.lacommere43.fr/sport/item/86427-les-karatekas-du-seijitsu-dojo-de-dunieres-brillent-a-yssingeaux.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-18",
+        "start": "2026-11-14",
         "end": null,
         "is_period": false,
-        "bucket": "today"
+        "bucket": "retrospective"
       },
       "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
@@ -530,15 +551,15 @@
     },
     {
       "id": "lacommere43_search_1",
-      "title": "André Marcon raconte l'intimité familiale dans son livre \"Les Marcon de Saint-Bo",
-      "summary": "André Marcon vient de publier un livre où il raconte l'histoire familiale, \"Les Marcon de Saint-Bonnet-le-Froid\" (éditions La Clé du chemin). Une famille intimement liée à Saint-Bonnet-le",
+      "title": "Dunières: Fanny Souchon crée des bijoux fantaisie à l'enseigne ALMA des Suc",
+      "summary": "Fanny Souchon lance ALMA des Sucs àDunières, une micro-entreprise artisanale proposant des bijoux faits à la main en pâte polymère, avec des attaches en acier inoxydable.",
       "category": "Manifestations & Vie Associative",
       "badge": "Animation",
       "source_name": "La Commère 43",
-      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86403-saint-bonnet-le-froid-andre-marcon-fait-entrer-dans-l-intimite-familiale-dans-son-livre.html",
+      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86404-dunieres-fanny-souchon-cree-des-bijoux-fantaisie-a-l-enseigne-alma-des-sucs.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-18",
+        "start": "2026-11-19",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -551,6 +572,27 @@
     },
     {
       "id": "lacommere43_search_2",
+      "title": "André Marcon raconte l'intimité familiale dans son livre \"Les Marcon de Saint-Bo",
+      "summary": "André Marcon vient de publier un livre où il raconte l'histoire familiale, \"Les Marcon de Saint-Bonnet-le-Froid\" (éditions La Clé du chemin). Une famille intimement liée à Saint-Bonnet-le",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "source_name": "La Commère 43",
+      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86403-saint-bonnet-le-froid-andre-marcon-fait-entrer-dans-l-intimite-familiale-dans-son-livre.html",
+      "image_url": null,
+      "dates": {
+        "start": "2026-11-19",
+        "end": null,
+        "is_period": false,
+        "bucket": "today"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "lacommere43_search_3",
       "title": "Dunières: le loto qui séduit petits et grands le 29 novembre",
       "summary": "L'équipe de l'APEL deDunièress'est retrouvée afin de finaliser la préparation de son loto du 29 novembre. L'association de parents ne change pas un concept qui plaît, ...",
       "category": "Manifestations & Vie Associative",
@@ -571,7 +613,7 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_search_3",
+      "id": "lacommere43_search_4",
       "title": "Raucoules : de bonnes affaires et une bonne action à la bourse aux jouets",
       "summary": "La bourse aux jouets, vêtements et articles de puériculture organisée le dimanche 15 novembre à la salle polyvalente de Raucoules a rencontré un beau succès. Organisée conj",
       "category": "Manifestations & Vie Associative",
@@ -592,7 +634,7 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_search_4",
+      "id": "lacommere43_search_5",
       "title": "Basket, RF2 :Dunièresn'y arrive pas cette saiso",
       "summary": "Les basketteuses deDunièressont en souffrance cette saison en Régionale 2. Elles ont perdu samedi à domicile contre Unieux-Fraisses (41-60). Dunières a entamé la phase re",
       "category": "Manifestations & Vie Associative",
@@ -601,7 +643,7 @@
       "source_url": "https://www.lacommere43.fr/sport/item/86334-basket-rf2-dunieres-n-y-arrive-pas-cette-saison.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-18",
+        "start": "2026-11-19",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -613,7 +655,7 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_search_5",
+      "id": "lacommere43_search_6",
       "title": "Dunières: pourquoi le tabac-presse avait candidaté sur l'achat de l'ancien burea",
       "summary": "Le dernier conseil municipal deDunièresa évoqué l'avenir de l'ancien bureau de poste. Les élus ont écarté la proposition d'achat du bureau de tabac-presse. Ces commerçants font face à",
       "category": "Vie Municipale & Délibérations",
@@ -622,7 +664,7 @@
       "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86295-dunieres-pourquoi-le-tabac-presse-avait-candidate-sur-l-achat-de-l-ancien-bureau-de-poste.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-18",
+        "start": "2026-11-19",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -634,7 +676,7 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_search_6",
+      "id": "lacommere43_search_7",
       "title": "Burgers et karaoké : le FJEP deDunièresvous invite à sa soirée du 20 novembre",
       "summary": "L'association FJEP deDunièresorganise une soirée burger karaoké le vendredi 20 novembre à partir de 18 h 30, à la salle de la Mutualité de Dunières. Envie de pousser la",
       "category": "Manifestations & Vie Associative",
@@ -655,7 +697,7 @@
       "attachment_data": null
     },
     {
-      "id": "lacommere43_search_7",
+      "id": "lacommere43_search_8",
       "title": "Dunières: le sort de l'ancien bureau de poste est scell",
       "summary": "La commune deDunières, après avoir opté pour un projet de salle de sport en 2024, a finalement choisi de déconstruire l'ancien bureau de poste dans la traversée du bourg pour apporter des ...",
       "category": "Manifestations & Vie Associative",
@@ -664,28 +706,7 @@
       "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86271-dunieres-le-sort-de-l-ancien-bureau-de-poste-est-scelle.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-18",
-        "end": null,
-        "is_period": false,
-        "bucket": "today"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "lacommere43_search_8",
-      "title": "Dunières: le club de basket a créé une section basket bien-être",
-      "summary": "Le Basket Club deDunièrespropose l'activité « basket bien-être » le mercredi de 18 h 15 à 19 h 15 au gymnase de Dunières. L'objectif de cette activité est de proposer à tous de pratiquer ...",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "La Commère 43",
-      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86269-dunieres-le-club-de-basket-a-cree-une-section-basket-bien-etre.html",
-      "image_url": null,
-      "dates": {
-        "start": "2026-11-18",
+        "start": "2026-11-19",
         "end": null,
         "is_period": false,
         "bucket": "today"
@@ -698,15 +719,36 @@
     },
     {
       "id": "lacommere43_search_9",
-      "title": "Les élèves de CM de l’école Jacques-Prévert deDunièresrendent hommage aux combat",
-      "summary": "Ce lundi 9 novembre, les élèves de CM de l’école Jacques-Prévert ont rendu hommage aux combattants de la Grande Guerre. À l’occasion d’une cérémonie organisée dans l’encein",
-      "category": "Enfance & Jeunesse",
-      "badge": "Enfance",
+      "title": "Dunières: le club de basket a créé une section basket bien-être",
+      "summary": "Le Basket Club deDunièrespropose l'activité « basket bien-être » le mercredi de 18 h 15 à 19 h 15 au gymnase de Dunières. L'objectif de cette activité est de proposer à tous de pratiquer ...",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
       "source_name": "La Commère 43",
-      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86236-les-eleves-de-cm-de-l-ecole-jacques-prevert-de-dunieres-rendent-hommage-aux-combattants-de-la-grande-guerre.html",
+      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86269-dunieres-le-club-de-basket-a-cree-une-section-basket-bien-etre.html",
       "image_url": null,
       "dates": {
-        "start": "2026-11-09",
+        "start": "2026-11-19",
+        "end": null,
+        "is_period": false,
+        "bucket": "today"
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "leprogres_haute_loire_10",
+      "title": "Saint-Romain-Lachalm. Perte de contrôle, la vitesse peut-être en cause",
+      "summary": "Ce mercredi 18 novembre, les sapeurs-pompiers des centres d’incendie et de secours de Saint-Romain-Lachalm et Sainte-Sigolène/Saint-Pal-de-Mons sont intervenus sur la Route départementale 23, vers 6 h 50.",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "source_name": "Le Progrès - Haute-Loire",
+      "source_url": "https://www.leprogres.fr/faits-divers-justice/2026/11/18/perte-de-controle-la-vitesse-peut-etre-en-cause",
+      "image_url": null,
+      "dates": {
+        "start": "2026-11-18",
         "end": null,
         "is_period": false,
         "bucket": "retrospective"
