@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 
 from src.scrapers.base_scraper import BaseScraper, RawPublication
 from src.utils.http_client import fetch_url
+from src.utils.text_helpers import extract_clean_html_text, normalize_text
 
 logger = logging.getLogger(__name__)
 
@@ -47,14 +48,16 @@ class LeProgresScraper(BaseScraper):
             desc_elem = item.find("description")
             date_elem = item.find("pubDate")
 
-            title = title_elem.text.strip() if title_elem is not None and title_elem.text else ""
+            title = normalize_text(title_elem.text.strip() if title_elem is not None and title_elem.text else "")
             link = link_elem.text.strip() if link_elem is not None and link_elem.text else ""
-            desc = desc_elem.text.strip() if desc_elem is not None and desc_elem.text else ""
+            raw_desc = desc_elem.text.strip() if desc_elem is not None and desc_elem.text else ""
             pub_date = date_elem.text.strip() if date_elem is not None and date_elem.text else None
 
             # Nettoyage HTML de la description
-            if "<" in desc:
-                desc = BeautifulSoup(desc, "html.parser").get_text(separator=" ", strip=True)
+            if "<" in raw_desc:
+                desc = extract_clean_html_text(BeautifulSoup(raw_desc, "html.parser"))
+            else:
+                desc = normalize_text(raw_desc)
 
             full_text = f"{title} {desc}".lower()
 

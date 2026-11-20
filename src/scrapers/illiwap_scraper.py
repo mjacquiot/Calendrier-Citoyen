@@ -4,16 +4,38 @@ Collecteur pour les stations citoyennes Illiwap (Dunières 43087 et Haut Pays du
 
 import re
 import logging
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 
 from src.scrapers.base_scraper import BaseScraper, RawPublication
 from src.utils.http_client import fetch_url
+from src.utils.text_helpers import extract_clean_html_text, normalize_text
 
 logger = logging.getLogger(__name__)
 
 BASE_ILLIWAP_URL = "https://station.illiwap.com"
+
+DATE_PREFIX_RE = re.compile(
+    r"^\d{1,2}\s+[a-zA-Zéèêëàâäîïôöùûüç.]+\s+\d{4}(?:\s+\d{1,2}[:h]\d{2}(?:\s*-\s*\d{1,2}[:h]\d{2})?)?$",
+    re.IGNORECASE,
+)
+NOISE_LINES = {
+    "lire la suite",
+    "voir plus",
+    "votre mairie",
+    "mentions légales",
+    "partagez l'article",
+    "nous contacter",
+}
+SHARE_URL_FRAGMENTS = (
+    "facebook.com/sharer",
+    "linkedin.com/share",
+    "twitter.com/intent",
+    "x.com/intent",
+    "api.whatsapp.com",
+    "wa.me/",
+)
 
 
 class IlliwapScraper(BaseScraper):
@@ -50,28 +72,43 @@ class IlliwapScraper(BaseScraper):
 
         return publications
 
-    def _parse_card(self, card: BeautifulSoup, index: int) -> RawPublication:
-        # Recherche du lien vers le détail
-        detail_link = None
+    def _extract_card_title(self, lines: List[str], index: int) -> str:
+        """Extrait un titre propre depuis les lignes de la carte sans utiliser la date en titre."""
+        candidates = [
+            line for line in lines
+            if line and line.lower() not in NOISE_LINES and not re.fullmatch(r"\d{2}/\d{2}/\d{4}", line)
+        ]
+        if not candidates:
+            return f"Publication Illiwap #{index + 1}"
+
+        # Si la première ligne est une date/heure d'événement (ex: "22 nov. 2026 16:00 - 17:00"),
+        # prendre la ligne suivante comme titre réel.
+        if DATE_PREFIX_RE.match(candidates[0]) and len(candidates) > 1:
+            return candidates[1]
+        return candidates[0]
+
+    def _parse_card(self, card: BeautifulSoup, index: int) -> Optional[RawPublication]:
+        # Recherche du lien vers le détail (/actu/, /message/, /evenements/)
+        detail_link: Optional[str] = None
         for a in card.find_all("a", href=True):
             href = a["href"]
-            if "/actu/" in href or "/message/" in href:
+            if "/actu/" in href or "/message/" in href or "/evenements/" in href:
                 detail_link = urljoin(BASE_ILLIWAP_URL, href)
                 break
 
         # Recherche de l'image de couverture
-        image_url = None
+        image_url: Optional[str] = None
         img_tag = card.find("img", src=True)
         if img_tag:
             image_url = urljoin(BASE_ILLIWAP_URL, img_tag["src"])
 
-        # Texte préliminaire et titre
-        card_text = card.get_text(separator="\n", strip=True)
+        # Texte préliminaire nettoyé et titre de repli
+        card_text = extract_clean_html_text(card)
         lines = [line.strip() for line in card_text.splitlines() if line.strip()]
-        title = lines[0] if lines else f"Publication Illiwap #{index+1}"
+        title = self._extract_card_title(lines, index)
 
-        # Recherche de la date (format JJ/MM/AAAA)
-        date_str = None
+        # Recherche de la date (format JJ/MM/AAAA) sur la carte
+        date_str: Optional[str] = None
         for line in lines:
             match = re.search(r"(\d{2}/\d{2}/\d{4})", line)
             if match:
@@ -79,63 +116,91 @@ class IlliwapScraper(BaseScraper):
                 break
 
         content = card_text
-        external_links = []
+        external_links: List[str] = []
 
-        # Si un lien de détail existe, on approfondit l'extraction
+        # Approfondissement sur la page de détail si disponible
         if detail_link:
             logger.debug(f"Approfondissement du message Illiwap: {detail_link}")
             detail_html = fetch_url(detail_link)
             if detail_html:
                 detail_soup = BeautifulSoup(detail_html, "html.parser")
-                
-                # Titre détaillé
-                h_title = detail_soup.select_one("h1, h2, .title")
-                if h_title and h_title.get_text(strip=True):
-                    title = h_title.get_text(strip=True)
 
-                # Corps de l'actualité
-                body_elem = detail_soup.select_one(".content, .actu-content, .card-body, article")
-                if not body_elem:
-                    body_elem = detail_soup
+                # Titre principal de l'article/événement (éviter les h2 de la barre latérale)
+                h_title = detail_soup.select_one("article header h1, article h1, main h1, h1")
+                if h_title:
+                    parsed_title = normalize_text(h_title.get_text(separator=" ", strip=True))
+                    if parsed_title and not DATE_PREFIX_RE.match(parsed_title):
+                        title = parsed_title
 
-                # Extraction du texte propre
-                content_lines = []
-                for p in body_elem.find_all(["p", "div", "li"]):
-                    txt = p.get_text(strip=True)
-                    if txt and txt not in content_lines and len(txt) > 3:
-                        # Exclure les menus et le pied de page générique
-                        if not any(stop in txt.lower() for stop in ["votre mairie", "mentions légales", "partagez l'article", "nous contacter"]):
-                            content_lines.append(txt)
-                
-                if content_lines:
-                    content = "\n".join(content_lines)
+                # Date de publication si absente sur la carte
+                if not date_str:
+                    time_elem = detail_soup.select_one("article header time, article time")
+                    if time_elem:
+                        dt_attr = time_elem.get("datetime", "")
+                        if dt_attr:
+                            date_str = dt_attr.split("T")[0]
+                        else:
+                            date_str = normalize_text(time_elem.get_text(separator=" ", strip=True))
 
-                # Extraction des liens externes
-                for a in detail_soup.find_all("a", href=True):
+                # Corps réel de l'actualité ou de l'événement
+                body_elem = detail_soup.select_one(
+                    "#contenu-alerte, #contenu-evenement, article .content, article .actu-content, article .card-body, article"
+                )
+                if body_elem:
+                    clean_body = extract_clean_html_text(body_elem)
+                    filtered_lines = [
+                        l for l in clean_body.splitlines()
+                        if l.strip() and not any(stop in l.lower() for stop in NOISE_LINES)
+                    ]
+                    if filtered_lines:
+                        content = normalize_text("\n".join(filtered_lines))
+
+                # Image de repli si absente sur la carte
+                if not image_url:
+                    detail_img = detail_soup.select_one("article img[src], main img[src*='uploads']")
+                    if detail_img and detail_img.get("src"):
+                        image_url = urljoin(BASE_ILLIWAP_URL, detail_img["src"])
+
+                # Extraction des liens externes dans le contenu (hors boutons de partage)
+                link_scope = body_elem or detail_soup.select_one("article, main") or detail_soup
+                for a in link_scope.find_all("a", href=True):
                     href = a["href"].strip()
-                    if href.startswith("http") and "illiwap.com" not in href:
+                    if (
+                        href.startswith("http")
+                        and "illiwap.com" not in href
+                        and not any(frag in href.lower() for frag in SHARE_URL_FRAGMENTS)
+                    ):
                         external_links.append(href)
 
-        # Détection d'éventuels liens dans le texte lui-même (ex: Calaméo collé en texte brut)
+        # Détection d'éventuels liens collés en texte brut dans le contenu nettoyé
         text_urls = re.findall(r"https?://[^\s<>\"']+", content)
         for u in text_urls:
-            clean_u = u.rstrip(".,;)")
-            if clean_u not in external_links and "illiwap.com" not in clean_u:
+            clean_u = u.rstrip(".,;)\"']")
+            if (
+                clean_u not in external_links
+                and "illiwap.com" not in clean_u
+                and not any(frag in clean_u.lower() for frag in SHARE_URL_FRAGMENTS)
+            ):
                 external_links.append(clean_u)
 
         # Identifiant stable
-        pub_id = detail_link.split("/")[-1] if detail_link else f"{self.station_code}_{index}"
+        if detail_link:
+            slug = detail_link.rstrip("/").split("/")[-1]
+            pub_id = f"ev_{slug}" if "/evenements/" in detail_link else slug
+        else:
+            pub_id = f"{self.station_code}_{index}"
+
         canonical_url = detail_link if detail_link else self.station_url
 
         return RawPublication(
             id=f"{self.source_id}_{pub_id}",
             source_id=self.source_id,
             source_name=self.source_name,
-            title=title,
-            content=content,
+            title=normalize_text(title),
+            content=normalize_text(content),
             url=canonical_url,
             published_at=date_str,
             image_url=image_url,
-            external_links=list(dict.fromkeys(external_links)),  # Déduplication
-            raw_metadata={"station_code": self.station_code}
+            external_links=list(dict.fromkeys(external_links)),
+            raw_metadata={"station_code": self.station_code},
         )

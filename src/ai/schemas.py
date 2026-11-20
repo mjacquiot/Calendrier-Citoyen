@@ -2,24 +2,24 @@
 Définition des schémas de données structurés pour l'analyse IA.
 """
 
-from typing import Optional, List
+from typing import Optional
 from pydantic import BaseModel, Field
 
 
 class ClassifiedEvent(BaseModel):
     """Représentation structurée et validée d'un événement citoyen."""
     is_public_interest: bool = Field(
-        description="True si l'information relève de l'intérêt public local, du mandat municipal/intercommunal ou de la vie associative ouverte. False s'il s'agit d'un fait divers individuel, de vie privée ou d'une publicité commerciale privée."
+        description="True si l'information relève de l'intérêt public local, du mandat municipal/intercommunal ou de la vie associative ouverte. False s'il s'agit d'un fait divers individuel, de vie privée, d'un publi-reportage ou d'une publicité commerciale privée."
     )
     rejection_reason: Optional[str] = Field(
         default=None,
-        description="Raison du rejet si is_public_interest est False (ex: 'fait divers individuel sans portée municipale', 'données privées')."
+        description="Raison du rejet si is_public_interest est False (ex: 'fait divers individuel sans portée municipale', 'publi-reportage commercial')."
     )
     title: str = Field(
-        description="Titre sobre, clair et informatif pour les administrés (max 80 caractères)."
+        description="Titre sobre, clair et informatif pour les administrés (max 120 caractères, jamais coupé au milieu d'un mot)."
     )
     summary: str = Field(
-        description="Résumé clair et bienveillant de l'information en 1 à 3 phrases."
+        description="Résumé clair, soigné et bienveillant de l'information en 1 à 3 phrases complètes, sans mots collés ni coupés."
     )
     category: str = Field(
         description="Catégorie parmi : 'Vie Municipale & Délibérations', 'Travaux & Voirie', 'Manifestations & Vie Associative', 'Enfance & Jeunesse', 'Services & Déchets', 'Culture & Patrimoine', 'Alertes & Météo'."
@@ -43,4 +43,12 @@ class ClassifiedEvent(BaseModel):
     end_date: Optional[str] = Field(
         default=None,
         description="Date de fin au format YYYY-MM-DD si période (ex: '2026-11-20') ou null si événement ponctuel."
+    )
+    start_time: Optional[str] = Field(
+        default=None,
+        description="Heure de début au format 24h HH:MM (ex: '18:30') ou null si non précisée."
+    )
+    end_time: Optional[str] = Field(
+        default=None,
+        description="Heure de fin au format 24h HH:MM (ex: '20:00') ou null si non précisée."
     )

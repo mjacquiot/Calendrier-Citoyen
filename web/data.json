@@ -3,37 +3,45 @@
     "commune": "Dunières",
     "code_postal": "43220",
     "intercommunalite": "Haut Pays du Velay Communauté",
-    "generated_at": "2026-11-20T14:46:05.200778+01:00",
-    "reference_date": "2026-11-20",
+    "generated_at": "2026-11-21T00:00:19.415902+01:00",
+    "reference_date": "2026-11-21",
     "sliding_window": {
-      "retrospective_days": 15,
-      "upcoming_days": 15
+      "retrospective_days": 7,
+      "upcoming_days": 7
     },
     "counts": {
-      "total_analyzed": 17,
-      "total_accepted": 17,
+      "total_analyzed": 15,
+      "total_accepted": 13,
       "total_rejected": 0,
-      "retrospective": 3,
-      "today": 10,
-      "upcoming": 4
+      "total_out_of_window": 2,
+      "retrospective": 9,
+      "today": 1,
+      "upcoming": 3
     }
   },
   "buckets": {
     "retrospective": [
       {
         "id": "lacommere43_search_2",
-        "title": "Les karatékas du Seijitsu dojo deDunièresbrillent à Yssingeaux",
-        "summary": "Les karatékas du Seijitsu dojo deDunièresse sont illustrés samedi 14 novembre à Yssingeaux, à l'occasion de la coupe et du championnat départemental de karaté. Une belle journée pour les ...",
+        "title": "Les karatékas du Seijitsu dojo de Dunières brillent à Yssingeaux",
+        "summary": "Les karatékas du Seijitsu dojo de Dunières se sont illustrés samedi 14 novembre à Yssingeaux, à l'occasion de la coupe et du championnat départemental de karaté.",
+        "full_content": "Les karatékas du Seijitsu dojo de Dunières se sont illustrés samedi 14 novembre à Yssingeaux, à l'occasion de la coupe et du championnat départemental de karaté. Une belle journée pour les licenciés du club, qui ont décroché de nombreux podiums en kata et en combat, témoignant du travail et de l'investissement de chacun.\n\nGrâce à leurs résultats, plusieurs compétiteurs ont obtenu leur qualification pour les prochaines échéances régionales. Alexis Meunier-Chaize, Alicia Meunier-Chaize et Lester Da Silva participeront au championnat régional, qui se déroulera le samedi 21 novembre à Ceyrat.\n\nLes autres karatékas qualifiés retrouveront quant à eux les tatamis lors de la coupe régionale, prévue les 13 et 14 février à Vénissieux.\n\nUn palmarès remarquable\n\n- Alexis Meunier-Chaize : 1er en kata, 1er en combat, 1er en open combat et 1er en open kata\n\n- Lester Da Silva : 1er en combat, 3e en kata, 2e en open combat et 3e en open kata\n\n- Alicia Meunier-Chaize : 1ère en combat et 3e en open combat\n\n- Chloé Samuel : 1ère en kata, 1ère en combat, 1ère en open kata et 1ère en open combat\n\n- Jean Massardier : 1er en kata et 1er en combat\n\n- Johann Chouraqui : 2e en kata et 3e en combat\n\n- Annie-Yoanna de Bouanzi : 1ère en combat et 1re en kata\n\n- Suzanne Ginetti : 1ère en combat et 3e en open kata\n\n- Mélinda Trapeaux-Chomette : 1ère en kata, 1ère en combat et 2e en open combat\n\n- Solenn Robert : 1ère en kata et 2e en combat\n\n- Ruth de Bouanzi : 2e en kata et 1ère en combat\n\n- Spencer Da Silva : 1er en kata, 1er en combat et 2e en open combat\n\n- Johan Samuel : 1er en combat, 2e en kata et 1er en open combat",
         "category": "Manifestations & Vie Associative",
         "badge": "Animation",
         "source_name": "La Commère 43",
         "source_url": "https://www.lacommere43.fr/sport/item/86427-les-karatekas-du-seijitsu-dojo-de-dunieres-brillent-a-yssingeaux.html",
-        "image_url": null,
+        "image_url": "https://www.lacommere43.fr/media/k2/items/cache/42dae40de2459bb6cd7b991832a3cec1_M.jpg",
         "dates": {
           "start": "2026-11-14",
           "end": null,
           "is_period": false,
           "bucket": "retrospective"
+        },
+        "timing": {
+          "start_time": null,
+          "end_time": null,
+          "duration_minutes": null,
+          "all_day": true
         },
         "location": "Dunières / Haut Pays du Velay",
         "importance": "normal",
@@ -44,17 +52,24 @@
       {
         "id": "lacommere43_search_6",
         "title": "Raucoules : de bonnes affaires et une bonne action à la bourse aux jouets",
-        "summary": "La bourse aux jouets, vêtements et articles de puériculture organisée le dimanche 15 novembre à la salle polyvalente de Raucoules a rencontré un beau succès. Organisée conj",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
+        "summary": "La bourse aux jouets, vêtements et articles de puériculture organisée le dimanche 15 novembre à la salle polyvalente de Raucoules a rencontré un beau succès.",
+        "full_content": "La bourse aux jouets, vêtements et articles de puériculture organisée le dimanche 15 novembre à la salle polyvalente de Raucoules a rencontré un beau succès.\n\nOrganisée conjointement par le Conseil Municipal des Jeunes et l'association Familles Rurales de Raucoules, cette matinée a rassemblé une trentaine d'exposants venus proposer jouets, vêtements et articles de puériculture. De nombreux visiteurs ont également répondu présents pour dénicher de bonnes affaires, mais aussi simplement partager un moment convivial autour d'un café ou de pâtisseries.\n\nAu-delà de cette belle matinée d'échanges et de rencontres, cette manifestation avait surtout une dimension solidaire. En effet, l'intégralité des bénéfices, soit 600 €, a été remise à l'association « Victor, notre super héros », qui accompagne Victor, atteint de myopathie LGMD1B.\n\nNoël : un moment musical et gourmand le 19 décembre\n\nLe samedi 19 décembre au soir, Raucoules célébrera Noël.\n\nLa soirée débutera par un concert à l'église, avec la chorale Mélimélodie de Dunières. Les habitants pourront ensuite se retrouver à la salle polyvalente autour d'une dégustation d'huîtres et d'assiettes de charcuterie, avec bien d'autres surprises.\n\nUn rendez-vous placé sous le signe du partage et de la convivialité, pour se retrouver avant les fêtes de fin d'année.\n\nUne sortie en car au Zénith de Saint-Étienne\n\nEnfin, le dimanche 31 janvier 2027, le comité d'animation proposera une sortie en car au Zénith de Saint-Étienne pour assister au spectacle \"500 voix pour Johnny\".\n\nLe spectacle est prévu à 18 heures. Le tarif est de 50 € par place, avec un nombre limité à 50 participants. Le transport en car est offert par l'association.\n\nLes inscriptions et le règlement se font à la mairie de Raucoules. Les billets seront remis le jour du spectacle. Le départ est prévu depuis la salle polyvalente, l'horaire restant à préciser.",
+        "category": "Culture & Patrimoine",
+        "badge": "Culture",
         "source_name": "La Commère 43",
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86350-raucoules-de-bonnes-affaires-et-une-bonne-action-a-la-bourse-aux-jouets.html",
-        "image_url": null,
+        "image_url": "https://www.lacommere43.fr/media/k2/items/cache/464e0153b98c758a016a4eff7bd39ee6_M.jpg",
         "dates": {
           "start": "2026-11-15",
           "end": null,
           "is_period": false,
           "bucket": "retrospective"
+        },
+        "timing": {
+          "start_time": "18:00",
+          "end_time": null,
+          "duration_minutes": null,
+          "all_day": false
         },
         "location": "Dunières / Haut Pays du Velay",
         "importance": "normal",
@@ -63,9 +78,94 @@
         "attachment_data": null
       },
       {
+        "id": "lacommere43_search_7",
+        "title": "Basket, RF2 : Dunières n'y arrive pas cette saison",
+        "summary": "Les basketteuses de Dunières sont en souffrance cette saison en Régionale 2. Elles ont perdu samedi à domicile contre Unieux-Fraisses (41-60). Dunières a entamé la phase retour de la première phase par une nouvelle défaite samedi.",
+        "full_content": "Les basketteuses de Dunières sont en souffrance cette saison en Régionale 2. Elles ont perdu samedi à domicile contre Unieux-Fraisses (41-60).\n\nDunières a entamé la phase retour de la première phase par une nouvelle défaite samedi. Face à la réserve d'Unieux Fraisses, emmenée par l'ancienne professionnelle de Montbrison, Aurélia Cabaton, les Duniéroises se sont accrochées mais n'ont jamais réussi à descendre sous la barre des dix points de retard.\n\n\"La saison est très compliquée. On travaille bien à l'entraînement, on essaie différents systèmes mais on n'y arrive pas. Pour l'instant, aucune formule ne fonctionne. On va finit cette première phase et espérons faire mieux en poule basse pour aller chercher le maintien\", indique l'entraîneur Bruno Charrat.\n\nDUNIÈRES : 41\n\nUNIEUX-FRAISSES : 60\n\nPoints pour Dunières : Orlane Bouzemboua 4, Camille Beaulaigue 12, Rosy Bruyère 2, Léane Sabot 0, Léa Carrot 0, Morgane Frezier 10, Louise Roux 5, Constance Meynet 4, Jessica Oriol 4\n\nPoints pour Unieux-Fraisses : Carmen Guilhot 3, Verane Luya 6, Chiara Ferrapie 2, Aurélia Cabaton 27, Manon Celle 16, Lauryn Alves 0, Agathe Cieslak 4, Manon Terrier 8, Clara Giraudon 0",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
+        "source_name": "La Commère 43",
+        "source_url": "https://www.lacommere43.fr/sport/item/86334-basket-rf2-dunieres-n-y-arrive-pas-cette-saison.html",
+        "image_url": "https://www.lacommere43.fr/media/k2/items/cache/7c9e8eaab287c1f7fca124c78f7cab4e_M.jpg",
+        "dates": {
+          "start": "2026-11-15",
+          "end": null,
+          "is_period": false,
+          "bucket": "retrospective"
+        },
+        "timing": {
+          "start_time": null,
+          "end_time": null,
+          "duration_minutes": null,
+          "all_day": true
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      },
+      {
+        "id": "lacommere43_search_3",
+        "title": "Dunières : Fanny Souchon crée des bijoux fantaisie à l'enseigne ALMA des Sucs",
+        "summary": "Fanny Souchon lance ALMA des Sucs à Dunières, une micro-entreprise artisanale proposant des bijoux faits à la main en pâte polymère, avec des attaches en acier inoxydable. Fanny Souchon, à 37 ans, a décidé de passer le pas.",
+        "full_content": "Fanny Souchon lance ALMA des Sucs à Dunières, une micro-entreprise artisanale proposant des bijoux faits à la main en pâte polymère, avec des attaches en acier inoxydable.\n\nFanny Souchon, à 37 ans, a décidé de passer le pas. \"Je suis simplement une passionnée qui a décidé de faire de sa passion de créer son quotidien. Qui n'a pas rêver un jour de vivre de sa passion? ALMA des sucs c'est mon rêve de petite fille. Créer, imaginer, fabriquer, j'ai toujours aimé ça. J'ai découvert la pâte polymère vers l'âge de 12 ans. Je me fabriquais déjà mes propres bijoux. Mes études de droit, puis mon travail, et enfin l'arrivée de mes enfants m'ont éloigné des loisirs créatifs\", confie-t-elle.\n\nComment est né ce nom ?\n\nEt puis début 2026, un déclic, suite à un changement dans sa vie, Fanny Souchon s'est décidée : \"Il faut que tu te lances sinon tu vas regretter de ne jamais avoir oser. Alors je me suis remise à la pâte polymère et j'ai crée ALMA des Sucs. ALMA pour Albane et Marceau, mes deux bijoux les plus précieux. Des Sucs en référence à notre belle Haute-Loire.\"\n\nPourquoi la pâte polymère ?\n\n\"C'est une matière permettant des possibilités infinies de couleurs, textures, formes et tailles. Comme un peintre je mélange les couleurs primaires pour obtenir LA couleur. Là où vous voyez une petite boucle fleur moi je vois des heures de travail à l'atelier : la conceptualisation du modèle, la fabrication, les finitions à la résine...\"\n\nLes parties en pâte polymère sont ensuite assemblées avec des apprêts en acier inoxydable, une matière hypoallergénique.\n\nInfos pratiques\n\nPour en savoir plus, c'est ici www.almadessucs.fr\n\nEt sur les réseaux : almadessucs et alma_des_sucs",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
+        "source_name": "La Commère 43",
+        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86404-dunieres-fanny-souchon-cree-des-bijoux-fantaisie-a-l-enseigne-alma-des-sucs.html",
+        "image_url": "https://www.lacommere43.fr/media/k2/items/cache/9e48c072ed7dba5b3e70184e3beac042_M.jpg",
+        "dates": {
+          "start": "2026-11-18",
+          "end": null,
+          "is_period": false,
+          "bucket": "retrospective"
+        },
+        "timing": {
+          "start_time": null,
+          "end_time": null,
+          "duration_minutes": null,
+          "all_day": true
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      },
+      {
+        "id": "lacommere43_search_4",
+        "title": "André Marcon raconte l'intimité familiale dans son livre \"Les Marcon de Saint-Bonnet-le-Froid\"",
+        "summary": "André Marcon vient de publier un livre où il raconte l'histoire familiale, \"Les Marcon de Saint-Bonnet-le-Froid\" (éditions La Clé du chemin). Une famille intimement liée à Saint-Bonnet-le-Froid. Et vice versa.",
+        "full_content": "André Marcon vient de publier un livre où il raconte l'histoire familiale, \"Les Marcon de Saint-Bonnet-le-Froid\" (éditions La Clé du chemin). Une famille intimement liée à Saint-Bonnet-le-Froid. Et vice versa.\n\nIl s'était mis en tête d'écrire son autobiographie pour la transmettre à ses petits-enfants, comme lui aurait aimé qu'on lui transmette son histoire familiale. Il est allé bien plus loin et a enrôlé toute la famille dans son aventure.\n\nDans l'ambiance d'un bourg rural après-guerre\n\nEt, avouons-le, le résultat est plaisant, car au-delà du témoignage familial, ce récit plonge le lecteur dans l'ambiance d'un bourg rural dans les années d'après-guerre, avant de montrer son essor à partir des années 70, et ce en grande partie sous l'impulsion de ces \"Marcon de Saint-Bonnet\", capables d'entraîner dans leur sillage de multiples bonnes volontés.\n\nMarcon et Saint-Bonnet, le lien fort\n\nOn connaît quelques pièces du puzzle. Mais André Marcon accepte de dévoiler bien plus que cela. Des origines aux nouvelles générations, tous les membres de cette grande famille disposent d'une place de choix. Chaque branche bénéficie de son arbre généalogique récent.\n\nOn y saisit le lien profond qui unit cette famille à son village. \"Les Marcon se sont faits grâce à Saint-Bonnet. On s'est engagé, que ce soit dans le commerce, la restauration, ou la mairie.\" Il ajoute : \"Saint-Bonnet, c'est un état d'esprit qui a fait qu'on a toujours travaillé collectif. Chacun est engagé dans un processus de groupe.\"\n\nDeux frères maires\n\nAndré Marcon a tenu l'hôtel pendant cinq ans avant de passer la main à Régis. Lui a poursuivi dans le secteur bancaire tout en mêlant une petite carrière politique, il a été maire de son village, président de CCI France. Son frère Jean-Pierre a aussi été maire, de Saint-Bonnet puis de Dunières, député, président du Conseil général de la Haute-Loire. Et Régis, qui aurait d'abord aimé faire les Beaux Arts, a été orienté par sa mère vers la restauration. La suite, on la connaît : ce sont aujourd'hui 3 étoiles au Guide Michelin.\n\nUn père qui décède jeune\n\nLes Marcon, c'est une solidarité sans faille, une entraide majeure, comme après le décès du père Joannès à l'âge de 52 ans en 1968. Celui-ci, agriculteur d'abord à Saint-André-en-Vivarais, devint commerçant à Saint-Bonnet-le-Froid à partir de 1948. A son dècès, la fratrie s'est resserrée illico autour de la matriarche Marie-Louise. \"Tout le monde s'est mis au boulot, sans contrainte. On était encore six à l'école, ma mère était à la tête de dettes.\"\n\nDes valeurs, un état d'esprit\n\nAvec ce livre, André Marcon espère laisser une trace, en rappelant les valeurs et l'état d'esprit qui anime les Marcon, sans faire l'impasse sur les blessures, les rêves auxquels il a parfois fallu renoncer, et la place de la religion, force ou pesanteur, dans une éducation aimante.\n\n\"Les Marcon de Saint-Bonnet-le-Froid\", La Clé du Chemin 21 €",
+        "category": "Vie Municipale & Délibérations",
+        "badge": "Conseil Municipal",
+        "source_name": "La Commère 43",
+        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86403-saint-bonnet-le-froid-andre-marcon-fait-entrer-dans-l-intimite-familiale-dans-son-livre.html",
+        "image_url": "https://www.lacommere43.fr/media/k2/items/cache/430ece435b843c75c7204b4786c5045f_M.jpg",
+        "dates": {
+          "start": "2026-11-18",
+          "end": null,
+          "is_period": false,
+          "bucket": "retrospective"
+        },
+        "timing": {
+          "start_time": null,
+          "end_time": null,
+          "duration_minutes": null,
+          "all_day": true
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "high",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      },
+      {
         "id": "illiwap_comcom_calendrier-des-fetes-de-novembre-3",
         "title": "Calendrier des fêtes de novembre",
-        "summary": "Le calendrier des fêtes de novembre 2026 est disponible. Retrouvez les animations, spectacles, expositions et ateliers proposés dans les communes du Haut Pays du Velay :https://www.calameo.com/read/001159770add8fb838647Pour plus d’informations : H...",
+        "summary": "Le calendrier des fêtes de novembre 2026 est disponible. Retrouvez les animations, spectacles, expositions et ateliers proposés dans les communes du Haut Pays du Velay : https://www.calameo.com/read/001159770add8fb838647 Pour plus d’informations : Haut Pays…",
+        "full_content": "Le calendrier des fêtes de novembre 2026 est disponible. Retrouvez les animations, spectacles, expositions et ateliers proposés dans les communes du Haut Pays du Velay : https://www.calameo.com/read/001159770add8fb838647\nPour plus d’informations : Haut Pays du Velay tourisme, 04 71 59 95 73,\nSource : Haut Pays du Velay communauté\n\n[Détails extraits de la publication Calaméo]\nDocument Calaméo 'Agenda Novembre 2026' (par Haut Pays du Velay tourisme) :\nCalendrier des fêtes, novembre 2026 : Haut Pays du Velay tourisme\n\n8 villages, des dégustations de vins, une foire aux champignons, un gardien de phare qui n’a jamais quitté son phare et des marchés de Noël. Le calendrier de novembre 2026 réunit les...\nPlus",
         "category": "Culture & Patrimoine",
         "badge": "Culture",
         "source_name": "Illiwap Haut Pays du Velay Communauté",
@@ -76,6 +176,12 @@
           "end": null,
           "is_period": false,
           "bucket": "retrospective"
+        },
+        "timing": {
+          "start_time": null,
+          "end_time": null,
+          "duration_minutes": null,
+          "all_day": true
         },
         "location": "Dunières / Haut Pays du Velay",
         "importance": "normal",
@@ -91,86 +197,28 @@
           "enriched_text": "Document Calaméo 'Agenda Novembre 2026' (par Haut Pays du Velay tourisme) :\nCalendrier des fêtes, novembre 2026 : Haut Pays du Velay tourisme\n\n8 villages, des dégustations de vins, une foire aux champignons, un gardien de phare qui n’a jamais quitté son phare et des marchés de Noël. Le calendrier de novembre 2026 réunit les...\nPlus",
           "original_url": "https://www.calameo.com/read/001159770add8fb838647"
         }
-      }
-    ],
-    "today": [
-      {
-        "id": "illiwap_dunieres_monoxyde-de-carbone-28",
-        "title": "Monoxyde de carbone",
-        "summary": "En France, ce gaz est la 1ère cause de mortalité par intoxication.Invisible et inodore, il est extrêmement dangereux et cause une centaine de décès par an en France.☠⚠ Quelques précautions pour éviter une intoxication :🪟Aérez quotidiennementUn app...",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/monoxyde-de-carbone-28",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6b001d0b6f33e664519680.jpg",
-        "dates": {
-          "start": "2026-11-20",
-          "end": null,
-          "is_period": false,
-          "bucket": "today"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
-      {
-        "id": "illiwap_comcom_atelier-bien-etre-soutenir-l-immunite-par-des-solutions",
-        "title": "📅 Atelier bien-être : soutenir l’immunité par des solutions",
-        "summary": "À l’approche de l’hiver, Haut Pays du Velay communauté, en partenariat avec l’ARSEPT, la Conférence des financeurs et Pour Bien Vieillir, propose un atelier destiné aux personnes de 55 ans et plus.Aurélie Vernerey, naturopathe, partagera des conse...",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "Illiwap Haut Pays du Velay Communauté",
-        "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/actu/atelier-bien-etre-soutenir-l-immunite-par-des-solutions",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/WbfqEmcFUDoApMIdmuTUWvHw_FYBxb1sT3V__9ZFLec.jpg",
-        "dates": {
-          "start": "2026-11-20",
-          "end": null,
-          "is_period": false,
-          "bucket": "today"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
-      {
-        "id": "illiwap_comcom_haut-pays-du-velay-communaute_3",
-        "title": "22 nov. 2026 16:00 - 17:00",
-        "summary": "22 nov. 2026 16:00 - 17:00 Théâtre d’objets « Le Mystère Léon Plouhinec »",
-        "category": "Culture & Patrimoine",
-        "badge": "Culture",
-        "source_name": "Illiwap Haut Pays du Velay Communauté",
-        "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/AngRM8vlcQ9xVb0W6PgW3rEZD_FFHbdOlOljdKCMEKM.jpg",
-        "dates": {
-          "start": "2026-11-20",
-          "end": null,
-          "is_period": false,
-          "bucket": "today"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
       },
       {
         "id": "lacommere43_search_0",
-        "title": "« Sacrés Galaïres ! » : la vie de l'Ehpad des Bruyères àDunièrescroquée en B",
-        "summary": "Et si le quotidien en Ehpad se racontait autrement ? C'est le pari de Virginie Bourdier, qui travaille à la résidence Les Bruyères – Le Triolet, àDunières. À travers sa b",
+        "title": "« Sacrés Galaïres ! » : la vie de l'Ehpad des Bruyères à Dunières croquée en BD",
+        "summary": "Et si le quotidien en Ehpad se racontait autrement ? C'est le pari de Virginie Bourdier, qui travaille à la résidence Les Bruyères – Le Triolet, à Dunières. À travers sa bande dessinée intitulée « Sacrés Galaïres !",
+        "full_content": "Et si le quotidien en Ehpad se racontait autrement ? C'est le pari de Virginie Bourdier, qui travaille à la résidence Les Bruyères – Le Triolet, à Dunières.\n\nÀ travers sa bande dessinée intitulée « Sacrés Galaïres ! », elle a souhaité mettre en lumière la vie de son établissement, ses habitants, leurs familles et les professionnels qui les accompagnent au quotidien.\n\nInspiré de situations vécues, de petits moments de complicité, d'anecdotes et de scènes parfois cocasses, cet ouvrage est avant tout un témoignage plein d'humanité et d'humour sur la vie en Ehpad.\n\nCar derrière les portes d'un établissement, il y a bien plus que des soins et des habitudes : il y a des personnalités, des histoires de vie, des rires, des larmes, de la fatigue, de l'émotion et surtout beaucoup de vie.\n\nRéalisée avec affection et une bonne dose d'humour, cette BD est aussi une façon de rendre hommage aux habitants et aux équipes qui font vivre la résidence chaque jour.\n\nSon titre, « Sacrés Galaïres ! », fait référence à ces petits plaisantins, ces personnages hauts en couleur qui donnent du relief au quotidien.\n\nVendue au prix de 10 euros, la BD permettra de contribuer au financement des animations proposées aux habitants de la résidence. Une belle façon de prolonger l'aventure en faisant aussi plaisir à ceux qui font vivre les Bruyères.\n\nUne chose est sûre : aux Bruyères, on rit, on pleure, on vit tout simplement.",
         "category": "Manifestations & Vie Associative",
         "badge": "Animation",
         "source_name": "La Commère 43",
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86434-sacres-galaires-la-vie-de-l-ehpad-des-bruyeres-a-dunieres-croquee-en-bd.html",
-        "image_url": null,
+        "image_url": "https://www.lacommere43.fr/media/k2/items/cache/168da226118fca4b45a41e72facd4282_M.jpg",
         "dates": {
-          "start": "2026-11-20",
+          "start": "2026-11-19",
           "end": null,
           "is_period": false,
-          "bucket": "today"
+          "bucket": "retrospective"
+        },
+        "timing": {
+          "start_time": null,
+          "end_time": null,
+          "duration_minutes": null,
+          "all_day": true
         },
         "location": "Dunières / Haut Pays du Velay",
         "importance": "normal",
@@ -180,123 +228,83 @@
       },
       {
         "id": "lacommere43_search_1",
-        "title": "Il ouvre son garage automobile au milieu de la nature, entreDunièreset Saint-Jul",
-        "summary": "Nicolas Truchet vient d'ouvrir un garage automobile au milieu de la campagne, entre Saint-Julien-Molhesabate etDunières, au hameau de \"Coirolles\". Nicolas Truchet a effe",
+        "title": "Il ouvre son garage automobile au milieu de la nature, entre Dunières et Saint-Julien-Molhesabate",
+        "summary": "Nicolas Truchet vient d'ouvrir un garage automobile au milieu de la campagne, entre Saint-Julien-Molhesabate et Dunières, au hameau de \"Coirolles\". Nicolas Truchet a effectué un CAP et bac pro mécanique automobile, suivis de 7 ans d'expérience dans un garage…",
+        "full_content": "Nicolas Truchet vient d'ouvrir un garage automobile au milieu de la campagne, entre Saint-Julien-Molhesabate et Dunières, au hameau de \"Coirolles\".\n\nNicolas Truchet a effectué un CAP et bac pro mécanique automobile, suivis de 7 ans d'expérience dans un garage Peugeot en région lyonnaise.\n\nOriginaire de l'Isère, il souhaitait changer de rythme de vie, se rapprocher de la nature et retrouver un environnement plus paisible. Saint-Julien-Molhesabate l'a séduit par son cadre de vie et il a puisé l'envie d'y bâtir un nouveau chapitre.\n\n\"J'ai l'envie de développer mon activité, de construire un projet professionnel qui me ressemble et de proposer un service de proximité, accessible et utile aux habitants, fondé sur l'échange et la confiance.\"\n\nPassionné d'automobile depuis tout petit, notamment de Renault Sport, il a grandi avec cette passion grâce à son père et sa R5 Alpine Turbo. \"Il m'emmenait également sur les courses de côte de la région iséroise. Tous ces moments ont nourri ma passion et m'ont très tôt donné envie de faire de l'automobile mon métier.\"\n\nLe garage Truchet propose différentes prestations automobiles : entretien courant, réparations mécaniques, diagnostic de pannes ainsi que des prestations liées aux pneumatiques.\n\nInfos pratiques\n\nTéléphone : 07.77.08.43.37\n\nMail : [email protected]\n\nInstagram : https://www.instagram.com/garagetruchet_/\n\nFacebook : https://www.facebook.com/profile.php?id=61595533967124",
         "category": "Manifestations & Vie Associative",
         "badge": "Animation",
         "source_name": "La Commère 43",
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86433-il-ouvre-son-garage-automobile-au-milieu-de-la-nature-entre-dunieres-et-saint-julien-molhesabate.html",
-        "image_url": null,
+        "image_url": "https://www.lacommere43.fr/media/k2/items/cache/a3b3d30b13411d455f05a4a822faa935_M.jpg",
         "dates": {
-          "start": "2026-11-20",
+          "start": "2026-11-19",
           "end": null,
           "is_period": false,
-          "bucket": "today"
+          "bucket": "retrospective"
+        },
+        "timing": {
+          "start_time": null,
+          "end_time": null,
+          "duration_minutes": null,
+          "all_day": true
         },
         "location": "Dunières / Haut Pays du Velay",
         "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
-      {
-        "id": "lacommere43_search_3",
-        "title": "Dunières: Fanny Souchon crée des bijoux fantaisie à l'enseigne ALMA des Suc",
-        "summary": "Fanny Souchon lance ALMA des Sucs àDunières, une micro-entreprise artisanale proposant des bijoux faits à la main en pâte polymère, avec des attaches en acier inoxydable.",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "La Commère 43",
-        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86404-dunieres-fanny-souchon-cree-des-bijoux-fantaisie-a-l-enseigne-alma-des-sucs.html",
-        "image_url": null,
-        "dates": {
-          "start": "2026-11-20",
-          "end": null,
-          "is_period": false,
-          "bucket": "today"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
-      {
-        "id": "lacommere43_search_4",
-        "title": "André Marcon raconte l'intimité familiale dans son livre \"Les Marcon de Saint-Bo",
-        "summary": "André Marcon vient de publier un livre où il raconte l'histoire familiale, \"Les Marcon de Saint-Bonnet-le-Froid\" (éditions La Clé du chemin). Une famille intimement liée à Saint-Bonnet-le",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "La Commère 43",
-        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86403-saint-bonnet-le-froid-andre-marcon-fait-entrer-dans-l-intimite-familiale-dans-son-livre.html",
-        "image_url": null,
-        "dates": {
-          "start": "2026-11-20",
-          "end": null,
-          "is_period": false,
-          "bucket": "today"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
-      {
-        "id": "lacommere43_search_7",
-        "title": "Basket, RF2 :Dunièresn'y arrive pas cette saiso",
-        "summary": "Les basketteuses deDunièressont en souffrance cette saison en Régionale 2. Elles ont perdu samedi à domicile contre Unieux-Fraisses (41-60). Dunières a entamé la phase re",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "La Commère 43",
-        "source_url": "https://www.lacommere43.fr/sport/item/86334-basket-rf2-dunieres-n-y-arrive-pas-cette-saison.html",
-        "image_url": null,
-        "dates": {
-          "start": "2026-11-20",
-          "end": null,
-          "is_period": false,
-          "bucket": "today"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
-      {
-        "id": "lacommere43_search_8",
-        "title": "Dunières: pourquoi le tabac-presse avait candidaté sur l'achat de l'ancien burea",
-        "summary": "Le dernier conseil municipal deDunièresa évoqué l'avenir de l'ancien bureau de poste. Les élus ont écarté la proposition d'achat du bureau de tabac-presse. Ces commerçants font face à",
-        "category": "Vie Municipale & Délibérations",
-        "badge": "Conseil Municipal",
-        "source_name": "La Commère 43",
-        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86295-dunieres-pourquoi-le-tabac-presse-avait-candidate-sur-l-achat-de-l-ancien-bureau-de-poste.html",
-        "image_url": null,
-        "dates": {
-          "start": "2026-11-20",
-          "end": null,
-          "is_period": false,
-          "bucket": "today"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "high",
         "has_attachment": false,
         "attachment_type": null,
         "attachment_data": null
       },
       {
         "id": "lacommere43_search_9",
-        "title": "Burgers et karaoké : le FJEP deDunièresvous invite à sa soirée du 20 novembre",
-        "summary": "L'association FJEP deDunièresorganise une soirée burger karaoké le vendredi 20 novembre à partir de 18 h 30, à la salle de la Mutualité de Dunières. Envie de pousser la",
+        "title": "Burgers et karaoké : le FJEP de Dunières vous invite à sa soirée du 20 novembre",
+        "summary": "L'association FJEP de Dunières organise une soirée burger karaoké le vendredi 20 novembre à partir de 18 h 30, à la salle de la Mutualité de Dunières. Envie de pousser la chansonnette entre amis ou en famille ?",
+        "full_content": "L'association FJEP de Dunières organise une soirée burger karaoké le vendredi 20 novembre à partir de 18 h 30, à la salle de la Mutualité de Dunières.\n\nEnvie de pousser la chansonnette entre amis ou en famille ? L'association des parents d'élèves de l'école de Dunières organise une soirée burger karaoké le vendredi 20 novembre, à partir de 18 h 30, à la salle de la Mutualité (à côté du centre de loisirs).\n\nAu menu, deux formules simples et gourmandes : burger + frites à 10 €, ou nuggets + frites à 6 € pour les plus petits appétits. Les repas sont à déguster sur place dans une ambiance conviviale, ou à emporter pour ceux qui préfèrent profiter de leur soirée à la maison.\n\nUne fois le repas servi, place à la scène ! Tubes des années 80, chansons françaises, classiques à reprendre en chœur ou duos improvisés : chacun pourra choisir son morceau et tenter sa chance au micro, chanteur confirmé ou simple amateur de refrains sous la douche. Petits et grands sont les bienvenus.\n\nAttention : les précommandes sont fortement conseillées sur la plateforme helloasso.com.",
         "category": "Manifestations & Vie Associative",
         "badge": "Animation",
         "source_name": "La Commère 43",
         "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86272-burgers-et-karaoke-le-fjep-de-dunieres-vous-invite-a-sa-soiree-du-20-novembre.html",
-        "image_url": null,
+        "image_url": "https://www.lacommere43.fr/media/k2/items/cache/4b08ef4a356e3cd1a1eafef1a3a510f1_M.jpg",
         "dates": {
           "start": "2026-11-20",
           "end": null,
           "is_period": false,
+          "bucket": "retrospective"
+        },
+        "timing": {
+          "start_time": "18:30",
+          "end_time": null,
+          "duration_minutes": null,
+          "all_day": false
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      }
+    ],
+    "today": [
+      {
+        "id": "illiwap_dunieres_concours-coinche-samedi-21-novembre-14h-ephata-43-7",
+        "title": "concours coinche samedi 21 novembre 14h EPHATA 43",
+        "summary": "L'association Ephata 43 renouvelle son concours de coinche, le samedi 21 novembre 2026, à la Salle des Associations de Dunières (derrière le gymnase). Le concours est ouvert à tous : participants seuls et duo. Toutes les doublettes seront primées.",
+        "full_content": "L'association Ephata 43 renouvelle son concours de coinche, le samedi 21 novembre 2026, à la Salle des Associations de Dunières (derrière le gymnase).\nLe concours est ouvert à tous : participants seuls et duo.\nToutes les doublettes seront primées. Premier lot = 2 x 100€.\nDébut des inscriptions à 14h. Fin des inscriptions à 14h30.\nAmbiance conviviale et buvette sur place.\nVenez nombreux !\nSource : Mairie de Dunières",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
+        "source_name": "Illiwap Mairie de Dunières",
+        "source_url": "https://station.illiwap.com/fr/public/43087/actu/concours-coinche-samedi-21-novembre-14h-ephata-43-7",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/TBz3Z26sovPNfbcpyBQps-bWW29mJ8zV.jpg",
+        "dates": {
+          "start": "2026-11-21",
+          "end": null,
+          "is_period": false,
           "bucket": "today"
+        },
+        "timing": {
+          "start_time": "14:00",
+          "end_time": null,
+          "duration_minutes": null,
+          "all_day": false
         },
         "location": "Dunières / Haut Pays du Velay",
         "importance": "normal",
@@ -307,42 +315,56 @@
     ],
     "upcoming": [
       {
-        "id": "illiwap_dunieres_concours-coinche-samedi-21-novembre-14h-ephata-43-7",
-        "title": "concours coinche samedi 21 novembre 14h EPHATA 43",
-        "summary": "L'association Ephata 43 renouvelle son concours de coinche, le samedi 21 novembre 2026, à la Salle des Associations de Dunières (derrière le gymnase).Le concours est ouvert à tous : participants seuls et duo.Toutes les doublettes seront primées. P...",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/concours-coinche-samedi-21-novembre-14h-ephata-43-7",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/TBz3Z26sovPNfbcpyBQps-bWW29mJ8zV.jpg",
-        "dates": {
-          "start": "2026-11-21",
-          "end": null,
-          "is_period": false,
-          "bucket": "upcoming"
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
-      {
-        "id": "illiwap_comcom_theatre-d-objets-le-mystere-leon-plouhinec",
+        "id": "illiwap_comcom_ev_theatre-d-objets-le-mystere-leon-plouhinec",
         "title": "Théâtre d’objets « Le Mystère Léon Plouhinec »",
-        "summary": "Dimanche 22 novembre, 16hThéâtre d’objets « Le Mystère Léon Plouhinec » par la Compagnie des ÉtourneauxIl n’a jamais quitté son phare. Et pourtant, tout le monde le cherche ! Léon Plouhinec est gardien de phare, mais dans ses lettres défilent un c...",
+        "summary": "Dimanche 22 novembre, 16h Théâtre d’objets « Le Mystère Léon Plouhinec » par la Compagnie des Étourneaux Il n’a jamais quitté son phare. Et pourtant, tout le monde le cherche !",
+        "full_content": "Dimanche 22 novembre, 16h\nThéâtre d’objets « Le Mystère Léon Plouhinec » par la Compagnie des Étourneaux\nIl n’a jamais quitté son phare. Et pourtant, tout le monde le cherche ! Léon Plouhinec est gardien de phare, mais dans ses lettres défilent un cosmonaute russe, des agents secrets anglais et des collectionneurs de parfum. Jusqu’au jour où sa disparition est annoncée sur les ondes de Radio Méduse. La commissaire Pantin reprend alors l’enquête depuis le début. Un spectacle loufoque et poétique, entre théâtre, musique et papier découpé, adapté de l’album de Judith Chomel.\n📍 Salle Renaissance, Montfaucon-en-Velay\n🗓️ Dimanche 22 novembre à 16h\n⏱️ Durée : 1h\n🎟️ Adulte : 10 €, tarif réduit (12-17 ans, étudiants, demandeurs d’emploi) : 6 €, gratuit pour les moins de 12 ans\n👨‍👩‍👧 Dès 6 ans\n✅ Réservation obligatoire : hautpaysduvelay-communaute.fr/billetterie\n📞 Office de Tourisme de Montfaucon-en-Velay : 04 71 59 95 73",
         "category": "Culture & Patrimoine",
         "badge": "Culture",
         "source_name": "Illiwap Haut Pays du Velay Communauté",
-        "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/actu/theatre-d-objets-le-mystere-leon-plouhinec",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/Bey9s3-4m12QVpQmBr6vuR_2y8Gc4zCBnadNztaxXzA.jpg",
+        "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/evenements/theatre-d-objets-le-mystere-leon-plouhinec",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/AngRM8vlcQ9xVb0W6PgW3rEZD_FFHbdOlOljdKCMEKM.jpg",
         "dates": {
           "start": "2026-11-22",
           "end": null,
           "is_period": false,
           "bucket": "upcoming"
         },
-        "location": "Dunières / Haut Pays du Velay",
+        "timing": {
+          "start_time": "16:00",
+          "end_time": "17:00",
+          "duration_minutes": 60,
+          "all_day": false
+        },
+        "location": "Salle Renaissance, Montfaucon-en-Velay",
+        "importance": "normal",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      },
+      {
+        "id": "illiwap_dunieres_atelier-bien-etre-soutenir-l-immunite-par-des-solutions-2",
+        "title": "📅 Atelier bien-être : soutenir l’immunité par des solutions",
+        "summary": "À l’approche de l’hiver, Haut Pays du Velay communauté, en partenariat avec l’ARSEPT, la Conférence des financeurs et Pour Bien Vieillir, propose un atelier destiné aux personnes de 55 ans et plus.",
+        "full_content": "À l’approche de l’hiver, Haut Pays du Velay communauté, en partenariat avec l’ARSEPT, la Conférence des financeurs et Pour Bien Vieillir, propose un atelier destiné aux personnes de 55 ans et plus.\nAurélie Vernerey, naturopathe, partagera des conseils simples et accessibles pour aider l’organisme à passer la saison froide dans de bonnes conditions.\n📍 Salle des fêtes, 9 allées des Écoliers, Saint Romain-Lachalm\n🗓️ Mardi 24 novembre à 14h\n👥 À partir de 55 ans\n✍️ Inscription et renseignements auprès de Haut Pays du Velay communauté : 04 71 65 74 09",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
+        "source_name": "Illiwap Mairie de Dunières",
+        "source_url": "https://station.illiwap.com/fr/public/43087/actu/atelier-bien-etre-soutenir-l-immunite-par-des-solutions-2",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/JTU4C3XpPm6q-w3Xxm9nHG2X5FsVDWs5eFbFXEhJrnk.jpg",
+        "dates": {
+          "start": "2026-11-24",
+          "end": null,
+          "is_period": false,
+          "bucket": "upcoming"
+        },
+        "timing": {
+          "start_time": "14:00",
+          "end_time": null,
+          "duration_minutes": null,
+          "all_day": false
+        },
+        "location": "Salle des fêtes, 9 allées des Écoliers, Saint Romain-Lachalm",
         "importance": "normal",
         "has_attachment": false,
         "attachment_type": null,
@@ -351,9 +373,10 @@
       {
         "id": "illiwap_dunieres_la-semaine-europeenne-de-reduction-des-dechets-3",
         "title": "La Semaine Européenne de Réduction des Déchets",
-        "summary": "La Semaine Européenne de Réduction des Déchets, cette année, met en lumière un phénomène qui façonne profondément nos modes de vie : l’ultra consommation. Derrière nos objets du quotidien se cache une réalité bien moins visible : un coût environne...",
-        "category": "Culture & Patrimoine",
-        "badge": "Culture",
+        "summary": "La Semaine Européenne de Réduction des Déchets, cette année, met en lumière un phénomène qui façonne profondément nos modes de vie : l’ultra consommation. Derrière nos objets du quotidien se cache une réalité bien moins visible : un coût environnemental…",
+        "full_content": "La Semaine Européenne de Réduction des Déchets, cette année, met en lumière un phénomène qui façonne profondément nos modes de vie : l’ultra consommation. Derrière nos objets du quotidien se cache une réalité bien moins visible : un coût environnemental, social et sanitaire.\nNous avons choisi de mettre en lumière la fast-fashion (= pratique de l'industrie de la mode qui renouvelle très rapidement ses collections, générant des quantités considérables de vêtements) et les façons dont nous agissons pour réduire ses impacts.\nRendez-vous vendredi 27 novembre 2026 à TENCE (6 rue de Saint-Agrève) :\nSalle Maria Bonnet, l'après-midi, pour des animations et une friperie (de 13h à 19h)\nAu cinéma pour un ciné-débat (de 20h30 à 22h)",
+        "category": "Services & Déchets",
+        "badge": "Service Public",
         "source_name": "Illiwap Mairie de Dunières",
         "source_url": "https://station.illiwap.com/fr/public/43087/actu/la-semaine-europeenne-de-reduction-des-dechets-3",
         "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/xan0cUm36kOBUQ84qmEVqgTCPJ4NN-80a82x644_EQA.jpg",
@@ -363,26 +386,11 @@
           "is_period": false,
           "bucket": "upcoming"
         },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      },
-      {
-        "id": "lacommere43_search_5",
-        "title": "Dunières: le loto qui séduit petits et grands le 29 novembre",
-        "summary": "L'équipe de l'APEL deDunièress'est retrouvée afin de finaliser la préparation de son loto du 29 novembre. L'association de parents ne change pas un concept qui plaît, ...",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "La Commère 43",
-        "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86351-dunieres-le-loto-qui-seduit-petits-et-grands-le-29-novembre.html",
-        "image_url": null,
-        "dates": {
-          "start": "2026-11-29",
-          "end": null,
-          "is_period": false,
-          "bucket": "upcoming"
+        "timing": {
+          "start_time": "13:00",
+          "end_time": "19:00",
+          "duration_minutes": 360,
+          "all_day": false
         },
         "location": "Dunières / Haut Pays du Velay",
         "importance": "normal",
@@ -394,19 +402,54 @@
   },
   "all_events": [
     {
-      "id": "illiwap_dunieres_la-semaine-europeenne-de-reduction-des-dechets-3",
-      "title": "La Semaine Européenne de Réduction des Déchets",
-      "summary": "La Semaine Européenne de Réduction des Déchets, cette année, met en lumière un phénomène qui façonne profondément nos modes de vie : l’ultra consommation. Derrière nos objets du quotidien se cache une réalité bien moins visible : un coût environne...",
+      "id": "lacommere43_search_2",
+      "title": "Les karatékas du Seijitsu dojo de Dunières brillent à Yssingeaux",
+      "summary": "Les karatékas du Seijitsu dojo de Dunières se sont illustrés samedi 14 novembre à Yssingeaux, à l'occasion de la coupe et du championnat départemental de karaté.",
+      "full_content": "Les karatékas du Seijitsu dojo de Dunières se sont illustrés samedi 14 novembre à Yssingeaux, à l'occasion de la coupe et du championnat départemental de karaté. Une belle journée pour les licenciés du club, qui ont décroché de nombreux podiums en kata et en combat, témoignant du travail et de l'investissement de chacun.\n\nGrâce à leurs résultats, plusieurs compétiteurs ont obtenu leur qualification pour les prochaines échéances régionales. Alexis Meunier-Chaize, Alicia Meunier-Chaize et Lester Da Silva participeront au championnat régional, qui se déroulera le samedi 21 novembre à Ceyrat.\n\nLes autres karatékas qualifiés retrouveront quant à eux les tatamis lors de la coupe régionale, prévue les 13 et 14 février à Vénissieux.\n\nUn palmarès remarquable\n\n- Alexis Meunier-Chaize : 1er en kata, 1er en combat, 1er en open combat et 1er en open kata\n\n- Lester Da Silva : 1er en combat, 3e en kata, 2e en open combat et 3e en open kata\n\n- Alicia Meunier-Chaize : 1ère en combat et 3e en open combat\n\n- Chloé Samuel : 1ère en kata, 1ère en combat, 1ère en open kata et 1ère en open combat\n\n- Jean Massardier : 1er en kata et 1er en combat\n\n- Johann Chouraqui : 2e en kata et 3e en combat\n\n- Annie-Yoanna de Bouanzi : 1ère en combat et 1re en kata\n\n- Suzanne Ginetti : 1ère en combat et 3e en open kata\n\n- Mélinda Trapeaux-Chomette : 1ère en kata, 1ère en combat et 2e en open combat\n\n- Solenn Robert : 1ère en kata et 2e en combat\n\n- Ruth de Bouanzi : 2e en kata et 1ère en combat\n\n- Spencer Da Silva : 1er en kata, 1er en combat et 2e en open combat\n\n- Johan Samuel : 1er en combat, 2e en kata et 1er en open combat",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "source_name": "La Commère 43",
+      "source_url": "https://www.lacommere43.fr/sport/item/86427-les-karatekas-du-seijitsu-dojo-de-dunieres-brillent-a-yssingeaux.html",
+      "image_url": "https://www.lacommere43.fr/media/k2/items/cache/42dae40de2459bb6cd7b991832a3cec1_M.jpg",
+      "dates": {
+        "start": "2026-11-14",
+        "end": null,
+        "is_period": false,
+        "bucket": "retrospective"
+      },
+      "timing": {
+        "start_time": null,
+        "end_time": null,
+        "duration_minutes": null,
+        "all_day": true
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "lacommere43_search_6",
+      "title": "Raucoules : de bonnes affaires et une bonne action à la bourse aux jouets",
+      "summary": "La bourse aux jouets, vêtements et articles de puériculture organisée le dimanche 15 novembre à la salle polyvalente de Raucoules a rencontré un beau succès.",
+      "full_content": "La bourse aux jouets, vêtements et articles de puériculture organisée le dimanche 15 novembre à la salle polyvalente de Raucoules a rencontré un beau succès.\n\nOrganisée conjointement par le Conseil Municipal des Jeunes et l'association Familles Rurales de Raucoules, cette matinée a rassemblé une trentaine d'exposants venus proposer jouets, vêtements et articles de puériculture. De nombreux visiteurs ont également répondu présents pour dénicher de bonnes affaires, mais aussi simplement partager un moment convivial autour d'un café ou de pâtisseries.\n\nAu-delà de cette belle matinée d'échanges et de rencontres, cette manifestation avait surtout une dimension solidaire. En effet, l'intégralité des bénéfices, soit 600 €, a été remise à l'association « Victor, notre super héros », qui accompagne Victor, atteint de myopathie LGMD1B.\n\nNoël : un moment musical et gourmand le 19 décembre\n\nLe samedi 19 décembre au soir, Raucoules célébrera Noël.\n\nLa soirée débutera par un concert à l'église, avec la chorale Mélimélodie de Dunières. Les habitants pourront ensuite se retrouver à la salle polyvalente autour d'une dégustation d'huîtres et d'assiettes de charcuterie, avec bien d'autres surprises.\n\nUn rendez-vous placé sous le signe du partage et de la convivialité, pour se retrouver avant les fêtes de fin d'année.\n\nUne sortie en car au Zénith de Saint-Étienne\n\nEnfin, le dimanche 31 janvier 2027, le comité d'animation proposera une sortie en car au Zénith de Saint-Étienne pour assister au spectacle \"500 voix pour Johnny\".\n\nLe spectacle est prévu à 18 heures. Le tarif est de 50 € par place, avec un nombre limité à 50 participants. Le transport en car est offert par l'association.\n\nLes inscriptions et le règlement se font à la mairie de Raucoules. Les billets seront remis le jour du spectacle. Le départ est prévu depuis la salle polyvalente, l'horaire restant à préciser.",
       "category": "Culture & Patrimoine",
       "badge": "Culture",
-      "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/la-semaine-europeenne-de-reduction-des-dechets-3",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/xan0cUm36kOBUQ84qmEVqgTCPJ4NN-80a82x644_EQA.jpg",
+      "source_name": "La Commère 43",
+      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86350-raucoules-de-bonnes-affaires-et-une-bonne-action-a-la-bourse-aux-jouets.html",
+      "image_url": "https://www.lacommere43.fr/media/k2/items/cache/464e0153b98c758a016a4eff7bd39ee6_M.jpg",
       "dates": {
-        "start": "2026-11-27",
+        "start": "2026-11-15",
         "end": null,
         "is_period": false,
-        "bucket": "upcoming"
+        "bucket": "retrospective"
+      },
+      "timing": {
+        "start_time": "18:00",
+        "end_time": null,
+        "duration_minutes": null,
+        "all_day": false
       },
       "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
@@ -415,19 +458,26 @@
       "attachment_data": null
     },
     {
-      "id": "illiwap_dunieres_concours-coinche-samedi-21-novembre-14h-ephata-43-7",
-      "title": "concours coinche samedi 21 novembre 14h EPHATA 43",
-      "summary": "L'association Ephata 43 renouvelle son concours de coinche, le samedi 21 novembre 2026, à la Salle des Associations de Dunières (derrière le gymnase).Le concours est ouvert à tous : participants seuls et duo.Toutes les doublettes seront primées. P...",
+      "id": "lacommere43_search_7",
+      "title": "Basket, RF2 : Dunières n'y arrive pas cette saison",
+      "summary": "Les basketteuses de Dunières sont en souffrance cette saison en Régionale 2. Elles ont perdu samedi à domicile contre Unieux-Fraisses (41-60). Dunières a entamé la phase retour de la première phase par une nouvelle défaite samedi.",
+      "full_content": "Les basketteuses de Dunières sont en souffrance cette saison en Régionale 2. Elles ont perdu samedi à domicile contre Unieux-Fraisses (41-60).\n\nDunières a entamé la phase retour de la première phase par une nouvelle défaite samedi. Face à la réserve d'Unieux Fraisses, emmenée par l'ancienne professionnelle de Montbrison, Aurélia Cabaton, les Duniéroises se sont accrochées mais n'ont jamais réussi à descendre sous la barre des dix points de retard.\n\n\"La saison est très compliquée. On travaille bien à l'entraînement, on essaie différents systèmes mais on n'y arrive pas. Pour l'instant, aucune formule ne fonctionne. On va finit cette première phase et espérons faire mieux en poule basse pour aller chercher le maintien\", indique l'entraîneur Bruno Charrat.\n\nDUNIÈRES : 41\n\nUNIEUX-FRAISSES : 60\n\nPoints pour Dunières : Orlane Bouzemboua 4, Camille Beaulaigue 12, Rosy Bruyère 2, Léane Sabot 0, Léa Carrot 0, Morgane Frezier 10, Louise Roux 5, Constance Meynet 4, Jessica Oriol 4\n\nPoints pour Unieux-Fraisses : Carmen Guilhot 3, Verane Luya 6, Chiara Ferrapie 2, Aurélia Cabaton 27, Manon Celle 16, Lauryn Alves 0, Agathe Cieslak 4, Manon Terrier 8, Clara Giraudon 0",
       "category": "Manifestations & Vie Associative",
       "badge": "Animation",
-      "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/concours-coinche-samedi-21-novembre-14h-ephata-43-7",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/TBz3Z26sovPNfbcpyBQps-bWW29mJ8zV.jpg",
+      "source_name": "La Commère 43",
+      "source_url": "https://www.lacommere43.fr/sport/item/86334-basket-rf2-dunieres-n-y-arrive-pas-cette-saison.html",
+      "image_url": "https://www.lacommere43.fr/media/k2/items/cache/7c9e8eaab287c1f7fca124c78f7cab4e_M.jpg",
       "dates": {
-        "start": "2026-11-21",
+        "start": "2026-11-15",
         "end": null,
         "is_period": false,
-        "bucket": "upcoming"
+        "bucket": "retrospective"
+      },
+      "timing": {
+        "start_time": null,
+        "end_time": null,
+        "duration_minutes": null,
+        "all_day": true
       },
       "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
@@ -436,19 +486,26 @@
       "attachment_data": null
     },
     {
-      "id": "illiwap_dunieres_monoxyde-de-carbone-28",
-      "title": "Monoxyde de carbone",
-      "summary": "En France, ce gaz est la 1ère cause de mortalité par intoxication.Invisible et inodore, il est extrêmement dangereux et cause une centaine de décès par an en France.☠⚠ Quelques précautions pour éviter une intoxication :🪟Aérez quotidiennementUn app...",
+      "id": "lacommere43_search_3",
+      "title": "Dunières : Fanny Souchon crée des bijoux fantaisie à l'enseigne ALMA des Sucs",
+      "summary": "Fanny Souchon lance ALMA des Sucs à Dunières, une micro-entreprise artisanale proposant des bijoux faits à la main en pâte polymère, avec des attaches en acier inoxydable. Fanny Souchon, à 37 ans, a décidé de passer le pas.",
+      "full_content": "Fanny Souchon lance ALMA des Sucs à Dunières, une micro-entreprise artisanale proposant des bijoux faits à la main en pâte polymère, avec des attaches en acier inoxydable.\n\nFanny Souchon, à 37 ans, a décidé de passer le pas. \"Je suis simplement une passionnée qui a décidé de faire de sa passion de créer son quotidien. Qui n'a pas rêver un jour de vivre de sa passion? ALMA des sucs c'est mon rêve de petite fille. Créer, imaginer, fabriquer, j'ai toujours aimé ça. J'ai découvert la pâte polymère vers l'âge de 12 ans. Je me fabriquais déjà mes propres bijoux. Mes études de droit, puis mon travail, et enfin l'arrivée de mes enfants m'ont éloigné des loisirs créatifs\", confie-t-elle.\n\nComment est né ce nom ?\n\nEt puis début 2026, un déclic, suite à un changement dans sa vie, Fanny Souchon s'est décidée : \"Il faut que tu te lances sinon tu vas regretter de ne jamais avoir oser. Alors je me suis remise à la pâte polymère et j'ai crée ALMA des Sucs. ALMA pour Albane et Marceau, mes deux bijoux les plus précieux. Des Sucs en référence à notre belle Haute-Loire.\"\n\nPourquoi la pâte polymère ?\n\n\"C'est une matière permettant des possibilités infinies de couleurs, textures, formes et tailles. Comme un peintre je mélange les couleurs primaires pour obtenir LA couleur. Là où vous voyez une petite boucle fleur moi je vois des heures de travail à l'atelier : la conceptualisation du modèle, la fabrication, les finitions à la résine...\"\n\nLes parties en pâte polymère sont ensuite assemblées avec des apprêts en acier inoxydable, une matière hypoallergénique.\n\nInfos pratiques\n\nPour en savoir plus, c'est ici www.almadessucs.fr\n\nEt sur les réseaux : almadessucs et alma_des_sucs",
       "category": "Manifestations & Vie Associative",
       "badge": "Animation",
-      "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/monoxyde-de-carbone-28",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/6b001d0b6f33e664519680.jpg",
+      "source_name": "La Commère 43",
+      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86404-dunieres-fanny-souchon-cree-des-bijoux-fantaisie-a-l-enseigne-alma-des-sucs.html",
+      "image_url": "https://www.lacommere43.fr/media/k2/items/cache/9e48c072ed7dba5b3e70184e3beac042_M.jpg",
       "dates": {
-        "start": "2026-11-20",
+        "start": "2026-11-18",
         "end": null,
         "is_period": false,
-        "bucket": "today"
+        "bucket": "retrospective"
+      },
+      "timing": {
+        "start_time": null,
+        "end_time": null,
+        "duration_minutes": null,
+        "all_day": true
       },
       "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
@@ -457,22 +514,29 @@
       "attachment_data": null
     },
     {
-      "id": "illiwap_comcom_atelier-bien-etre-soutenir-l-immunite-par-des-solutions",
-      "title": "📅 Atelier bien-être : soutenir l’immunité par des solutions",
-      "summary": "À l’approche de l’hiver, Haut Pays du Velay communauté, en partenariat avec l’ARSEPT, la Conférence des financeurs et Pour Bien Vieillir, propose un atelier destiné aux personnes de 55 ans et plus.Aurélie Vernerey, naturopathe, partagera des conse...",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "Illiwap Haut Pays du Velay Communauté",
-      "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/actu/atelier-bien-etre-soutenir-l-immunite-par-des-solutions",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/WbfqEmcFUDoApMIdmuTUWvHw_FYBxb1sT3V__9ZFLec.jpg",
+      "id": "lacommere43_search_4",
+      "title": "André Marcon raconte l'intimité familiale dans son livre \"Les Marcon de Saint-Bonnet-le-Froid\"",
+      "summary": "André Marcon vient de publier un livre où il raconte l'histoire familiale, \"Les Marcon de Saint-Bonnet-le-Froid\" (éditions La Clé du chemin). Une famille intimement liée à Saint-Bonnet-le-Froid. Et vice versa.",
+      "full_content": "André Marcon vient de publier un livre où il raconte l'histoire familiale, \"Les Marcon de Saint-Bonnet-le-Froid\" (éditions La Clé du chemin). Une famille intimement liée à Saint-Bonnet-le-Froid. Et vice versa.\n\nIl s'était mis en tête d'écrire son autobiographie pour la transmettre à ses petits-enfants, comme lui aurait aimé qu'on lui transmette son histoire familiale. Il est allé bien plus loin et a enrôlé toute la famille dans son aventure.\n\nDans l'ambiance d'un bourg rural après-guerre\n\nEt, avouons-le, le résultat est plaisant, car au-delà du témoignage familial, ce récit plonge le lecteur dans l'ambiance d'un bourg rural dans les années d'après-guerre, avant de montrer son essor à partir des années 70, et ce en grande partie sous l'impulsion de ces \"Marcon de Saint-Bonnet\", capables d'entraîner dans leur sillage de multiples bonnes volontés.\n\nMarcon et Saint-Bonnet, le lien fort\n\nOn connaît quelques pièces du puzzle. Mais André Marcon accepte de dévoiler bien plus que cela. Des origines aux nouvelles générations, tous les membres de cette grande famille disposent d'une place de choix. Chaque branche bénéficie de son arbre généalogique récent.\n\nOn y saisit le lien profond qui unit cette famille à son village. \"Les Marcon se sont faits grâce à Saint-Bonnet. On s'est engagé, que ce soit dans le commerce, la restauration, ou la mairie.\" Il ajoute : \"Saint-Bonnet, c'est un état d'esprit qui a fait qu'on a toujours travaillé collectif. Chacun est engagé dans un processus de groupe.\"\n\nDeux frères maires\n\nAndré Marcon a tenu l'hôtel pendant cinq ans avant de passer la main à Régis. Lui a poursuivi dans le secteur bancaire tout en mêlant une petite carrière politique, il a été maire de son village, président de CCI France. Son frère Jean-Pierre a aussi été maire, de Saint-Bonnet puis de Dunières, député, président du Conseil général de la Haute-Loire. Et Régis, qui aurait d'abord aimé faire les Beaux Arts, a été orienté par sa mère vers la restauration. La suite, on la connaît : ce sont aujourd'hui 3 étoiles au Guide Michelin.\n\nUn père qui décède jeune\n\nLes Marcon, c'est une solidarité sans faille, une entraide majeure, comme après le décès du père Joannès à l'âge de 52 ans en 1968. Celui-ci, agriculteur d'abord à Saint-André-en-Vivarais, devint commerçant à Saint-Bonnet-le-Froid à partir de 1948. A son dècès, la fratrie s'est resserrée illico autour de la matriarche Marie-Louise. \"Tout le monde s'est mis au boulot, sans contrainte. On était encore six à l'école, ma mère était à la tête de dettes.\"\n\nDes valeurs, un état d'esprit\n\nAvec ce livre, André Marcon espère laisser une trace, en rappelant les valeurs et l'état d'esprit qui anime les Marcon, sans faire l'impasse sur les blessures, les rêves auxquels il a parfois fallu renoncer, et la place de la religion, force ou pesanteur, dans une éducation aimante.\n\n\"Les Marcon de Saint-Bonnet-le-Froid\", La Clé du Chemin 21 €",
+      "category": "Vie Municipale & Délibérations",
+      "badge": "Conseil Municipal",
+      "source_name": "La Commère 43",
+      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86403-saint-bonnet-le-froid-andre-marcon-fait-entrer-dans-l-intimite-familiale-dans-son-livre.html",
+      "image_url": "https://www.lacommere43.fr/media/k2/items/cache/430ece435b843c75c7204b4786c5045f_M.jpg",
       "dates": {
-        "start": "2026-11-20",
+        "start": "2026-11-18",
         "end": null,
         "is_period": false,
-        "bucket": "today"
+        "bucket": "retrospective"
+      },
+      "timing": {
+        "start_time": null,
+        "end_time": null,
+        "duration_minutes": null,
+        "all_day": true
       },
       "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
+      "importance": "high",
       "has_attachment": false,
       "attachment_type": null,
       "attachment_data": null
@@ -480,7 +544,8 @@
     {
       "id": "illiwap_comcom_calendrier-des-fetes-de-novembre-3",
       "title": "Calendrier des fêtes de novembre",
-      "summary": "Le calendrier des fêtes de novembre 2026 est disponible. Retrouvez les animations, spectacles, expositions et ateliers proposés dans les communes du Haut Pays du Velay :https://www.calameo.com/read/001159770add8fb838647Pour plus d’informations : H...",
+      "summary": "Le calendrier des fêtes de novembre 2026 est disponible. Retrouvez les animations, spectacles, expositions et ateliers proposés dans les communes du Haut Pays du Velay : https://www.calameo.com/read/001159770add8fb838647 Pour plus d’informations : Haut Pays…",
+      "full_content": "Le calendrier des fêtes de novembre 2026 est disponible. Retrouvez les animations, spectacles, expositions et ateliers proposés dans les communes du Haut Pays du Velay : https://www.calameo.com/read/001159770add8fb838647\nPour plus d’informations : Haut Pays du Velay tourisme, 04 71 59 95 73,\nSource : Haut Pays du Velay communauté\n\n[Détails extraits de la publication Calaméo]\nDocument Calaméo 'Agenda Novembre 2026' (par Haut Pays du Velay tourisme) :\nCalendrier des fêtes, novembre 2026 : Haut Pays du Velay tourisme\n\n8 villages, des dégustations de vins, une foire aux champignons, un gardien de phare qui n’a jamais quitté son phare et des marchés de Noël. Le calendrier de novembre 2026 réunit les...\nPlus",
       "category": "Culture & Patrimoine",
       "badge": "Culture",
       "source_name": "Illiwap Haut Pays du Velay Communauté",
@@ -491,6 +556,12 @@
         "end": null,
         "is_period": false,
         "bucket": "retrospective"
+      },
+      "timing": {
+        "start_time": null,
+        "end_time": null,
+        "duration_minutes": null,
+        "all_day": true
       },
       "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
@@ -508,61 +579,26 @@
       }
     },
     {
-      "id": "illiwap_comcom_theatre-d-objets-le-mystere-leon-plouhinec",
-      "title": "Théâtre d’objets « Le Mystère Léon Plouhinec »",
-      "summary": "Dimanche 22 novembre, 16hThéâtre d’objets « Le Mystère Léon Plouhinec » par la Compagnie des ÉtourneauxIl n’a jamais quitté son phare. Et pourtant, tout le monde le cherche ! Léon Plouhinec est gardien de phare, mais dans ses lettres défilent un c...",
-      "category": "Culture & Patrimoine",
-      "badge": "Culture",
-      "source_name": "Illiwap Haut Pays du Velay Communauté",
-      "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/actu/theatre-d-objets-le-mystere-leon-plouhinec",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/Bey9s3-4m12QVpQmBr6vuR_2y8Gc4zCBnadNztaxXzA.jpg",
-      "dates": {
-        "start": "2026-11-22",
-        "end": null,
-        "is_period": false,
-        "bucket": "upcoming"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "illiwap_comcom_haut-pays-du-velay-communaute_3",
-      "title": "22 nov. 2026 16:00 - 17:00",
-      "summary": "22 nov. 2026 16:00 - 17:00 Théâtre d’objets « Le Mystère Léon Plouhinec »",
-      "category": "Culture & Patrimoine",
-      "badge": "Culture",
-      "source_name": "Illiwap Haut Pays du Velay Communauté",
-      "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/AngRM8vlcQ9xVb0W6PgW3rEZD_FFHbdOlOljdKCMEKM.jpg",
-      "dates": {
-        "start": "2026-11-20",
-        "end": null,
-        "is_period": false,
-        "bucket": "today"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
       "id": "lacommere43_search_0",
-      "title": "« Sacrés Galaïres ! » : la vie de l'Ehpad des Bruyères àDunièrescroquée en B",
-      "summary": "Et si le quotidien en Ehpad se racontait autrement ? C'est le pari de Virginie Bourdier, qui travaille à la résidence Les Bruyères – Le Triolet, àDunières. À travers sa b",
+      "title": "« Sacrés Galaïres ! » : la vie de l'Ehpad des Bruyères à Dunières croquée en BD",
+      "summary": "Et si le quotidien en Ehpad se racontait autrement ? C'est le pari de Virginie Bourdier, qui travaille à la résidence Les Bruyères – Le Triolet, à Dunières. À travers sa bande dessinée intitulée « Sacrés Galaïres !",
+      "full_content": "Et si le quotidien en Ehpad se racontait autrement ? C'est le pari de Virginie Bourdier, qui travaille à la résidence Les Bruyères – Le Triolet, à Dunières.\n\nÀ travers sa bande dessinée intitulée « Sacrés Galaïres ! », elle a souhaité mettre en lumière la vie de son établissement, ses habitants, leurs familles et les professionnels qui les accompagnent au quotidien.\n\nInspiré de situations vécues, de petits moments de complicité, d'anecdotes et de scènes parfois cocasses, cet ouvrage est avant tout un témoignage plein d'humanité et d'humour sur la vie en Ehpad.\n\nCar derrière les portes d'un établissement, il y a bien plus que des soins et des habitudes : il y a des personnalités, des histoires de vie, des rires, des larmes, de la fatigue, de l'émotion et surtout beaucoup de vie.\n\nRéalisée avec affection et une bonne dose d'humour, cette BD est aussi une façon de rendre hommage aux habitants et aux équipes qui font vivre la résidence chaque jour.\n\nSon titre, « Sacrés Galaïres ! », fait référence à ces petits plaisantins, ces personnages hauts en couleur qui donnent du relief au quotidien.\n\nVendue au prix de 10 euros, la BD permettra de contribuer au financement des animations proposées aux habitants de la résidence. Une belle façon de prolonger l'aventure en faisant aussi plaisir à ceux qui font vivre les Bruyères.\n\nUne chose est sûre : aux Bruyères, on rit, on pleure, on vit tout simplement.",
       "category": "Manifestations & Vie Associative",
       "badge": "Animation",
       "source_name": "La Commère 43",
       "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86434-sacres-galaires-la-vie-de-l-ehpad-des-bruyeres-a-dunieres-croquee-en-bd.html",
-      "image_url": null,
+      "image_url": "https://www.lacommere43.fr/media/k2/items/cache/168da226118fca4b45a41e72facd4282_M.jpg",
       "dates": {
-        "start": "2026-11-20",
+        "start": "2026-11-19",
         "end": null,
         "is_period": false,
-        "bucket": "today"
+        "bucket": "retrospective"
+      },
+      "timing": {
+        "start_time": null,
+        "end_time": null,
+        "duration_minutes": null,
+        "all_day": true
       },
       "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
@@ -572,186 +608,165 @@
     },
     {
       "id": "lacommere43_search_1",
-      "title": "Il ouvre son garage automobile au milieu de la nature, entreDunièreset Saint-Jul",
-      "summary": "Nicolas Truchet vient d'ouvrir un garage automobile au milieu de la campagne, entre Saint-Julien-Molhesabate etDunières, au hameau de \"Coirolles\". Nicolas Truchet a effe",
+      "title": "Il ouvre son garage automobile au milieu de la nature, entre Dunières et Saint-Julien-Molhesabate",
+      "summary": "Nicolas Truchet vient d'ouvrir un garage automobile au milieu de la campagne, entre Saint-Julien-Molhesabate et Dunières, au hameau de \"Coirolles\". Nicolas Truchet a effectué un CAP et bac pro mécanique automobile, suivis de 7 ans d'expérience dans un garage…",
+      "full_content": "Nicolas Truchet vient d'ouvrir un garage automobile au milieu de la campagne, entre Saint-Julien-Molhesabate et Dunières, au hameau de \"Coirolles\".\n\nNicolas Truchet a effectué un CAP et bac pro mécanique automobile, suivis de 7 ans d'expérience dans un garage Peugeot en région lyonnaise.\n\nOriginaire de l'Isère, il souhaitait changer de rythme de vie, se rapprocher de la nature et retrouver un environnement plus paisible. Saint-Julien-Molhesabate l'a séduit par son cadre de vie et il a puisé l'envie d'y bâtir un nouveau chapitre.\n\n\"J'ai l'envie de développer mon activité, de construire un projet professionnel qui me ressemble et de proposer un service de proximité, accessible et utile aux habitants, fondé sur l'échange et la confiance.\"\n\nPassionné d'automobile depuis tout petit, notamment de Renault Sport, il a grandi avec cette passion grâce à son père et sa R5 Alpine Turbo. \"Il m'emmenait également sur les courses de côte de la région iséroise. Tous ces moments ont nourri ma passion et m'ont très tôt donné envie de faire de l'automobile mon métier.\"\n\nLe garage Truchet propose différentes prestations automobiles : entretien courant, réparations mécaniques, diagnostic de pannes ainsi que des prestations liées aux pneumatiques.\n\nInfos pratiques\n\nTéléphone : 07.77.08.43.37\n\nMail : [email protected]\n\nInstagram : https://www.instagram.com/garagetruchet_/\n\nFacebook : https://www.facebook.com/profile.php?id=61595533967124",
       "category": "Manifestations & Vie Associative",
       "badge": "Animation",
       "source_name": "La Commère 43",
       "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86433-il-ouvre-son-garage-automobile-au-milieu-de-la-nature-entre-dunieres-et-saint-julien-molhesabate.html",
-      "image_url": null,
+      "image_url": "https://www.lacommere43.fr/media/k2/items/cache/a3b3d30b13411d455f05a4a822faa935_M.jpg",
       "dates": {
-        "start": "2026-11-20",
-        "end": null,
-        "is_period": false,
-        "bucket": "today"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "lacommere43_search_2",
-      "title": "Les karatékas du Seijitsu dojo deDunièresbrillent à Yssingeaux",
-      "summary": "Les karatékas du Seijitsu dojo deDunièresse sont illustrés samedi 14 novembre à Yssingeaux, à l'occasion de la coupe et du championnat départemental de karaté. Une belle journée pour les ...",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "La Commère 43",
-      "source_url": "https://www.lacommere43.fr/sport/item/86427-les-karatekas-du-seijitsu-dojo-de-dunieres-brillent-a-yssingeaux.html",
-      "image_url": null,
-      "dates": {
-        "start": "2026-11-14",
+        "start": "2026-11-19",
         "end": null,
         "is_period": false,
         "bucket": "retrospective"
       },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "lacommere43_search_3",
-      "title": "Dunières: Fanny Souchon crée des bijoux fantaisie à l'enseigne ALMA des Suc",
-      "summary": "Fanny Souchon lance ALMA des Sucs àDunières, une micro-entreprise artisanale proposant des bijoux faits à la main en pâte polymère, avec des attaches en acier inoxydable.",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "La Commère 43",
-      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86404-dunieres-fanny-souchon-cree-des-bijoux-fantaisie-a-l-enseigne-alma-des-sucs.html",
-      "image_url": null,
-      "dates": {
-        "start": "2026-11-20",
-        "end": null,
-        "is_period": false,
-        "bucket": "today"
+      "timing": {
+        "start_time": null,
+        "end_time": null,
+        "duration_minutes": null,
+        "all_day": true
       },
       "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "lacommere43_search_4",
-      "title": "André Marcon raconte l'intimité familiale dans son livre \"Les Marcon de Saint-Bo",
-      "summary": "André Marcon vient de publier un livre où il raconte l'histoire familiale, \"Les Marcon de Saint-Bonnet-le-Froid\" (éditions La Clé du chemin). Une famille intimement liée à Saint-Bonnet-le",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "La Commère 43",
-      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86403-saint-bonnet-le-froid-andre-marcon-fait-entrer-dans-l-intimite-familiale-dans-son-livre.html",
-      "image_url": null,
-      "dates": {
-        "start": "2026-11-20",
-        "end": null,
-        "is_period": false,
-        "bucket": "today"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "lacommere43_search_5",
-      "title": "Dunières: le loto qui séduit petits et grands le 29 novembre",
-      "summary": "L'équipe de l'APEL deDunièress'est retrouvée afin de finaliser la préparation de son loto du 29 novembre. L'association de parents ne change pas un concept qui plaît, ...",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "La Commère 43",
-      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86351-dunieres-le-loto-qui-seduit-petits-et-grands-le-29-novembre.html",
-      "image_url": null,
-      "dates": {
-        "start": "2026-11-29",
-        "end": null,
-        "is_period": false,
-        "bucket": "upcoming"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "lacommere43_search_6",
-      "title": "Raucoules : de bonnes affaires et une bonne action à la bourse aux jouets",
-      "summary": "La bourse aux jouets, vêtements et articles de puériculture organisée le dimanche 15 novembre à la salle polyvalente de Raucoules a rencontré un beau succès. Organisée conj",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "La Commère 43",
-      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86350-raucoules-de-bonnes-affaires-et-une-bonne-action-a-la-bourse-aux-jouets.html",
-      "image_url": null,
-      "dates": {
-        "start": "2026-11-15",
-        "end": null,
-        "is_period": false,
-        "bucket": "retrospective"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "lacommere43_search_7",
-      "title": "Basket, RF2 :Dunièresn'y arrive pas cette saiso",
-      "summary": "Les basketteuses deDunièressont en souffrance cette saison en Régionale 2. Elles ont perdu samedi à domicile contre Unieux-Fraisses (41-60). Dunières a entamé la phase re",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "La Commère 43",
-      "source_url": "https://www.lacommere43.fr/sport/item/86334-basket-rf2-dunieres-n-y-arrive-pas-cette-saison.html",
-      "image_url": null,
-      "dates": {
-        "start": "2026-11-20",
-        "end": null,
-        "is_period": false,
-        "bucket": "today"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
-      "id": "lacommere43_search_8",
-      "title": "Dunières: pourquoi le tabac-presse avait candidaté sur l'achat de l'ancien burea",
-      "summary": "Le dernier conseil municipal deDunièresa évoqué l'avenir de l'ancien bureau de poste. Les élus ont écarté la proposition d'achat du bureau de tabac-presse. Ces commerçants font face à",
-      "category": "Vie Municipale & Délibérations",
-      "badge": "Conseil Municipal",
-      "source_name": "La Commère 43",
-      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86295-dunieres-pourquoi-le-tabac-presse-avait-candidate-sur-l-achat-de-l-ancien-bureau-de-poste.html",
-      "image_url": null,
-      "dates": {
-        "start": "2026-11-20",
-        "end": null,
-        "is_period": false,
-        "bucket": "today"
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "high",
       "has_attachment": false,
       "attachment_type": null,
       "attachment_data": null
     },
     {
       "id": "lacommere43_search_9",
-      "title": "Burgers et karaoké : le FJEP deDunièresvous invite à sa soirée du 20 novembre",
-      "summary": "L'association FJEP deDunièresorganise une soirée burger karaoké le vendredi 20 novembre à partir de 18 h 30, à la salle de la Mutualité de Dunières. Envie de pousser la",
+      "title": "Burgers et karaoké : le FJEP de Dunières vous invite à sa soirée du 20 novembre",
+      "summary": "L'association FJEP de Dunières organise une soirée burger karaoké le vendredi 20 novembre à partir de 18 h 30, à la salle de la Mutualité de Dunières. Envie de pousser la chansonnette entre amis ou en famille ?",
+      "full_content": "L'association FJEP de Dunières organise une soirée burger karaoké le vendredi 20 novembre à partir de 18 h 30, à la salle de la Mutualité de Dunières.\n\nEnvie de pousser la chansonnette entre amis ou en famille ? L'association des parents d'élèves de l'école de Dunières organise une soirée burger karaoké le vendredi 20 novembre, à partir de 18 h 30, à la salle de la Mutualité (à côté du centre de loisirs).\n\nAu menu, deux formules simples et gourmandes : burger + frites à 10 €, ou nuggets + frites à 6 € pour les plus petits appétits. Les repas sont à déguster sur place dans une ambiance conviviale, ou à emporter pour ceux qui préfèrent profiter de leur soirée à la maison.\n\nUne fois le repas servi, place à la scène ! Tubes des années 80, chansons françaises, classiques à reprendre en chœur ou duos improvisés : chacun pourra choisir son morceau et tenter sa chance au micro, chanteur confirmé ou simple amateur de refrains sous la douche. Petits et grands sont les bienvenus.\n\nAttention : les précommandes sont fortement conseillées sur la plateforme helloasso.com.",
       "category": "Manifestations & Vie Associative",
       "badge": "Animation",
       "source_name": "La Commère 43",
       "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86272-burgers-et-karaoke-le-fjep-de-dunieres-vous-invite-a-sa-soiree-du-20-novembre.html",
-      "image_url": null,
+      "image_url": "https://www.lacommere43.fr/media/k2/items/cache/4b08ef4a356e3cd1a1eafef1a3a510f1_M.jpg",
       "dates": {
         "start": "2026-11-20",
         "end": null,
         "is_period": false,
+        "bucket": "retrospective"
+      },
+      "timing": {
+        "start_time": "18:30",
+        "end_time": null,
+        "duration_minutes": null,
+        "all_day": false
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "illiwap_dunieres_concours-coinche-samedi-21-novembre-14h-ephata-43-7",
+      "title": "concours coinche samedi 21 novembre 14h EPHATA 43",
+      "summary": "L'association Ephata 43 renouvelle son concours de coinche, le samedi 21 novembre 2026, à la Salle des Associations de Dunières (derrière le gymnase). Le concours est ouvert à tous : participants seuls et duo. Toutes les doublettes seront primées.",
+      "full_content": "L'association Ephata 43 renouvelle son concours de coinche, le samedi 21 novembre 2026, à la Salle des Associations de Dunières (derrière le gymnase).\nLe concours est ouvert à tous : participants seuls et duo.\nToutes les doublettes seront primées. Premier lot = 2 x 100€.\nDébut des inscriptions à 14h. Fin des inscriptions à 14h30.\nAmbiance conviviale et buvette sur place.\nVenez nombreux !\nSource : Mairie de Dunières",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "source_name": "Illiwap Mairie de Dunières",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/concours-coinche-samedi-21-novembre-14h-ephata-43-7",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/TBz3Z26sovPNfbcpyBQps-bWW29mJ8zV.jpg",
+      "dates": {
+        "start": "2026-11-21",
+        "end": null,
+        "is_period": false,
         "bucket": "today"
+      },
+      "timing": {
+        "start_time": "14:00",
+        "end_time": null,
+        "duration_minutes": null,
+        "all_day": false
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "illiwap_comcom_ev_theatre-d-objets-le-mystere-leon-plouhinec",
+      "title": "Théâtre d’objets « Le Mystère Léon Plouhinec »",
+      "summary": "Dimanche 22 novembre, 16h Théâtre d’objets « Le Mystère Léon Plouhinec » par la Compagnie des Étourneaux Il n’a jamais quitté son phare. Et pourtant, tout le monde le cherche !",
+      "full_content": "Dimanche 22 novembre, 16h\nThéâtre d’objets « Le Mystère Léon Plouhinec » par la Compagnie des Étourneaux\nIl n’a jamais quitté son phare. Et pourtant, tout le monde le cherche ! Léon Plouhinec est gardien de phare, mais dans ses lettres défilent un cosmonaute russe, des agents secrets anglais et des collectionneurs de parfum. Jusqu’au jour où sa disparition est annoncée sur les ondes de Radio Méduse. La commissaire Pantin reprend alors l’enquête depuis le début. Un spectacle loufoque et poétique, entre théâtre, musique et papier découpé, adapté de l’album de Judith Chomel.\n📍 Salle Renaissance, Montfaucon-en-Velay\n🗓️ Dimanche 22 novembre à 16h\n⏱️ Durée : 1h\n🎟️ Adulte : 10 €, tarif réduit (12-17 ans, étudiants, demandeurs d’emploi) : 6 €, gratuit pour les moins de 12 ans\n👨‍👩‍👧 Dès 6 ans\n✅ Réservation obligatoire : hautpaysduvelay-communaute.fr/billetterie\n📞 Office de Tourisme de Montfaucon-en-Velay : 04 71 59 95 73",
+      "category": "Culture & Patrimoine",
+      "badge": "Culture",
+      "source_name": "Illiwap Haut Pays du Velay Communauté",
+      "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/evenements/theatre-d-objets-le-mystere-leon-plouhinec",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/AngRM8vlcQ9xVb0W6PgW3rEZD_FFHbdOlOljdKCMEKM.jpg",
+      "dates": {
+        "start": "2026-11-22",
+        "end": null,
+        "is_period": false,
+        "bucket": "upcoming"
+      },
+      "timing": {
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "duration_minutes": 60,
+        "all_day": false
+      },
+      "location": "Salle Renaissance, Montfaucon-en-Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "illiwap_dunieres_atelier-bien-etre-soutenir-l-immunite-par-des-solutions-2",
+      "title": "📅 Atelier bien-être : soutenir l’immunité par des solutions",
+      "summary": "À l’approche de l’hiver, Haut Pays du Velay communauté, en partenariat avec l’ARSEPT, la Conférence des financeurs et Pour Bien Vieillir, propose un atelier destiné aux personnes de 55 ans et plus.",
+      "full_content": "À l’approche de l’hiver, Haut Pays du Velay communauté, en partenariat avec l’ARSEPT, la Conférence des financeurs et Pour Bien Vieillir, propose un atelier destiné aux personnes de 55 ans et plus.\nAurélie Vernerey, naturopathe, partagera des conseils simples et accessibles pour aider l’organisme à passer la saison froide dans de bonnes conditions.\n📍 Salle des fêtes, 9 allées des Écoliers, Saint Romain-Lachalm\n🗓️ Mardi 24 novembre à 14h\n👥 À partir de 55 ans\n✍️ Inscription et renseignements auprès de Haut Pays du Velay communauté : 04 71 65 74 09",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "source_name": "Illiwap Mairie de Dunières",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/atelier-bien-etre-soutenir-l-immunite-par-des-solutions-2",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/JTU4C3XpPm6q-w3Xxm9nHG2X5FsVDWs5eFbFXEhJrnk.jpg",
+      "dates": {
+        "start": "2026-11-24",
+        "end": null,
+        "is_period": false,
+        "bucket": "upcoming"
+      },
+      "timing": {
+        "start_time": "14:00",
+        "end_time": null,
+        "duration_minutes": null,
+        "all_day": false
+      },
+      "location": "Salle des fêtes, 9 allées des Écoliers, Saint Romain-Lachalm",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "illiwap_dunieres_la-semaine-europeenne-de-reduction-des-dechets-3",
+      "title": "La Semaine Européenne de Réduction des Déchets",
+      "summary": "La Semaine Européenne de Réduction des Déchets, cette année, met en lumière un phénomène qui façonne profondément nos modes de vie : l’ultra consommation. Derrière nos objets du quotidien se cache une réalité bien moins visible : un coût environnemental…",
+      "full_content": "La Semaine Européenne de Réduction des Déchets, cette année, met en lumière un phénomène qui façonne profondément nos modes de vie : l’ultra consommation. Derrière nos objets du quotidien se cache une réalité bien moins visible : un coût environnemental, social et sanitaire.\nNous avons choisi de mettre en lumière la fast-fashion (= pratique de l'industrie de la mode qui renouvelle très rapidement ses collections, générant des quantités considérables de vêtements) et les façons dont nous agissons pour réduire ses impacts.\nRendez-vous vendredi 27 novembre 2026 à TENCE (6 rue de Saint-Agrève) :\nSalle Maria Bonnet, l'après-midi, pour des animations et une friperie (de 13h à 19h)\nAu cinéma pour un ciné-débat (de 20h30 à 22h)",
+      "category": "Services & Déchets",
+      "badge": "Service Public",
+      "source_name": "Illiwap Mairie de Dunières",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/la-semaine-europeenne-de-reduction-des-dechets-3",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/xan0cUm36kOBUQ84qmEVqgTCPJ4NN-80a82x644_EQA.jpg",
+      "dates": {
+        "start": "2026-11-27",
+        "end": null,
+        "is_period": false,
+        "bucket": "upcoming"
+      },
+      "timing": {
+        "start_time": "13:00",
+        "end_time": "19:00",
+        "duration_minutes": 360,
+        "all_day": false
       },
       "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
