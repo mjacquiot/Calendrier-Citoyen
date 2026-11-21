@@ -3,20 +3,20 @@
     "commune": "Dunières",
     "code_postal": "43220",
     "intercommunalite": "Haut Pays du Velay Communauté",
-    "generated_at": "2026-11-21T00:00:19.415902+01:00",
+    "generated_at": "2026-11-21T14:01:12.096025+01:00",
     "reference_date": "2026-11-21",
     "sliding_window": {
       "retrospective_days": 7,
       "upcoming_days": 7
     },
     "counts": {
-      "total_analyzed": 15,
+      "total_analyzed": 16,
       "total_accepted": 13,
       "total_rejected": 0,
-      "total_out_of_window": 2,
+      "total_out_of_window": 3,
       "retrospective": 9,
-      "today": 1,
-      "upcoming": 3
+      "today": 0,
+      "upcoming": 4
     }
   },
   "buckets": {
@@ -283,36 +283,7 @@
         "attachment_data": null
       }
     ],
-    "today": [
-      {
-        "id": "illiwap_dunieres_concours-coinche-samedi-21-novembre-14h-ephata-43-7",
-        "title": "concours coinche samedi 21 novembre 14h EPHATA 43",
-        "summary": "L'association Ephata 43 renouvelle son concours de coinche, le samedi 21 novembre 2026, à la Salle des Associations de Dunières (derrière le gymnase). Le concours est ouvert à tous : participants seuls et duo. Toutes les doublettes seront primées.",
-        "full_content": "L'association Ephata 43 renouvelle son concours de coinche, le samedi 21 novembre 2026, à la Salle des Associations de Dunières (derrière le gymnase).\nLe concours est ouvert à tous : participants seuls et duo.\nToutes les doublettes seront primées. Premier lot = 2 x 100€.\nDébut des inscriptions à 14h. Fin des inscriptions à 14h30.\nAmbiance conviviale et buvette sur place.\nVenez nombreux !\nSource : Mairie de Dunières",
-        "category": "Manifestations & Vie Associative",
-        "badge": "Animation",
-        "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/concours-coinche-samedi-21-novembre-14h-ephata-43-7",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/TBz3Z26sovPNfbcpyBQps-bWW29mJ8zV.jpg",
-        "dates": {
-          "start": "2026-11-21",
-          "end": null,
-          "is_period": false,
-          "bucket": "today"
-        },
-        "timing": {
-          "start_time": "14:00",
-          "end_time": null,
-          "duration_minutes": null,
-          "all_day": false
-        },
-        "location": "Dunières / Haut Pays du Velay",
-        "importance": "normal",
-        "has_attachment": false,
-        "attachment_type": null,
-        "attachment_data": null
-      }
-    ],
+    "today": [],
     "upcoming": [
       {
         "id": "illiwap_comcom_ev_theatre-d-objets-le-mystere-leon-plouhinec",
@@ -343,15 +314,15 @@
         "attachment_data": null
       },
       {
-        "id": "illiwap_dunieres_atelier-bien-etre-soutenir-l-immunite-par-des-solutions-2",
+        "id": "illiwap_comcom_atelier-bien-etre-soutenir-l-immunite-par-des-solutions",
         "title": "📅 Atelier bien-être : soutenir l’immunité par des solutions",
         "summary": "À l’approche de l’hiver, Haut Pays du Velay communauté, en partenariat avec l’ARSEPT, la Conférence des financeurs et Pour Bien Vieillir, propose un atelier destiné aux personnes de 55 ans et plus.",
         "full_content": "À l’approche de l’hiver, Haut Pays du Velay communauté, en partenariat avec l’ARSEPT, la Conférence des financeurs et Pour Bien Vieillir, propose un atelier destiné aux personnes de 55 ans et plus.\nAurélie Vernerey, naturopathe, partagera des conseils simples et accessibles pour aider l’organisme à passer la saison froide dans de bonnes conditions.\n📍 Salle des fêtes, 9 allées des Écoliers, Saint Romain-Lachalm\n🗓️ Mardi 24 novembre à 14h\n👥 À partir de 55 ans\n✍️ Inscription et renseignements auprès de Haut Pays du Velay communauté : 04 71 65 74 09",
         "category": "Manifestations & Vie Associative",
         "badge": "Animation",
-        "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/atelier-bien-etre-soutenir-l-immunite-par-des-solutions-2",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/JTU4C3XpPm6q-w3Xxm9nHG2X5FsVDWs5eFbFXEhJrnk.jpg",
+        "source_name": "Illiwap Haut Pays du Velay Communauté",
+        "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/actu/atelier-bien-etre-soutenir-l-immunite-par-des-solutions",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/WbfqEmcFUDoApMIdmuTUWvHw_FYBxb1sT3V__9ZFLec.jpg",
         "dates": {
           "start": "2026-11-24",
           "end": null,
@@ -371,25 +342,53 @@
         "attachment_data": null
       },
       {
-        "id": "illiwap_dunieres_la-semaine-europeenne-de-reduction-des-dechets-3",
-        "title": "La Semaine Européenne de Réduction des Déchets",
-        "summary": "La Semaine Européenne de Réduction des Déchets, cette année, met en lumière un phénomène qui façonne profondément nos modes de vie : l’ultra consommation. Derrière nos objets du quotidien se cache une réalité bien moins visible : un coût environnemental…",
-        "full_content": "La Semaine Européenne de Réduction des Déchets, cette année, met en lumière un phénomène qui façonne profondément nos modes de vie : l’ultra consommation. Derrière nos objets du quotidien se cache une réalité bien moins visible : un coût environnemental, social et sanitaire.\nNous avons choisi de mettre en lumière la fast-fashion (= pratique de l'industrie de la mode qui renouvelle très rapidement ses collections, générant des quantités considérables de vêtements) et les façons dont nous agissons pour réduire ses impacts.\nRendez-vous vendredi 27 novembre 2026 à TENCE (6 rue de Saint-Agrève) :\nSalle Maria Bonnet, l'après-midi, pour des animations et une friperie (de 13h à 19h)\nAu cinéma pour un ciné-débat (de 20h30 à 22h)",
-        "category": "Services & Déchets",
-        "badge": "Service Public",
+        "id": "illiwap_dunieres_tripes-saucisses-sapeurs-pompiers-28-11-2026-dunieres-2",
+        "title": "Tripes saucisses - Sapeurs Pompiers - 28/11/2026 - DUNIERES",
+        "summary": "L'Amicale des Sapeurs Pompiers organise \"Tripes Saucisses\" le samedi 28/11/2026 à la caserne de Dunières de 9h à 13h30. Tous les bénéfices sont reversés à l'oeuvre des Pupilles. Source : Mairie de Dunières",
+        "full_content": "L'Amicale des Sapeurs Pompiers organise \"Tripes Saucisses\" le samedi 28/11/2026 à la caserne de Dunières de 9h à 13h30.\nTous les bénéfices sont reversés à l'oeuvre des Pupilles.\nSource : Mairie de Dunières",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
         "source_name": "Illiwap Mairie de Dunières",
-        "source_url": "https://station.illiwap.com/fr/public/43087/actu/la-semaine-europeenne-de-reduction-des-dechets-3",
-        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/xan0cUm36kOBUQ84qmEVqgTCPJ4NN-80a82x644_EQA.jpg",
+        "source_url": "https://station.illiwap.com/fr/public/43087/actu/tripes-saucisses-sapeurs-pompiers-28-11-2026-dunieres-2",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/X5srwKzDqO1X2we0oJzhSs9BfW7dQUdk.jpg",
         "dates": {
-          "start": "2026-11-27",
-          "end": null,
+          "start": "2026-11-28",
+          "end": "2026-11-28",
           "is_period": false,
           "bucket": "upcoming"
         },
         "timing": {
-          "start_time": "13:00",
-          "end_time": "19:00",
-          "duration_minutes": 360,
+          "start_time": "09:00",
+          "end_time": "13:30",
+          "duration_minutes": 270,
+          "all_day": false
+        },
+        "location": "Dunières / Haut Pays du Velay",
+        "importance": "normal",
+        "has_attachment": false,
+        "attachment_type": null,
+        "attachment_data": null
+      },
+      {
+        "id": "illiwap_dunieres_tripes-saucisses-sapeurs-pompiers-de-dunieres-28-11-2026-2",
+        "title": "Tripes saucisses - Sapeurs Pompiers de Dunières - 28/11/2026",
+        "summary": "L'Amicale des Sapeurs Pompiers organise \"Tripes Saucisses\" le samedi 28/11/2026 à la caserne de Dunières de 9h à 13h30. Tous les bénéfices sont reversés à l'oeuvre des Pupilles. Source : Mairie de Dunières",
+        "full_content": "L'Amicale des Sapeurs Pompiers organise \"Tripes Saucisses\" le samedi 28/11/2026 à la caserne de Dunières de 9h à 13h30.\nTous les bénéfices sont reversés à l'oeuvre des Pupilles.\nSource : Mairie de Dunières",
+        "category": "Manifestations & Vie Associative",
+        "badge": "Animation",
+        "source_name": "Illiwap Mairie de Dunières",
+        "source_url": "https://station.illiwap.com/fr/public/43087/actu/tripes-saucisses-sapeurs-pompiers-de-dunieres-28-11-2026-2",
+        "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/xPxyoh8iraB7rVVWV1NL-D2XxViMYqgQ.jpg",
+        "dates": {
+          "start": "2026-11-28",
+          "end": "2026-11-28",
+          "is_period": false,
+          "bucket": "upcoming"
+        },
+        "timing": {
+          "start_time": "09:00",
+          "end_time": "13:30",
+          "duration_minutes": 270,
           "all_day": false
         },
         "location": "Dunières / Haut Pays du Velay",
@@ -663,34 +662,6 @@
       "attachment_data": null
     },
     {
-      "id": "illiwap_dunieres_concours-coinche-samedi-21-novembre-14h-ephata-43-7",
-      "title": "concours coinche samedi 21 novembre 14h EPHATA 43",
-      "summary": "L'association Ephata 43 renouvelle son concours de coinche, le samedi 21 novembre 2026, à la Salle des Associations de Dunières (derrière le gymnase). Le concours est ouvert à tous : participants seuls et duo. Toutes les doublettes seront primées.",
-      "full_content": "L'association Ephata 43 renouvelle son concours de coinche, le samedi 21 novembre 2026, à la Salle des Associations de Dunières (derrière le gymnase).\nLe concours est ouvert à tous : participants seuls et duo.\nToutes les doublettes seront primées. Premier lot = 2 x 100€.\nDébut des inscriptions à 14h. Fin des inscriptions à 14h30.\nAmbiance conviviale et buvette sur place.\nVenez nombreux !\nSource : Mairie de Dunières",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/concours-coinche-samedi-21-novembre-14h-ephata-43-7",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/TBz3Z26sovPNfbcpyBQps-bWW29mJ8zV.jpg",
-      "dates": {
-        "start": "2026-11-21",
-        "end": null,
-        "is_period": false,
-        "bucket": "today"
-      },
-      "timing": {
-        "start_time": "14:00",
-        "end_time": null,
-        "duration_minutes": null,
-        "all_day": false
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
       "id": "illiwap_comcom_ev_theatre-d-objets-le-mystere-leon-plouhinec",
       "title": "Théâtre d’objets « Le Mystère Léon Plouhinec »",
       "summary": "Dimanche 22 novembre, 16h Théâtre d’objets « Le Mystère Léon Plouhinec » par la Compagnie des Étourneaux Il n’a jamais quitté son phare. Et pourtant, tout le monde le cherche !",
@@ -719,15 +690,15 @@
       "attachment_data": null
     },
     {
-      "id": "illiwap_dunieres_atelier-bien-etre-soutenir-l-immunite-par-des-solutions-2",
+      "id": "illiwap_comcom_atelier-bien-etre-soutenir-l-immunite-par-des-solutions",
       "title": "📅 Atelier bien-être : soutenir l’immunité par des solutions",
       "summary": "À l’approche de l’hiver, Haut Pays du Velay communauté, en partenariat avec l’ARSEPT, la Conférence des financeurs et Pour Bien Vieillir, propose un atelier destiné aux personnes de 55 ans et plus.",
       "full_content": "À l’approche de l’hiver, Haut Pays du Velay communauté, en partenariat avec l’ARSEPT, la Conférence des financeurs et Pour Bien Vieillir, propose un atelier destiné aux personnes de 55 ans et plus.\nAurélie Vernerey, naturopathe, partagera des conseils simples et accessibles pour aider l’organisme à passer la saison froide dans de bonnes conditions.\n📍 Salle des fêtes, 9 allées des Écoliers, Saint Romain-Lachalm\n🗓️ Mardi 24 novembre à 14h\n👥 À partir de 55 ans\n✍️ Inscription et renseignements auprès de Haut Pays du Velay communauté : 04 71 65 74 09",
       "category": "Manifestations & Vie Associative",
       "badge": "Animation",
-      "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/atelier-bien-etre-soutenir-l-immunite-par-des-solutions-2",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/JTU4C3XpPm6q-w3Xxm9nHG2X5FsVDWs5eFbFXEhJrnk.jpg",
+      "source_name": "Illiwap Haut Pays du Velay Communauté",
+      "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/actu/atelier-bien-etre-soutenir-l-immunite-par-des-solutions",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/WbfqEmcFUDoApMIdmuTUWvHw_FYBxb1sT3V__9ZFLec.jpg",
       "dates": {
         "start": "2026-11-24",
         "end": null,
@@ -747,25 +718,53 @@
       "attachment_data": null
     },
     {
-      "id": "illiwap_dunieres_la-semaine-europeenne-de-reduction-des-dechets-3",
-      "title": "La Semaine Européenne de Réduction des Déchets",
-      "summary": "La Semaine Européenne de Réduction des Déchets, cette année, met en lumière un phénomène qui façonne profondément nos modes de vie : l’ultra consommation. Derrière nos objets du quotidien se cache une réalité bien moins visible : un coût environnemental…",
-      "full_content": "La Semaine Européenne de Réduction des Déchets, cette année, met en lumière un phénomène qui façonne profondément nos modes de vie : l’ultra consommation. Derrière nos objets du quotidien se cache une réalité bien moins visible : un coût environnemental, social et sanitaire.\nNous avons choisi de mettre en lumière la fast-fashion (= pratique de l'industrie de la mode qui renouvelle très rapidement ses collections, générant des quantités considérables de vêtements) et les façons dont nous agissons pour réduire ses impacts.\nRendez-vous vendredi 27 novembre 2026 à TENCE (6 rue de Saint-Agrève) :\nSalle Maria Bonnet, l'après-midi, pour des animations et une friperie (de 13h à 19h)\nAu cinéma pour un ciné-débat (de 20h30 à 22h)",
-      "category": "Services & Déchets",
-      "badge": "Service Public",
+      "id": "illiwap_dunieres_tripes-saucisses-sapeurs-pompiers-28-11-2026-dunieres-2",
+      "title": "Tripes saucisses - Sapeurs Pompiers - 28/11/2026 - DUNIERES",
+      "summary": "L'Amicale des Sapeurs Pompiers organise \"Tripes Saucisses\" le samedi 28/11/2026 à la caserne de Dunières de 9h à 13h30. Tous les bénéfices sont reversés à l'oeuvre des Pupilles. Source : Mairie de Dunières",
+      "full_content": "L'Amicale des Sapeurs Pompiers organise \"Tripes Saucisses\" le samedi 28/11/2026 à la caserne de Dunières de 9h à 13h30.\nTous les bénéfices sont reversés à l'oeuvre des Pupilles.\nSource : Mairie de Dunières",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
       "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/la-semaine-europeenne-de-reduction-des-dechets-3",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/xan0cUm36kOBUQ84qmEVqgTCPJ4NN-80a82x644_EQA.jpg",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/tripes-saucisses-sapeurs-pompiers-28-11-2026-dunieres-2",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/X5srwKzDqO1X2we0oJzhSs9BfW7dQUdk.jpg",
       "dates": {
-        "start": "2026-11-27",
-        "end": null,
+        "start": "2026-11-28",
+        "end": "2026-11-28",
         "is_period": false,
         "bucket": "upcoming"
       },
       "timing": {
-        "start_time": "13:00",
-        "end_time": "19:00",
-        "duration_minutes": 360,
+        "start_time": "09:00",
+        "end_time": "13:30",
+        "duration_minutes": 270,
+        "all_day": false
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "illiwap_dunieres_tripes-saucisses-sapeurs-pompiers-de-dunieres-28-11-2026-2",
+      "title": "Tripes saucisses - Sapeurs Pompiers de Dunières - 28/11/2026",
+      "summary": "L'Amicale des Sapeurs Pompiers organise \"Tripes Saucisses\" le samedi 28/11/2026 à la caserne de Dunières de 9h à 13h30. Tous les bénéfices sont reversés à l'oeuvre des Pupilles. Source : Mairie de Dunières",
+      "full_content": "L'Amicale des Sapeurs Pompiers organise \"Tripes Saucisses\" le samedi 28/11/2026 à la caserne de Dunières de 9h à 13h30.\nTous les bénéfices sont reversés à l'oeuvre des Pupilles.\nSource : Mairie de Dunières",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "source_name": "Illiwap Mairie de Dunières",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/tripes-saucisses-sapeurs-pompiers-de-dunieres-28-11-2026-2",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/xPxyoh8iraB7rVVWV1NL-D2XxViMYqgQ.jpg",
+      "dates": {
+        "start": "2026-11-28",
+        "end": "2026-11-28",
+        "is_period": false,
+        "bucket": "upcoming"
+      },
+      "timing": {
+        "start_time": "09:00",
+        "end_time": "13:30",
+        "duration_minutes": 270,
         "all_day": false
       },
       "location": "Dunières / Haut Pays du Velay",
