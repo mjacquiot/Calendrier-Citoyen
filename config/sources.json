@@ -5,6 +5,10 @@
     "code_insee": "43087",
     "intercommunalite": "Haut Pays du Velay Communauté"
   },
+  "sliding_window": {
+    "retrospective_days": 7,
+    "upcoming_days": 7
+  },
   "territoire_keywords": [
     "Dunières",
     "Dunieres",

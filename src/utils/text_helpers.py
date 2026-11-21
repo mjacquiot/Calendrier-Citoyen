@@ -7,11 +7,17 @@ import re
 from bs4 import BeautifulSoup, Tag
 
 
+_LEADING_DECORATIVE_EMOJI_RE = re.compile(
+    r"^[\s\U0001F300-\U0001FAFF\u2600-\u27BF\ufe0f\u200d•\-–—|:]+"
+)
+
+
 def normalize_text(text: str) -> str:
     """
     Nettoie une chaîne de texte issue d'un scraping HTML ou RSS :
     - Décode les entités HTML (&amp;, &#039;, &nbsp;, etc.)
     - Remplace les espaces insécables et caractères invisibles
+    - Supprime les artefacts Cloudflare de masquage d'email ([email protected])
     - Sépare proprement les URLs collées au texte adjacent
     - Corrige les espaces superflus avant virgule/point ou après élision française
     - Préserve les sauts de paragraphe propres
@@ -23,6 +29,15 @@ def normalize_text(text: str) -> str:
     cleaned = cleaned.replace("\r\n", "\n").replace("\r", "\n")
     cleaned = cleaned.replace("\xa0", " ").replace("\u202f", " ").replace("\u2009", " ")
     cleaned = cleaned.replace("\u200b", "").replace("\ufeff", "")
+
+    # Supprimer les libellés email orphelins + artefacts Cloudflare [email protected]
+    cleaned = re.sub(
+        r"(?:^|\n)[ \t]*(?:e?-?mail|courriel)\s*[:\-]?\s*\[email\s*protected\][ \t]*(?=\n|$)",
+        "\n",
+        cleaned,
+        flags=re.IGNORECASE,
+    )
+    cleaned = re.sub(r"\[email\s*protected\]", "", cleaned, flags=re.IGNORECASE)
 
     # Séparer une URL collée immédiatement après un caractère (ex: ":https://...")
     cleaned = re.sub(r"([^\s(\[\"\'])(https?://)", r"\1 \2", cleaned)
@@ -41,11 +56,35 @@ def normalize_text(text: str) -> str:
     lines = []
     for raw_line in cleaned.split("\n"):
         line = re.sub(r"[ \t]+", " ", raw_line).strip()
-        lines.append(line)
+        if line:
+            lines.append(line)
+        elif lines and lines[-1] != "":
+            lines.append("")
 
     result = "\n".join(lines)
     result = re.sub(r"\n{3,}", "\n\n", result)
     return result.strip()
+
+
+def clean_event_title(title: str) -> str:
+    """
+    Nettoie un titre d'événement pour l'affichage public :
+    - Normalise le texte
+    - Supprime les emojis décoratifs et ponctuations isolées en début de titre
+    - Met une majuscule initiale si le titre commence par une minuscule brute
+    """
+    cleaned = normalize_text(title)
+    if not cleaned:
+        return ""
+
+    stripped = _LEADING_DECORATIVE_EMOJI_RE.sub("", cleaned).strip()
+    if stripped:
+        cleaned = stripped
+
+    if cleaned and cleaned[0].islower():
+        cleaned = cleaned[0].upper() + cleaned[1:]
+
+    return cleaned
 
 
 def extract_clean_html_text(soup_elem) -> str:

@@ -4,7 +4,7 @@ Collecteur pour les stations citoyennes Illiwap (Dunières 43087 et Haut Pays du
 
 import re
 import logging
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any, Optional, Set
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 
@@ -45,6 +45,8 @@ class IlliwapScraper(BaseScraper):
         super().__init__(source_config)
         self.station_url = source_config.get("station_url")
         self.station_code = source_config.get("station_code")
+        self.timeout = int(source_config.get("timeout", 15))
+        self.recursive_crawl = bool(source_config.get("recursive_crawl", True))
 
     def fetch(self) -> List[RawPublication]:
         publications: List[RawPublication] = []
@@ -53,7 +55,7 @@ class IlliwapScraper(BaseScraper):
             return publications
 
         logger.info(f"Collecte Illiwap depuis {self.station_url}...")
-        html = fetch_url(self.station_url)
+        html = fetch_url(self.station_url, timeout=self.timeout)
         if not html:
             logger.warning(f"Impossible de récupérer la page de la station {self.station_url}")
             return publications
@@ -62,9 +64,10 @@ class IlliwapScraper(BaseScraper):
         cards = soup.select(".card")
         logger.info(f"Trouvé {len(cards)} annonces sur {self.source_name}")
 
+        seen_detail_links: Set[str] = set()
         for idx, card in enumerate(cards):
             try:
-                pub = self._parse_card(card, idx)
+                pub = self._parse_card(card, idx, seen_detail_links)
                 if pub:
                     publications.append(pub)
             except Exception as e:
@@ -87,7 +90,12 @@ class IlliwapScraper(BaseScraper):
             return candidates[1]
         return candidates[0]
 
-    def _parse_card(self, card: BeautifulSoup, index: int) -> Optional[RawPublication]:
+    def _parse_card(
+        self,
+        card: BeautifulSoup,
+        index: int,
+        seen_detail_links: Set[str],
+    ) -> Optional[RawPublication]:
         # Recherche du lien vers le détail (/actu/, /message/, /evenements/)
         detail_link: Optional[str] = None
         for a in card.find_all("a", href=True):
@@ -95,6 +103,12 @@ class IlliwapScraper(BaseScraper):
             if "/actu/" in href or "/message/" in href or "/evenements/" in href:
                 detail_link = urljoin(BASE_ILLIWAP_URL, href)
                 break
+
+        if detail_link:
+            if detail_link in seen_detail_links:
+                logger.debug(f"Carte Illiwap déjà traitée : {detail_link}")
+                return None
+            seen_detail_links.add(detail_link)
 
         # Recherche de l'image de couverture
         image_url: Optional[str] = None
@@ -121,7 +135,7 @@ class IlliwapScraper(BaseScraper):
         # Approfondissement sur la page de détail si disponible
         if detail_link:
             logger.debug(f"Approfondissement du message Illiwap: {detail_link}")
-            detail_html = fetch_url(detail_link)
+            detail_html = fetch_url(detail_link, timeout=self.timeout)
             if detail_html:
                 detail_soup = BeautifulSoup(detail_html, "html.parser")
 
@@ -202,5 +216,9 @@ class IlliwapScraper(BaseScraper):
             published_at=date_str,
             image_url=image_url,
             external_links=list(dict.fromkeys(external_links)),
-            raw_metadata={"station_code": self.station_code},
+            raw_metadata={
+                "station_code": self.station_code,
+                "is_press": False,
+                "recursive_crawl": self.recursive_crawl,
+            },
         )

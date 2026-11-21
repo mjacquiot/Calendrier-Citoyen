@@ -1,0 +1,112 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Commune de Dunieres//Calendrier Citoyen//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Calendrier Citoyen de Dunières
+X-WR-TIMEZONE:Europe/Paris
+BEGIN:VEVENT
+UID:lacommere43_86350@calendrier-dunieres.local
+DTSTAMP:20261121T135839Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Raucoules : de bonnes affaires et une bonne action à la bourse aux
+  jouets
+DESCRIPTION:La bourse aux jouets\, vêtements et articles de puériculture 
+ organisée le dimanche 15 novembre à la salle polyvalente de Raucoules a 
+ rencontré un beau succès.\n\nSource : https://www.lacommere43.fr/pays-de
+ -montfaucon/item/86350-raucoules-de-bonnes-affaires-et-une-bonne-action-a-
+ la-bourse-aux-jouets.html
+LOCATION:Salle polyvalente de Raucoules
+CATEGORIES:Manifestations & Vie Associative
+URL:https://www.lacommere43.fr/pays-de-montfaucon/item/86350-raucoules-de-b
+ onnes-affaires-et-une-bonne-action-a-la-bourse-aux-jouets.html
+END:VEVENT
+BEGIN:VEVENT
+UID:illiwap_comcom_calendrier-des-fetes-de-novembre-3@calendrier-dunieres.l
+ ocal
+DTSTAMP:20261121T135839Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Calendrier des fêtes de novembre
+DESCRIPTION:Le calendrier des fêtes de novembre 2026 est disponible. Retro
+ uvez les animations\, spectacles\, expositions et ateliers proposés dans 
+ les communes du Haut Pays du Velay : https://www.calameo.com/read/00115977
+ 0add8fb838647 Pour plus d’informations : Haut Pays…\n\nSource : https:
+ //station.illiwap.com/fr/public/haut-pays-du-velay-communaute/actu/calendr
+ ier-des-fetes-de-novembre-3
+LOCATION:Dunières / Haut Pays du Velay
+CATEGORIES:Culture & Patrimoine
+URL:https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/act
+ u/calendrier-des-fetes-de-novembre-3
+END:VEVENT
+BEGIN:VEVENT
+UID:lacommere43_86272@calendrier-dunieres.local
+DTSTAMP:20261121T135839Z
+DTSTART;TZID=Europe/Paris:20261120T183000
+DTEND;TZID=Europe/Paris:20261120T200000
+SUMMARY:Burgers et karaoké : le FJEP de Dunières vous invite à sa soiré
+ e du 20 novembre
+DESCRIPTION:L'association FJEP de Dunières organise une soirée burger kar
+ aoké le vendredi 20 novembre à partir de 18 h 30\, à la salle de la Mut
+ ualité de Dunières. Envie de pousser la chansonnette entre amis ou en fa
+ mille ?\n\nTarif : 10 €\n\nSource : https://www.lacommere43.fr/pays-de-m
+ ontfaucon/item/86272-burgers-et-karaoke-le-fjep-de-dunieres-vous-invite-a-
+ sa-soiree-du-20-novembre.html
+LOCATION:Salle de la Mutualité de Dunières
+CATEGORIES:Manifestations & Vie Associative
+URL:https://www.lacommere43.fr/pays-de-montfaucon/item/86272-burgers-et-kar
+ aoke-le-fjep-de-dunieres-vous-invite-a-sa-soiree-du-20-novembre.html
+END:VEVENT
+BEGIN:VEVENT
+UID:illiwap_comcom_ev_theatre-d-objets-le-mystere-leon-plouhinec@calendrier
+ -dunieres.local
+DTSTAMP:20261121T135839Z
+DTSTART;TZID=Europe/Paris:20261122T160000
+DTEND;TZID=Europe/Paris:20261122T170000
+SUMMARY:Théâtre d’objets « Le Mystère Léon Plouhinec »
+DESCRIPTION:Dimanche 22 novembre\, 16h Théâtre d’objets « Le Mystère 
+ Léon Plouhinec » par la Compagnie des Étourneaux Il n’a jamais quitt
+ é son phare. Et pourtant\, tout le monde le cherche !\n\nTarif : 10 €\n
+ \nSource : https://station.illiwap.com/fr/public/haut-pays-du-velay-commun
+ aute/evenements/theatre-d-objets-le-mystere-leon-plouhinec
+LOCATION:Salle Renaissance\, Montfaucon-en-Velay
+CATEGORIES:Culture & Patrimoine
+URL:https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/eve
+ nements/theatre-d-objets-le-mystere-leon-plouhinec
+END:VEVENT
+BEGIN:VEVENT
+UID:illiwap_comcom_atelier-bien-etre-soutenir-l-immunite-par-des-solutions@
+ calendrier-dunieres.local
+DTSTAMP:20261121T135839Z
+DTSTART;TZID=Europe/Paris:20261124T140000
+DTEND;TZID=Europe/Paris:20261124T153000
+SUMMARY:Atelier bien-être : soutenir l’immunité par des solutions
+DESCRIPTION:À l’approche de l’hiver\, Haut Pays du Velay communauté\,
+  en partenariat avec l’ARSEPT\, la Conférence des financeurs et Pour Bi
+ en Vieillir\, propose un atelier destiné aux personnes de 55 ans et plus.
+ \n\nSource : https://station.illiwap.com/fr/public/haut-pays-du-velay-comm
+ unaute/actu/atelier-bien-etre-soutenir-l-immunite-par-des-solutions
+LOCATION:Salle des fêtes\, 9 allées des Écoliers\, Saint Romain-Lachalm
+CATEGORIES:Manifestations & Vie Associative
+URL:https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/act
+ u/atelier-bien-etre-soutenir-l-immunite-par-des-solutions
+END:VEVENT
+BEGIN:VEVENT
+UID:illiwap_dunieres_tripes-saucisses-sapeurs-pompiers-28-11-2026-dunieres-
+ 2@calendrier-dunieres.local
+DTSTAMP:20261121T135839Z
+DTSTART;TZID=Europe/Paris:20261128T090000
+DTEND;TZID=Europe/Paris:20261128T133000
+SUMMARY:Tripes saucisses - Sapeurs Pompiers - 28/11/2026 - DUNIERES
+DESCRIPTION:L'Amicale des Sapeurs Pompiers organise "Tripes Saucisses" le s
+ amedi 28/11/2026 à la caserne de Dunières de 9h à 13h30. Tous les bén
+ éfices sont reversés à l'oeuvre des Pupilles. Source : Mairie de Duniè
+ res\n\nSource : https://station.illiwap.com/fr/public/43087/actu/tripes-sa
+ ucisses-sapeurs-pompiers-28-11-2026-dunieres-2
+LOCATION:Caserne de Dunières
+CATEGORIES:Manifestations & Vie Associative
+URL:https://station.illiwap.com/fr/public/43087/actu/tripes-saucisses-sapeu
+ rs-pompiers-28-11-2026-dunieres-2
+END:VEVENT
+END:VCALENDAR

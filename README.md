@@ -1,23 +1,23 @@
-# 📅 Le calendrier Dunièrois de Maxime JACQUIOT
+# 📅 Calendrier Citoyen de Dunières • J-7 / J+7
 
 Portail d'information citoyenne et calendrier interactif automatisé au service des administrés de la commune de **Dunières (Haute-Loire, 43220)** et de la communauté de communes **Haut Pays du Velay Communauté**.
 
-Ce projet est une solution **100 % Cloud, autonome et sans serveur**, conçue pour collecter, trier, enrichir et publier quotidiennement l'actualité locale et associative sans nécessiter d'ordinateur allumé ni d'infrastructure payante (sans Supabase, sans base de données externe complexe).
+Ce projet est une solution **100 % Cloud, autonome et sans serveur**, conçue pour collecter, trier, enrichir et publier quotidiennement l'actualité municipale et associative sans nécessiter d'ordinateur allumé ni d'infrastructure payante.
 
 ---
 
 ## 🎯 Objectifs du Projet
 
 En tant qu'élu local, l'enjeu est de simplifier l'accès à l'information publique en décloisonnant les différents canaux de communication :
-1. **Centraliser l'information municipale et intercommunale** éparse (applications mobiles, presse locale, agendas numériques).
-2. **Résoudre les liens profonds en 2 étapes** : extraire automatiquement le contenu des annonces renvoyant vers des liseuses en ligne (ex. Calaméo), des arrêtés ou affiches PDF.
-3. **Assurer un tri intelligent par IA** : filtrer rigoureusement le contenu d'intérêt public lié au mandat local (travaux, manifestations, vie associative, arrêtés, séances de conseil) en excluant toute information privée.
-4. **Offrir une expérience minimaliste en Agenda Professionnel (3 volets)** :
-   - ⏪ **Volet Passé (-14 jours)** : Mini-ruban synthétique des 14 jours (2 rangées de 7 pastilles) + flux chronologique en cases larges (une par créneau, avec horaires et durées).
-   - 📍 **Volet Aujourd'hui (Central)** : Planning chronologique pleine largeur du matin au soir avec rail temporel (horaires précis + durée calculée ex: `⏱️ 3h`, badges nature & tarif, titres entiers sans coupure).
-   - ⏩ **Volet Avenir (+14 jours)** : Mini-ruban des 14 prochains jours + flux chronologique prévisionnel en cases larges pleine largeur.
-   - 🔍 **Popup dynamique du jour** : Fiche détaillée prenant la place de l'écran lors du clic sur n'importe quel événement ou jour, avec navigation jour par jour.
-5. **Déploiement statique ultra-rapide** : Publication automatique quotidienne via GitHub Actions vers GitHub Pages avec un fichier structuré `data.json`.
+1. **Centraliser l'information municipale et intercommunale** éparse (Illiwap, presse locale, ajouts manuels éventuels).
+2. **Résoudre les liens profonds en 2 étapes** : extraire automatiquement le contenu des annonces renvoyant vers des liseuses en ligne (ex. Calaméo) ou des arrêtés PDF.
+3. **Assurer un tri déontologique par IA (Gemini + repli heuristique)** : conserver exclusivement le contenu d'intérêt public local (travaux, manifestations ouvertes, vie associative, arrêtés, séances de conseil, services publics) et exclure faits divers, vie privée, publicités/ouvertures commerciales privées et comptes-rendus passés sans événement.
+4. **Offrir une expérience épurée type Google Calendar (fenêtre glissante J-7 / J+7)** :
+   - 🗓️ **Ruban interactif 15 jours** : vue synthétique des 7 jours passés, d'aujourd'hui et des 7 prochains jours avec pastilles de catégories.
+   - 📍 **Agenda du jour (Grille horaire 07h–23h ou Liste)** : zone « Toute la journée », gestion multi-créneaux et chevauchements, ligne « Maintenant » sur `Europe/Paris`.
+   - ⏪ **7 jours passés** & ⏩ **7 jours à venir** : rubans 7 jours et flux chronologique en cartes détaillées.
+   - 🔍 **Modale fiche complète & exports** : partage par lien direct (`?day=...&event=...`), ajout à Google Calendar et téléchargement/abonnement `.ics` (`web/calendar.ics`).
+5. **Déploiement statique ultra-rapide** : publication automatique quotidienne via GitHub Actions vers GitHub Pages avec `web/data.json` (schéma v2) et `web/calendar.ics`.
 
 ---
 
@@ -27,32 +27,48 @@ En tant qu'élu local, l'enjeu est de simplifier l'accès à l'information publi
 [ Sources Locales ]
   ├── Illiwap Dunières (43087)
   ├── Illiwap Haut Pays du Velay
-  ├── La Commère 43 (Filtre strict Dunières & Comcom)
-  └── Le Progrès (Haute-Loire / Filtre strict Dunières)
+  ├── La Commère 43 (Synthèse presse + lien source)
+  ├── Le Progrès (Haute-Loire / Filtre territoire)
+  └── config/manual_events.json (Ajouts manuels optionnels)
          │
          ▼
-[ Scrapers & Résolution Récursive ]
-  └── Détection des liens externes (Calaméo, PDF, arrêtés, affiches)
+[ Déduplication & Enrichissement Récursif ]
+  ├── Déduplication sensible aux dates (préserve les récurrences)
+  └── Résolution Calaméo & PDF en mémoire (avec cache par exécution)
          │
          ▼
-[ Filtrage & Normalisation IA (Gemini) ]
-  ├── Tri d'intérêt public & exclusion faits divers / vie privée
-  ├── Catégorisation thématique & nature de l'activité
-  └── Extraction normalisée des dates, heures & tarifs
+[ Filtrage & Structuration IA (Gemini + Cache + Repli Heuristique) ]
+  ├── Tri déontologique & exclusion faits divers / commercial / privé
+  ├── Catégorisation stricte, extraction lieu, tarif, dates & créneaux multiples
+  └── Politique presse : synthèse uniquement (jamais d'article intégral recopié)
          │
          ▼
-[ Génération data.json & Déploiement ]
-  └── GitHub Actions (Cron 06h00 Europe/Paris & manuel)
-         │
-         ▼
-[ Vitrine Dépliant Triptyque - Agenda Pro (Tailwind CSS) ]
-  ├── Volet Gauche : Passé (-14j : Mini-ruban 14j + Lignes larges)
-  ├── Volet Central : Aujourd'hui (Planning chronologique, Durées, Heures, Prix)
-  ├── Volet Droit : Avenir (+14j : Mini-ruban 14j + Lignes larges)
-  └── Popup dynamique plein écran par jour
+[ Génération web/data.json (v2) + web/calendar.ics ]
+  ├── Garde-fou anti-écrasement si une source est en panne
+  └── GitHub Actions (Cron 04:17 UTC, tests CI & GitHub Pages)
 ```
 
 Pour plus de détails techniques, voir [ARCHITECTURE.md](ARCHITECTURE.md).
+
+---
+
+## ✍️ Ajouter un événement manuellement (optionnel)
+
+Le fichier [config/manual_events.json](config/manual_events.json) accepte un tableau JSON d'événements officiels complémentaires (ex. permanence exceptionnelle, réunion publique) :
+
+```json
+[
+  {
+    "id": "manual_reunion_budget_2026",
+    "title": "Réunion publique sur le budget communal",
+    "date": "2026-11-26",
+    "time": "de 18h30 à 20h00",
+    "location": "Salle des Associations, Dunières",
+    "description": "Présentation des orientations budgétaires ouverte à tous les habitants.",
+    "url": "https://station.illiwap.com/fr/public/43087"
+  }
+]
+```
 
 ---
 
@@ -60,31 +76,43 @@ Pour plus de détails techniques, voir [ARCHITECTURE.md](ARCHITECTURE.md).
 
 ```text
 .
-├── .github/
-│   └── workflows/
-│       └── daily-pipeline.yml   # Workflow automatisé quotidien (6h/7h)
+├── .github/workflows/
+│   ├── ci.yml                   # Tests automatisés (Python + JS) & déploiement web
+│   └── daily-pipeline.yml       # Pipeline quotidien automatisé + cache IA + GitHub Pages
 ├── config/
-│   └── sources.json             # Paramétrage des sources, mots-clés et catégories
+│   ├── sources.json             # Paramétrage des sources, fenêtre J-7/J+7, mots-clés
+│   └── manual_events.json       # Événements manuels optionnels
 ├── src/
-│   ├── scrapers/                # Modules de collecte (Illiwap, La Commère 43, Le Progrès)
-│   ├── enrichment/              # Résolution récursive (Calaméo, extraction PDF/images)
-│   ├── ai/                      # Analyse, filtrage de confidentialité et structuration IA
-│   ├── notifications/           # Alertes WhatsApp (CallMeBot) et résumés pour l'élu
-│   ├── utils/                   # Gestion des dates, fusions et générateur data.json
-│   └── main.py                  # Point d'entrée du pipeline de scraping & export
+│   ├── scrapers/                # Collecteurs (Illiwap, La Commère 43, Le Progrès)
+│   ├── enrichment/              # Résolution récursive (Calaméo, PDF) & déduplication
+│   ├── ai/                      # Schéma strict, Gemini (+ cache) & repli heuristique
+│   ├── notifications/           # Résumé quotidien WhatsApp (CallMeBot)
+│   ├── utils/                   # Client HTTP avec retry/masquage, dates, texte, générateur JSON/ICS
+│   └── main.py                  # Orchestrateur principal
+├── tests/                       # Suite de tests unitaires offline (unittest)
 ├── web/
-│   ├── index.html               # Vitrine Agenda Professionnel responsive & minimaliste
-│   ├── app.js                   # Moteur interactif (lignes larges, durées, popups)
-│   └── data.json                # Données compilées prêtes pour le frontend
-├── requirements.txt             # Dépendances Python
-├── ARCHITECTURE.md              # Schémas et documentation technique approfondie
-└── ROADMAP.md                   # Suivi des jalons de développement
+│   ├── index.html               # Interface épurée type Google Calendar + PWA
+│   ├── app.js                   # Moteur interactif, deep-linking, .ics, a11y
+│   ├── favicon.svg              # Icône vectorielle
+│   ├── manifest.json            # Manifeste PWA léger
+│   ├── data.json                # Données structurées v2 (générées)
+│   └── calendar.ics             # Flux iCalendar RFC 5545 (généré)
+├── requirements.txt
+├── ARCHITECTURE.md
+└── ROADMAP.md
 ```
 
 ---
 
-## 🚀 Fonctionnement du Déploiement
+## 🧪 Tests locaux & Exécution
 
-Le projet se déploie automatiquement sur **GitHub Pages** :
-* **Automatique** : Tous les matins à 06:00 (heure de Paris) via le workflow GitHub Actions.
-* **À la demande** : Depuis l'onglet **Actions** de GitHub, en cliquant sur **« Run workflow »** sur la branche `main`.
+```bash
+# Exécuter tous les tests unitaires offline
+python -m unittest discover -s tests -v
+
+# Vérifier la syntaxe JavaScript
+node --check web/app.js
+
+# Exécuter le pipeline complet (génère web/data.json et web/calendar.ics)
+python src/main.py
+```

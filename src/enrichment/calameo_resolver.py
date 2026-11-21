@@ -8,12 +8,24 @@ from typing import Optional, Dict, Any
 from bs4 import BeautifulSoup
 
 from src.utils.http_client import fetch_url
+from src.utils.text_helpers import normalize_text, smart_truncate
 
 logger = logging.getLogger(__name__)
 
 
+def _clean_calameo_description(text: Optional[str]) -> str:
+    if not text:
+        return ""
+    cleaned = normalize_text(text)
+    cleaned = re.sub(r"(?:\.\.\.\s*)?(?:\n|\s)+(?:Plus|Lire la suite)\s*$", "", cleaned, flags=re.IGNORECASE)
+    return cleaned.strip()
+
+
 class CalameoResolver:
     """Extrait le contenu textuel et les métadonnées d'un livre/agenda Calaméo."""
+
+    def __init__(self, timeout: int = 15):
+        self.timeout = timeout
 
     @staticmethod
     def extract_bkcode(url: str) -> Optional[str]:
@@ -33,10 +45,10 @@ class CalameoResolver:
             return None
 
         logger.info(f"Résolution récursive Calaméo pour le document : {bkcode}")
-        
+
         # 1. Tentative principale via la page book publique
         book_url = f"https://www.calameo.com/books/{bkcode}"
-        html = fetch_url(book_url)
+        html = fetch_url(book_url, timeout=self.timeout)
 
         title = None
         author = None
@@ -45,23 +57,25 @@ class CalameoResolver:
 
         if html:
             soup = BeautifulSoup(html, "html.parser")
-            
-            # Titre
+
             t_elem = soup.select_one("h1.title, .book-detail h1")
             if t_elem:
-                title = t_elem.get_text(strip=True)
+                title = normalize_text(t_elem.get_text(strip=True))
 
-            # Auteur
             a_elem = soup.select_one(".name, .author")
             if a_elem:
-                author = a_elem.get_text(strip=True)
+                author = normalize_text(a_elem.get_text(strip=True))
 
-            # Description complète (contient la liste des villages, dates et animations)
             d_elem = soup.select_one(".book-description .about.hidden, .book-description p")
             if d_elem:
-                description = d_elem.get_text(separator="\n", strip=True)
+                description = _clean_calameo_description(d_elem.get_text(separator="\n", strip=True))
 
-            # Image de couverture
+            og_desc = soup.find("meta", property="og:description")
+            if og_desc and og_desc.get("content"):
+                cand_og = _clean_calameo_description(og_desc["content"])
+                if len(cand_og) > len(description or ""):
+                    description = cand_og
+
             img_elem = soup.select_one(".images img, .book-container img")
             if img_elem and img_elem.get("src"):
                 cover_image = img_elem.get("src")
@@ -71,38 +85,42 @@ class CalameoResolver:
         # 2. Complément ou repli via la liseuse (ctx-content) si description vide
         if not description:
             viewer_url = f"https://v.calameo.com/?bkcode={bkcode}"
-            v_html = fetch_url(viewer_url)
+            v_html = fetch_url(viewer_url, timeout=self.timeout)
             if v_html:
                 v_soup = BeautifulSoup(v_html, "html.parser")
                 ctx = v_soup.select_one("#ctx-content")
                 if ctx:
                     if not title:
                         h1 = ctx.find("h1")
-                        title = h1.get_text(strip=True) if h1 else None
+                        title = normalize_text(h1.get_text(strip=True)) if h1 else None
                     if not author:
                         h3 = ctx.find("h3")
-                        author = h3.get_text(strip=True) if h3 else None
+                        author = normalize_text(h3.get_text(strip=True)) if h3 else None
                     p = ctx.find("p")
                     if p:
-                        description = p.get_text(separator="\n", strip=True)
+                        description = _clean_calameo_description(p.get_text(separator="\n", strip=True))
 
         if not title and not description:
             logger.warning(f"Aucune métadonnée extraite pour Calaméo {bkcode}")
             return None
 
+        clean_desc = _clean_calameo_description(description)
         summary_text = f"Document Calaméo '{title or 'Sans titre'}'"
         if author:
             summary_text += f" (par {author})"
-        if description:
-            summary_text += f" :\n{description}"
+        if clean_desc:
+            summary_text += f" :\n{clean_desc}"
+
+        preview_text = smart_truncate(clean_desc or summary_text, 320)
 
         return {
             "type": "calameo",
             "bkcode": bkcode,
             "title": title or "Agenda / Document Calaméo",
             "author": author or "Haut Pays du Velay",
-            "description": description or "",
+            "description": clean_desc,
+            "preview_text": preview_text,
             "cover_image_url": cover_image,
             "enriched_text": summary_text,
-            "original_url": url
+            "original_url": url,
         }

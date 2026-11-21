@@ -1,0 +1,17 @@
+{
+  "name": "Calendrier Citoyen de Dunières",
+  "short_name": "Dunières Agenda",
+  "description": "Agenda citoyen interactif de la commune de Dunières et du Haut Pays du Velay Communauté (fenêtre J-7 / J+7).",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#F8FAFC",
+  "theme_color": "#2563EB",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
