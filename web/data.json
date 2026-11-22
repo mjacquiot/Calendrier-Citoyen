@@ -4,8 +4,8 @@
     "commune": "Dunières",
     "code_postal": "43220",
     "intercommunalite": "Haut Pays du Velay Communauté",
-    "generated_at": "2026-11-21T16:45:52.479034+01:00",
-    "reference_date": "2026-11-21",
+    "generated_at": "2026-11-22T13:58:56.129985+01:00",
+    "reference_date": "2026-11-22",
     "degraded_mode": false,
     "sliding_window": {
       "retrospective_days": 7,
@@ -16,7 +16,7 @@
       "gemini_ok": 0,
       "gemini_fallback": 0,
       "cache_hits": 0,
-      "heuristic_only": 15
+      "heuristic_only": 16
     },
     "sources_health": {
       "illiwap_dunieres": {
@@ -36,20 +36,20 @@
       },
       "leprogres_haute_loire": {
         "name": "Le Progrès - Haute-Loire",
-        "status": "empty",
-        "fetched": 0
+        "status": "ok",
+        "fetched": 1
       }
     },
     "counts": {
-      "total_analyzed": 15,
-      "total_accepted": 6,
+      "total_analyzed": 16,
+      "total_accepted": 8,
       "total_rejected": 6,
-      "total_out_of_window": 3,
+      "total_out_of_window": 2,
       "preserved_from_previous": 0,
       "retrospective": 3,
-      "today": 0,
+      "today": 2,
       "upcoming": 3,
-      "high_importance_today": 0
+      "high_importance_today": 1
     }
   },
   "buckets": {
@@ -58,11 +58,14 @@
       "illiwap_comcom_calendrier-des-fetes-de-novembre-3",
       "lacommere43_86272"
     ],
-    "today": [],
-    "upcoming": [
+    "today": [
       "illiwap_comcom_ev_theatre-d-objets-le-mystere-leon-plouhinec",
+      "leprogres_haute_loire_616e8deb08"
+    ],
+    "upcoming": [
       "illiwap_comcom_atelier-bien-etre-soutenir-l-immunite-par-des-solutions",
-      "illiwap_dunieres_tripes-saucisses-sapeurs-pompiers-28-11-2026-dunieres-2"
+      "illiwap_dunieres_tripes-saucisses-sapeurs-pompiers-28-11-2026-dunieres-2",
+      "lacommere43_86351"
     ]
   },
   "all_events": [
@@ -193,7 +196,7 @@
         "start": "2026-11-22",
         "end": null,
         "is_period": false,
-        "bucket": "upcoming"
+        "bucket": "today"
       },
       "timing": {
         "start_time": "16:00",
@@ -204,6 +207,39 @@
       },
       "location": "Salle Renaissance, Montfaucon-en-Velay",
       "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "leprogres_haute_loire_616e8deb08",
+      "title": "Haute-Loire. Il y a 60 ans, à Saint-Bonnet, le combat quotidien du « facteur des neiges » face à la Burle",
+      "summary": "En novembre 1966, les hauts plateaux du Vivarais et des Boutières croulaient sous la neige. Pas de quoi effrayer le « facteur des neiges » qui, chaque jour, ouvrait les congères pour amener le courrier de Montfaucon-en-Velay jusqu’à Saint-Bonnet-le-Froid.",
+      "full_content": null,
+      "is_press_excerpt": true,
+      "content_type": "alert",
+      "category": "Alertes & Météo",
+      "badge": "Alerte Publique",
+      "price": null,
+      "source_id": "leprogres_haute_loire",
+      "source_name": "Le Progrès - Haute-Loire",
+      "source_url": "https://www.leprogres.fr/economie/2026/11/18/il-y-a-60-ans-a-saint-bonnet-le-combat-quotidien-du-facteur-des-neiges-face-a-la-burle",
+      "image_url": null,
+      "dates": {
+        "start": "2026-11-22",
+        "end": null,
+        "is_period": false,
+        "bucket": "today"
+      },
+      "timing": {
+        "start_time": null,
+        "end_time": null,
+        "duration_minutes": null,
+        "all_day": true,
+        "slots": []
+      },
+      "location": "Saint-Bonnet-le-Froid",
+      "importance": "high",
       "has_attachment": false,
       "attachment_type": null,
       "attachment_data": null
@@ -269,6 +305,39 @@
         "slots": []
       },
       "location": "Caserne de Dunières",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "lacommere43_86351",
+      "title": "Dunières : le loto qui séduit petits et grands le 29 novembre",
+      "summary": "L'équipe de l'APEL de Dunières s'est retrouvée afin de finaliser la préparation de son loto du 29 novembre. L'association de parents ne change pas un concept qui plaît, et proposera 4 parties entières, ainsi qu'une partie inversée.",
+      "full_content": null,
+      "is_press_excerpt": true,
+      "content_type": "news",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "price": null,
+      "source_id": "lacommere43",
+      "source_name": "La Commère 43",
+      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86351-dunieres-le-loto-qui-seduit-petits-et-grands-le-29-novembre.html",
+      "image_url": "https://www.lacommere43.fr/media/k2/items/cache/0b765ee7bd4f53b7147249a92e676c28_M.jpg",
+      "dates": {
+        "start": "2026-11-29",
+        "end": null,
+        "is_period": false,
+        "bucket": "upcoming"
+      },
+      "timing": {
+        "start_time": null,
+        "end_time": null,
+        "duration_minutes": null,
+        "all_day": true,
+        "slots": []
+      },
+      "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
       "has_attachment": false,
       "attachment_type": null,
