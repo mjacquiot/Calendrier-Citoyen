@@ -4,8 +4,8 @@
     "commune": "Dunières",
     "code_postal": "43220",
     "intercommunalite": "Haut Pays du Velay Communauté",
-    "generated_at": "2026-11-22T13:58:56.129985+01:00",
-    "reference_date": "2026-11-22",
+    "generated_at": "2026-11-23T16:36:07.514415+01:00",
+    "reference_date": "2026-11-23",
     "degraded_mode": false,
     "sliding_window": {
       "retrospective_days": 7,
@@ -16,7 +16,7 @@
       "gemini_ok": 0,
       "gemini_fallback": 0,
       "cache_hits": 0,
-      "heuristic_only": 16
+      "heuristic_only": 17
     },
     "sources_health": {
       "illiwap_dunieres": {
@@ -27,7 +27,7 @@
       "illiwap_comcom": {
         "name": "Illiwap Haut Pays du Velay Communauté",
         "status": "ok",
-        "fetched": 4
+        "fetched": 3
       },
       "lacommere43": {
         "name": "La Commère 43",
@@ -41,67 +41,35 @@
       }
     },
     "counts": {
-      "total_analyzed": 16,
-      "total_accepted": 8,
-      "total_rejected": 6,
-      "total_out_of_window": 2,
-      "preserved_from_previous": 0,
-      "retrospective": 3,
-      "today": 2,
-      "upcoming": 3,
-      "high_importance_today": 1
+      "total_analyzed": 17,
+      "total_accepted": 9,
+      "total_rejected": 7,
+      "total_out_of_window": 3,
+      "preserved_from_previous": 2,
+      "retrospective": 4,
+      "today": 1,
+      "upcoming": 4,
+      "high_importance_today": 0
     }
   },
   "buckets": {
     "retrospective": [
-      "lacommere43_86350",
       "illiwap_comcom_calendrier-des-fetes-de-novembre-3",
-      "lacommere43_86272"
+      "lacommere43_86272",
+      "illiwap_comcom_theatre-d-objets-le-mystere-leon-plouhinec",
+      "leprogres_haute_loire_616e8deb08"
     ],
     "today": [
-      "illiwap_comcom_ev_theatre-d-objets-le-mystere-leon-plouhinec",
-      "leprogres_haute_loire_616e8deb08"
+      "lacommere43_86532"
     ],
     "upcoming": [
       "illiwap_comcom_atelier-bien-etre-soutenir-l-immunite-par-des-solutions",
+      "illiwap_dunieres_coupure-d-eau-le-26-11-2026",
       "illiwap_dunieres_tripes-saucisses-sapeurs-pompiers-28-11-2026-dunieres-2",
       "lacommere43_86351"
     ]
   },
   "all_events": [
-    {
-      "id": "lacommere43_86350",
-      "title": "Raucoules : de bonnes affaires et une bonne action à la bourse aux jouets",
-      "summary": "La bourse aux jouets, vêtements et articles de puériculture organisée le dimanche 15 novembre à la salle polyvalente de Raucoules a rencontré un beau succès.",
-      "full_content": null,
-      "is_press_excerpt": true,
-      "content_type": "news",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "price": null,
-      "source_id": "lacommere43",
-      "source_name": "La Commère 43",
-      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86350-raucoules-de-bonnes-affaires-et-une-bonne-action-a-la-bourse-aux-jouets.html",
-      "image_url": "https://www.lacommere43.fr/media/k2/items/cache/464e0153b98c758a016a4eff7bd39ee6_M.jpg",
-      "dates": {
-        "start": "2026-11-15",
-        "end": null,
-        "is_period": false,
-        "bucket": "retrospective"
-      },
-      "timing": {
-        "start_time": null,
-        "end_time": null,
-        "duration_minutes": null,
-        "all_day": true,
-        "slots": []
-      },
-      "location": "Salle polyvalente de Raucoules",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
     {
       "id": "illiwap_comcom_calendrier-des-fetes-de-novembre-3",
       "title": "Calendrier des fêtes de novembre",
@@ -179,10 +147,10 @@
       "attachment_data": null
     },
     {
-      "id": "illiwap_comcom_ev_theatre-d-objets-le-mystere-leon-plouhinec",
+      "id": "illiwap_comcom_theatre-d-objets-le-mystere-leon-plouhinec",
       "title": "Théâtre d’objets « Le Mystère Léon Plouhinec »",
       "summary": "Dimanche 22 novembre, 16h Théâtre d’objets « Le Mystère Léon Plouhinec » par la Compagnie des Étourneaux Il n’a jamais quitté son phare. Et pourtant, tout le monde le cherche !",
-      "full_content": "Dimanche 22 novembre, 16h\nThéâtre d’objets « Le Mystère Léon Plouhinec » par la Compagnie des Étourneaux\nIl n’a jamais quitté son phare. Et pourtant, tout le monde le cherche ! Léon Plouhinec est gardien de phare, mais dans ses lettres défilent un cosmonaute russe, des agents secrets anglais et des collectionneurs de parfum. Jusqu’au jour où sa disparition est annoncée sur les ondes de Radio Méduse. La commissaire Pantin reprend alors l’enquête depuis le début. Un spectacle loufoque et poétique, entre théâtre, musique et papier découpé, adapté de l’album de Judith Chomel.\n📍 Salle Renaissance, Montfaucon-en-Velay\n🗓️ Dimanche 22 novembre à 16h\n⏱️ Durée : 1h\n🎟️ Adulte : 10 €, tarif réduit (12-17 ans, étudiants, demandeurs d’emploi) : 6 €, gratuit pour les moins de 12 ans\n👨‍👩‍👧 Dès 6 ans\n✅ Réservation obligatoire : hautpaysduvelay-communaute.fr/billetterie\n📞 Office de Tourisme de Montfaucon-en-Velay : 04 71 59 95 73",
+      "full_content": "Dimanche 22 novembre, 16h\nThéâtre d’objets « Le Mystère Léon Plouhinec » par la Compagnie des Étourneaux\nIl n’a jamais quitté son phare. Et pourtant, tout le monde le cherche ! Léon Plouhinec est gardien de phare, mais dans ses lettres défilent un cosmonaute russe, des agents secrets anglais et des collectionneurs de parfum. Jusqu’au jour où sa disparition est annoncée sur les ondes de Radio Méduse. La commissaire Pantin reprend alors l’enquête depuis le début. Un spectacle loufoque et poétique, entre théâtre, musique et papier découpé, adapté de l’album de Judith Chomel.\n📍 Salle Renaissance, Montfaucon-en-Velay\n🗓️ Dimanche 22 novembre à 16h\n⏱️ Durée : 1h\n🎟️ Adulte : 10 €, tarif réduit (12-17 ans, étudiants, demandeurs d’emploi) : 6 €, gratuit pour les moins de 12 ans\n👨‍👩‍👧 Dès 6 ans\n✅ Billets en vente à l'office de tourisme uniquement\n📞 Office de Tourisme de Montfaucon-en-Velay : 04 71 59 95 73",
       "is_press_excerpt": false,
       "content_type": "event",
       "category": "Culture & Patrimoine",
@@ -190,13 +158,13 @@
       "price": "10 €",
       "source_id": "illiwap_comcom",
       "source_name": "Illiwap Haut Pays du Velay Communauté",
-      "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/evenements/theatre-d-objets-le-mystere-leon-plouhinec",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/images/evenement/medias/AngRM8vlcQ9xVb0W6PgW3rEZD_FFHbdOlOljdKCMEKM.jpg",
+      "source_url": "https://station.illiwap.com/fr/public/haut-pays-du-velay-communaute/actu/theatre-d-objets-le-mystere-leon-plouhinec",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/Bey9s3-4m12QVpQmBr6vuR_2y8Gc4zCBnadNztaxXzA.jpg",
       "dates": {
         "start": "2026-11-22",
         "end": null,
         "is_period": false,
-        "bucket": "today"
+        "bucket": "retrospective"
       },
       "timing": {
         "start_time": "16:00",
@@ -229,7 +197,7 @@
         "start": "2026-11-22",
         "end": null,
         "is_period": false,
-        "bucket": "today"
+        "bucket": "retrospective"
       },
       "timing": {
         "start_time": null,
@@ -240,6 +208,39 @@
       },
       "location": "Saint-Bonnet-le-Froid",
       "importance": "high",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "lacommere43_86532",
+      "title": "Semaine de l'industrie : les collégiens de Dunières plongent au cœur de la haute technologie chez CICOR",
+      "summary": "Dans le cadre de la Semaine de l'industrie, les élèves de troisième du collège Le Sacré-Cœur – Don Bosco de Dunières ont découvert l'entreprise CICOR, implantée à Saint-Agrève, en Ardèche.",
+      "full_content": null,
+      "is_press_excerpt": true,
+      "content_type": "news",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "price": null,
+      "source_id": "lacommere43",
+      "source_name": "La Commère 43",
+      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86532-semaine-de-l-industrie-les-collegiens-de-dunieres-plongent-au-coeur-de-la-haute-technologie-chez-cicor.html",
+      "image_url": "https://www.lacommere43.fr/media/k2/items/cache/908e02c9587f9dd4d50080ff1c018062_M.jpg",
+      "dates": {
+        "start": "2026-11-23",
+        "end": null,
+        "is_period": false,
+        "bucket": "today"
+      },
+      "timing": {
+        "start_time": null,
+        "end_time": null,
+        "duration_minutes": null,
+        "all_day": true,
+        "slots": []
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
       "has_attachment": false,
       "attachment_type": null,
       "attachment_data": null
@@ -273,6 +274,39 @@
       },
       "location": "Salle des fêtes, 9 allées des Écoliers, Saint Romain-Lachalm",
       "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "illiwap_dunieres_coupure-d-eau-le-26-11-2026",
+      "title": "COUPURE D'EAU LE 26/11/2026",
+      "summary": "Lire la suite",
+      "full_content": "Lire la suite",
+      "is_press_excerpt": false,
+      "content_type": "alert",
+      "category": "Alertes & Météo",
+      "badge": "Alerte Publique",
+      "price": null,
+      "source_id": "illiwap_dunieres",
+      "source_name": "Illiwap Mairie de Dunières",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/coupure-d-eau-le-26-11-2026",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/31JjYCeK5CoiB-876n7Y3puiDjJ5XcoY0JmTFAFqfps.JPG",
+      "dates": {
+        "start": "2026-11-26",
+        "end": null,
+        "is_period": false,
+        "bucket": "upcoming"
+      },
+      "timing": {
+        "start_time": null,
+        "end_time": null,
+        "duration_minutes": null,
+        "all_day": true,
+        "slots": []
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "high",
       "has_attachment": false,
       "attachment_type": null,
       "attachment_data": null
