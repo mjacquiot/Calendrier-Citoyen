@@ -4,8 +4,8 @@
     "commune": "Dunières",
     "code_postal": "43220",
     "intercommunalite": "Haut Pays du Velay Communauté",
-    "generated_at": "2026-11-23T16:36:07.514415+01:00",
-    "reference_date": "2026-11-23",
+    "generated_at": "2026-11-24T16:28:06.798913+01:00",
+    "reference_date": "2026-11-24",
     "degraded_mode": false,
     "sliding_window": {
       "retrospective_days": 7,
@@ -16,7 +16,7 @@
       "gemini_ok": 0,
       "gemini_fallback": 0,
       "cache_hits": 0,
-      "heuristic_only": 17
+      "heuristic_only": 16
     },
     "sources_health": {
       "illiwap_dunieres": {
@@ -36,19 +36,19 @@
       },
       "leprogres_haute_loire": {
         "name": "Le Progrès - Haute-Loire",
-        "status": "ok",
-        "fetched": 1
+        "status": "empty",
+        "fetched": 0
       }
     },
     "counts": {
-      "total_analyzed": 17,
-      "total_accepted": 9,
+      "total_analyzed": 16,
+      "total_accepted": 10,
       "total_rejected": 7,
       "total_out_of_window": 3,
-      "preserved_from_previous": 2,
-      "retrospective": 4,
-      "today": 1,
-      "upcoming": 4,
+      "preserved_from_previous": 4,
+      "retrospective": 5,
+      "today": 2,
+      "upcoming": 3,
       "high_importance_today": 0
     }
   },
@@ -57,13 +57,14 @@
       "illiwap_comcom_calendrier-des-fetes-de-novembre-3",
       "lacommere43_86272",
       "illiwap_comcom_theatre-d-objets-le-mystere-leon-plouhinec",
-      "leprogres_haute_loire_616e8deb08"
-    ],
-    "today": [
+      "leprogres_haute_loire_616e8deb08",
       "lacommere43_86532"
     ],
-    "upcoming": [
+    "today": [
       "illiwap_comcom_atelier-bien-etre-soutenir-l-immunite-par-des-solutions",
+      "illiwap_dunieres_apres-midi-departementales-dediees-aux-aidants-3-1"
+    ],
+    "upcoming": [
       "illiwap_dunieres_coupure-d-eau-le-26-11-2026",
       "illiwap_dunieres_tripes-saucisses-sapeurs-pompiers-28-11-2026-dunieres-2",
       "lacommere43_86351"
@@ -230,7 +231,7 @@
         "start": "2026-11-23",
         "end": null,
         "is_period": false,
-        "bucket": "today"
+        "bucket": "retrospective"
       },
       "timing": {
         "start_time": null,
@@ -263,7 +264,7 @@
         "start": "2026-11-24",
         "end": null,
         "is_period": false,
-        "bucket": "upcoming"
+        "bucket": "today"
       },
       "timing": {
         "start_time": "14:00",
@@ -273,6 +274,39 @@
         "slots": []
       },
       "location": "Salle des fêtes, 9 allées des Écoliers, Saint Romain-Lachalm",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "illiwap_dunieres_apres-midi-departementales-dediees-aux-aidants-3-1",
+      "title": "Après-midi départementales dédiées aux aidants",
+      "summary": "Source : Mairie de Dunières",
+      "full_content": "Source : Mairie de Dunières",
+      "is_press_excerpt": false,
+      "content_type": "event",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "price": null,
+      "source_id": "illiwap_dunieres",
+      "source_name": "Illiwap Mairie de Dunières",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/apres-midi-departementales-dediees-aux-aidants-3-1",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/miniatures/qtni0jJa-b6eGgxUds44XLAmB-cN0CKQ.jpg",
+      "dates": {
+        "start": "2026-11-24",
+        "end": null,
+        "is_period": false,
+        "bucket": "today"
+      },
+      "timing": {
+        "start_time": null,
+        "end_time": null,
+        "duration_minutes": null,
+        "all_day": true,
+        "slots": []
+      },
+      "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
       "has_attachment": false,
       "attachment_type": null,
