@@ -4,8 +4,8 @@
     "commune": "Dunières",
     "code_postal": "43220",
     "intercommunalite": "Haut Pays du Velay Communauté",
-    "generated_at": "2026-11-24T16:28:06.798913+01:00",
-    "reference_date": "2026-11-24",
+    "generated_at": "2026-11-25T16:13:32.763423+01:00",
+    "reference_date": "2026-11-25",
     "degraded_mode": false,
     "sliding_window": {
       "retrospective_days": 7,
@@ -36,19 +36,19 @@
       },
       "leprogres_haute_loire": {
         "name": "Le Progrès - Haute-Loire",
-        "status": "empty",
-        "fetched": 0
+        "status": "ok",
+        "fetched": 1
       }
     },
     "counts": {
       "total_analyzed": 16,
-      "total_accepted": 10,
-      "total_rejected": 7,
-      "total_out_of_window": 3,
+      "total_accepted": 13,
+      "total_rejected": 6,
+      "total_out_of_window": 1,
       "preserved_from_previous": 4,
-      "retrospective": 5,
-      "today": 2,
-      "upcoming": 3,
+      "retrospective": 9,
+      "today": 0,
+      "upcoming": 4,
       "high_importance_today": 0
     }
   },
@@ -58,16 +58,18 @@
       "lacommere43_86272",
       "illiwap_comcom_theatre-d-objets-le-mystere-leon-plouhinec",
       "leprogres_haute_loire_616e8deb08",
-      "lacommere43_86532"
-    ],
-    "today": [
+      "lacommere43_86532",
       "illiwap_comcom_atelier-bien-etre-soutenir-l-immunite-par-des-solutions",
+      "lacommere43_86569",
+      "leprogres_haute_loire_601615525f",
       "illiwap_dunieres_apres-midi-departementales-dediees-aux-aidants-3-1"
     ],
+    "today": [],
     "upcoming": [
       "illiwap_dunieres_coupure-d-eau-le-26-11-2026",
-      "illiwap_dunieres_tripes-saucisses-sapeurs-pompiers-28-11-2026-dunieres-2",
-      "lacommere43_86351"
+      "illiwap_dunieres_tripes-saucisses-sapeurs-pompiers-28-11-2026-dunieres-3",
+      "lacommere43_86351",
+      "illiwap_dunieres_mon-sapin-mon-village-mon-noel-1-3"
     ]
   },
   "all_events": [
@@ -264,7 +266,7 @@
         "start": "2026-11-24",
         "end": null,
         "is_period": false,
-        "bucket": "today"
+        "bucket": "retrospective"
       },
       "timing": {
         "start_time": "14:00",
@@ -274,6 +276,72 @@
         "slots": []
       },
       "location": "Salle des fêtes, 9 allées des Écoliers, Saint Romain-Lachalm",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "lacommere43_86569",
+      "title": "Un avant-goût de la saison culturelle 2027 du Haut-Pays du Velay à découvrir gratuitement",
+      "summary": "Le service culture d'Haut Pays du Velay communauté propose deux rendez-vous gratuits pour découvrir des artistes. La compagnie altiligérienne Le Drame du Cerf est en résidence à Montfaucon-en-Velay toute cette semaine.",
+      "full_content": null,
+      "is_press_excerpt": true,
+      "content_type": "event",
+      "category": "Culture & Patrimoine",
+      "badge": "Culture",
+      "price": "Gratuit",
+      "source_id": "lacommere43",
+      "source_name": "La Commère 43",
+      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86569-un-avant-gout-de-la-saison-culturelle-2027-du-haut-pays-du-velay-a-decouvrir-gratuitement.html",
+      "image_url": "https://www.lacommere43.fr/media/k2/items/cache/84326dea016e682b68b2ce6f85b8cb20_M.jpg",
+      "dates": {
+        "start": "2026-11-24",
+        "end": null,
+        "is_period": false,
+        "bucket": "retrospective"
+      },
+      "timing": {
+        "start_time": "14:30",
+        "end_time": null,
+        "duration_minutes": null,
+        "all_day": false,
+        "slots": []
+      },
+      "location": "Cinéma de Dunières, Montfaucon-en-Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "leprogres_haute_loire_601615525f",
+      "title": "Haute-Loire. Les Maisons Marcon à nouveau classées deuxième meilleur restaurant au monde",
+      "summary": "Le restaurant Régis et Jacques Marcon, à Saint-Bonnet-le-Froid, décroche la deuxième place ex aequo de La Liste 2027, le classement des 1 000 meilleurs restaurants du monde dévoilé ce mardi 24 novembre.",
+      "full_content": null,
+      "is_press_excerpt": true,
+      "content_type": "news",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "price": null,
+      "source_id": "leprogres_haute_loire",
+      "source_name": "Le Progrès - Haute-Loire",
+      "source_url": "https://www.leprogres.fr/magazine-cuisine-et-vins/2026/11/24/c-est-une-vraie-recompense-les-maisons-marcon-a-nouveau-classees-deuxieme-meilleur-restaurant-au-monde",
+      "image_url": null,
+      "dates": {
+        "start": "2026-11-24",
+        "end": null,
+        "is_period": false,
+        "bucket": "retrospective"
+      },
+      "timing": {
+        "start_time": null,
+        "end_time": null,
+        "duration_minutes": null,
+        "all_day": true,
+        "slots": []
+      },
+      "location": "Saint-Bonnet-le-Froid",
       "importance": "normal",
       "has_attachment": false,
       "attachment_type": null,
@@ -297,7 +365,7 @@
         "start": "2026-11-24",
         "end": null,
         "is_period": false,
-        "bucket": "today"
+        "bucket": "retrospective"
       },
       "timing": {
         "start_time": null,
@@ -346,7 +414,7 @@
       "attachment_data": null
     },
     {
-      "id": "illiwap_dunieres_tripes-saucisses-sapeurs-pompiers-28-11-2026-dunieres-2",
+      "id": "illiwap_dunieres_tripes-saucisses-sapeurs-pompiers-28-11-2026-dunieres-3",
       "title": "Tripes saucisses - Sapeurs Pompiers - 28/11/2026 - DUNIERES",
       "summary": "L'Amicale des Sapeurs Pompiers organise \"Tripes Saucisses\" le samedi 28/11/2026 à la caserne de Dunières de 9h à 13h30. Tous les bénéfices sont reversés à l'oeuvre des Pupilles. Source : Mairie de Dunières",
       "full_content": "L'Amicale des Sapeurs Pompiers organise \"Tripes Saucisses\" le samedi 28/11/2026 à la caserne de Dunières de 9h à 13h30.\nTous les bénéfices sont reversés à l'oeuvre des Pupilles.\nSource : Mairie de Dunières",
@@ -357,8 +425,8 @@
       "price": null,
       "source_id": "illiwap_dunieres",
       "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/tripes-saucisses-sapeurs-pompiers-28-11-2026-dunieres-2",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/X5srwKzDqO1X2we0oJzhSs9BfW7dQUdk.jpg",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/tripes-saucisses-sapeurs-pompiers-28-11-2026-dunieres-3",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/DCp9xh1-7aWzv0VUJYfoCRjEWLKffhPE.jpg",
       "dates": {
         "start": "2026-11-28",
         "end": null,
@@ -406,6 +474,39 @@
         "slots": []
       },
       "location": "Dunières / Haut Pays du Velay",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "illiwap_dunieres_mon-sapin-mon-village-mon-noel-1-3",
+      "title": "MON SAPIN, MON VILLAGE, MON NOËL ! 🎄",
+      "summary": "Les enfants de Dunières, petits créateurs et artistes en herbe, nous avons besoin de vous ! ❤️ Et si cette année, notre sapin de Noël de la place Saint-Martin était décoré grâce à vous ?",
+      "full_content": "Les enfants de Dunières, petits créateurs et artistes en herbe, nous avons besoin de vous ! ❤️\nEt si cette année, notre sapin de Noël de la place Saint-Martin était décoré grâce à vous ?\nNous vous invitons à préparer une jolie décoration de Noël : une boule, une étoile, un petit personnage, ou toute autre création faite maison… Toutes les idées sont les bienvenues !\n🎁 Comment participer ?\n📅 Rendez-vous le lundi 30 novembre à partir de 16 h 30 pour venir accrocher vous-mêmes vos jolies créations sur notre sapin de la place Saint-Martin !\nVous ne pouvez pas être présents ce jour-là ? Pas de souci ! Vous pouvez déposer votre décoration dans l'un des cartons prévus à cet effet :\n- À la mairie\n- Dans les écoles\n✨ Que vous soyez petits ou grands, laissez parler votre imagination et participez à la magie de Noël dans notre village !\nEnsemble, faisons de notre sapin un sapin unique, à l'image de Dunières !\n🎅 À vos créations !\nSource : Mairie de Dunières",
+      "is_press_excerpt": false,
+      "content_type": "event",
+      "category": "Enfance & Jeunesse",
+      "badge": "Enfance",
+      "price": null,
+      "source_id": "illiwap_dunieres",
+      "source_name": "Illiwap Mairie de Dunières",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/mon-sapin-mon-village-mon-noel-1-3",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/2ExOGqpu-1Iz435LK7UKkH5-vnokO75i.jpg",
+      "dates": {
+        "start": "2026-11-30",
+        "end": null,
+        "is_period": false,
+        "bucket": "upcoming"
+      },
+      "timing": {
+        "start_time": "16:30",
+        "end_time": null,
+        "duration_minutes": null,
+        "all_day": false,
+        "slots": []
+      },
+      "location": "Mairie\n- Dans les écoles",
       "importance": "normal",
       "has_attachment": false,
       "attachment_type": null,
