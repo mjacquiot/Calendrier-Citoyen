@@ -4,8 +4,8 @@
     "commune": "Dunières",
     "code_postal": "43220",
     "intercommunalite": "Haut Pays du Velay Communauté",
-    "generated_at": "2026-11-27T15:34:31.498707+01:00",
-    "reference_date": "2026-11-27",
+    "generated_at": "2026-11-28T14:48:43.417359+01:00",
+    "reference_date": "2026-11-28",
     "degraded_mode": false,
     "sliding_window": {
       "retrospective_days": 7,
@@ -16,7 +16,7 @@
       "gemini_ok": 0,
       "gemini_fallback": 0,
       "cache_hits": 0,
-      "heuristic_only": 17
+      "heuristic_only": 15
     },
     "sources_health": {
       "illiwap_dunieres": {
@@ -36,25 +36,24 @@
       },
       "leprogres_haute_loire": {
         "name": "Le Progrès - Haute-Loire",
-        "status": "ok",
-        "fetched": 1
+        "status": "empty",
+        "fetched": 0
       }
     },
     "counts": {
-      "total_analyzed": 17,
+      "total_analyzed": 15,
       "total_accepted": 17,
       "total_rejected": 5,
-      "total_out_of_window": 2,
-      "preserved_from_previous": 7,
+      "total_out_of_window": 1,
+      "preserved_from_previous": 8,
       "retrospective": 12,
-      "today": 1,
-      "upcoming": 4,
+      "today": 2,
+      "upcoming": 3,
       "high_importance_today": 0
     }
   },
   "buckets": {
     "retrospective": [
-      "lacommere43_86272",
       "illiwap_comcom_theatre-d-objets-le-mystere-leon-plouhinec",
       "leprogres_haute_loire_616e8deb08",
       "lacommere43_86532",
@@ -62,55 +61,23 @@
       "lacommere43_86569",
       "leprogres_haute_loire_601615525f",
       "illiwap_dunieres_apres-midi-departementales-dediees-aux-aidants-3-1",
-      "illiwap_dunieres_coupure-d-eau-le-26-11-2026-1-1",
       "illiwap_comcom_calendrier-des-fetes-de-novembre-4",
       "lacommere43_86646",
-      "leprogres_haute_loire_d0269652c5"
-    ],
-    "today": [
+      "illiwap_dunieres_coupure-d-eau-le-26-11-2026-1-1",
+      "leprogres_haute_loire_d0269652c5",
       "illiwap_dunieres_coworking-qui-nous-rejoint-en-2026-0-49"
     ],
-    "upcoming": [
+    "today": [
       "illiwap_dunieres_tripes-saucisses-sapeurs-pompiers-28-11-2026-dunieres-3",
+      "lacommere43_86654"
+    ],
+    "upcoming": [
       "lacommere43_86351",
-      "illiwap_dunieres_mon-sapin-mon-village-mon-noel-1-3",
+      "illiwap_dunieres_mon-sapin-mon-village-mon-noel-1-4",
       "illiwap_dunieres_circulation-interdite-secteur-de-l-eglise-4-12-de-17h-a-19h"
     ]
   },
   "all_events": [
-    {
-      "id": "lacommere43_86272",
-      "title": "Burgers et karaoké : le FJEP de Dunières vous invite à sa soirée du 20 novembre",
-      "summary": "L'association FJEP de Dunières organise une soirée burger karaoké le vendredi 20 novembre à partir de 18 h 30, à la salle de la Mutualité de Dunières. Envie de pousser la chansonnette entre amis ou en famille ?",
-      "full_content": null,
-      "is_press_excerpt": true,
-      "content_type": "event",
-      "category": "Manifestations & Vie Associative",
-      "badge": "Animation",
-      "price": "10 €",
-      "source_id": "lacommere43",
-      "source_name": "La Commère 43",
-      "source_url": "https://www.lacommere43.fr/pays-de-montfaucon/item/86272-burgers-et-karaoke-le-fjep-de-dunieres-vous-invite-a-sa-soiree-du-20-novembre.html",
-      "image_url": "https://www.lacommere43.fr/media/k2/items/cache/4b08ef4a356e3cd1a1eafef1a3a510f1_M.jpg",
-      "dates": {
-        "start": "2026-11-20",
-        "end": null,
-        "is_period": false,
-        "bucket": "retrospective"
-      },
-      "timing": {
-        "start_time": "18:30",
-        "end_time": null,
-        "duration_minutes": null,
-        "all_day": false,
-        "slots": []
-      },
-      "location": "Salle de la Mutualité de Dunières",
-      "importance": "normal",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
     {
       "id": "illiwap_comcom_theatre-d-objets-le-mystere-leon-plouhinec",
       "title": "Théâtre d’objets « Le Mystère Léon Plouhinec »",
@@ -343,39 +310,6 @@
       "attachment_data": null
     },
     {
-      "id": "illiwap_dunieres_coupure-d-eau-le-26-11-2026-1-1",
-      "title": "COUPURE D'EAU LE 26/11/2026",
-      "summary": "Source : Mairie de Dunières",
-      "full_content": "Source : Mairie de Dunières",
-      "is_press_excerpt": false,
-      "content_type": "alert",
-      "category": "Alertes & Météo",
-      "badge": "Alerte Publique",
-      "price": null,
-      "source_id": "illiwap_dunieres",
-      "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/coupure-d-eau-le-26-11-2026-1-1",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/jveScrYmrURn9Q5UX5zEKIBv9yYgY8Vk.JPG",
-      "dates": {
-        "start": "2026-11-26",
-        "end": null,
-        "is_period": false,
-        "bucket": "retrospective"
-      },
-      "timing": {
-        "start_time": null,
-        "end_time": null,
-        "duration_minutes": null,
-        "all_day": true,
-        "slots": []
-      },
-      "location": "Dunières / Haut Pays du Velay",
-      "importance": "high",
-      "has_attachment": false,
-      "attachment_type": null,
-      "attachment_data": null
-    },
-    {
       "id": "illiwap_comcom_calendrier-des-fetes-de-novembre-4",
       "title": "Calendrier des fêtes de novembre",
       "summary": "Le calendrier des fêtes de novembre 2026 est disponible. Retrouvez les animations, spectacles, expositions et ateliers proposés dans les communes du Haut Pays du Velay : https://www.calameo.com/read/001159770add8fb838647 Pour plus d’informations : Haut Pays…",
@@ -452,6 +386,39 @@
       "attachment_data": null
     },
     {
+      "id": "illiwap_dunieres_coupure-d-eau-le-26-11-2026-1-1",
+      "title": "COUPURE D'EAU LE 26/11/2026",
+      "summary": "Source : Mairie de Dunières",
+      "full_content": "Source : Mairie de Dunières",
+      "is_press_excerpt": false,
+      "content_type": "alert",
+      "category": "Alertes & Météo",
+      "badge": "Alerte Publique",
+      "price": null,
+      "source_id": "illiwap_dunieres",
+      "source_name": "Illiwap Mairie de Dunières",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/coupure-d-eau-le-26-11-2026-1-1",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/jveScrYmrURn9Q5UX5zEKIBv9yYgY8Vk.JPG",
+      "dates": {
+        "start": "2026-11-26",
+        "end": null,
+        "is_period": false,
+        "bucket": "retrospective"
+      },
+      "timing": {
+        "start_time": null,
+        "end_time": null,
+        "duration_minutes": null,
+        "all_day": true,
+        "slots": []
+      },
+      "location": "Dunières / Haut Pays du Velay",
+      "importance": "high",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
       "id": "leprogres_haute_loire_d0269652c5",
       "title": "Haute-Loire. Le gros bras, la nourrice et la tête de réseau : trois hommes condamnés pour trafic de stupéfiants",
       "summary": "Ce jeudi 26 novembre, trois prévenus comparaissaient pour un trafic de stupéfiants entre Montfaucon-en-Velay et Dunières. Un reconnaît avoir tenu le rôle de nourrice, l’autre avoue à demi-mot avoir revendu.",
@@ -502,7 +469,7 @@
         "start": "2026-11-27",
         "end": null,
         "is_period": false,
-        "bucket": "today"
+        "bucket": "retrospective"
       },
       "timing": {
         "start_time": null,
@@ -535,7 +502,7 @@
         "start": "2026-11-28",
         "end": null,
         "is_period": false,
-        "bucket": "upcoming"
+        "bucket": "today"
       },
       "timing": {
         "start_time": "09:00",
@@ -545,6 +512,39 @@
         "slots": []
       },
       "location": "Caserne de Dunières",
+      "importance": "normal",
+      "has_attachment": false,
+      "attachment_type": null,
+      "attachment_data": null
+    },
+    {
+      "id": "lacommere43_86654",
+      "title": "Monistrol-sur-Loire : en suivant la conduite d’eau du Lignon",
+      "summary": "On la croise au détour d’un chemin, on retrouve dans le paysage les ponts canaux en briques caractéristiques : c’est la conduite d’eau qui de 1908 à 1972 a alimenté la ville de Saint-Etienne, en amenant par simple gravité l’eau du Lignon à Solaure (point…",
+      "full_content": null,
+      "is_press_excerpt": true,
+      "content_type": "news",
+      "category": "Manifestations & Vie Associative",
+      "badge": "Animation",
+      "price": null,
+      "source_id": "lacommere43",
+      "source_name": "La Commère 43",
+      "source_url": "https://www.lacommere43.fr/monistrol-et-environs/item/86654-monistrol-sur-loire-en-suivant-la-conduite-d-eau-du-lignon.html",
+      "image_url": "https://www.lacommere43.fr/media/k2/items/cache/6c7c215f68322c079f3cd9da7def3702_M.jpg",
+      "dates": {
+        "start": "2026-11-28",
+        "end": null,
+        "is_period": false,
+        "bucket": "today"
+      },
+      "timing": {
+        "start_time": null,
+        "end_time": null,
+        "duration_minutes": null,
+        "all_day": true,
+        "slots": []
+      },
+      "location": "Dunières / Haut Pays du Velay",
       "importance": "normal",
       "has_attachment": false,
       "attachment_type": null,
@@ -584,7 +584,7 @@
       "attachment_data": null
     },
     {
-      "id": "illiwap_dunieres_mon-sapin-mon-village-mon-noel-1-3",
+      "id": "illiwap_dunieres_mon-sapin-mon-village-mon-noel-1-4",
       "title": "MON SAPIN, MON VILLAGE, MON NOËL ! 🎄",
       "summary": "Les enfants de Dunières, petits créateurs et artistes en herbe, nous avons besoin de vous ! ❤️ Et si cette année, notre sapin de Noël de la place Saint-Martin était décoré grâce à vous ?",
       "full_content": "Les enfants de Dunières, petits créateurs et artistes en herbe, nous avons besoin de vous ! ❤️\nEt si cette année, notre sapin de Noël de la place Saint-Martin était décoré grâce à vous ?\nNous vous invitons à préparer une jolie décoration de Noël : une boule, une étoile, un petit personnage, ou toute autre création faite maison… Toutes les idées sont les bienvenues !\n🎁 Comment participer ?\n📅 Rendez-vous le lundi 30 novembre à partir de 16 h 30 pour venir accrocher vous-mêmes vos jolies créations sur notre sapin de la place Saint-Martin !\nVous ne pouvez pas être présents ce jour-là ? Pas de souci ! Vous pouvez déposer votre décoration dans l'un des cartons prévus à cet effet :\n- À la mairie\n- Dans les écoles\n✨ Que vous soyez petits ou grands, laissez parler votre imagination et participez à la magie de Noël dans notre village !\nEnsemble, faisons de notre sapin un sapin unique, à l'image de Dunières !\n🎅 À vos créations !\nSource : Mairie de Dunières",
@@ -595,8 +595,8 @@
       "price": null,
       "source_id": "illiwap_dunieres",
       "source_name": "Illiwap Mairie de Dunières",
-      "source_url": "https://station.illiwap.com/fr/public/43087/actu/mon-sapin-mon-village-mon-noel-1-3",
-      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/2ExOGqpu-1Iz435LK7UKkH5-vnokO75i.jpg",
+      "source_url": "https://station.illiwap.com/fr/public/43087/actu/mon-sapin-mon-village-mon-noel-1-4",
+      "image_url": "https://station.illiwap.com/media/cache/resolve/vignette_alerte_media/uploads/alertes/documents/0gXdFDg-Kdf8A2Mpo2i7yA5HPhTlXrlu.jpg",
       "dates": {
         "start": "2026-11-30",
         "end": null,
